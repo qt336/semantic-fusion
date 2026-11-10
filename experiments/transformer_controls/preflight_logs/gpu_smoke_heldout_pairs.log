@@ -1,0 +1,4 @@
+{"state": "training", "condition": "heldout_pairs", "seed": 101, "examples": 4500, "steps_per_epoch": 1, "parameters": 3331920}
+{"epoch": 1, "step": 1, "loss": 6.021549224853516, "lr": 2e-06, "epoch_seconds": 0.6690914868377149, "elapsed_seconds": 0.6691417819820344}
+{"epoch": 2, "step": 2, "loss": 6.01954460144043, "lr": 4e-06, "epoch_seconds": 0.12506036087870598, "elapsed_seconds": 1.0121756088919938}
+COMPLETE /home/user/toy_transformer_controls_20261018/smoke/heldout_pairs_seed101

@@ -1,0 +1,4 @@
+{"state": "training", "condition": "random_operator", "seed": 101, "examples": 5500, "steps_per_epoch": 1, "parameters": 3331920}
+{"epoch": 1, "step": 1, "loss": 6.013593673706055, "lr": 2e-06, "epoch_seconds": 0.6788720600306988, "elapsed_seconds": 0.6790214390493929}
+{"epoch": 2, "step": 2, "loss": 6.0105767250061035, "lr": 4e-06, "epoch_seconds": 0.1509635872207582, "elapsed_seconds": 1.0408483720384538}
+COMPLETE /home/user/toy_transformer_controls_20261018/smoke/random_operator_seed101
