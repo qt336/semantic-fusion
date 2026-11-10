@@ -1,0 +1,182 @@
+[
+  {
+    "model": "kimi",
+    "language": "en",
+    "group": "semantic",
+    "n": 500,
+    "B": 419,
+    "A": 63,
+    "Q": 0,
+    "Other": 18
+  },
+  {
+    "model": "kimi",
+    "language": "en",
+    "group": "random",
+    "n": 500,
+    "B": 472,
+    "A": 25,
+    "Q": 0,
+    "Other": 3
+  },
+  {
+    "model": "kimi",
+    "language": "en",
+    "group": "comma_semantic",
+    "n": 500,
+    "B": 500,
+    "A": 0,
+    "Q": 0,
+    "Other": 0
+  },
+  {
+    "model": "kimi",
+    "language": "zh",
+    "group": "semantic",
+    "n": 500,
+    "B": 382,
+    "A": 117,
+    "Q": 1,
+    "Other": 0
+  },
+  {
+    "model": "kimi",
+    "language": "zh",
+    "group": "random",
+    "n": 500,
+    "B": 487,
+    "A": 13,
+    "Q": 0,
+    "Other": 0
+  },
+  {
+    "model": "kimi",
+    "language": "zh",
+    "group": "comma_semantic",
+    "n": 500,
+    "B": 500,
+    "A": 0,
+    "Q": 0,
+    "Other": 0
+  },
+  {
+    "model": "deepseek",
+    "language": "en",
+    "group": "semantic",
+    "n": 500,
+    "B": 168,
+    "A": 164,
+    "Q": 1,
+    "Other": 167
+  },
+  {
+    "model": "deepseek",
+    "language": "en",
+    "group": "random",
+    "n": 500,
+    "B": 375,
+    "A": 57,
+    "Q": 7,
+    "Other": 61
+  },
+  {
+    "model": "deepseek",
+    "language": "en",
+    "group": "comma_semantic",
+    "n": 500,
+    "B": 276,
+    "A": 60,
+    "Q": 14,
+    "Other": 150
+  },
+  {
+    "model": "deepseek",
+    "language": "zh",
+    "group": "semantic",
+    "n": 500,
+    "B": 159,
+    "A": 337,
+    "Q": 0,
+    "Other": 4
+  },
+  {
+    "model": "deepseek",
+    "language": "zh",
+    "group": "random",
+    "n": 500,
+    "B": 330,
+    "A": 170,
+    "Q": 0,
+    "Other": 0
+  },
+  {
+    "model": "deepseek",
+    "language": "zh",
+    "group": "comma_semantic",
+    "n": 500,
+    "B": 471,
+    "A": 28,
+    "Q": 0,
+    "Other": 1
+  },
+  {
+    "model": "hy4",
+    "language": "en",
+    "group": "semantic",
+    "n": 500,
+    "B": 329,
+    "A": 154,
+    "Q": 0,
+    "Other": 17
+  },
+  {
+    "model": "hy4",
+    "language": "en",
+    "group": "random",
+    "n": 500,
+    "B": 445,
+    "A": 39,
+    "Q": 1,
+    "Other": 15
+  },
+  {
+    "model": "hy4",
+    "language": "en",
+    "group": "comma_semantic",
+    "n": 500,
+    "B": 466,
+    "A": 30,
+    "Q": 0,
+    "Other": 4
+  },
+  {
+    "model": "hy4",
+    "language": "zh",
+    "group": "semantic",
+    "n": 500,
+    "B": 278,
+    "A": 204,
+    "Q": 2,
+    "Other": 16
+  },
+  {
+    "model": "hy4",
+    "language": "zh",
+    "group": "random",
+    "n": 500,
+    "B": 455,
+    "A": 44,
+    "Q": 1,
+    "Other": 0
+  },
+  {
+    "model": "hy4",
+    "language": "zh",
+    "group": "comma_semantic",
+    "n": 500,
+    "B": 499,
+    "A": 0,
+    "Q": 0,
+    "Other": 1
+  }
+]

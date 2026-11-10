@@ -1,0 +1,32 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Transformer hyperparameters used in all seed-101--105 runs.}
+  \label{tab:transformer-hyperparameters}
+  \small
+  \begin{tabular}{@{}p{0.45\linewidth}p{0.49\linewidth}@{}}
+    \toprule
+    Hyperparameter & Value \\
+    \midrule
+    Training epochs & 1,200 \\
+    Batch size & 8,190 \\
+    Peak learning rate & $1\times10^{-3}$ \\
+    Learning-rate schedule & Linear warmup followed by cosine decay \\
+    Warmup duration & 500 optimizer updates \\
+    Minimum learning-rate ratio & 0.1 of the peak learning rate \\
+    Final learning rate & Approximately $1\times10^{-4}$ \\
+    Vocabulary size & 336 \\
+    Maximum sequence length & 12 \\
+    Transformer blocks & 4 \\
+    Hidden dimension & 256 \\
+    Attention heads & 8 \\
+    Positional encoding & Interleaved RoPE on Q and K \\
+    RoPE base & 10,000 \\
+    MLP hidden dimension & 1,024 \\
+    Activation & GELU \\
+    Normalization & Pre-LayerNorm with final LayerNorm \\
+    Token embedding & $336\times256$ \\
+    Dropout & 0 \\
+    Parameter initialization & PyTorch defaults (no custom initialization) \\
+    \bottomrule
+  \end{tabular}
+\end{table}

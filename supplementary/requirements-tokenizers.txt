@@ -1,0 +1,5 @@
+# Optional: independent tokenization verification; no model weights are loaded.
+transformers==4.48.2
+tokenizers==0.21.0
+huggingface-hub==0.28.1
+tiktoken==0.8.0

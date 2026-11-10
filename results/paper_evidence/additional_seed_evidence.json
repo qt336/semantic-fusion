@@ -1,0 +1,74 @@
+{
+  "seeds": [
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "fixed_epoch": 1200,
+  "means_percent": {
+    "arithmetic": {
+      "correct": 99.87630208333333,
+      "first": 0.0,
+      "eos": 0.0016276041666666667,
+      "other": 0.1220703125
+    },
+    "standard": {
+      "correct": 98.08,
+      "first": 0.0,
+      "eos": 0.0,
+      "other": 1.92
+    },
+    "semantic": {
+      "correct": 34.6796875,
+      "first": 52.72916666666667,
+      "eos": 1.2916666666666667,
+      "other": 11.299479166666668
+    },
+    "semantic_0": {
+      "correct": 11.5234375,
+      "first": 75.25,
+      "eos": 1.3671875,
+      "other": 11.859375
+    },
+    "semantic_1": {
+      "correct": 60.35937500000001,
+      "first": 34.265625,
+      "eos": 1.1796875,
+      "other": 4.1953125
+    },
+    "semantic_2": {
+      "correct": 32.15625,
+      "first": 48.671875,
+      "eos": 1.328125,
+      "other": 17.84375
+    }
+  },
+  "all_runs_have_retrieval_gap": true,
+  "first_constituent_is_largest_error_category_in_every_run": true,
+  "saved_prediction_conditions_verified": 75,
+  "source_files": {
+    "106": {
+      "path": "/home/user/toy_transformer_original_106_110_20261108/runs/transformer_seed106/result.json",
+      "sha256": "c61e5404be2319543b2992c77b816ba82aeb6376730dc89aa9b1d8785cc1c0fd"
+    },
+    "107": {
+      "path": "/home/user/toy_transformer_original_106_110_20261108/runs/transformer_seed107/result.json",
+      "sha256": "cf6d1f976fb220978e0c5014904dd6471f44c86f4f6ba9f89732d0695e5a159a"
+    },
+    "108": {
+      "path": "/home/user/toy_transformer_original_106_110_20261108/runs/transformer_seed108/result.json",
+      "sha256": "573391c1e6b9914a097fa5b5f71e70d9815ea561a36f24d92bf16c4fa49516ee"
+    },
+    "109": {
+      "path": "/home/user/toy_transformer_original_106_110_20261108/runs/transformer_seed109/result.json",
+      "sha256": "2b3b3b908481b32c1058afda917089d9b3b147bd5fab3b3bddb0f5b533589cdf"
+    },
+    "110": {
+      "path": "/home/user/toy_transformer_original_106_110_20261108/runs/transformer_seed110/result.json",
+      "sha256": "7663c5493e4d5a61e0b45171fe8de6afc6c9e6684b2f36acde98e9444a19ffff"
+    }
+  },
+  "verification_sha256": "024d6a6fc454a9ac282a016430db857e0e18d6e21ca29b8f395af9cf31b2cc77"
+}

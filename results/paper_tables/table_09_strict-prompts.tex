@@ -1,0 +1,29 @@
+\begin{table}[!htbp]
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.2}
+\caption{Example user prompts and gold answers. The unpunctuated template is
+shared by semantic and random items; the comma template is used only for the
+paired semantic condition. The final column specifies the expected answer
+$b$, not an observed model response, and does not indicate whether a model
+answered correctly. Model performance is reported separately in
+Tables~\ref{tab:strict-results-en} and~\ref{tab:strict-results-zh}.}
+\label{tab:strict-prompts}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.18\textwidth}
+  >{\raggedright\arraybackslash}X l@{}}
+\toprule
+Language / format & User prompt & Gold answer \\
+\midrule
+English / spaces &
+\texttt{\detokenize{ice cream lake. What word comes immediately before "lake"? Output only one word.}} & cream \\
+English / commas &
+\texttt{\detokenize{ice, cream, lake. What word comes immediately before "lake"? Output only one word.}} & cream \\
+Chinese / contiguous &
+{\begin{CJK}{UTF8}{gbsn}猜中远。直接问“远”的前一个字是什么？只输出一个字即可。\end{CJK}} &
+{\begin{CJK}{UTF8}{gbsn}中\end{CJK}} \\
+Chinese / commas &
+{\begin{CJK}{UTF8}{gbsn}猜, 中, 远。直接问“远”的前一个字是什么？只输出一个字即可。\end{CJK}} &
+{\begin{CJK}{UTF8}{gbsn}中\end{CJK}} \\
+\bottomrule
+\end{tabularx}
+\end{table}

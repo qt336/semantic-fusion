@@ -1,0 +1,359 @@
+[
+  {
+    "experiment": "heldout_pairs",
+    "source": "/home/user/toy_transformer_controls_20261018/runs/heldout_pairs_seed101",
+    "seed": 101,
+    "final": true,
+    "evaluation_epoch": 1200,
+    "pair": "9,10",
+    "auxiliary_setting": "无新增曝光",
+    "arithmetic": "有",
+    "rates": {
+      "correct": 0.978515625,
+      "first": 0.0078125,
+      "query": 0.00625,
+      "eos": 0.0,
+      "other": 0.007421875
+    }
+  },
+  {
+    "experiment": "heldout_pairs",
+    "source": "/home/user/toy_transformer_controls_20261018/runs/heldout_pairs_seed102",
+    "seed": 102,
+    "final": true,
+    "evaluation_epoch": 1200,
+    "pair": "9,10",
+    "auxiliary_setting": "无新增曝光",
+    "arithmetic": "有",
+    "rates": {
+      "correct": 0.980078125,
+      "first": 0.0125,
+      "query": 0.00078125,
+      "eos": 0.0,
+      "other": 0.006640625
+    }
+  },
+  {
+    "experiment": "heldout_pairs",
+    "source": "/home/user/toy_transformer_controls_20261018/runs/heldout_pairs_seed103",
+    "seed": 103,
+    "final": true,
+    "evaluation_epoch": 1200,
+    "pair": "9,10",
+    "auxiliary_setting": "无新增曝光",
+    "arithmetic": "有",
+    "rates": {
+      "correct": 0.96953125,
+      "first": 0.01875,
+      "query": 0.002734375,
+      "eos": 0.0,
+      "other": 0.008984375
+    }
+  },
+  {
+    "experiment": "random_operator",
+    "source": "/home/user/toy_transformer_controls_20261018/runs/random_operator_seed101",
+    "seed": 101,
+    "final": true,
+    "evaluation_epoch": 1200,
+    "pair": "9,10",
+    "auxiliary_setting": "18万条随机结果任务",
+    "arithmetic": "有",
+    "rates": {
+      "correct": 0.912890625,
+      "first": 0.005078125,
+      "query": 0.000390625,
+      "eos": 0.075390625,
+      "other": 0.00625
+    }
+  },
+  {
+    "experiment": "random_operator",
+    "source": "/home/user/toy_transformer_controls_20261018/runs/random_operator_seed102",
+    "seed": 102,
+    "final": true,
+    "evaluation_epoch": 1200,
+    "pair": "9,10",
+    "auxiliary_setting": "18万条随机结果任务",
+    "arithmetic": "有",
+    "rates": {
+      "correct": 0.937890625,
+      "first": 0.035546875,
+      "query": 0.0,
+      "eos": 0.0,
+      "other": 0.0265625
+    }
+  },
+  {
+    "experiment": "random_operator",
+    "source": "/home/user/toy_transformer_controls_20261018/runs/random_operator_seed103",
+    "seed": 103,
+    "final": true,
+    "evaluation_epoch": 1200,
+    "pair": "9,10",
+    "auxiliary_setting": "18万条随机结果任务",
+    "arithmetic": "有",
+    "rates": {
+      "correct": 0.32265625,
+      "first": 0.5609375,
+      "query": 0.0,
+      "eos": 0.06328125,
+      "other": 0.053125
+    }
+  },
+  {
+    "experiment": "long_cooccurrence",
+    "source": "/home/user/toy_cooccurrence_long_20261107/runs/high_cooccurrence_seed101",
+    "seed": 101,
+    "final": false,
+    "evaluation_epoch": 800,
+    "pair": "17,29",
+    "auxiliary_setting": "18万条，长度9–12，含EOS",
+    "arithmetic": "有",
+    "rates": {
+      "correct": 0.025,
+      "first": 0.015234375,
+      "query": 0.0,
+      "eos": 0.26484375,
+      "other": 0.694921875
+    }
+  },
+  {
+    "experiment": "long_cooccurrence",
+    "source": "/home/user/toy_cooccurrence_long_20261107/runs/high_cooccurrence_seed102",
+    "seed": 102,
+    "final": false,
+    "evaluation_epoch": 575,
+    "pair": "17,29",
+    "auxiliary_setting": "18万条，长度9–12，含EOS",
+    "arithmetic": "有",
+    "rates": {
+      "correct": 0.0,
+      "first": 0.0,
+      "query": 0.0,
+      "eos": 0.883203125,
+      "other": 0.116796875
+    }
+  },
+  {
+    "experiment": "long_cooccurrence",
+    "source": "/home/user/toy_cooccurrence_long_20261107/runs/high_cooccurrence_seed103",
+    "seed": 103,
+    "final": false,
+    "evaluation_epoch": 750,
+    "pair": "17,29",
+    "auxiliary_setting": "18万条，长度9–12，含EOS",
+    "arithmetic": "有",
+    "rates": {
+      "correct": 0.136328125,
+      "first": 0.119921875,
+      "query": 0.0,
+      "eos": 0.23125,
+      "other": 0.5125
+    }
+  },
+  {
+    "experiment": "long_no_arithmetic",
+    "source": "/home/user/toy_cooccurrence_no_arithmetic_20261107/runs/retrieval_cooccurrence_seed101",
+    "seed": 101,
+    "final": true,
+    "evaluation_epoch": 1200,
+    "pair": "17,29",
+    "auxiliary_setting": "约1560条，长度9–12，含EOS",
+    "arithmetic": "无",
+    "rates": {
+      "correct": 0.16875,
+      "first": 0.24609375,
+      "query": 0.0,
+      "eos": 0.559765625,
+      "other": 0.025390625
+    }
+  },
+  {
+    "experiment": "long_no_arithmetic",
+    "source": "/home/user/toy_cooccurrence_no_arithmetic_20261107/runs/retrieval_cooccurrence_seed102",
+    "seed": 102,
+    "final": true,
+    "evaluation_epoch": 1200,
+    "pair": "17,29",
+    "auxiliary_setting": "约1560条，长度9–12，含EOS",
+    "arithmetic": "无",
+    "rates": {
+      "correct": 0.0,
+      "first": 0.023828125,
+      "query": 0.0,
+      "eos": 0.6375,
+      "other": 0.338671875
+    }
+  },
+  {
+    "experiment": "long_no_arithmetic",
+    "source": "/home/user/toy_cooccurrence_no_arithmetic_20261107/runs/retrieval_cooccurrence_seed103",
+    "seed": 103,
+    "final": true,
+    "evaluation_epoch": 1200,
+    "pair": "17,29",
+    "auxiliary_setting": "约1560条，长度9–12，含EOS",
+    "arithmetic": "无",
+    "rates": {
+      "correct": 0.015234375,
+      "first": 0.0,
+      "query": 0.0,
+      "eos": 0.947265625,
+      "other": 0.0375
+    }
+  },
+  {
+    "experiment": "len4_EOS",
+    "source": "/home/user/toy_cooccurrence_len4_20261107/runs/retrieval_cooccurrence_seed101",
+    "seed": 101,
+    "final": false,
+    "evaluation_epoch": 950,
+    "pair": "17,29",
+    "auxiliary_setting": "约1560条，长度4，含EOS",
+    "arithmetic": "无",
+    "rates": {
+      "correct": 0.13828125,
+      "first": 0.054296875,
+      "query": 0.0,
+      "eos": 0.515234375,
+      "other": 0.2921875
+    }
+  },
+  {
+    "experiment": "len4_EOS",
+    "source": "/home/user/toy_cooccurrence_len4_20261107/runs/retrieval_cooccurrence_seed102",
+    "seed": 102,
+    "final": false,
+    "evaluation_epoch": 950,
+    "pair": "17,29",
+    "auxiliary_setting": "约1560条，长度4，含EOS",
+    "arithmetic": "无",
+    "rates": {
+      "correct": 0.094921875,
+      "first": 0.00078125,
+      "query": 0.00234375,
+      "eos": 0.664453125,
+      "other": 0.2375
+    }
+  },
+  {
+    "experiment": "len4_EOS",
+    "source": "/home/user/toy_cooccurrence_len4_20261107/runs/retrieval_cooccurrence_seed103",
+    "seed": 103,
+    "final": false,
+    "evaluation_epoch": 750,
+    "pair": "17,29",
+    "auxiliary_setting": "约1560条，长度4，含EOS",
+    "arithmetic": "无",
+    "rates": {
+      "correct": 0.594921875,
+      "first": 0.02109375,
+      "query": 0.001171875,
+      "eos": 0.004296875,
+      "other": 0.378515625
+    }
+  },
+  {
+    "experiment": "len4_noEOS",
+    "source": "/home/user/toy_cooccurrence_len4_noeos_20261107/runs/retrieval_cooccurrence_seed101",
+    "seed": 101,
+    "final": true,
+    "evaluation_epoch": 1200,
+    "pair": "17,29",
+    "auxiliary_setting": "约1560条，长度4，无辅助EOS",
+    "arithmetic": "无",
+    "rates": {
+      "correct": 0.68671875,
+      "first": 0.30078125,
+      "query": 0.0,
+      "eos": 0.0078125,
+      "other": 0.0046875
+    }
+  },
+  {
+    "experiment": "len4_noEOS",
+    "source": "/home/user/toy_cooccurrence_len4_noeos_20261107/runs/retrieval_cooccurrence_seed102",
+    "seed": 102,
+    "final": true,
+    "evaluation_epoch": 1200,
+    "pair": "17,29",
+    "auxiliary_setting": "约1560条，长度4，无辅助EOS",
+    "arithmetic": "无",
+    "rates": {
+      "correct": 0.912890625,
+      "first": 0.050390625,
+      "query": 0.00703125,
+      "eos": 0.0,
+      "other": 0.0296875
+    }
+  },
+  {
+    "experiment": "len4_noEOS",
+    "source": "/home/user/toy_cooccurrence_len4_noeos_20261107/runs/retrieval_cooccurrence_seed103",
+    "seed": 103,
+    "final": true,
+    "evaluation_epoch": 1200,
+    "pair": "17,29",
+    "auxiliary_setting": "约1560条，长度4，无辅助EOS",
+    "arithmetic": "无",
+    "rates": {
+      "correct": 0.48515625,
+      "first": 0.4671875,
+      "query": 0.0,
+      "eos": 0.0,
+      "other": 0.04765625
+    }
+  },
+  {
+    "experiment": "len4_noEOS_90000",
+    "source": "/home/user/toy_cooccurrence_len4_noeos_90k_20261107/runs/retrieval_cooccurrence_seed101",
+    "seed": 101,
+    "final": true,
+    "evaluation_epoch": 1200,
+    "pair": "17,29",
+    "auxiliary_setting": "9万条，长度4，无辅助EOS",
+    "arithmetic": "无",
+    "rates": {
+      "correct": 0.11171875,
+      "first": 0.61640625,
+      "query": 0.0,
+      "eos": 0.00078125,
+      "other": 0.27109375
+    }
+  },
+  {
+    "experiment": "len4_noEOS_90000",
+    "source": "/home/user/toy_cooccurrence_len4_noeos_90k_20261107/runs/retrieval_cooccurrence_seed102",
+    "seed": 102,
+    "final": true,
+    "evaluation_epoch": 1200,
+    "pair": "17,29",
+    "auxiliary_setting": "9万条，长度4，无辅助EOS",
+    "arithmetic": "无",
+    "rates": {
+      "correct": 0.028125,
+      "first": 0.629296875,
+      "query": 0.0,
+      "eos": 0.001171875,
+      "other": 0.34140625
+    }
+  },
+  {
+    "experiment": "len4_noEOS_90000",
+    "source": "/home/user/toy_cooccurrence_len4_noeos_90k_20261107/runs/retrieval_cooccurrence_seed103",
+    "seed": 103,
+    "final": true,
+    "evaluation_epoch": 1200,
+    "pair": "17,29",
+    "auxiliary_setting": "9万条，长度4，无辅助EOS",
+    "arithmetic": "无",
+    "rates": {
+      "correct": 0.589453125,
+      "first": 0.18046875,
+      "query": 0.000390625,
+      "eos": 0.000390625,
+      "other": 0.229296875
+    }
+  }
+]

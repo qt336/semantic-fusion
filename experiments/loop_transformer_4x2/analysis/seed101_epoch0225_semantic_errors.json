@@ -1,0 +1,931 @@
+{
+  "seed": 101,
+  "epoch": 225,
+  "device": "cpu",
+  "n": 7680,
+  "gpu_metrics": {
+    "n": 7680,
+    "counts": {
+      "correct": 1477,
+      "first": 1158,
+      "eos": 915,
+      "other": 4130
+    },
+    "accuracy": 0.19231770833333334,
+    "rates": {
+      "correct": 0.19231770833333334,
+      "first": 0.15078125,
+      "eos": 0.119140625,
+      "other": 0.5377604166666666
+    }
+  },
+  "counts": {
+    "correct": 1475,
+    "EOS": 914,
+    "other_memory_token": 513,
+    "number_absent_from_memory": 3578,
+    "first_operator_token": 1159,
+    "query_target": 37,
+    "other_special_token": 4
+  },
+  "rates": {
+    "correct": 0.19205729166666666,
+    "EOS": 0.11901041666666666,
+    "other_memory_token": 0.066796875,
+    "number_absent_from_memory": 0.46588541666666666,
+    "first_operator_token": 0.15091145833333333,
+    "query_target": 0.0048177083333333336,
+    "other_special_token": 0.0005208333333333333
+  },
+  "top_wrong_tokens": [
+    [
+      334,
+      914
+    ],
+    [
+      0,
+      661
+    ],
+    [
+      2,
+      557
+    ],
+    [
+      80,
+      216
+    ],
+    [
+      71,
+      87
+    ],
+    [
+      15,
+      63
+    ],
+    [
+      123,
+      58
+    ],
+    [
+      317,
+      57
+    ],
+    [
+      56,
+      54
+    ],
+    [
+      201,
+      53
+    ],
+    [
+      134,
+      50
+    ],
+    [
+      40,
+      50
+    ],
+    [
+      223,
+      47
+    ],
+    [
+      84,
+      44
+    ],
+    [
+      59,
+      43
+    ],
+    [
+      131,
+      41
+    ],
+    [
+      152,
+      39
+    ],
+    [
+      157,
+      38
+    ],
+    [
+      262,
+      38
+    ],
+    [
+      49,
+      37
+    ]
+  ],
+  "subsets": {
+    "semantic_0": {
+      "n": 2560,
+      "counts": {
+        "correct": 310,
+        "EOS": 318,
+        "other_memory_token": 211,
+        "number_absent_from_memory": 1443,
+        "first_operator_token": 252,
+        "query_target": 25,
+        "other_special_token": 1
+      },
+      "top_wrong_tokens": [
+        [
+          334,
+          318
+        ],
+        [
+          0,
+          252
+        ],
+        [
+          71,
+          72
+        ],
+        [
+          123,
+          53
+        ],
+        [
+          201,
+          52
+        ],
+        [
+          134,
+          43
+        ],
+        [
+          40,
+          41
+        ],
+        [
+          223,
+          40
+        ],
+        [
+          2,
+          32
+        ],
+        [
+          17,
+          30
+        ],
+        [
+          253,
+          26
+        ],
+        [
+          85,
+          25
+        ]
+      ]
+    },
+    "semantic_1": {
+      "n": 2560,
+      "counts": {
+        "correct": 1027,
+        "first_operator_token": 382,
+        "number_absent_from_memory": 695,
+        "EOS": 301,
+        "other_memory_token": 144,
+        "query_target": 9,
+        "other_special_token": 2
+      },
+      "top_wrong_tokens": [
+        [
+          0,
+          382
+        ],
+        [
+          334,
+          301
+        ],
+        [
+          131,
+          13
+        ],
+        [
+          185,
+          12
+        ],
+        [
+          115,
+          12
+        ],
+        [
+          113,
+          11
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          197,
+          10
+        ],
+        [
+          59,
+          10
+        ],
+        [
+          213,
+          10
+        ],
+        [
+          83,
+          10
+        ],
+        [
+          71,
+          9
+        ]
+      ]
+    },
+    "semantic_2": {
+      "n": 2560,
+      "counts": {
+        "number_absent_from_memory": 1440,
+        "EOS": 295,
+        "first_operator_token": 525,
+        "other_memory_token": 158,
+        "correct": 138,
+        "query_target": 3,
+        "other_special_token": 1
+      },
+      "top_wrong_tokens": [
+        [
+          2,
+          525
+        ],
+        [
+          334,
+          295
+        ],
+        [
+          80,
+          202
+        ],
+        [
+          317,
+          51
+        ],
+        [
+          15,
+          47
+        ],
+        [
+          56,
+          41
+        ],
+        [
+          262,
+          34
+        ],
+        [
+          294,
+          33
+        ],
+        [
+          0,
+          27
+        ],
+        [
+          206,
+          26
+        ],
+        [
+          49,
+          25
+        ],
+        [
+          152,
+          24
+        ]
+      ]
+    }
+  },
+  "examples": {
+    "semantic_0": {
+      "EOS": [
+        {
+          "memory": [
+            223,
+            0,
+            1,
+            312
+          ],
+          "query": 312,
+          "answer": 1,
+          "prediction": 334
+        },
+        {
+          "memory": [
+            256,
+            0,
+            1,
+            179
+          ],
+          "query": 179,
+          "answer": 1,
+          "prediction": 334
+        },
+        {
+          "memory": [
+            208,
+            0,
+            1,
+            15
+          ],
+          "query": 15,
+          "answer": 1,
+          "prediction": 334
+        }
+      ],
+      "other_memory_token": [
+        {
+          "memory": [
+            0,
+            1,
+            233,
+            192,
+            3
+          ],
+          "query": 233,
+          "answer": 1,
+          "prediction": 192
+        },
+        {
+          "memory": [
+            0,
+            1,
+            299,
+            115,
+            3
+          ],
+          "query": 299,
+          "answer": 1,
+          "prediction": 115
+        },
+        {
+          "memory": [
+            0,
+            1,
+            39,
+            199,
+            134
+          ],
+          "query": 39,
+          "answer": 1,
+          "prediction": 134
+        }
+      ],
+      "number_absent_from_memory": [
+        {
+          "memory": [
+            204,
+            0,
+            1,
+            95,
+            234,
+            300
+          ],
+          "query": 95,
+          "answer": 1,
+          "prediction": 330
+        },
+        {
+          "memory": [
+            0,
+            1,
+            149,
+            170
+          ],
+          "query": 149,
+          "answer": 1,
+          "prediction": 134
+        },
+        {
+          "memory": [
+            0,
+            1,
+            35,
+            181,
+            86
+          ],
+          "query": 35,
+          "answer": 1,
+          "prediction": 71
+        }
+      ],
+      "first_operator_token": [
+        {
+          "memory": [
+            259,
+            87,
+            133,
+            0,
+            1,
+            35
+          ],
+          "query": 35,
+          "answer": 1,
+          "prediction": 0
+        },
+        {
+          "memory": [
+            159,
+            121,
+            0,
+            1,
+            251
+          ],
+          "query": 251,
+          "answer": 1,
+          "prediction": 0
+        },
+        {
+          "memory": [
+            132,
+            221,
+            162,
+            0,
+            1,
+            286
+          ],
+          "query": 286,
+          "answer": 1,
+          "prediction": 0
+        }
+      ],
+      "query_target": [
+        {
+          "memory": [
+            0,
+            1,
+            40
+          ],
+          "query": 40,
+          "answer": 1,
+          "prediction": 40
+        },
+        {
+          "memory": [
+            0,
+            1,
+            165,
+            70
+          ],
+          "query": 165,
+          "answer": 1,
+          "prediction": 165
+        },
+        {
+          "memory": [
+            0,
+            1,
+            213,
+            65
+          ],
+          "query": 213,
+          "answer": 1,
+          "prediction": 213
+        }
+      ],
+      "other_special_token": [
+        {
+          "memory": [
+            147,
+            205,
+            0,
+            1,
+            137,
+            99
+          ],
+          "query": 137,
+          "answer": 1,
+          "prediction": 332
+        }
+      ]
+    },
+    "semantic_1": {
+      "first_operator_token": [
+        {
+          "memory": [
+            275,
+            175,
+            0,
+            2,
+            12
+          ],
+          "query": 12,
+          "answer": 2,
+          "prediction": 0
+        },
+        {
+          "memory": [
+            4,
+            52,
+            232,
+            0,
+            2,
+            90
+          ],
+          "query": 90,
+          "answer": 2,
+          "prediction": 0
+        },
+        {
+          "memory": [
+            0,
+            2,
+            265,
+            100,
+            122,
+            5
+          ],
+          "query": 265,
+          "answer": 2,
+          "prediction": 0
+        }
+      ],
+      "number_absent_from_memory": [
+        {
+          "memory": [
+            92,
+            286,
+            0,
+            2,
+            191
+          ],
+          "query": 191,
+          "answer": 2,
+          "prediction": 71
+        },
+        {
+          "memory": [
+            246,
+            105,
+            0,
+            2,
+            81,
+            35
+          ],
+          "query": 81,
+          "answer": 2,
+          "prediction": 307
+        },
+        {
+          "memory": [
+            245,
+            0,
+            2,
+            180,
+            246,
+            13
+          ],
+          "query": 180,
+          "answer": 2,
+          "prediction": 182
+        }
+      ],
+      "EOS": [
+        {
+          "memory": [
+            309,
+            0,
+            2,
+            10
+          ],
+          "query": 10,
+          "answer": 2,
+          "prediction": 334
+        },
+        {
+          "memory": [
+            165,
+            0,
+            2,
+            159
+          ],
+          "query": 159,
+          "answer": 2,
+          "prediction": 334
+        },
+        {
+          "memory": [
+            312,
+            276,
+            0,
+            2,
+            167
+          ],
+          "query": 167,
+          "answer": 2,
+          "prediction": 334
+        }
+      ],
+      "other_memory_token": [
+        {
+          "memory": [
+            0,
+            2,
+            300,
+            312,
+            256
+          ],
+          "query": 300,
+          "answer": 2,
+          "prediction": 312
+        },
+        {
+          "memory": [
+            0,
+            2,
+            271,
+            58,
+            63
+          ],
+          "query": 271,
+          "answer": 2,
+          "prediction": 58
+        },
+        {
+          "memory": [
+            0,
+            2,
+            160,
+            279,
+            162
+          ],
+          "query": 160,
+          "answer": 2,
+          "prediction": 279
+        }
+      ],
+      "query_target": [
+        {
+          "memory": [
+            0,
+            2,
+            135,
+            207
+          ],
+          "query": 135,
+          "answer": 2,
+          "prediction": 135
+        },
+        {
+          "memory": [
+            0,
+            2,
+            137,
+            186
+          ],
+          "query": 137,
+          "answer": 2,
+          "prediction": 137
+        },
+        {
+          "memory": [
+            0,
+            2,
+            292,
+            65
+          ],
+          "query": 292,
+          "answer": 2,
+          "prediction": 292
+        }
+      ],
+      "other_special_token": [
+        {
+          "memory": [
+            100,
+            139,
+            0,
+            2,
+            9,
+            64
+          ],
+          "query": 9,
+          "answer": 2,
+          "prediction": 332
+        },
+        {
+          "memory": [
+            234,
+            145,
+            0,
+            2,
+            148,
+            295
+          ],
+          "query": 148,
+          "answer": 2,
+          "prediction": 332
+        }
+      ]
+    },
+    "semantic_2": {
+      "number_absent_from_memory": [
+        {
+          "memory": [
+            2,
+            1,
+            309
+          ],
+          "query": 309,
+          "answer": 1,
+          "prediction": 317
+        },
+        {
+          "memory": [
+            2,
+            1,
+            307,
+            282
+          ],
+          "query": 307,
+          "answer": 1,
+          "prediction": 317
+        },
+        {
+          "memory": [
+            108,
+            2,
+            1,
+            327,
+            6
+          ],
+          "query": 327,
+          "answer": 1,
+          "prediction": 4
+        }
+      ],
+      "EOS": [
+        {
+          "memory": [
+            132,
+            140,
+            2,
+            1,
+            310,
+            78
+          ],
+          "query": 310,
+          "answer": 1,
+          "prediction": 334
+        },
+        {
+          "memory": [
+            99,
+            2,
+            1,
+            190,
+            57
+          ],
+          "query": 190,
+          "answer": 1,
+          "prediction": 334
+        },
+        {
+          "memory": [
+            242,
+            2,
+            1,
+            234
+          ],
+          "query": 234,
+          "answer": 1,
+          "prediction": 334
+        }
+      ],
+      "first_operator_token": [
+        {
+          "memory": [
+            2,
+            1,
+            21,
+            139
+          ],
+          "query": 21,
+          "answer": 1,
+          "prediction": 2
+        },
+        {
+          "memory": [
+            36,
+            2,
+            1,
+            98,
+            4
+          ],
+          "query": 98,
+          "answer": 1,
+          "prediction": 2
+        },
+        {
+          "memory": [
+            2,
+            1,
+            316,
+            185,
+            23
+          ],
+          "query": 316,
+          "answer": 1,
+          "prediction": 2
+        }
+      ],
+      "other_memory_token": [
+        {
+          "memory": [
+            128,
+            271,
+            321,
+            2,
+            1,
+            40
+          ],
+          "query": 40,
+          "answer": 1,
+          "prediction": 321
+        },
+        {
+          "memory": [
+            2,
+            1,
+            148,
+            311,
+            53,
+            265
+          ],
+          "query": 148,
+          "answer": 1,
+          "prediction": 311
+        },
+        {
+          "memory": [
+            2,
+            1,
+            16,
+            111,
+            108
+          ],
+          "query": 16,
+          "answer": 1,
+          "prediction": 111
+        }
+      ],
+      "query_target": [
+        {
+          "memory": [
+            2,
+            1,
+            84
+          ],
+          "query": 84,
+          "answer": 1,
+          "prediction": 84
+        },
+        {
+          "memory": [
+            2,
+            1,
+            84
+          ],
+          "query": 84,
+          "answer": 1,
+          "prediction": 84
+        },
+        {
+          "memory": [
+            2,
+            1,
+            84
+          ],
+          "query": 84,
+          "answer": 1,
+          "prediction": 84
+        }
+      ],
+      "other_special_token": [
+        {
+          "memory": [
+            239,
+            78,
+            2,
+            1,
+            313
+          ],
+          "query": 313,
+          "answer": 1,
+          "prediction": 332
+        }
+      ]
+    }
+  }
+}

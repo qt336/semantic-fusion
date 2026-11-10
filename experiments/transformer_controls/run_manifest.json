@@ -1,0 +1,52 @@
+{
+  "gpu_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "seeds": [
+    101,
+    102,
+    103
+  ],
+  "epochs": 1200,
+  "batch_size": 8190,
+  "microbatch": 2048,
+  "cpu_threads": 4,
+  "eval_every": 25,
+  "checkpoint_every": 10,
+  "conditions": [
+    "heldout_pairs",
+    "random_operator"
+  ],
+  "architecture": "transformer",
+  "gpus": [
+    {
+      "index": 0,
+      "uuid": "GPU-88bfa7f4-41fd-8b9a-b334-a5a7f69cacb5",
+      "memory_used": 18,
+      "utilization": 0
+    },
+    {
+      "index": 1,
+      "uuid": "GPU-e247d9da-2d92-c108-ecf5-bc46db12eeb3",
+      "memory_used": 18,
+      "utilization": 0
+    },
+    {
+      "index": 2,
+      "uuid": "GPU-619378b5-e285-7c07-8ddf-3050de878b5d",
+      "memory_used": 18,
+      "utilization": 0
+    },
+    {
+      "index": 3,
+      "uuid": "GPU-50c51cd3-d593-ba29-fd0a-415f9bf2dc26",
+      "memory_used": 18,
+      "utilization": 0
+    }
+  ],
+  "screen_session": "qt1",
+  "created_utc": "2026-10-18T14:32:28.925341+00:00"
+}

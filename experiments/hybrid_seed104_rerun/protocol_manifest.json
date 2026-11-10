@@ -1,0 +1,21 @@
+{
+  "purpose": "fresh rerun for full seed104 accuracy trajectory, not historical reconstruction",
+  "seeds": [
+    104
+  ],
+  "architecture": "hybrid",
+  "epochs": 1200,
+  "evaluate_every_epoch": true,
+  "snapshot_every": 25,
+  "tail_snapshots_every_epoch_from": 1175,
+  "physical_gpu": 1,
+  "screen_session": "qt1",
+  "source_sha256": {
+    "data.py": "9db2b154a29d19454f3d7be4d288898ca1b0ea4506f173e5e8dec3ee96f5bdf5",
+    "supervisor.py": "26a0c578f57b4e7eeaa7e8b5ac6a47507b48a7814eecf7ce03759cee4f6fb275",
+    "train.py": "94413ba564c93d5e84eda62cb5b94b90dc0168d989dec626eb39927f6bbc9610",
+    "model.py": "42ce4b1390b3ba282bcf0d651193d9c336a02777e8ed759faa863cc4b85fe91d",
+    "report.py": "183d012d90983bf89ffcd22b24b4f4255f1a28e62f402f63b322fff775e6e1b1"
+  },
+  "dataset_sha256": "b16b83fb0c1692db6ca2eb83010f21999b22433ba73a0c4eca625b82da763a11"
+}

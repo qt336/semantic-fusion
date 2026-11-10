@@ -1,0 +1,20 @@
+{
+  "disjoint_input_splits": true,
+  "balanced_labels": true,
+  "large_equals_train_plus_extra": true,
+  "verified_seeds": [
+    101,
+    102,
+    103
+  ],
+  "prediction_rows_verified": 4134,
+  "randomized_matched_controls_held_out_from_probe_training_and_validation": true,
+  "sha256": {
+    "driver.py": "d170b5dfa981e581f9c465409a4edb43e8adadfb5c4b36bc60278e735cd63430",
+    "features.py": "1922e6e77bfe393d3e83d8bac27c1e91bb477bc30ec81256b4b3a3cfa8cc2929",
+    "model.py": "4089d1822804f5464dcdfd692a11850fe4456722caabca8ad845db7deee87f8f",
+    "probe_common.py": "794032a46fe56b35a383a8f70eb91e70c4eaafe39ae8fe2ef21062fd74409e03",
+    "PROTOCOL.md": "77813ca89cec7a06eefc65b784a4fd137ebca99851ff98f42bb5b3fde8535ff6",
+    "datasets.npz": "ffa05f6c1b3fc708858b991d871f3e5e142ccf2b8cecd8bf9232748bb373921a"
+  }
+}

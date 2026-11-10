@@ -1,0 +1,9 @@
+{
+  "experiment": "legacy_comma",
+  "samples": 1000,
+  "generations": 5000,
+  "per_cell": 500,
+  "input_file": "items.jsonl",
+  "input_sha256": "f935dda71ad2277979d09269006b4946742dd9bf1e931cf0d4f40ed87260c131",
+  "source_description": "Comma-only subset of the earlier original-wording full experiment; five layer conditions."
+}

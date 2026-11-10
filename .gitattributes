@@ -1,0 +1,6 @@
+# Preserve the exact bytes checked by MANIFEST.sha256 on every platform.
+* -text
+*.pdf binary
+*.png binary
+*.npz binary
+*.pt binary

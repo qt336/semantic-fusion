@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+    \centering
+    \caption{Arithmetic semantics encoded by adjacent token pairs, with integer operands $r,s$. The typewriter names identify task conditions.}
+    \label{tab:arithmetic-semantics}
+    \small
+    \begin{tabular*}{0.9\linewidth}{@{\extracolsep{\fill}}lcc@{}}
+        \toprule
+        \textbf{Name} & \textbf{Adjacent Tokens} & \textbf{Arithmetic Semantics} \\
+        \midrule
+        \texttt{q01}/\texttt{add}  & $0,1$ & $(r+s) \bmod 331$ \\
+        \texttt{q02}/\texttt{sub}  & $0,2$ & $(r-s) \bmod 331$ \\
+        \texttt{q21}/\texttt{sub1} & $2,1$ & $(r-s-1) \bmod 331$ \\
+        \bottomrule
+    \end{tabular*}
+\end{table}

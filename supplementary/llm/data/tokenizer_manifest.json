@@ -1,0 +1,30 @@
+{
+  "hy4": {
+    "repository": "tencent/Hy4-preview",
+    "revision": "705d81ee51566a186d645b74c974d642ef2828fe",
+    "files_sha256": {
+      "tokenizer_config.json": "15267c495102b0ce259408a0b3a9dc11a6de74dd7dd8ef5b9757f64252a9b2df",
+      "tokenizer.json": "ff67615de6e6ee073a20bd1fe3a776053e821573f4ae566aeb8e9d43de801201",
+      "README.md": "a596a79b27cccc18754eae0a4c10e7b40e2128aa97d67e80ce1eae645ebc1955"
+    }
+  },
+  "kimi": {
+    "repository": "moonshotai/Kimi-K3",
+    "revision": "f831ab66814297da540d832a5235f8e904f29d06",
+    "files_sha256": {
+      "tokenizer_config.json": "5d0803c94db9cd78763499e0956c95fd5a225c14a727e5a6cf5db3f96f010a6e",
+      "tiktoken.model": "b6c497a7469b33ced9c38afb1ad6e47f03f5e5dc05f15930799210ec050c5103",
+      "README.md": "57de265b5842dfa465c6e73b368b0e15a89b8793b5450528dad577da202cc6fe",
+      "tokenization_kimi.py": "f28ea66e2d862a2a5814970b2ce40c2f7d8296ff09aed90a7e7def689b906944"
+    }
+  },
+  "deepseek": {
+    "repository": "deepseek-ai/DeepSeek-V4-Pro",
+    "revision": "b5968e9190ef611bbf34a7229255be88a0e937c1",
+    "files_sha256": {
+      "tokenizer_config.json": "6ac8c8dc065ed118161d02dd532749ae3f52c243deac27872134fae2f50d8547",
+      "tokenizer.json": "8f9f37ca37fdc4f5fd36d5cf4d3b0e8392edb4e894fd10cc0d70b4957c8633cf",
+      "README.md": "c4d714818a4d3333542edc7d38ea065825a0cf7aa8fea3605bbd1d1c18e4a610"
+    }
+  }
+}

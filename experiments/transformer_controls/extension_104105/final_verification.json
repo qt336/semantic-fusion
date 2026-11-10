@@ -1,0 +1,30 @@
+{
+  "fixed_final_epoch": 1200,
+  "seeds": {
+    "101": {
+      "all_saved_prediction_counts_match": true,
+      "metric_groups_checked": 12,
+      "predictions_sha256": "cb02087c738c1fc6cc157e3d6b3ef01540a59085a6b7057fd6fb5e0192ba6ac8"
+    },
+    "102": {
+      "all_saved_prediction_counts_match": true,
+      "metric_groups_checked": 12,
+      "predictions_sha256": "15a2850440d94b54c45fe03e7bc1b2129397fa213c586e91776afc10ccc2f1c7"
+    },
+    "103": {
+      "all_saved_prediction_counts_match": true,
+      "metric_groups_checked": 12,
+      "predictions_sha256": "f3e38fee5ab39ee27e53c3ed348a766e716066ba4ef6de79251900e12909ecb5"
+    },
+    "104": {
+      "all_saved_prediction_counts_match": true,
+      "metric_groups_checked": 12,
+      "predictions_sha256": "2735567a0a3a63db074673d259fcb9689b4c005ba0c6ffc81dcb672fc5de8603"
+    },
+    "105": {
+      "all_saved_prediction_counts_match": true,
+      "metric_groups_checked": 12,
+      "predictions_sha256": "71d51ddb25bd39e159e5ac2ebed389972304e71347c50d39900938656bead769"
+    }
+  }
+}

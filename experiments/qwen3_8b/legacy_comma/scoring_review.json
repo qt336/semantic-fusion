@@ -1,0 +1,42 @@
+{
+  "en:strong:comma_semantic_113|baseline": {
+    "answer": "",
+    "reason": "解释 ant 的属性，输出在提出前驱答案之前截断；没有答案。",
+    "answer_raw_sha256": "1b48fa34196e1913c6c146b60a5161bd20d6a51c29a64b2b2debb03545b004be"
+  },
+  "en:strong:comma_semantic_113|early4": {
+    "answer": "ants",
+    "reason": "引导语之后明确写出 the word is ants；ant 本身只在被解释的查询中出现。",
+    "answer_raw_sha256": "e8a878e719c02e8596323acd76644489b11c27e702ec1a5d4d28ef1621f32cc2"
+  },
+  "en:strong:comma_semantic_113|middle4": {
+    "answer": "",
+    "reason": "解释 ant 的属性，输出在提出前驱答案之前截断；没有答案。",
+    "answer_raw_sha256": "1b48fa34196e1913c6c146b60a5161bd20d6a51c29a64b2b2debb03545b004be"
+  },
+  "en:strong:comma_semantic_150|layer0": {
+    "answer": "aid",
+    "reason": "已人工核对：按第一个实际提出的答案评分，忽略引导语、完整输入复述和外层标点；后续纠正不覆盖先前答案。",
+    "answer_raw_sha256": "e252b1e760d7c7d36a17af8bd429475dc8addc0472f64ad71b0aca117d0a2a73"
+  },
+  "en:strong:comma_semantic_210|baseline": {
+    "answer": "",
+    "reason": "已人工核对：按第一个实际提出的答案评分，忽略引导语、完整输入复述和外层标点；后续纠正不覆盖先前答案。",
+    "answer_raw_sha256": "f60f323e54e4d752dff85e8c675d6846149dc550f6324f2a0a99c6e999e4bcc6"
+  },
+  "en:strong:comma_semantic_210|layer0": {
+    "answer": "",
+    "reason": "已人工核对：按第一个实际提出的答案评分，忽略引导语、完整输入复述和外层标点；后续纠正不覆盖先前答案。",
+    "answer_raw_sha256": "f60f323e54e4d752dff85e8c675d6846149dc550f6324f2a0a99c6e999e4bcc6"
+  },
+  "en:strong:comma_semantic_210|middle4": {
+    "answer": "",
+    "reason": "已人工核对：按第一个实际提出的答案评分，忽略引导语、完整输入复述和外层标点；后续纠正不覆盖先前答案。",
+    "answer_raw_sha256": "f60f323e54e4d752dff85e8c675d6846149dc550f6324f2a0a99c6e999e4bcc6"
+  },
+  "en:strong:comma_semantic_243|layer0": {
+    "answer": "real",
+    "reason": "已人工核对：按第一个实际提出的答案评分，忽略引导语、完整输入复述和外层标点；后续纠正不覆盖先前答案。",
+    "answer_raw_sha256": "4695cad745ea0e1396392580c7c1882ab703e93f9a9bb64e5fa0cfcbadf77452"
+  }
+}

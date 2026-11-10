@@ -1,0 +1,482 @@
+{
+  "en:independent:random_265|original": {
+    "answer": "",
+    "reason": "Discusses ale and restates the question; no predecessor answer before truncation.",
+    "answer_raw_sha256": "782d771c4c3042f360b7af14674a60e0b3adeae224f0a096c894d37dcdad81b9"
+  },
+  "en:independent:random_325|original": {
+    "answer": "",
+    "reason": "Describes nc as a file extension and says context is needed; no answer.",
+    "answer_raw_sha256": "8d316316785c05b3942b380b69391d2773f1e2ff823d27d5d739440c3b4d6f2c"
+  },
+  "en:independent:random_449|original": {
+    "answer": "ever",
+    "reason": "Quoted direct answer; remove the quotation marks and ignore case.",
+    "answer_raw_sha256": "4bf2834d85e1bbef98aec98c92884d0d281deb894f02a299c0e3736dbd41df5e"
+  },
+  "en:strong:semantic_001|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_009|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_013|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_017|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_105|original": {
+    "answer": "common",
+    "reason": "Repeats the input sequence, then explicitly proposes the word after is.",
+    "answer_raw_sha256": "42fc5501685e61a6ba6bba5ed4d0f87733d099ee07f6f1b5415f36084fbfe4c7"
+  },
+  "en:strong:semantic_109|original": {
+    "answer": "common",
+    "reason": "Repeats the input sequence, then explicitly proposes the word after is.",
+    "answer_raw_sha256": "f257d4d1e53e1cff137548083fe02780778c8789995043398d6d24cebd53bf5a"
+  },
+  "en:strong:semantic_225|original": {
+    "answer": "drive",
+    "reason": "Repeats the input sequence, then explicitly proposes the word after is.",
+    "answer_raw_sha256": "8886ff583cf327d5a63b0f90b560d8480a429cee664b0f543bd7d10ca28c3723"
+  },
+  "en:strong:semantic_241|original": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "133a8c12d13d8c5e06316c5eccc009463578d310dbd772bec4baf3045c29a372"
+  },
+  "en:strong:semantic_241|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_245|original": {
+    "answer": "",
+    "reason": "Defines a real-estate belt; no predecessor answer before truncation.",
+    "answer_raw_sha256": "3f64e93909b4f43c8a7f64275561a8bb418d739e17fe92dd782fefeb945e834d"
+  },
+  "en:strong:semantic_245|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_249|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_253|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_257|original": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "133a8c12d13d8c5e06316c5eccc009463578d310dbd772bec4baf3045c29a372"
+  },
+  "en:strong:semantic_257|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_301|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_305|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_313|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_317|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "zh:semantic_19|original": {
+    "answer": "",
+    "reason": "Repeats the entire question without proposing an answer.",
+    "answer_raw_sha256": "a9baa98cdaa70a04429e3e3be4ec90025a7c13e17053b93d1cbd5a118806c880"
+  },
+  "zh:semantic_440|original": {
+    "answer": "",
+    "reason": "Repeats the entire question without proposing an answer.",
+    "answer_raw_sha256": "73805e3f43c6e935df4db8f041ecc6d6ccdbe6c3b958b69c58041b09955b5868"
+  },
+  "en:independent:random_206|original": {
+    "answer": "",
+    "reason": "Defines bard; no predecessor answer before truncation.",
+    "answer_raw_sha256": "14403bcac52dfc97d3644f15e70bb9933e4f4ee6241c8af3a30f7d81bb2000db"
+  },
+  "en:independent:random_270|original": {
+    "answer": "lots",
+    "reason": "The full question is repeated before explicitly proposing lots; the repetition is not an answer.",
+    "answer_raw_sha256": "5b61c367aaa170f521df813386c364f9b325dd87cea6c4409c5f9b883e7038f9"
+  },
+  "en:independent:random_390|original": {
+    "answer": "esp",
+    "reason": "After an abbreviation explanation, explicitly proposes esp itself as predecessor.",
+    "answer_raw_sha256": "992daa0ad7a4c6711c1e1285270637bd8ee7af8db07d6a60a181795103248e4b"
+  },
+  "en:strong:semantic_006|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_010|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_014|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_014|second_item": {
+    "answer": "ice",
+    "reason": "Repeats the input sequence, then explicitly proposes the bolded word as the second word.",
+    "answer_raw_sha256": "2485f18209acedd8562f17823f9c7d3c5991f37ee10b714a914213e9b37645c6"
+  },
+  "en:strong:semantic_018|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_018|second_item": {
+    "answer": "ice",
+    "reason": "Repeats the input sequence, then explicitly proposes the bolded word as the second word.",
+    "answer_raw_sha256": "7df3c0fd9fdf195e9171b0b448e8868121ca9cde586f90b1c70f3f20918b391c"
+  },
+  "en:strong:semantic_106|original": {
+    "answer": "common",
+    "reason": "Repeats the input sequence, then explicitly proposes the word after is.",
+    "answer_raw_sha256": "0d91bf67bf474dd32f7f527f02ef05685b354684e92480bfdb76cb0a9f70906b"
+  },
+  "en:strong:semantic_110|original": {
+    "answer": "common",
+    "reason": "Repeats the input sequence, then explicitly proposes the word after is.",
+    "answer_raw_sha256": "3d77f3cd140e6034c0eed758a8b8a6a42c30cae011d3d3e7079c95db38fa242c"
+  },
+  "en:strong:semantic_242|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_246|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_250|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_250|second_item": {
+    "answer": "real",
+    "reason": "Repeats the input sequence, then explicitly proposes the bolded word as the second word.",
+    "answer_raw_sha256": "42ca1acfab66dc9f12fe3fdb4b13baf6ab776c674a1b16ff2612ad665509d93c"
+  },
+  "en:strong:semantic_254|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_258|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_258|second_item": {
+    "answer": "real",
+    "reason": "Repeats the input sequence, then explicitly proposes the bolded word as the second word.",
+    "answer_raw_sha256": "2a031113c61a0ea89ea49abefd171c2291cc950b1be3b912a79e3e023819897b"
+  },
+  "en:strong:semantic_302|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_306|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_310|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_318|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "zh:semantic_205|original": {
+    "answer": "哄",
+    "reason": "Quoted direct answer; quotation marks are not answer characters.",
+    "answer_raw_sha256": "520a56b932ec8abb3d66789f953bd35bf11011eb95c1e3f08aea28a8caa0b237"
+  },
+  "zh:semantic_383|original": {
+    "answer": "",
+    "reason": "Repeats the entire question without proposing an answer.",
+    "answer_raw_sha256": "4c73e527cea0a82337e64728376b88efe0bb6cbbc9a6396fbb79085668280d2b"
+  },
+  "zh:semantic_463|original": {
+    "answer": "",
+    "reason": "Repeats the entire question without proposing an answer.",
+    "answer_raw_sha256": "0b9d40fafc640b2d8618206a572a5c24ea0eced0e135a5b57cd037443d2bc471"
+  },
+  "en:independent:random_195|original": {
+    "answer": "",
+    "reason": "Repeats the entire question without proposing an answer.",
+    "answer_raw_sha256": "13bee3875676dba108b491722c251706fa502f111110669716c5b2881992678d"
+  },
+  "en:independent:random_239|original": {
+    "answer": "",
+    "reason": "Explains possible meanings of PB; no predecessor answer.",
+    "answer_raw_sha256": "e47889f5e6fef86b8cd3cc47ca3a00c39a0ffdccf479212ff460f71e2000345c"
+  },
+  "en:strong:semantic_003|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_007|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_011|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_015|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_019|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_239|explicit_position": {
+    "answer": "hard",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "1144c6e5491ddc21e1798c750479aaaa0bf745e2bb1263d8b0e6b6d1c23b6f1e"
+  },
+  "en:strong:semantic_243|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_243|second_item": {
+    "answer": "real",
+    "reason": "Repeats the input sequence, then explicitly proposes the bolded word as the second word.",
+    "answer_raw_sha256": "14fc4eb1f26469d2be6bdb2129dfc42d77d26976bee0133c003498bb531cb3a9"
+  },
+  "en:strong:semantic_247|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_251|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_255|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_259|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_303|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_311|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_315|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_319|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_443|explicit_position": {
+    "answer": "hole",
+    "reason": "Repeats the input sequence, then explicitly answers hole.",
+    "answer_raw_sha256": "0937f0996dfa3cb6fc55774eb8a7613bbf90710ef90f10914e09045ae8fd3dfa"
+  },
+  "zh:semantic_337|original": {
+    "answer": "的",
+    "reason": "Explicitly answers 的; the preceding 肉 is the query, not an answer.",
+    "answer_raw_sha256": "61100ba89831de756e138ca3f6ab617e271b9fe0441a30e38bd51334dcd21a3d"
+  },
+  "zh:semantic_45|original": {
+    "answer": "哄",
+    "reason": "Quoted direct answer; quotation marks are not answer characters.",
+    "answer_raw_sha256": "520a56b932ec8abb3d66789f953bd35bf11011eb95c1e3f08aea28a8caa0b237"
+  },
+  "zh:semantic_479|original": {
+    "answer": "",
+    "reason": "Repeats the entire question without proposing an answer.",
+    "answer_raw_sha256": "d7e6f2910d8322bbc627ef35862854b49667e4f1be4c6371d77cc063a849d0be"
+  },
+  "zh:semantic_90|original": {
+    "answer": "",
+    "reason": "Repeats the entire question without proposing an answer.",
+    "answer_raw_sha256": "e3eb923e01aa370bdadaf0e8a126f73efb3c719c582ed0dafb873f36b8f58944"
+  },
+  "en:independent:random_124|original": {
+    "answer": "first",
+    "reason": "Directly answers First aid; the first proposed constituent is first.",
+    "answer_raw_sha256": "d4d7b17c5d9cd8f5fac4b9fc6ad928adc0a8d9726a375cab402593b110950e17"
+  },
+  "en:strong:semantic_004|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_008|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_012|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_016|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_020|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_108|original": {
+    "answer": "common",
+    "reason": "Repeats the input sequence, then explicitly proposes the word after is.",
+    "answer_raw_sha256": "222803515d478fa439f19964a72e4cea34a9491801b9bae7eecda5729fdd2915"
+  },
+  "en:strong:semantic_144|original": {
+    "answer": "first",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "31e7bb3ab4edb2b2b5813c0290b30e30eeafe4617d8fd6c100d16a71644f95de"
+  },
+  "en:strong:semantic_244|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_244|second_item": {
+    "answer": "real",
+    "reason": "Repeats the input sequence, then explicitly proposes the bolded word as the second word.",
+    "answer_raw_sha256": "c5622f9cf16b616e09678a66222a825e309c3476433922610020d668e7d96da7"
+  },
+  "en:strong:semantic_248|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_248|second_item": {
+    "answer": "real",
+    "reason": "Repeats the input sequence, then explicitly proposes the bolded word as the second word.",
+    "answer_raw_sha256": "1bc0c754668d17fdf4eb4b652bd6c35415da478a5bca9dafd3edf8bda4f7fff2"
+  },
+  "en:strong:semantic_252|original": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_252|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_252|second_item": {
+    "answer": "real",
+    "reason": "Repeats the input sequence, then explicitly proposes the bolded word as the second word.",
+    "answer_raw_sha256": "5d8cd8642ee7ccbf84da727c43c58b2036c1b0f271c88ae482fbe4f94a7673b8"
+  },
+  "en:strong:semantic_256|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_256|second_item": {
+    "answer": "real",
+    "reason": "Repeats the input sequence, then explicitly proposes the bolded word as the second word.",
+    "answer_raw_sha256": "b9c02dbad30808c7b9cb11ba0993b61acf60dc94c28d8c579868d01e867542c8"
+  },
+  "en:strong:semantic_260|explicit_position": {
+    "answer": "real",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_304|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_312|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_316|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_320|explicit_position": {
+    "answer": "prime",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_348|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "c7eceb476b3d6bc306ca16bf99b1d0e04ca37e3299ef89758dda2091c151fb0d"
+  },
+  "en:strong:semantic_356|explicit_position": {
+    "answer": "ice",
+    "reason": "Directly answers with the AB expression; score its first constituent A under the fixed rule.",
+    "answer_raw_sha256": "c7eceb476b3d6bc306ca16bf99b1d0e04ca37e3299ef89758dda2091c151fb0d"
+  }
+}

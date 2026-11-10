@@ -1,0 +1,19 @@
+{
+  "created": "2026-11-08T14:41:08.885563+08:00",
+  "sources": {
+    "104": {
+      "path": "/home/user/toy_transformer_controls_20261018/runs/random_operator_seed104/history.jsonl",
+      "complete_history_sha256": "9ed27a6c9c42765bb805737629d1098f8090fecc08ef655625ef7b388899b692",
+      "trained_epoch": 1200,
+      "last_test_epoch": 1200,
+      "test_points": 49
+    },
+    "105": {
+      "path": "/home/user/toy_transformer_controls_20261018/runs/random_operator_seed105/history.jsonl",
+      "complete_history_sha256": "580baa22e8cb0f5b7e6bb53953aadf06f6e3c89af8db085a2bf0679ff16f6c1b",
+      "trained_epoch": 1200,
+      "last_test_epoch": 1200,
+      "test_points": 49
+    }
+  }
+}

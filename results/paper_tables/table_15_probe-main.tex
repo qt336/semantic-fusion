@@ -1,0 +1,13 @@
+\begin{table}[H]
+\centering\revisioncolor\small
+\setlength{\tabcolsep}{5pt}
+\caption{Probe decoding accuracy for $b$ (\%), averaged over three frozen models. The Softmax probe is trained on 84,736 ordinary examples. Ordinary denotes the independent 10,592-example test of ordinary combinations. Masked removes only the first-block attention edge for operator inputs; held-out refers to ordinary pairs $(9,10)$ and $(15,20)$ excluded from the Transformer retrieval training. These are probe predictions, not model-generated answers.}
+\label{tab:probe-main}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Reader & Ordinary & Operators & Masked & Held-out \\
+\midrule
+Softmax (84,736 examples) & 77.44 & 5.68 & 70.82 & 46.18 \\
+\bottomrule
+\end{tabular}
+\end{table}

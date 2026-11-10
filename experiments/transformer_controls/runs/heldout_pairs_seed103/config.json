@@ -1,0 +1,124 @@
+{
+  "root": "/home/user/toy_transformer_controls_20261018",
+  "condition": "heldout_pairs",
+  "seed": 103,
+  "device": "cuda",
+  "epochs": 1200,
+  "batch_size": 8190,
+  "microbatch": 2048,
+  "eval_every": 25,
+  "checkpoint_every": 10,
+  "cpu_threads": 4,
+  "small": false,
+  "architecture": "transformer",
+  "parameters": 3331920,
+  "dataset_metadata": {
+    "version": 1,
+    "seed": 103,
+    "small": false,
+    "base_training_examples": 405000,
+    "stable_arithmetic_examples": 270000,
+    "retrieval_training_examples": 135000,
+    "random_operator_examples": 180000,
+    "operator_slot_exposures_per_epoch": {
+      "0_1": 90000,
+      "0_2": 90000,
+      "2_1": 90000,
+      "9_10_random_condition": 180000
+    },
+    "retrieval_audit": {
+      "unique_examples": 135000,
+      "excluded_memory_pair_counts": {
+        "0_1": 0,
+        "0_2": 0,
+        "2_1": 0,
+        "9_10": 0,
+        "15_20": 0
+      },
+      "excluded_query_answer_counts": {
+        "0_1": 0,
+        "0_2": 0,
+        "2_1": 0,
+        "9_10": 0,
+        "15_20": 0
+      },
+      "constituent_counts": {
+        "0": {
+          "memory": 1785,
+          "query": 392,
+          "answer": 391
+        },
+        "1": {
+          "memory": 1840,
+          "query": 422,
+          "answer": 430
+        },
+        "2": {
+          "memory": 1790,
+          "query": 396,
+          "answer": 415
+        },
+        "9": {
+          "memory": 1845,
+          "query": 404,
+          "answer": 403
+        },
+        "10": {
+          "memory": 1799,
+          "query": 410,
+          "answer": 384
+        },
+        "15": {
+          "memory": 1784,
+          "query": 405,
+          "answer": 380
+        },
+        "20": {
+          "memory": 1861,
+          "query": 450,
+          "answer": 377
+        }
+      }
+    },
+    "evaluation_counts": {
+      "arithmetic_0_1": 4096,
+      "arithmetic_0_2": 4096,
+      "arithmetic_2_1": 4096,
+      "standard": 2000,
+      "operator_0_1": 2560,
+      "operator_0_2": 2560,
+      "operator_2_1": 2560,
+      "ordinary_9_10": 2560,
+      "ordinary_15_20": 2560,
+      "control_x1y": 2560,
+      "control_x2y": 2560,
+      "noise_arithmetic_9_10": 4096
+    },
+    "pair_evaluation_memory_length_counts": {
+      "3": 256,
+      "4": 768,
+      "5": 768,
+      "6": 768
+    },
+    "pair_evaluation_unique": true,
+    "shared_contexts_across_pair_evaluations": true,
+    "noise_result_policy": "uniform 0..330, redraw at each epoch/occurrence; stored training zeros are placeholders",
+    "noise_result_y_position": 4,
+    "noise_result_x_position": 5,
+    "sha256": "24565f752d55650af3697e9a141fbea0119fb47bada6962188b6a5930d5d94b9",
+    "reconstructed_from_paper": true
+  },
+  "source_hashes": {
+    "data.py": "f4ec86883fa8d96b6da55b35f41a20b5652f1e97dbb4c5ff6517a57a260b7d94",
+    "model.py": "4089d1822804f5464dcdfd692a11850fe4456722caabca8ad845db7deee87f8f",
+    "train.py": "16f433a6a8ed7c7c534b264b53f47c6a56c457ee064e6b087a69fbc9039a9627"
+  },
+  "training_examples": 405000,
+  "stable_base_examples": 405000,
+  "random_operator_examples": 0,
+  "torch_version": "2.5.1+cu124",
+  "numpy_version": "1.26.4",
+  "precision": "float32 with TF32 allowed",
+  "cuda_visible_devices": "GPU-88bfa7f4-41fd-8b9a-b334-a5a7f69cacb5",
+  "device_name": "NVIDIA GeForce RTX 4080"
+}

@@ -1,0 +1,33 @@
+{
+  "heldout": [
+    "/home/user/toy_transformer_controls_20261018/runs/heldout_pairs_seed101/result.json",
+    "/home/user/toy_transformer_controls_20261018/runs/heldout_pairs_seed102/result.json",
+    "/home/user/toy_transformer_controls_20261018/runs/heldout_pairs_seed103/result.json"
+  ],
+  "additional_seeds": {
+    "106": {
+      "path": "/home/user/toy_transformer_original_106_110_20261108/runs/transformer_seed106/result.json",
+      "sha256": "c61e5404be2319543b2992c77b816ba82aeb6376730dc89aa9b1d8785cc1c0fd"
+    },
+    "107": {
+      "path": "/home/user/toy_transformer_original_106_110_20261108/runs/transformer_seed107/result.json",
+      "sha256": "cf6d1f976fb220978e0c5014904dd6471f44c86f4f6ba9f89732d0695e5a159a"
+    },
+    "108": {
+      "path": "/home/user/toy_transformer_original_106_110_20261108/runs/transformer_seed108/result.json",
+      "sha256": "573391c1e6b9914a097fa5b5f71e70d9815ea561a36f24d92bf16c4fa49516ee"
+    },
+    "109": {
+      "path": "/home/user/toy_transformer_original_106_110_20261108/runs/transformer_seed109/result.json",
+      "sha256": "2b3b3b908481b32c1058afda917089d9b3b147bd5fab3b3bddb0f5b533589cdf"
+    },
+    "110": {
+      "path": "/home/user/toy_transformer_original_106_110_20261108/runs/transformer_seed110/result.json",
+      "sha256": "7663c5493e4d5a61e0b45171fe8de6afc6c9e6684b2f36acde98e9444a19ffff"
+    }
+  },
+  "probe_summary": "/home/user/toy_linear_probe_20261107/robustness/robustness_summary.json",
+  "qwen_results": "/home/user/qintian/iclr qwen3 8b result",
+  "original_pdf_sha256": "333155d56ffde4c75e488c582b1d5d7a41307429ef59e1530229b633efebbf72",
+  "original_source_sha256": "60586f74d0ae4baa6e49dffb4e5e26077d35f575248e7a3da4e76a3c480d7672"
+}

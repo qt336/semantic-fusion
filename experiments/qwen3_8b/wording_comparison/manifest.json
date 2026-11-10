@@ -1,0 +1,106 @@
+{
+  "samples": 2000,
+  "generations": 6000,
+  "per_group": 500,
+  "variants": [
+    "original",
+    "explicit_position",
+    "second_item"
+  ],
+  "model": "Qwen/Qwen3-8B",
+  "dtype": "bfloat16",
+  "reasoning": false,
+  "attention_intervention": false,
+  "templates_fixed_from_prior_diagnostic": true,
+  "source_selection": "all original semantic and random items",
+  "counts": [
+    {
+      "language": "en",
+      "group": "random",
+      "variant": "explicit_position",
+      "total": 500,
+      "three_aligned": 499
+    },
+    {
+      "language": "en",
+      "group": "random",
+      "variant": "original",
+      "total": 500,
+      "three_aligned": 493
+    },
+    {
+      "language": "en",
+      "group": "random",
+      "variant": "second_item",
+      "total": 500,
+      "three_aligned": 499
+    },
+    {
+      "language": "en",
+      "group": "semantic",
+      "variant": "explicit_position",
+      "total": 500,
+      "three_aligned": 500
+    },
+    {
+      "language": "en",
+      "group": "semantic",
+      "variant": "original",
+      "total": 500,
+      "three_aligned": 500
+    },
+    {
+      "language": "en",
+      "group": "semantic",
+      "variant": "second_item",
+      "total": 500,
+      "three_aligned": 500
+    },
+    {
+      "language": "zh",
+      "group": "random",
+      "variant": "explicit_position",
+      "total": 500,
+      "three_aligned": 500
+    },
+    {
+      "language": "zh",
+      "group": "random",
+      "variant": "original",
+      "total": 500,
+      "three_aligned": 500
+    },
+    {
+      "language": "zh",
+      "group": "random",
+      "variant": "second_item",
+      "total": 500,
+      "three_aligned": 500
+    },
+    {
+      "language": "zh",
+      "group": "semantic",
+      "variant": "explicit_position",
+      "total": 500,
+      "three_aligned": 500
+    },
+    {
+      "language": "zh",
+      "group": "semantic",
+      "variant": "original",
+      "total": 500,
+      "three_aligned": 500
+    },
+    {
+      "language": "zh",
+      "group": "semantic",
+      "variant": "second_item",
+      "total": 500,
+      "three_aligned": 500
+    }
+  ],
+  "upstream_source_sha256": "adcc24fc7273a7211e10a242ac9180128364059418c5a513b47452c5ea062873",
+  "input_file": "items.jsonl",
+  "input_sha256": "6fab6ebad5e7ec0f6e795be244cb732237c470760b86ba58cdabea61efb5e6a7",
+  "upstream_description": "All original semantic/random triples; exact prompts and rendered inputs are included in items.jsonl."
+}

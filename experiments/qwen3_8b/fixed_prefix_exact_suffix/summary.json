@@ -1,0 +1,82 @@
+[
+  {
+    "language": "zh",
+    "group": "semantic",
+    "variant": "before",
+    "n": 500,
+    "B": 27,
+    "A": 454,
+    "Q": 4,
+    "Other": 15
+  },
+  {
+    "language": "zh",
+    "group": "random",
+    "variant": "before",
+    "n": 500,
+    "B": 55,
+    "A": 442,
+    "Q": 3,
+    "Other": 0
+  },
+  {
+    "language": "zh",
+    "group": "semantic",
+    "variant": "exact_left",
+    "n": 500,
+    "B": 92,
+    "A": 375,
+    "Q": 25,
+    "Other": 8
+  },
+  {
+    "language": "zh",
+    "group": "random",
+    "variant": "exact_left",
+    "n": 500,
+    "B": 282,
+    "A": 176,
+    "Q": 41,
+    "Other": 1
+  },
+  {
+    "language": "en",
+    "group": "semantic",
+    "variant": "before",
+    "n": 500,
+    "B": 135,
+    "A": 235,
+    "Q": 7,
+    "Other": 123
+  },
+  {
+    "language": "en",
+    "group": "random",
+    "variant": "before",
+    "n": 500,
+    "B": 143,
+    "A": 206,
+    "Q": 19,
+    "Other": 132
+  },
+  {
+    "language": "en",
+    "group": "semantic",
+    "variant": "exact_left",
+    "n": 500,
+    "B": 75,
+    "A": 396,
+    "Q": 21,
+    "Other": 8
+  },
+  {
+    "language": "en",
+    "group": "random",
+    "variant": "exact_left",
+    "n": 500,
+    "B": 148,
+    "A": 232,
+    "Q": 110,
+    "Other": 10
+  }
+]

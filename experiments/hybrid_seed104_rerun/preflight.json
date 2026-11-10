@@ -1,0 +1,7 @@
+{
+  "model_and_generator_identical_to_previous": true,
+  "original_dataset_sha256": "b16b83fb0c1692db6ca2eb83010f21999b22433ba73a0c4eca625b82da763a11",
+  "training_examples": 405000,
+  "parameters": 3338064,
+  "causal_check": true
+}

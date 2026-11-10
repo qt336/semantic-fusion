@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "scope": "comma-only subset of completed original-wording experiment",
+  "unique_prompts": 1000,
+  "generations": 5000,
+  "per_cell": 500,
+  "reviewed_responses": 8,
+  "all_cells_match_source_summary": true,
+  "raw_result_sha256": {
+    "worker_0.jsonl": "bae5e27091a62de378de60a859ab455bd6cdb2267f0c0f1098c6a86a391b10e8",
+    "worker_1.jsonl": "5fafc2da59ad1a26f83523f5c7827e2339f963519efa2b92e9b2906645115628",
+    "worker_2.jsonl": "e1aad69c9c6f3ba04b3a1b0e7cbfe51f731a7d3d6cf5c169ac8e701a53b9464c",
+    "worker_3.jsonl": "1277a41e2a8102801e58c116ad0666cff41feccc68ecb546df56584fbd20f20e"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "samples": 2000,
+  "generations": 4000,
+  "conditions": {
+    "baseline": [],
+    "early16": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "variant": "explicit_position",
+  "main_per_group": 500,
+  "model": "Qwen/Qwen3-8B",
+  "thinking": false,
+  "dtype": "bfloat16",
+  "decoding": "greedy",
+  "max_new_tokens": 32,
+  "baseline": "fresh paired generation with the same batches and prompts as early16",
+  "mask": "Set attention logit query B -> key A to negative infinity in all heads of layers 0 through 15, then use normal softmax. Only the displayed sequence is targeted.",
+  "three_aligned_counts": {
+    "zh/semantic": 500,
+    "zh/random": 500,
+    "en/semantic": 500,
+    "en/random": 499
+  },
+  "upstream_source_sha256": "6fab6ebad5e7ec0f6e795be244cb732237c470760b86ba58cdabea61efb5e6a7",
+  "input_file": "items.jsonl",
+  "input_sha256": "71e2d5aaaa50f0f9e9ae0e64163fdcdc3f97e3c7be0e93d70afbd918283c98f7",
+  "upstream_description": "The explicit_position subset of ../wording_comparison/items.jsonl, unchanged."
+}

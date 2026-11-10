@@ -1,0 +1,862 @@
+{
+  "en:independent:random_009|left": {
+    "answer": "xt",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "4466c6690694b3625f123f4fcf2d3992a7f40385a0966725fd14b0065ccb398f"
+  },
+  "en:independent:random_009|sequence_before": {
+    "answer": "digital",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "69bdc8a93b145fdd085634d11a6b95a1438d056b4a3a73c33d4c026b4f891c50"
+  },
+  "en:independent:random_009|sequence_left": {
+    "answer": "digital",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "1a481fd5b36aced8025f238323ee9175cdda0e04b2c16eee3bde089dafbdf9c2"
+  },
+  "en:independent:random_165|sequence_before": {
+    "answer": "beam",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "6e53aa03f571eeee4a561e95a3ded55783e4cb594f062cd6e2ce516157c803fb"
+  },
+  "en:independent:random_213|sequence_before": {
+    "answer": "stem",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "e01d802334b68dc56bd1022147459ab5636d09b6df2a17df33804945558d140e"
+  },
+  "en:independent:random_217|sequence_before": {
+    "answer": "",
+    "reason": "Begins an apparent reasoning transcript and restates the task; no answer before truncation.",
+    "answer_raw_sha256": "477b5693494965b6299db2d1069991eced3c3065fb88be4df123444f7655c1f0"
+  },
+  "en:independent:random_265|before": {
+    "answer": "",
+    "reason": "Discusses ale and restates the question; no predecessor answer.",
+    "answer_raw_sha256": "782d771c4c3042f360b7af14674a60e0b3adeae224f0a096c894d37dcdad81b9"
+  },
+  "en:independent:random_325|before": {
+    "answer": "",
+    "reason": "Defines nc and asks for context; no answer.",
+    "answer_raw_sha256": "8d316316785c05b3942b380b69391d2773f1e2ff823d27d5d739440c3b4d6f2c"
+  },
+  "en:independent:random_329|sequence_before": {
+    "answer": "hex",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "3511ceafde095129a8557dd2e712e4667195cc8aa7f480688c92e639b811c2c8"
+  },
+  "en:independent:random_449|before": {
+    "answer": "ever",
+    "reason": "Quoted direct answer, case ignored.",
+    "answer_raw_sha256": "4bf2834d85e1bbef98aec98c92884d0d281deb894f02a299c0e3736dbd41df5e"
+  },
+  "en:strong:semantic_037|sequence_before": {
+    "answer": "school",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "ca1cc6d862d07a52939d2c4af5b5875bd806195317455a63277b3e657c571d6d"
+  },
+  "en:strong:semantic_037|sequence_left": {
+    "answer": "",
+    "reason": "Discusses a song and quotes a line, without proposing a predecessor.",
+    "answer_raw_sha256": "fd3007a6c92135847e84a61059663f628ed9fe9fc3ba603094867ec61f17dfaa"
+  },
+  "en:strong:semantic_105|before": {
+    "answer": "common",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "42fc5501685e61a6ba6bba5ed4d0f87733d099ee07f6f1b5415f36084fbfe4c7"
+  },
+  "en:strong:semantic_109|before": {
+    "answer": "common",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "f257d4d1e53e1cff137548083fe02780778c8789995043398d6d24cebd53bf5a"
+  },
+  "en:strong:semantic_109|left": {
+    "answer": "common",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "667d41556cddb13224f433eeeb0c50cdc2a674ac8c05b8699cecb6f42f82fede"
+  },
+  "en:strong:semantic_109|sequence_left": {
+    "answer": "common",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "40f9886da601752fa7579dd9cd975f042ebf8edb5a31cb570d7477f7248a062f"
+  },
+  "en:strong:semantic_225|before": {
+    "answer": "drive",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "8886ff583cf327d5a63b0f90b560d8480a429cee664b0f543bd7d10ca28c3723"
+  },
+  "en:strong:semantic_241|before": {
+    "answer": "real",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "133a8c12d13d8c5e06316c5eccc009463578d310dbd772bec4baf3045c29a372"
+  },
+  "en:strong:semantic_245|before": {
+    "answer": "",
+    "reason": "Defines a real-estate belt; no predecessor answer.",
+    "answer_raw_sha256": "6c1b7e9c005aa0e20ad9d7a2f9b8fa931e14d26ef93148e2587cb865ffdccb8b"
+  },
+  "en:strong:semantic_245|left": {
+    "answer": "real",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "9ac605f561777b6bf0b50f7d6f5001ea750efbe1ee9e3c5ab061f51a7601e082"
+  },
+  "en:strong:semantic_257|before": {
+    "answer": "real",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "133a8c12d13d8c5e06316c5eccc009463578d310dbd772bec4baf3045c29a372"
+  },
+  "en:strong:semantic_469|sequence_left": {
+    "answer": "age",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "3a3f651b664267ece89604029943f62e105d21d9c0188960a68a26e08684b0a8"
+  },
+  "en:strong:semantic_493|sequence_before": {
+    "answer": "gas",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "2be9ae0d0cea60a5144e2d1ab84c8977bc19e4720d1dec89ebc1e8e9fa0dfb82"
+  },
+  "zh:random_106|left": {
+    "answer": "鶏",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "9fab8abf3f4646287090bc31b6262c311e0680eb480cb91ef5619b8f9a2106bd"
+  },
+  "zh:random_251|sequence_left": {
+    "answer": "衣",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "c49629ae04dceefe0a63fd653d7984b33bce3b05ee2e4ad4fcf721d2483c91a1"
+  },
+  "zh:random_368|sequence_left": {
+    "answer": "南",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "0fc2d7cd6bfcd8fca9a1d1ff06cac2dbf7d8f0f25de8da9ca6c5b36ba2d478c2"
+  },
+  "zh:random_408|left": {
+    "answer": "z",
+    "reason": "Direct Latin output zi; its first character is z, not a target constituent.",
+    "answer_raw_sha256": "6df02ca00ca286292ef650571e7fcb42fa67963db8159a3dbcb772128a57c805"
+  },
+  "zh:random_444|left": {
+    "answer": "羊",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "e319931b6f66429877c7f14e37332105aca216cbf766002d31cc30a2426a2fff"
+  },
+  "zh:semantic_120|sequence_left": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "d6848c1aa708597622289a48ee25d3e0ed1008e7a445f150ff099ff9ccff14ca"
+  },
+  "zh:semantic_131|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "9dc756b918a2b351ec45098680ad8899bf71c32d3462c28f0af0c22ff451f958"
+  },
+  "zh:semantic_160|sequence_left": {
+    "answer": "猜",
+    "reason": "After repeating the question, explicitly proposes the character after 答案是; it is present before any truncation.",
+    "answer_raw_sha256": "6ffd9d0de285c51727d5f705509b23411ee19a2a56a459940b9456bb6951d814"
+  },
+  "zh:semantic_164|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "02fa2faecf0baab1989296ac5695287e049443ded6d00b2e99c400dc6df38d0b"
+  },
+  "zh:semantic_19|before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "a9baa98cdaa70a04429e3e3be4ec90025a7c13e17053b93d1cbd5a118806c880"
+  },
+  "zh:semantic_19|left": {
+    "answer": "氵",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "46a33abc7113c184c539270a5f1b7f408b82288fd584a46c2307fbd68f130806"
+  },
+  "zh:semantic_19|sequence_left": {
+    "answer": "完",
+    "reason": "After repeating the question, explicitly proposes the character after 答案是; it is present before any truncation.",
+    "answer_raw_sha256": "6fc0a759fe11d8a6efe430e2d1d420753b2a7619771b4cef260249a50a740d3f"
+  },
+  "zh:semantic_193|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "3a648d75fb6995693e4024d9ce910171c3006dd2f1ec72a8347a0f491f36a362"
+  },
+  "zh:semantic_193|sequence_left": {
+    "answer": "清",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "a1a8e276a803e5b7b142aa759e0bdb81302dbe0be9d7666da93237e61b3dab41"
+  },
+  "zh:semantic_284|left": {
+    "answer": "扌",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "6922c0eb700447198008e3909bebfb1ad346fcfb4fcb10e474c50421f80a4558"
+  },
+  "zh:semantic_291|left": {
+    "answer": "羊",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "e319931b6f66429877c7f14e37332105aca216cbf766002d31cc30a2426a2fff"
+  },
+  "zh:semantic_346|left": {
+    "answer": "木",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "8f1db991c2c997fecb14b61fd19964294c0fedb98ba072d858c26e964809e38a"
+  },
+  "zh:semantic_357|left": {
+    "answer": "木",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "e3ddca14b1e975f3431dc69d9336f1d1ad777885029aa8464d76fdec881d08d6"
+  },
+  "zh:semantic_375|sequence_left": {
+    "answer": "哄",
+    "reason": "Quoted direct single-character answer.",
+    "answer_raw_sha256": "520a56b932ec8abb3d66789f953bd35bf11011eb95c1e3f08aea28a8caa0b237"
+  },
+  "zh:semantic_404|left": {
+    "answer": "丨",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "2330afa413756127ee71e3cd9467787cf343e617c815e7243f148252d2fa778a"
+  },
+  "zh:semantic_415|left": {
+    "answer": "⺀",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "dec58a898a8b9fcac50884a91e8e92eeb61c606f5042a5a51a9616d24a9e0d49"
+  },
+  "zh:semantic_440|before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "73805e3f43c6e935df4db8f041ecc6d6ccdbe6c3b958b69c58041b09955b5868"
+  },
+  "zh:semantic_440|sequence_left": {
+    "answer": "",
+    "reason": "Repeats the question and adds an unfinished fragment, without proposing an answer.",
+    "answer_raw_sha256": "bfd7c44d4ac79106d87c69fa4be227c61a9eb72d386c2b79f4c7e2049eaf0e16"
+  },
+  "zh:semantic_451|sequence_left": {
+    "answer": "钱",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "18e5a8893732c03de094fbf10a00d812bdb96e567a69b53a2c3cb6c556a10dcf"
+  },
+  "zh:semantic_459|sequence_left": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "27e889d7b1cab6037d2c12edbc704e1f134028a15c7891e628a003a4355efd3f"
+  },
+  "zh:semantic_462|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "02fa2faecf0baab1989296ac5695287e049443ded6d00b2e99c400dc6df38d0b"
+  },
+  "zh:semantic_484|sequence_left": {
+    "answer": "好",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "fca94b071056b8196f8e5e819e826b62d85c8acf6520ea5b5f42b57c743d9bda"
+  },
+  "en:independent:random_146|sequence_left": {
+    "answer": "probably",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "13a50f7c4618351f73eaca0d17f4dfc62a5fe34a7d6779593198780110ce796f"
+  },
+  "en:independent:random_206|before": {
+    "answer": "",
+    "reason": "Defines bard without proposing a predecessor.",
+    "answer_raw_sha256": "14403bcac52dfc97d3644f15e70bb9933e4f4ee6241c8af3a30f7d81bb2000db"
+  },
+  "en:independent:random_254|sequence_before": {
+    "answer": "rebel",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "a67e9ca124477a24527122ab3ed4eebe0b49b3ede03f50a376983329b5bc6cb6"
+  },
+  "en:independent:random_270|before": {
+    "answer": "lots",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "f980341466d56806791dbd243e2953b5af9df16dc4cece5ba34a255c14b8172f"
+  },
+  "en:independent:random_270|sequence_before": {
+    "answer": "lots",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "afeb972597826a2bd8d3b346959cb5c362b1cf3ce37b55bc5c424dcb0b211179"
+  },
+  "en:independent:random_390|before": {
+    "answer": "esp",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "992daa0ad7a4c6711c1e1285270637bd8ee7af8db07d6a60a181795103248e4b"
+  },
+  "en:independent:random_466|left": {
+    "answer": "",
+    "reason": "Repeats the question and truncates before giving an answer.",
+    "answer_raw_sha256": "6b097b697ab8839dfacaf5457a7159da97cc90c7818dcf7e11be3e188587102a"
+  },
+  "en:independent:random_466|sequence_before": {
+    "answer": "water",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "59d93b2358865fd4a26fee9729e090892e609a6b075e7cc5bea5cef2bf6bf32f"
+  },
+  "en:independent:random_466|sequence_left": {
+    "answer": "water",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "568b7e286ce981361c739d3682252655fb96159a5e2ad6ddea7ace002541bfd1"
+  },
+  "en:strong:semantic_010|sequence_before": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_010|sequence_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_014|sequence_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_018|sequence_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_070|sequence_before": {
+    "answer": "科幻",
+    "reason": "Direct Chinese answer to an English task; it is not any displayed English constituent.",
+    "answer_raw_sha256": "c1613bc333ed5654b1e19b16fa65cee7f2bfad1cfb7c3bbafb99b5f10c2cb6a4"
+  },
+  "en:strong:semantic_106|before": {
+    "answer": "common",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "0d91bf67bf474dd32f7f527f02ef05685b354684e92480bfdb76cb0a9f70906b"
+  },
+  "en:strong:semantic_470|sequence_left": {
+    "answer": "age",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "a8218eb6b583a938eff9a14ee6a349340f337bb390a3ee1bd0f5d7634eb885a7"
+  },
+  "en:strong:semantic_478|left": {
+    "answer": "age",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "f3ae86d4b33634f5736fffc4d512cfe83e89c25cef3eb41ea46633dd960ad5dc"
+  },
+  "zh:random_194|left": {
+    "answer": "田",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "d880fa21e47ca391208aa4a13ab0aaa1756138a779cec1d1ce5ed03f629c779e"
+  },
+  "zh:random_303|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "854ed3a587aff05cff99e81d57aad817ce2709b4d98a203358cf778fadd2f513"
+  },
+  "zh:semantic_103|sequence_left": {
+    "answer": "死",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "3e81dcee506f76d3b8879d22dcd4feb3c9c80de1ec5c30031a10d824a6f5a41d"
+  },
+  "zh:semantic_118|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "3a648d75fb6995693e4024d9ce910171c3006dd2f1ec72a8347a0f491f36a362"
+  },
+  "zh:semantic_121|left": {
+    "answer": "白",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "9f8869c77191ba1ed6f53440e055a76b1d2d1d0c5df34aeb0be31601bc5b8531"
+  },
+  "zh:semantic_205|before": {
+    "answer": "哄",
+    "reason": "Quoted direct single-character answer.",
+    "answer_raw_sha256": "520a56b932ec8abb3d66789f953bd35bf11011eb95c1e3f08aea28a8caa0b237"
+  },
+  "zh:semantic_205|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "2748fba3102691bdf751c4b39a32194a095eb46259e6b1c08b76876c75e65be9"
+  },
+  "zh:semantic_205|sequence_left": {
+    "answer": "好",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "8c8bb67c9d1317016d0c905e1525ca6cce95cbe63462cbd30d7ee5b77b2351fa"
+  },
+  "zh:semantic_252|sequence_left": {
+    "answer": "错",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "117d4ee3790d3581654de86a40518e13ae29721f88bb3d1fd8817d4357aa3e2f"
+  },
+  "zh:semantic_274|left": {
+    "answer": "纟",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "96c8a620400cc16f77989700adbb7e08cff21866f37588774b0c3317e4a3c234"
+  },
+  "zh:semantic_321|sequence_left": {
+    "answer": "睡",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "2a4f87e03b130dffe5a93f5e194e75944e8fa6ca630037d47eb04f894ae35894"
+  },
+  "zh:semantic_354|left": {
+    "answer": "又",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "8e005093bc7332b3d45b65295af5f3d57150124f946dac344c93007638a3314b"
+  },
+  "zh:semantic_372|left": {
+    "answer": "钅",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "f18da0add8cc915cc3c2afd15746f9a707a302da14a7617523f32a1a4d268b63"
+  },
+  "zh:semantic_383|before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "4c73e527cea0a82337e64728376b88efe0bb6cbbc9a6396fbb79085668280d2b"
+  },
+  "zh:semantic_383|sequence_before": {
+    "answer": "读",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "8db85f6bf4de7825db539e794274fe8e6a847be88777afed5d8865b3a34d1fad"
+  },
+  "zh:semantic_394|left": {
+    "answer": "隺",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "b914a60f61a0b7326b369d5dac40a0d0991d9c358d99299e0ec60316139312c0"
+  },
+  "zh:semantic_427|left": {
+    "answer": "月",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "93c1648bfe802894b2ee7645aa4da3133567c0273b06f2974134f0eb7dd4dbf3"
+  },
+  "zh:semantic_449|left": {
+    "answer": "刂",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "576ed7ba8f25b798be7829291670fcfc7eb5fa180d59edcf1947b565f74e8aa7"
+  },
+  "zh:semantic_463|before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "0b9d40fafc640b2d8618206a572a5c24ea0eced0e135a5b57cd037443d2bc471"
+  },
+  "zh:semantic_463|sequence_before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "0d5d48cd6de2b111f5dc463639dd1ed5489e9571b3f49ed3c18a6d0ed0c29c29"
+  },
+  "zh:semantic_478|sequence_left": {
+    "answer": "清",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "bb04258c2edf2a2616c27a67396290ae24100a73dde1a8a0ac1d601690ed3d4d"
+  },
+  "zh:semantic_61|left": {
+    "answer": "人",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "a45aa82180181adcd6c21415cb0e27d47c22c803db788fb3093b25e65357cc59"
+  },
+  "zh:semantic_73|left": {
+    "answer": "⺗",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "ff9bc45e4501c27b70ca1f4fe71b401c345ff2005f545b5148e33043d526febc"
+  },
+  "zh:semantic_85|sequence_left": {
+    "answer": "完",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "82fc0818964bdbfe88a1d3745ed80fba7d043a712cc1d723371b1b534559560b"
+  },
+  "en:independent:random_019|sequence_before": {
+    "answer": "sub",
+    "reason": "Malformed direct answer; first English word is sub, not subsection.",
+    "answer_raw_sha256": "c0dcee91c4456a256c8bc77b6891e2c40214939d52360c91d898f58d7ea75685"
+  },
+  "en:independent:random_195|before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "13bee3875676dba108b491722c251706fa502f111110669716c5b2881992678d"
+  },
+  "en:independent:random_195|sequence_before": {
+    "answer": "",
+    "reason": "Repeats the question and truncates before giving an answer.",
+    "answer_raw_sha256": "1d6f0d3ca17a78ae1398d8166808433c776923d866d32b7056ed73210637ee14"
+  },
+  "en:independent:random_239|before": {
+    "answer": "",
+    "reason": "Discusses PB meanings without proposing a predecessor.",
+    "answer_raw_sha256": "e47889f5e6fef86b8cd3cc47ca3a00c39a0ffdccf479212ff460f71e2000345c"
+  },
+  "en:independent:random_327|sequence_before": {
+    "answer": "",
+    "reason": "Claims proof is first and therefore has no predecessor; proof is not proposed as the predecessor.",
+    "answer_raw_sha256": "4df6aedc1faa5ab3111b500c1378a4257d122aece3cb7e9b941e4e74b23cc9ae"
+  },
+  "en:strong:semantic_003|sequence_before": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_003|sequence_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_007|sequence_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_071|sequence_before": {
+    "answer": "fiction",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "51323a9151ad46d9da05d75cafc792751ae1249b3983771af27e5ef13293e3d4"
+  },
+  "zh:random_03|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "9dc756b918a2b351ec45098680ad8899bf71c32d3462c28f0af0c22ff451f958"
+  },
+  "zh:random_159|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "4d4a007d546715eb0bd9fea3f480c353f813a932503ac0f4618217c5b22985d4"
+  },
+  "zh:random_242|left": {
+    "answer": "声",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "dae5cf93c6a8f82ddf22c41c0e4aed5a29fec47cd6d3d523be48c40ba01b010b"
+  },
+  "zh:semantic_122|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "2748fba3102691bdf751c4b39a32194a095eb46259e6b1c08b76876c75e65be9"
+  },
+  "zh:semantic_140|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "f836176b6cefc0322d3e144763346b832375c9b693c753d6966e7590604497f3"
+  },
+  "zh:semantic_140|sequence_left": {
+    "answer": "断",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "7431e1e7f396f9fbfa01021dac59d795b94cc7a973d12d5c7136749b5f0fd436"
+  },
+  "zh:semantic_162|left": {
+    "answer": "扌",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "4db1f84a92deafe9f0d94a9265c3cb9b3265d082b0a0f0075e921a74aa9ec8eb"
+  },
+  "zh:semantic_17|left": {
+    "answer": "木",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "1154670ce7132a79a9ac64017606078bb96f3099ac8d26061abeea2ccbfa694c"
+  },
+  "zh:semantic_177|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "3a648d75fb6995693e4024d9ce910171c3006dd2f1ec72a8347a0f491f36a362"
+  },
+  "zh:semantic_202|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "06d4605b4e6bd5dec94a01b1976323992753c09152544e66859fa1aeea81a0f5"
+  },
+  "zh:semantic_202|sequence_left": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "99deb3ec8e7e6edd8702324b2e94bde242dd9e06cce70866c9c8b3ad925a144d"
+  },
+  "zh:semantic_220|left": {
+    "answer": "丷",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "f95c8809cc9d2977b1c6a599ab6a284778d4b421a7735b49118dbb9f0f22c005"
+  },
+  "zh:semantic_220|sequence_before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "b6b13b969ad58b9bb8c01591184e5a7dd717bc30ad3036797816df55eb5581d8"
+  },
+  "zh:semantic_220|sequence_left": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "d04e3f3474551eabfc3320b68c62667573781fb8d7d792436055341e9f418e5c"
+  },
+  "zh:semantic_257|sequence_left": {
+    "answer": "哭",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "02716f7a6363a24d454e41e4c75d55bf93954d26543540fc6a40c3dbe119e02e"
+  },
+  "zh:semantic_279|left": {
+    "answer": "丨",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "2330afa413756127ee71e3cd9467787cf343e617c815e7243f148252d2fa778a"
+  },
+  "zh:semantic_29|sequence_left": {
+    "answer": "错",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "4ae29e69bc35b6cf60ef6501ae6dbc0f33eace52726700284c9d50d710755a2e"
+  },
+  "zh:semantic_297|sequence_left": {
+    "answer": "冻",
+    "reason": "Quoted direct single-character answer.",
+    "answer_raw_sha256": "7a4cdb738a1e4241d77f011ebf4645d8bbcd79b22f9f88a2688029066569fca1"
+  },
+  "zh:semantic_308|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "2748fba3102691bdf751c4b39a32194a095eb46259e6b1c08b76876c75e65be9"
+  },
+  "zh:semantic_337|before": {
+    "answer": "的",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "61100ba89831de756e138ca3f6ab617e271b9fe0441a30e38bd51334dcd21a3d"
+  },
+  "zh:semantic_359|left": {
+    "answer": "羊",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "e319931b6f66429877c7f14e37332105aca216cbf766002d31cc30a2426a2fff"
+  },
+  "zh:semantic_366|sequence_before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "4a028dc12a8b5d028fd776ab2255079c0bdd71e4c6e6a440bae16202986ae6fa"
+  },
+  "zh:semantic_373|sequence_left": {
+    "answer": "哄",
+    "reason": "Quoted direct single-character answer.",
+    "answer_raw_sha256": "520a56b932ec8abb3d66789f953bd35bf11011eb95c1e3f08aea28a8caa0b237"
+  },
+  "zh:semantic_417|left": {
+    "answer": "又",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "e2f02a50af458940f587ec67b0742e19997d2e4a022ed44fbbacc14ebb8ab806"
+  },
+  "zh:semantic_431|sequence_left": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "20ff082ecb45ccc32e0d1fd345fa9b02be4486b52b2d535b2efb709aa9746b95"
+  },
+  "zh:semantic_435|sequence_left": {
+    "answer": "好",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "43d895f26400f6d5658e85392c4c13398203a8a5737db498c37f5245b680cc9c"
+  },
+  "zh:semantic_439|left": {
+    "answer": "木",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "e3ddca14b1e975f3431dc69d9336f1d1ad777885029aa8464d76fdec881d08d6"
+  },
+  "zh:semantic_45|before": {
+    "answer": "哄",
+    "reason": "Quoted direct single-character answer.",
+    "answer_raw_sha256": "520a56b932ec8abb3d66789f953bd35bf11011eb95c1e3f08aea28a8caa0b237"
+  },
+  "zh:semantic_45|left": {
+    "answer": "丷",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "58c169162e908866d67ee265e14a0876b5f007a2a62206e6031ea5f9185498f3"
+  },
+  "zh:semantic_45|sequence_left": {
+    "answer": "哄",
+    "reason": "Quoted direct single-character answer.",
+    "answer_raw_sha256": "520a56b932ec8abb3d66789f953bd35bf11011eb95c1e3f08aea28a8caa0b237"
+  },
+  "zh:semantic_453|left": {
+    "answer": "口",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "7b249e7d6d0340c7acae8d8272389e32399077b7bc395a88a100e067ef660d4e"
+  },
+  "zh:semantic_453|sequence_left": {
+    "answer": "完",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "0342d872dd19c409f95cf035cfb13afbab2748905f585ad2c7d6cfcd69a4e0cc"
+  },
+  "zh:semantic_479|before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "d7e6f2910d8322bbc627ef35862854b49667e4f1be4c6371d77cc063a849d0be"
+  },
+  "zh:semantic_479|sequence_before": {
+    "answer": "读",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "8db85f6bf4de7825db539e794274fe8e6a847be88777afed5d8865b3a34d1fad"
+  },
+  "zh:semantic_486|left": {
+    "answer": "耂",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "b5aaa7aaa66402434f249ccaa33051d169920b72e42f57241cccdc0af017d330"
+  },
+  "zh:semantic_486|sequence_left": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "5d2348ed1d25e2e495142f32cfae86fc9717a7cffbf3bd08dc8bae214063a5f2"
+  },
+  "zh:semantic_58|left": {
+    "answer": "又",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "e2f02a50af458940f587ec67b0742e19997d2e4a022ed44fbbacc14ebb8ab806"
+  },
+  "zh:semantic_66|left": {
+    "answer": "犭",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "74c049c85b44fc783c7c6bad04d5ae77fbdd25e5116e5ac0b7d0605e67ee607e"
+  },
+  "zh:semantic_70|sequence_left": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "cda06394c5ac59a70bd3a2473dacbe2a0747bf32cf6c56d34aa69f933c93b171"
+  },
+  "zh:semantic_90|before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "e3eb923e01aa370bdadaf0e8a126f73efb3c719c582ed0dafb873f36b8f58944"
+  },
+  "zh:semantic_98|left": {
+    "answer": "又",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "e2f02a50af458940f587ec67b0742e19997d2e4a022ed44fbbacc14ebb8ab806"
+  },
+  "en:independent:random_116|sequence_before": {
+    "answer": "hus",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "80561c583ed6e287216386e4d245c663aed48273489540f25d9793729a23acdc"
+  },
+  "en:independent:random_124|before": {
+    "answer": "first",
+    "reason": "Direct two-word answer; first constituent is first.",
+    "answer_raw_sha256": "d4d7b17c5d9cd8f5fac4b9fc6ad928adc0a8d9726a375cab402593b110950e17"
+  },
+  "en:independent:random_260|sequence_before": {
+    "answer": "kr",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "e2015bde5f12168ed65e50b16ade1f36c5d8cdc7df8b98f125b8d39d8d3d2c7b"
+  },
+  "en:strong:semantic_016|sequence_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_064|sequence_left": {
+    "answer": "科幻",
+    "reason": "Direct Chinese answer to an English task; it is not any displayed English constituent.",
+    "answer_raw_sha256": "c1613bc333ed5654b1e19b16fa65cee7f2bfad1cfb7c3bbafb99b5f10c2cb6a4"
+  },
+  "en:strong:semantic_108|before": {
+    "answer": "common",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "222803515d478fa439f19964a72e4cea34a9491801b9bae7eecda5729fdd2915"
+  },
+  "en:strong:semantic_108|left": {
+    "answer": "common",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "febe3e581049d7bdb043296544f138efe3f53191f7f211c865587d3ced55830f"
+  },
+  "en:strong:semantic_144|before": {
+    "answer": "first",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "31e7bb3ab4edb2b2b5813c0290b30e30eeafe4617d8fd6c100d16a71644f95de"
+  },
+  "en:strong:semantic_252|before": {
+    "answer": "real",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "zh:random_283|left": {
+    "answer": "毛",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "8738716796f5a42f22c90b459de3841679cf354f3b9f88974c1c548f80b6beff"
+  },
+  "zh:random_48|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "64a3281a26f6b3ecade8a09b73f3748379349a04132dd4b377004dbd56274079"
+  },
+  "zh:semantic_16|left": {
+    "answer": "虍",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "0184e5956ebe350868d9fd1d8e166f6c9b6fb1cd30f1a99cc884b02d5388a392"
+  },
+  "zh:semantic_16|sequence_left": {
+    "answer": "扁",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "172d343abdd92ecd9bb4d30ac7b933c2727c11d56b938c748e366b46d95acbb1"
+  },
+  "zh:semantic_181|left": {
+    "answer": "",
+    "reason": "Refusal without an answer.",
+    "answer_raw_sha256": "491725ce25fb5578f645c6bbf99eda713d267ee4e4e5ff60167a7f3153844d6e"
+  },
+  "zh:semantic_192|left": {
+    "answer": "木",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "1154670ce7132a79a9ac64017606078bb96f3099ac8d26061abeea2ccbfa694c"
+  },
+  "zh:semantic_207|sequence_left": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "41cba793fe9342ee60d61ad21c166adebe0d3e815ae8bf2f0366fa0fc68ef977"
+  },
+  "zh:semantic_225|left": {
+    "answer": "二",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "2f5781573b91758f41408a235513d2949b3c4e215e74e14cd223196a0f8f4aa6"
+  },
+  "zh:semantic_247|left": {
+    "answer": "劵",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "15beaeb687519862a4e42ae451b1eafb578180b86d4731529543b0496d3259e1"
+  },
+  "zh:semantic_258|sequence_left": {
+    "answer": "断",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "e23318123714154d46b93d94eae02d5d54c910730851320af97dacc8466565d0"
+  },
+  "zh:semantic_334|left": {
+    "answer": "死",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "85c592cde54e7e8e94c9eb9437a01d994b59c522b09686b11877cdf48cc6fb35"
+  },
+  "zh:semantic_338|left": {
+    "answer": "木",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "1154670ce7132a79a9ac64017606078bb96f3099ac8d26061abeea2ccbfa694c"
+  },
+  "zh:semantic_370|left": {
+    "answer": "目",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "c02a9f10d6b7f6afcd9e66e6f0ab37b683d26206cb06555a1c60c921f5a92228"
+  },
+  "zh:semantic_374|left": {
+    "answer": "青",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "1d1cfcd1e9ecd8e80ccfe5af156a3b8c35eefbd7c885a812b50a20baf3c059e4"
+  },
+  "zh:semantic_378|sequence_left": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "c2d317afdf46e1d7d7e53f17a519f1ab0b1c8e7e1211d4adb699df45fdc423fd"
+  },
+  "zh:semantic_414|sequence_left": {
+    "answer": "骂",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "7909fb40ad22364629d35faf602a002b2d234631a5a5eb889a8f9711ff08a5b7"
+  },
+  "zh:semantic_458|left": {
+    "answer": "雨",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "cbe7497dd4816bedfeea675fdcd0aa9f6741b779fa5bf8aa07a63b302532d1a2"
+  },
+  "zh:semantic_48|left": {
+    "answer": "隺",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "b914a60f61a0b7326b369d5dac40a0d0991d9c358d99299e0ec60316139312c0"
+  },
+  "zh:semantic_490|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "4d4a007d546715eb0bd9fea3f480c353f813a932503ac0f4618217c5b22985d4"
+  },
+  "zh:semantic_490|sequence_left": {
+    "answer": "完",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "5db0531c1b57cda79fd532302788fa16146926de950e612fb0fedb36f833d720"
+  },
+  "zh:semantic_79|left": {
+    "answer": "日",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "c6293eb3a8e8afc7580093d8f89a9071133395803463e6ba1b0983e17aec94b3"
+  },
+  "zh:semantic_91|left": {
+    "answer": "⺮",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "2748fba3102691bdf751c4b39a32194a095eb46259e6b1c08b76876c75e65be9"
+  }
+}

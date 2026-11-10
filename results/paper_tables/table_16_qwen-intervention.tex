@@ -1,0 +1,14 @@
+\begin{table}[!htbp]
+\centering\revisioncolor\small
+\setlength{\tabcolsep}{5pt}
+\caption{Qwen3-8B semantic-pair retrieval (\%). The mask targets $b\leftarrow a$ in layers 0--15. Each row compares the same 500 prompts before and after masking. These are generated-answer outcomes, not linear-probe scores.}
+\label{tab:qwen-intervention}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Language & Correct & Correct, masked & Wrong $a$ & Wrong $a$, masked \\
+\midrule
+Chinese & 7.2 & 69.8 & 87.2 & 27.6 \\
+English & 25.0 & 86.2 & 75.0 & 13.8 \\
+\bottomrule
+\end{tabular}
+\end{table}

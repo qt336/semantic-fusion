@@ -1,0 +1,21 @@
+{
+  "early16_attention/zh/baseline": {
+    "B": 36,
+    "Q": 27,
+    "A": 436,
+    "Other": 1
+  },
+  "early16_attention/zh/early16": {
+    "B": 349,
+    "A": 138,
+    "Q": 13
+  },
+  "early16_attention/en/baseline": {
+    "A": 375,
+    "B": 125
+  },
+  "early16_attention/en/early16": {
+    "B": 431,
+    "A": 69
+  }
+}

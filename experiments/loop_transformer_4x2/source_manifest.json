@@ -1,0 +1,8 @@
+{
+  "start_qt2.sh": "f6681a16eed89c5e810e03043093cdddadf5f8f98ae0a6e599472300a1939ae3",
+  "validate.py": "5ca366d30858d00124076eed18af9ed7f92aab70ba4692cb623f7a2462d62bf1",
+  "data.py": "9db2b154a29d19454f3d7be4d288898ca1b0ea4506f173e5e8dec3ee96f5bdf5",
+  "train.py": "ca476141a2029eb3c20ec33d0d9a1052a0fbc8fa1bedcb20d2f80f869fac3ff3",
+  "model.py": "e1ec61a01e4855ac0b3c425ce459cdeed29fa843e88db6045f009fc71603e74b",
+  "launch.py": "35866a6be0eefa403f9b133c3f38a5d0f8b634504840038b57be6df17a813c68"
+}

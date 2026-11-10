@@ -1,0 +1,42 @@
+[
+  {
+    "language": "zh",
+    "group": "comma",
+    "condition": "baseline",
+    "n": 500,
+    "B": 431,
+    "A": 40,
+    "Q": 29,
+    "Other": 0
+  },
+  {
+    "language": "zh",
+    "group": "comma",
+    "condition": "early16",
+    "n": 500,
+    "B": 425,
+    "A": 44,
+    "Q": 31,
+    "Other": 0
+  },
+  {
+    "language": "en",
+    "group": "comma",
+    "condition": "baseline",
+    "n": 500,
+    "B": 468,
+    "A": 32,
+    "Q": 0,
+    "Other": 0
+  },
+  {
+    "language": "en",
+    "group": "comma",
+    "condition": "early16",
+    "n": 500,
+    "B": 499,
+    "A": 1,
+    "Q": 0,
+    "Other": 0
+  }
+]

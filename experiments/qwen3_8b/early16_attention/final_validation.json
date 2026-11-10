@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "source_triples": 2000,
+  "paired_generations": 4000,
+  "per_cell": 500,
+  "unchanged_inputs_and_tokens": true,
+  "raw_outputs_checked_against_token_ids": 4000,
+  "intervention_implementation_unchanged": true,
+  "masked_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "target_probabilities_zero_verified_on_real_model": true,
+  "no_op_logits_exact": true,
+  "all_workers_exit_zero": true,
+  "reviewed_responses": 59,
+  "pending_review": 0,
+  "truncated_outputs": 0,
+  "raw_result_sha256": {
+    "worker_0.jsonl": "dccfff5f5e824f262c25e889f34a23075c4fc2b8283dc8ee0eddfc593424e4f5",
+    "worker_1.jsonl": "31c7812a11ce15b11e9c5fd6482667e0086c150872177d4ab748bd90c6899897",
+    "worker_2.jsonl": "1ed6cf57f2b8fda77a6349d3cfee5d3c129299e6aae8844ef81eaaf0b49a0c4f",
+    "worker_3.jsonl": "07b62d275d124f9b4df4d7f7f4f6b38325d4aaf62b53d18bfd46b930accafe26"
+  }
+}

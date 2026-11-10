@@ -1,0 +1,319 @@
+{
+  "state": "complete",
+  "result": {
+    "architecture": "transformer",
+    "seed": 109,
+    "completed_epochs": 1200,
+    "parameters": 3331920,
+    "elapsed_seconds": 14839.732399403118,
+    "baseline": {
+      "arithmetic_0": {
+        "n": 4096,
+        "accuracy": 1.0,
+        "counts": {
+          "correct": 4096,
+          "first": 0,
+          "eos": 0,
+          "other": 0
+        },
+        "rates": {
+          "correct": 1.0,
+          "first": 0.0,
+          "eos": 0.0,
+          "other": 0.0
+        }
+      },
+      "arithmetic_1": {
+        "n": 4096,
+        "accuracy": 1.0,
+        "counts": {
+          "correct": 4096,
+          "first": 0,
+          "eos": 0,
+          "other": 0
+        },
+        "rates": {
+          "correct": 1.0,
+          "first": 0.0,
+          "eos": 0.0,
+          "other": 0.0
+        }
+      },
+      "arithmetic_2": {
+        "n": 4096,
+        "accuracy": 1.0,
+        "counts": {
+          "correct": 4096,
+          "first": 0,
+          "eos": 0,
+          "other": 0
+        },
+        "rates": {
+          "correct": 1.0,
+          "first": 0.0,
+          "eos": 0.0,
+          "other": 0.0
+        }
+      },
+      "control_a1b": {
+        "n": 2560,
+        "accuracy": 0.99921875,
+        "counts": {
+          "correct": 2558,
+          "first": 2,
+          "eos": 0,
+          "other": 0
+        },
+        "rates": {
+          "correct": 0.99921875,
+          "first": 0.00078125,
+          "eos": 0.0,
+          "other": 0.0
+        }
+      },
+      "control_a2b": {
+        "n": 2560,
+        "accuracy": 0.999609375,
+        "counts": {
+          "correct": 2559,
+          "first": 1,
+          "eos": 0,
+          "other": 0
+        },
+        "rates": {
+          "correct": 0.999609375,
+          "first": 0.000390625,
+          "eos": 0.0,
+          "other": 0.0
+        }
+      },
+      "semantic_0": {
+        "n": 2560,
+        "accuracy": 0.159375,
+        "counts": {
+          "correct": 408,
+          "first": 1804,
+          "eos": 149,
+          "other": 199
+        },
+        "rates": {
+          "correct": 0.159375,
+          "first": 0.7046875,
+          "eos": 0.058203125,
+          "other": 0.077734375
+        }
+      },
+      "semantic_1": {
+        "n": 2560,
+        "accuracy": 0.6,
+        "counts": {
+          "correct": 1536,
+          "first": 697,
+          "eos": 151,
+          "other": 176
+        },
+        "rates": {
+          "correct": 0.6,
+          "first": 0.272265625,
+          "eos": 0.058984375,
+          "other": 0.06875
+        }
+      },
+      "semantic_2": {
+        "n": 2560,
+        "accuracy": 0.387890625,
+        "counts": {
+          "correct": 993,
+          "first": 481,
+          "eos": 169,
+          "other": 917
+        },
+        "rates": {
+          "correct": 0.387890625,
+          "first": 0.187890625,
+          "eos": 0.066015625,
+          "other": 0.358203125
+        }
+      },
+      "standard": {
+        "n": 2000,
+        "accuracy": 0.9755,
+        "counts": {
+          "correct": 1951,
+          "first": 0,
+          "eos": 0,
+          "other": 49
+        },
+        "rates": {
+          "correct": 0.9755,
+          "first": 0.0,
+          "eos": 0.0,
+          "other": 0.0245
+        }
+      },
+      "arithmetic": {
+        "n": 12288,
+        "counts": {
+          "correct": 12288,
+          "first": 0,
+          "eos": 0,
+          "other": 0
+        },
+        "accuracy": 1.0,
+        "rates": {
+          "correct": 1.0,
+          "first": 0.0,
+          "eos": 0.0,
+          "other": 0.0
+        }
+      },
+      "semantic": {
+        "n": 7680,
+        "counts": {
+          "correct": 2937,
+          "first": 2982,
+          "eos": 469,
+          "other": 1292
+        },
+        "accuracy": 0.382421875,
+        "rates": {
+          "correct": 0.382421875,
+          "first": 0.38828125,
+          "eos": 0.06106770833333333,
+          "other": 0.16822916666666668
+        }
+      }
+    },
+    "layer0_attention_edge_masked": {
+      "arithmetic_0": {
+        "n": 4096,
+        "accuracy": 0.304931640625,
+        "counts": {
+          "correct": 1249,
+          "first": 1,
+          "eos": 0,
+          "other": 2846
+        },
+        "rates": {
+          "correct": 0.304931640625,
+          "first": 0.000244140625,
+          "eos": 0.0,
+          "other": 0.69482421875
+        }
+      },
+      "arithmetic_1": {
+        "n": 4096,
+        "accuracy": 0.346435546875,
+        "counts": {
+          "correct": 1419,
+          "first": 6,
+          "eos": 0,
+          "other": 2671
+        },
+        "rates": {
+          "correct": 0.346435546875,
+          "first": 0.00146484375,
+          "eos": 0.0,
+          "other": 0.652099609375
+        }
+      },
+      "arithmetic_2": {
+        "n": 4096,
+        "accuracy": 0.3447265625,
+        "counts": {
+          "correct": 1412,
+          "first": 2,
+          "eos": 0,
+          "other": 2682
+        },
+        "rates": {
+          "correct": 0.3447265625,
+          "first": 0.00048828125,
+          "eos": 0.0,
+          "other": 0.65478515625
+        }
+      },
+      "semantic_0": {
+        "n": 2560,
+        "accuracy": 0.76875,
+        "counts": {
+          "correct": 1968,
+          "first": 425,
+          "eos": 0,
+          "other": 167
+        },
+        "rates": {
+          "correct": 0.76875,
+          "first": 0.166015625,
+          "eos": 0.0,
+          "other": 0.065234375
+        }
+      },
+      "semantic_1": {
+        "n": 2560,
+        "accuracy": 0.92109375,
+        "counts": {
+          "correct": 2358,
+          "first": 102,
+          "eos": 0,
+          "other": 100
+        },
+        "rates": {
+          "correct": 0.92109375,
+          "first": 0.03984375,
+          "eos": 0.0,
+          "other": 0.0390625
+        }
+      },
+      "semantic_2": {
+        "n": 2560,
+        "accuracy": 0.905078125,
+        "counts": {
+          "correct": 2317,
+          "first": 141,
+          "eos": 0,
+          "other": 102
+        },
+        "rates": {
+          "correct": 0.905078125,
+          "first": 0.055078125,
+          "eos": 0.0,
+          "other": 0.03984375
+        }
+      },
+      "arithmetic": {
+        "n": 12288,
+        "counts": {
+          "correct": 4080,
+          "first": 9,
+          "eos": 0,
+          "other": 8199
+        },
+        "accuracy": 0.33203125,
+        "rates": {
+          "correct": 0.33203125,
+          "first": 0.000732421875,
+          "eos": 0.0,
+          "other": 0.667236328125
+        }
+      },
+      "semantic": {
+        "n": 7680,
+        "counts": {
+          "correct": 6643,
+          "first": 668,
+          "eos": 0,
+          "other": 369
+        },
+        "accuracy": 0.8649739583333333,
+        "rates": {
+          "correct": 0.8649739583333333,
+          "first": 0.08697916666666666,
+          "eos": 0.0,
+          "other": 0.048046875
+        }
+      }
+    },
+    "small_smoke_test": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "architecture": "loop",
+  "layers": 4,
+  "loops": 2,
+  "effective_layers": 8,
+  "parameters": 3331920,
+  "width": 256,
+  "heads": 8,
+  "mlp_width": 1024,
+  "rope_base": 10000,
+  "epochs": 1200,
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "batch_size": 8190,
+  "microbatch": 2048,
+  "optimizer": "AdamW",
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "learning_rate_max": 0.001,
+  "learning_rate_min": 0.0001,
+  "warmup_updates": 500,
+  "weight_decay": 0.1,
+  "dropout": 0.0,
+  "gradient_clipping": null,
+  "precision": "float32 with TF32 allowed",
+  "eval_every": 25,
+  "checkpoint_every": 25,
+  "data_root": "/home/user/toy_hybrid_20260912/datasets",
+  "gpu_ids": [
+    2,
+    3
+  ],
+  "screen_session": "qt2",
+  "gpu_policy": "wait_until_idle"
+}

@@ -1,0 +1,122 @@
+{
+  "passed": true,
+  "source": "/home/user/toy_hybrid_seed104_rerun_20261107/runs/hybrid_seed104/history.jsonl",
+  "history_sha256": "a791348133371d15ad6d9992813ee69ee99396f9b8b2edbc17434c0f16524445",
+  "historical_reference": "/home/user/qintian/toy_hybrid_20260912/results.md",
+  "historical_reference_sha256": "c0f0a1bab33234761a9ec06ccbc42fe7327054f74a2f1da0a05e8a6430bb4334",
+  "historical_anchors_match_at_retained_precision": [
+    {
+      "epoch": 1175,
+      "metric": "arithmetic",
+      "retained_value_percent": 99.93,
+      "rerun_value_percent": 99.93489583333334,
+      "reported_decimal_places": 2
+    },
+    {
+      "epoch": 1175,
+      "metric": "standard",
+      "retained_value_percent": 97.4,
+      "rerun_value_percent": 97.39999999999999,
+      "reported_decimal_places": 2
+    },
+    {
+      "epoch": 1175,
+      "metric": "semantic_0",
+      "retained_value_percent": 50.0,
+      "rerun_value_percent": 50.0,
+      "reported_decimal_places": 1
+    },
+    {
+      "epoch": 1175,
+      "metric": "semantic_1",
+      "retained_value_percent": 79.6,
+      "rerun_value_percent": 79.5703125,
+      "reported_decimal_places": 1
+    },
+    {
+      "epoch": 1175,
+      "metric": "semantic_2",
+      "retained_value_percent": 76.9,
+      "rerun_value_percent": 76.875,
+      "reported_decimal_places": 1
+    },
+    {
+      "epoch": 1175,
+      "metric": "control_a1b",
+      "retained_value_percent": 99.8,
+      "rerun_value_percent": 99.84375,
+      "reported_decimal_places": 1
+    },
+    {
+      "epoch": 1175,
+      "metric": "control_a2b",
+      "retained_value_percent": 97.7,
+      "rerun_value_percent": 97.6953125,
+      "reported_decimal_places": 1
+    },
+    {
+      "epoch": 1175,
+      "metric": "semantic_first",
+      "retained_value_percent": 19.49,
+      "rerun_value_percent": 19.4921875
+    },
+    {
+      "epoch": 1150,
+      "metric": "arithmetic",
+      "retained_value_percent": 20.72,
+      "rerun_value_percent": 20.719401041666664
+    },
+    {
+      "epoch": 1200,
+      "metric": "arithmetic",
+      "retained_value_percent": 3.6,
+      "rerun_value_percent": 3.5970052083333335
+    },
+    {
+      "epoch": 1146,
+      "metric": "loss",
+      "retained_value": 2.61,
+      "rerun_value": 2.6136821484565735
+    },
+    {
+      "epoch": 1199,
+      "metric": "loss",
+      "retained_value": 2.55,
+      "rerun_value": 2.5496191066503524
+    },
+    {
+      "epoch": 1200,
+      "metric": "loss",
+      "retained_value": 2.46,
+      "rerun_value": 2.456014881134033
+    }
+  ],
+  "identical_source_and_dataset_sha256": {
+    "data.py": "9db2b154a29d19454f3d7be4d288898ca1b0ea4506f173e5e8dec3ee96f5bdf5",
+    "model.py": "42ce4b1390b3ba282bcf0d651193d9c336a02777e8ed759faa863cc4b85fe91d",
+    "datasets/seed_104.npz": "b16b83fb0c1692db6ca2eb83010f21999b22433ba73a0c4eca625b82da763a11"
+  },
+  "stable_window_1169_1198": {
+    "arithmetic": {
+      "min_percent": 99.853515625,
+      "max_percent": 99.951171875,
+      "mean_percent": 99.91536458333333
+    },
+    "standard": {
+      "min_percent": 97.0,
+      "max_percent": 97.5,
+      "mean_percent": 97.30333333333333
+    },
+    "semantic": {
+      "min_percent": 64.6875,
+      "max_percent": 70.05208333333334,
+      "mean_percent": 67.60199652777777
+    },
+    "loss": {
+      "min": 0.24299217760562897,
+      "max": 0.2539629128575325
+    }
+  },
+  "curve_provenance": "Fresh seed104 rerun; not recovered historical per-epoch logs.",
+  "selection_status": "Historical post-hoc replacement of epoch1200 evaluation by epoch1175; not a preregistered rule."
+}

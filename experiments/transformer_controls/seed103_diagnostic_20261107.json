@@ -1,0 +1,245 @@
+{
+  "position_breakdown": [
+    {
+      "condition": "heldout_pairs",
+      "seed": 101,
+      "pair_memory_start": 1,
+      "n": 1120,
+      "correct": 1109,
+      "first": 1,
+      "accuracy": 99.02,
+      "first_rate": 0.09
+    },
+    {
+      "condition": "heldout_pairs",
+      "seed": 101,
+      "pair_memory_start": 2,
+      "n": 866,
+      "correct": 843,
+      "first": 5,
+      "accuracy": 97.34,
+      "first_rate": 0.58
+    },
+    {
+      "condition": "heldout_pairs",
+      "seed": 101,
+      "pair_memory_start": 3,
+      "n": 395,
+      "correct": 375,
+      "first": 13,
+      "accuracy": 94.94,
+      "first_rate": 3.29
+    },
+    {
+      "condition": "heldout_pairs",
+      "seed": 101,
+      "pair_memory_start": 4,
+      "n": 179,
+      "correct": 178,
+      "first": 1,
+      "accuracy": 99.44,
+      "first_rate": 0.56
+    },
+    {
+      "condition": "heldout_pairs",
+      "seed": 102,
+      "pair_memory_start": 1,
+      "n": 1098,
+      "correct": 1084,
+      "first": 6,
+      "accuracy": 98.72,
+      "first_rate": 0.55
+    },
+    {
+      "condition": "heldout_pairs",
+      "seed": 102,
+      "pair_memory_start": 2,
+      "n": 812,
+      "correct": 787,
+      "first": 18,
+      "accuracy": 96.92,
+      "first_rate": 2.22
+    },
+    {
+      "condition": "heldout_pairs",
+      "seed": 102,
+      "pair_memory_start": 3,
+      "n": 450,
+      "correct": 441,
+      "first": 5,
+      "accuracy": 98.0,
+      "first_rate": 1.11
+    },
+    {
+      "condition": "heldout_pairs",
+      "seed": 102,
+      "pair_memory_start": 4,
+      "n": 200,
+      "correct": 197,
+      "first": 3,
+      "accuracy": 98.5,
+      "first_rate": 1.5
+    },
+    {
+      "condition": "heldout_pairs",
+      "seed": 103,
+      "pair_memory_start": 1,
+      "n": 1092,
+      "correct": 1074,
+      "first": 6,
+      "accuracy": 98.35,
+      "first_rate": 0.55
+    },
+    {
+      "condition": "heldout_pairs",
+      "seed": 103,
+      "pair_memory_start": 2,
+      "n": 814,
+      "correct": 799,
+      "first": 7,
+      "accuracy": 98.16,
+      "first_rate": 0.86
+    },
+    {
+      "condition": "heldout_pairs",
+      "seed": 103,
+      "pair_memory_start": 3,
+      "n": 465,
+      "correct": 438,
+      "first": 18,
+      "accuracy": 94.19,
+      "first_rate": 3.87
+    },
+    {
+      "condition": "heldout_pairs",
+      "seed": 103,
+      "pair_memory_start": 4,
+      "n": 189,
+      "correct": 171,
+      "first": 17,
+      "accuracy": 90.48,
+      "first_rate": 8.99
+    },
+    {
+      "condition": "random_operator",
+      "seed": 101,
+      "pair_memory_start": 1,
+      "n": 1120,
+      "correct": 937,
+      "first": 1,
+      "accuracy": 83.66,
+      "first_rate": 0.09
+    },
+    {
+      "condition": "random_operator",
+      "seed": 101,
+      "pair_memory_start": 2,
+      "n": 866,
+      "correct": 844,
+      "first": 0,
+      "accuracy": 97.46,
+      "first_rate": 0.0
+    },
+    {
+      "condition": "random_operator",
+      "seed": 101,
+      "pair_memory_start": 3,
+      "n": 395,
+      "correct": 382,
+      "first": 10,
+      "accuracy": 96.71,
+      "first_rate": 2.53
+    },
+    {
+      "condition": "random_operator",
+      "seed": 101,
+      "pair_memory_start": 4,
+      "n": 179,
+      "correct": 174,
+      "first": 2,
+      "accuracy": 97.21,
+      "first_rate": 1.12
+    },
+    {
+      "condition": "random_operator",
+      "seed": 102,
+      "pair_memory_start": 1,
+      "n": 1098,
+      "correct": 1046,
+      "first": 5,
+      "accuracy": 95.26,
+      "first_rate": 0.46
+    },
+    {
+      "condition": "random_operator",
+      "seed": 102,
+      "pair_memory_start": 2,
+      "n": 812,
+      "correct": 721,
+      "first": 74,
+      "accuracy": 88.79,
+      "first_rate": 9.11
+    },
+    {
+      "condition": "random_operator",
+      "seed": 102,
+      "pair_memory_start": 3,
+      "n": 450,
+      "correct": 436,
+      "first": 10,
+      "accuracy": 96.89,
+      "first_rate": 2.22
+    },
+    {
+      "condition": "random_operator",
+      "seed": 102,
+      "pair_memory_start": 4,
+      "n": 200,
+      "correct": 198,
+      "first": 2,
+      "accuracy": 99.0,
+      "first_rate": 1.0
+    },
+    {
+      "condition": "random_operator",
+      "seed": 103,
+      "pair_memory_start": 1,
+      "n": 1092,
+      "correct": 804,
+      "first": 4,
+      "accuracy": 73.63,
+      "first_rate": 0.37
+    },
+    {
+      "condition": "random_operator",
+      "seed": 103,
+      "pair_memory_start": 2,
+      "n": 814,
+      "correct": 5,
+      "first": 803,
+      "accuracy": 0.61,
+      "first_rate": 98.65
+    },
+    {
+      "condition": "random_operator",
+      "seed": 103,
+      "pair_memory_start": 3,
+      "n": 465,
+      "correct": 0,
+      "first": 465,
+      "accuracy": 0.0,
+      "first_rate": 100.0
+    },
+    {
+      "condition": "random_operator",
+      "seed": 103,
+      "pair_memory_start": 4,
+      "n": 189,
+      "correct": 17,
+      "first": 164,
+      "accuracy": 8.99,
+      "first_rate": 86.77
+    }
+  ],
+  "interpretation": "Observed positional dependence; cause and internal mechanism not established. Random targets do not remove deterministic 9->10 next-token training."
+}

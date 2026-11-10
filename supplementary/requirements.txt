@@ -1,0 +1,4 @@
+# Python 3.10 or newer. Install a PyTorch build suitable for the target GPU.
+numpy==1.26.4
+torch==2.5.1
+requests==2.32.3

@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-11-07T22:36:27.979181+00:00",
+  "seeds": {
+    "104": {
+      "dataset_sha256": "6d379a340e479e6d9ba25a52555fb6620df8df9070a31d531cce96505fbf9cff",
+      "base_examples": 405000,
+      "noise_examples": 180000,
+      "arithmetic_examples": 270000,
+      "retrieval_examples": 135000,
+      "retrieval_training_target_pair_occurrences": 0,
+      "noise_training_target_pair_occurrences": 180000,
+      "random_label_refresh_change_fraction": 0.9972721934318542,
+      "random_labels_deterministic_per_seed_epoch": true,
+      "input_target_shift_consistent": true,
+      "test_target_positions_correct": true
+    },
+    "105": {
+      "dataset_sha256": "0cb7acc1fa06ab39cb27615d6a24655129bc7f8c69010bb36d665ce9569b46ef",
+      "base_examples": 405000,
+      "noise_examples": 180000,
+      "arithmetic_examples": 270000,
+      "retrieval_examples": 135000,
+      "retrieval_training_target_pair_occurrences": 0,
+      "noise_training_target_pair_occurrences": 180000,
+      "random_label_refresh_change_fraction": 0.9966889023780823,
+      "random_labels_deterministic_per_seed_epoch": true,
+      "input_target_shift_consistent": true,
+      "test_target_positions_correct": true
+    }
+  }
+}

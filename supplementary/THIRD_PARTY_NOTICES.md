@@ -1,0 +1,23 @@
+# Third-party data notice
+
+The English random candidate pool contains filtered WordNet 3.0 entries.
+The institution named below is the database rights holder, not an author
+affiliation supplied by this package. The required copyright notice and
+statements are preserved below. The complete license is available at
+https://wordnet.princeton.edu/license-and-commercial-use.
+
+WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved.
+THIS SOFTWARE AND DATABASE IS PROVIDED "AS IS" AND PRINCETON UNIVERSITY
+MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED.
+
+BY WAY OF EXAMPLE, BUT NOT LIMITATION, PRINCETON UNIVERSITY MAKES NO
+REPRESENTATIONS OR WARRANTIES OF MERCHANT- ABILITY OR FITNESS FOR ANY
+PARTICULAR PURPOSE OR THAT THE USE OF THE LICENSED SOFTWARE, DATABASE OR
+DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS,
+TRADEMARKS OR OTHER RIGHTS. The name of Princeton University or Princeton
+may not be used in advertising or publicity pertaining to distribution of
+the software and/or database.
+
+Title to copyright in this software, database and any associated documentation
+shall at all times remain with Princeton University and LICENSEE agrees to
+preserve same.

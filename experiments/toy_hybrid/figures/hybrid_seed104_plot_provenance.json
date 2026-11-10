@@ -1,0 +1,38 @@
+{
+  "source": "/home/user/qintian/toy_hybrid_20260912/results.md",
+  "source_sha256": "c0f0a1bab33234761a9ec06ccbc42fe7327054f74a2f1da0a05e8a6430bb4334",
+  "raw_training_log_found": false,
+  "arithmetic_points": [
+    [
+      1150,
+      20.72,
+      "spike 后的评估"
+    ],
+    [
+      1175,
+      99.93,
+      "汇总采用的评估轮次"
+    ],
+    [
+      1200,
+      3.6,
+      "最后一轮：末尾 spike"
+    ]
+  ],
+  "final_loss_points": [
+    [
+      1198,
+      0.24
+    ],
+    [
+      1199,
+      2.55
+    ],
+    [
+      1200,
+      2.46
+    ]
+  ],
+  "interpolation": false,
+  "epoch1175_weights_saved": false
+}

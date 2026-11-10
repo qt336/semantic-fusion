@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "parameters": 3331920,
+  "unique_layers": 4,
+  "loops": 3,
+  "effective_layers": 12,
+  "shared_parameter_visit_counts": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "gradient_sum_equivalence": "passed",
+  "causal_isolation": "passed",
+  "common_initialization": "passed",
+  "dataset_sha256": {
+    "101": "006eb8de5bc7c69d8f354a2f9d553a5e2c02d32bdccdfbf0ddb97f17d356f492",
+    "102": "4149f042d613c507ea10f7af34d6f533394ad3977fed1393f7cd27748778d526",
+    "103": "3bd490392017266d4229fd82946c394c769406add240f66a3f1476f09eac4dea",
+    "104": "b16b83fb0c1692db6ca2eb83010f21999b22433ba73a0c4eca625b82da763a11",
+    "105": "f697306558cd5cffb547628d70a49d7bd58127cab5b375ffabf49cbe300943aa"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "seed": 101,
+  "small": true,
+  "base_training_examples": 4500,
+  "stable_arithmetic_examples": 1500,
+  "retrieval_training_examples": 3000,
+  "random_operator_examples": 1000,
+  "operator_slot_exposures_per_epoch": {
+    "0_1": 500,
+    "0_2": 500,
+    "2_1": 500,
+    "9_10_random_condition": 1000
+  },
+  "retrieval_audit": {
+    "unique_examples": 3000,
+    "excluded_memory_pair_counts": {
+      "0_1": 0,
+      "0_2": 0,
+      "2_1": 0,
+      "9_10": 0,
+      "15_20": 0
+    },
+    "excluded_query_answer_counts": {
+      "0_1": 0,
+      "0_2": 0,
+      "2_1": 0,
+      "9_10": 0,
+      "15_20": 0
+    },
+    "constituent_counts": {
+      "0": {
+        "memory": 41,
+        "query": 6,
+        "answer": 15
+      },
+      "1": {
+        "memory": 36,
+        "query": 6,
+        "answer": 9
+      },
+      "2": {
+        "memory": 41,
+        "query": 9,
+        "answer": 8
+      },
+      "9": {
+        "memory": 43,
+        "query": 10,
+        "answer": 15
+      },
+      "10": {
+        "memory": 46,
+        "query": 9,
+        "answer": 8
+      },
+      "15": {
+        "memory": 49,
+        "query": 11,
+        "answer": 17
+      },
+      "20": {
+        "memory": 35,
+        "query": 8,
+        "answer": 8
+      }
+    }
+  },
+  "evaluation_counts": {
+    "arithmetic_0_1": 128,
+    "arithmetic_0_2": 128,
+    "arithmetic_2_1": 128,
+    "standard": 100,
+    "operator_0_1": 64,
+    "operator_0_2": 64,
+    "operator_2_1": 64,
+    "ordinary_9_10": 64,
+    "ordinary_15_20": 64,
+    "control_x1y": 64,
+    "control_x2y": 64,
+    "noise_arithmetic_9_10": 128
+  },
+  "pair_evaluation_memory_length_counts": {
+    "3": 16,
+    "4": 16,
+    "5": 16,
+    "6": 16
+  },
+  "pair_evaluation_unique": true,
+  "shared_contexts_across_pair_evaluations": true,
+  "noise_result_policy": "uniform 0..330, redraw at each epoch/occurrence; stored training zeros are placeholders",
+  "noise_result_y_position": 4,
+  "noise_result_x_position": 5,
+  "sha256": "d5802ce83e13cd31474ea43f724777cfa6e3ec2839d258ac0c88cf4cd37c2656",
+  "reconstructed_from_paper": true
+}

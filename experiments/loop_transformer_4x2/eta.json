@@ -1,0 +1,38 @@
+{
+  "estimated_at": "2026-10-03T14:38:55.078709+08:00",
+  "gpu_ids": [
+    2,
+    3
+  ],
+  "parallel_seeds": 2,
+  "total_seeds": 5,
+  "epochs_per_seed": 1200,
+  "observed_seconds_per_epoch": 21.528049018001184,
+  "single_seed_training_hours": 7.176016339333728,
+  "five_seed_training_hours_three_waves": 21.528049018001184,
+  "estimated_first_pair_hours_range": [
+    7,
+    8
+  ],
+  "estimated_all_seeds_hours_range": [
+    22,
+    24
+  ],
+  "estimated_all_seeds_completion_range": [
+    "2026-10-04T12:38:55.078709+08:00",
+    "2026-10-04T14:38:55.078709+08:00"
+  ],
+  "progress": {
+    "loop_seed101": {
+      "completed_epochs": 3,
+      "last_epoch_seconds": 21.52558346488513,
+      "updates": 150
+    },
+    "loop_seed102": {
+      "completed_epochs": 3,
+      "last_epoch_seconds": 21.53626940213144,
+      "updates": 150
+    }
+  },
+  "basis": "Measured training epoch times; ranges allow evaluation, checkpoint I/O and GPU speed variation."
+}

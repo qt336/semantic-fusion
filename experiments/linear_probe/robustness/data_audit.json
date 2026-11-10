@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "train": 21184,
+    "val": 2648,
+    "test": 2648,
+    "extra": 63552,
+    "fresh_test": 10592,
+    "large": 84736
+  },
+  "disjoint_train_val_test_extra_fresh": true,
+  "balanced_labels": true,
+  "base_sha256": "5a86f3649405fd306f692439d84e89f42da5fd493dfa2672d7ec751005ae54a5"
+}

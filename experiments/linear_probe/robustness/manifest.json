@@ -1,0 +1,72 @@
+{
+  "configs": [
+    {
+      "name": "base_zero",
+      "lr": 0.01,
+      "wd": 0.01,
+      "init": 0
+    },
+    {
+      "name": "base_init1",
+      "lr": 0.01,
+      "wd": 0.01,
+      "init": 1
+    },
+    {
+      "name": "base_init2",
+      "lr": 0.01,
+      "wd": 0.01,
+      "init": 2
+    },
+    {
+      "name": "lr003",
+      "lr": 0.003,
+      "wd": 0.01,
+      "init": 0
+    },
+    {
+      "name": "lr03",
+      "lr": 0.03,
+      "wd": 0.01,
+      "init": 0
+    },
+    {
+      "name": "wd0",
+      "lr": 0.01,
+      "wd": 0.0,
+      "init": 0
+    },
+    {
+      "name": "wd01",
+      "lr": 0.01,
+      "wd": 0.1,
+      "init": 0
+    },
+    {
+      "name": "lr003_wd0",
+      "lr": 0.003,
+      "wd": 0.0,
+      "init": 0
+    },
+    {
+      "name": "lr03_wd01",
+      "lr": 0.03,
+      "wd": 0.1,
+      "init": 0
+    }
+  ],
+  "epochs": 2000,
+  "model_seeds": [
+    101,
+    102,
+    103
+  ],
+  "primary": "attention_mlp_no_embedding",
+  "target": "B",
+  "selection": "ordinary validation accuracy, then NLL",
+  "lbfgs_lambdas": [
+    1e-06,
+    0.0001,
+    0.01
+  ]
+}

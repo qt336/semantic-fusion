@@ -1,0 +1,61 @@
+{
+  "model": {
+    "same_parameters_and_outputs_as_original_plain_transformer": true,
+    "causal_target_position_check": true,
+    "parameters": 3331920,
+    "hybrid_layers": 0
+  },
+  "datasets": {
+    "101": {
+      "sha256": "d5802ce83e13cd31474ea43f724777cfa6e3ec2839d258ac0c88cf4cd37c2656",
+      "full": false,
+      "excluded_pair_training_occurrences": {
+        "0_1": 0,
+        "0_2": 0,
+        "2_1": 0,
+        "9_10": 0,
+        "15_20": 0
+      },
+      "random_label_change_fraction_between_epochs": 0.9959999918937683,
+      "deterministic_resume_labels": true,
+      "shifted_input_target_consistency": true,
+      "shared_pair_test_contexts": true,
+      "base_examples": 4500,
+      "noise_examples": 1000
+    },
+    "102": {
+      "sha256": "d16d6fa56fb01641169215b88b0b384ead80cf2cc657c4cf02cb4cf376493a42",
+      "full": false,
+      "excluded_pair_training_occurrences": {
+        "0_1": 0,
+        "0_2": 0,
+        "2_1": 0,
+        "9_10": 0,
+        "15_20": 0
+      },
+      "random_label_change_fraction_between_epochs": 0.9980000257492065,
+      "deterministic_resume_labels": true,
+      "shifted_input_target_consistency": true,
+      "shared_pair_test_contexts": true,
+      "base_examples": 4500,
+      "noise_examples": 1000
+    },
+    "103": {
+      "sha256": "a6934404ec4c70d4c8a02027a53574e2cc76597a422ee4802763663853dcfcbb",
+      "full": false,
+      "excluded_pair_training_occurrences": {
+        "0_1": 0,
+        "0_2": 0,
+        "2_1": 0,
+        "9_10": 0,
+        "15_20": 0
+      },
+      "random_label_change_fraction_between_epochs": 0.9959999918937683,
+      "deterministic_resume_labels": true,
+      "shifted_input_target_consistency": true,
+      "shared_pair_test_contexts": true,
+      "base_examples": 4500,
+      "noise_examples": 1000
+    }
+  }
+}

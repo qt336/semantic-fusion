@@ -1,0 +1,47 @@
+{
+  "zh:semantic_05|early16": {
+    "answer": "满",
+    "reason": "开头的查询字是在描述其左侧位置；首次实际提出的答案是引号内的字，没有更早的竞争答案。",
+    "answer_raw_sha256": "428507c3853860fd2afdde763cc2a8a44dc98dd6f91e5f33f821ca1cd3fdc53f"
+  },
+  "zh:semantic_291|baseline": {
+    "answer": "清",
+    "reason": "开头的查询字是在描述其左侧位置；首次实际提出的答案是引号内的字，没有更早的竞争答案。",
+    "answer_raw_sha256": "0019905b755251d80ec62638f58082adc64c3bbc98bef28f2e656dec67fe3ab9"
+  },
+  "zh:semantic_291|early16": {
+    "answer": "清",
+    "reason": "开头的查询字是在描述其左侧位置；首次实际提出的答案是引号内的字，没有更早的竞争答案。",
+    "answer_raw_sha256": "0019905b755251d80ec62638f58082adc64c3bbc98bef28f2e656dec67fe3ab9"
+  },
+  "zh:semantic_416|early16": {
+    "answer": "掉",
+    "reason": "开头的查询字是在描述其左侧位置；首次实际提出的答案是引号内的字，没有更早的竞争答案。",
+    "answer_raw_sha256": "723413ad6fd5b3fb5357d25ca2e1f5475515664ffb10d1126e7e114ab0db3d49"
+  },
+  "zh:semantic_467|baseline": {
+    "answer": "远",
+    "reason": "开头的查询字是在描述其左侧位置；首次实际提出的答案是引号内的字，没有更早的竞争答案。",
+    "answer_raw_sha256": "4be3e61dfca4c71524b5bd52d14472f276facedc0ec446ade03ff2af697d8101"
+  },
+  "zh:semantic_467|early16": {
+    "answer": "远",
+    "reason": "开头的查询字是在描述其左侧位置；首次实际提出的答案是引号内的字，没有更早的竞争答案。",
+    "answer_raw_sha256": "db20d90b7cedbe842ba12e532190950406d17735385550d2e590b016b24d9593"
+  },
+  "zh:semantic_260|early16": {
+    "answer": "书",
+    "reason": "开头的查询字是在描述其左侧位置；首次实际提出的答案是引号内的字，没有更早的竞争答案。",
+    "answer_raw_sha256": "e1128367e6c5e2c559cd57e700559295d67a4e5efa6609aed85988edcae44b48"
+  },
+  "zh:semantic_319|baseline": {
+    "answer": "猫",
+    "reason": "开头的查询字是在描述其左侧位置；首次实际提出的答案是引号内的字，没有更早的竞争答案。",
+    "answer_raw_sha256": "646edc55a3581b4cf23cdf9d4a3b2302a526973665df37df4f3584a8e672bdfb"
+  },
+  "zh:semantic_319|early16": {
+    "answer": "猫",
+    "reason": "开头的查询字是在描述其左侧位置；首次实际提出的答案是引号内的字，没有更早的竞争答案。",
+    "answer_raw_sha256": "646edc55a3581b4cf23cdf9d4a3b2302a526973665df37df4f3584a8e672bdfb"
+  }
+}

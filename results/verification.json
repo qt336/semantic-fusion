@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "llm_responses_rescored": 9000,
+  "toy_runs_verified": 24,
+  "prediction_conditions_verified": 270,
+  "individual_predictions_verified": 823680,
+  "paper_tables_preserved": 19,
+  "paper_llm_tables_match_rescoring": true
+}

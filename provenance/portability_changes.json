@@ -1,0 +1,30 @@
+[
+  {
+    "path": "experiments/linear_probe/robustness/probe_common.py",
+    "change": "Replace machine-specific project paths with repository-relative paths; model and numerical methods unchanged."
+  },
+  {
+    "path": "experiments/loop_transformer_4x2/validate.py",
+    "change": "Replace machine-specific project paths with repository-relative paths; model and numerical methods unchanged."
+  },
+  {
+    "path": "experiments/loop_transformer_4x2/train.py",
+    "change": "Replace machine-specific project paths with repository-relative paths; model and numerical methods unchanged."
+  },
+  {
+    "path": "experiments/loop_transformer_4x3/validate.py",
+    "change": "Replace machine-specific project paths with repository-relative paths; model and numerical methods unchanged."
+  },
+  {
+    "path": "experiments/loop_transformer_4x3/train.py",
+    "change": "Replace machine-specific project paths with repository-relative paths; model and numerical methods unchanged."
+  },
+  {
+    "path": "paper/source/plot_hybrid_spike.py",
+    "change": "Resolve archived rerun and recovery evidence relative to the repository; figure and recovery-analysis calculations unchanged."
+  },
+  {
+    "path": "paper/source/analyze_hybrid_recoveries.py",
+    "change": "Resolve archived rerun and recovery evidence relative to the repository; figure and recovery-analysis calculations unchanged."
+  }
+]

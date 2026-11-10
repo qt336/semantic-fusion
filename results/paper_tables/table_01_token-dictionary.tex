@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+    \centering
+    \caption{Token dictionary for the toy model.}
+    \label{tab:token-dictionary}
+    \small
+    \begin{tabularx}{0.9\linewidth}{@{}>{\centering\arraybackslash}p{0.16\linewidth}X@{}}
+        \toprule
+        \textbf{Token ID} & \textbf{Description} \\
+        \midrule
+        0--330 & 331 value tokens; tokens 0, 1, and 2 are additionally reused to encode arithmetic operators. \\
+        331 & \texttt{QUERY}: indicates that the retrieval target token follows. \\
+        332 & \texttt{SEP}: separates the memory sequence from the query. \\
+        333 & \texttt{BOS}: marks the beginning of a sequence. \\
+        334 & \texttt{EOS}: marks the end of a sequence. \\
+        335 & \texttt{PAD}: pads sequences to a uniform length. \\
+        \bottomrule
+    \end{tabularx}
+\end{table}

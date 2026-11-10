@@ -1,0 +1,20 @@
+{
+  "figure": 4,
+  "legend_outside_plot": true,
+  "editions": {
+    "paper_clean": {
+      "pages": 23,
+      "only_changed_page": [
+        19
+      ],
+      "sha256": "ec70f1d88c6aee3120cd0f6322bffeae53aeb4cb66b119eb5dbb283d9c80922d"
+    },
+    "paper_marked": {
+      "pages": 24,
+      "only_changed_page": [
+        20
+      ],
+      "sha256": "212d3f7d8f2862fe669a22d46f975f193201286d11627682efde7fbcc938b4b8"
+    }
+  }
+}

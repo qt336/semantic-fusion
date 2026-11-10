@@ -1,0 +1,9 @@
+{
+  "experiment": "comma_attention",
+  "samples": 1000,
+  "generations": 2000,
+  "per_cell": 500,
+  "input_file": "items.jsonl",
+  "input_sha256": "92f66b8da39286b1d89c9df17440723ee131af5a26cf6be1794bcfdbcb11592c",
+  "source_description": "New explicit-position comma condition, paired to ../early16_attention/items.jsonl."
+}

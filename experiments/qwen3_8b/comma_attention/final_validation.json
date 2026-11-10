@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "source_triples": 1000,
+  "paired_generations": 2000,
+  "per_cell": 500,
+  "only_display_separators_changed": true,
+  "constituent_token_spans_verified": true,
+  "raw_outputs_checked_against_token_ids": 2000,
+  "masked_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "no_op_logits_exact": true,
+  "target_probabilities_zero_verified_on_real_model": true,
+  "all_workers_exit_zero": true,
+  "reviewed_responses": 9,
+  "pending_review": 0,
+  "truncated_outputs": 0,
+  "raw_result_sha256": {
+    "worker_0.jsonl": "0e360a6ce71237d80c296c492b5eaf3530e4dd6d7249f15dc1fd89cd476301f2",
+    "worker_1.jsonl": "e538027eda748fbed7893eaa9c971dd30c60739f9df60ee7a71aeed4ae0c3cce",
+    "worker_2.jsonl": "c90f999d45b4bfe34305aaf25446f74d203b173b1519522769f4250931ed5985",
+    "worker_3.jsonl": "6379a1de3448ec62dbf20fd61f3bdf91f5c0685d6d084fbe8e91cd2c488b94db"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "root": "/home/user/toy_hybrid_seed104_rerun_20261107",
+  "architecture": "hybrid",
+  "seed": 104,
+  "device": "cuda",
+  "epochs": 1200,
+  "batch_size": 8190,
+  "microbatch": 2048,
+  "eval_every": 1,
+  "checkpoint_every": 25,
+  "cpu_threads": 4,
+  "small": false,
+  "snapshot_every": 25,
+  "tail_save_from": 1175,
+  "skip_final_ablation": true,
+  "parameters": 3338064,
+  "data": "/home/user/toy_hybrid_seed104_rerun_20261107/datasets/seed_104.npz",
+  "data_metadata": {
+    "seed": 104,
+    "small": false,
+    "training_examples": 405000,
+    "evaluation_counts": {
+      "arithmetic_0": 4096,
+      "arithmetic_1": 4096,
+      "arithmetic_2": 4096,
+      "standard": 2000,
+      "semantic_0": 2560,
+      "semantic_1": 2560,
+      "semantic_2": 2560,
+      "control_a1b": 2560,
+      "control_a2b": 2560
+    },
+    "sha256": "b16b83fb0c1692db6ca2eb83010f21999b22433ba73a0c4eca625b82da763a11",
+    "reconstructed_from_paper": true,
+    "original_data_available": false
+  },
+  "torch_version": "2.5.1+cu124",
+  "precision": "float32 with TF32 allowed",
+  "source_hashes": {
+    "data.py": "9db2b154a29d19454f3d7be4d288898ca1b0ea4506f173e5e8dec3ee96f5bdf5",
+    "model.py": "42ce4b1390b3ba282bcf0d651193d9c336a02777e8ed759faa863cc4b85fe91d",
+    "train.py": "94413ba564c93d5e84eda62cb5b94b90dc0168d989dec626eb39927f6bbc9610"
+  },
+  "cuda_visible_devices": "GPU-e247d9da-2d92-c108-ecf5-bc46db12eeb3",
+  "device_name": "NVIDIA GeForce RTX 4080"
+}

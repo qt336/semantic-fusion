@@ -1,0 +1,12 @@
+{
+  "model_checks": "passed",
+  "parameters": {
+    "transformer": 3331920,
+    "hybrid": 3338064
+  },
+  "dataset_checks": {
+    "dataset": "/home/user/toy_hybrid_20260912/datasets/seed_101.npz",
+    "training_examples": 405000,
+    "status": "passed"
+  }
+}

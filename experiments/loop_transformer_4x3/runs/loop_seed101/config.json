@@ -1,0 +1,41 @@
+{
+  "root": "/home/user/toy_loop_4x3_20261003",
+  "architecture": "loop",
+  "layers": 4,
+  "loops": 3,
+  "data_root": "/home/user/toy_hybrid_20260912/datasets",
+  "seed": 101,
+  "device": "cuda",
+  "epochs": 1200,
+  "batch_size": 8190,
+  "microbatch": 2048,
+  "eval_every": 25,
+  "checkpoint_every": 25,
+  "cpu_threads": 4,
+  "small": false,
+  "parameters": 3331920,
+  "data": "/home/user/toy_hybrid_20260912/datasets/seed_101.npz",
+  "data_metadata": {
+    "seed": 101,
+    "small": false,
+    "training_examples": 405000,
+    "evaluation_counts": {
+      "arithmetic_0": 4096,
+      "arithmetic_1": 4096,
+      "arithmetic_2": 4096,
+      "standard": 2000,
+      "semantic_0": 2560,
+      "semantic_1": 2560,
+      "semantic_2": 2560,
+      "control_a1b": 2560,
+      "control_a2b": 2560
+    },
+    "sha256": "006eb8de5bc7c69d8f354a2f9d553a5e2c02d32bdccdfbf0ddb97f17d356f492",
+    "reconstructed_from_paper": true,
+    "original_data_available": false
+  },
+  "torch_version": "2.5.1+cu124",
+  "precision": "float32 with TF32 allowed",
+  "cuda_visible_devices": "GPU-619378b5-e285-7c07-8ddf-3050de878b5d",
+  "device_name": "NVIDIA GeForce RTX 4080"
+}

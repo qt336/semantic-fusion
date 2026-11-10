@@ -1,0 +1,17 @@
+language,group,variant,n,B,A,Q,Other,accuracy_pct,wrong_a_pct
+zh,semantic,before,500,27,454,4,15,5.4,90.8
+zh,random,before,500,55,442,3,0,11.0,88.4
+zh,semantic,left,500,15,47,271,167,3.0,9.4
+zh,random,left,500,148,49,251,52,29.6,9.8
+zh,semantic,sequence_before,500,47,419,30,4,9.4,83.8
+zh,random,sequence_before,500,242,205,53,0,48.4,41.0
+zh,semantic,sequence_left,500,116,230,141,13,23.2,46.0
+zh,random,sequence_left,500,267,69,158,6,53.4,13.8
+en,semantic,before,500,135,235,7,123,27.0,47.0
+en,random,before,500,143,206,19,132,28.6,41.2
+en,semantic,left,500,135,260,6,99,27.0,52.0
+en,random,left,500,171,247,23,59,34.2,49.4
+en,semantic,sequence_before,500,110,335,5,50,22.0,67.0
+en,random,sequence_before,500,147,229,80,44,29.4,45.8
+en,semantic,sequence_left,500,100,356,13,31,20.0,71.2
+en,random,sequence_left,500,160,215,108,17,32.0,43.0

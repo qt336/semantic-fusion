@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-11-07T22:50:38.918530+00:00",
+  "source_history_sha256": {
+    "101": "65c4c26e9835103a12a4688ec33b6d425928f599a430e5e314858e143644c8a6",
+    "102": "0549b2c3f860669a0415cbfbfa9a12452dc1ba2627c697b97d32d3a695d83652",
+    "103": "525778e203518be0208012cffae6ea3a24e9f2c5d1d86758b9dff03e607d0b87"
+  },
+  "all_evaluation_rows": 147,
+  "smoothing": false,
+  "last_epoch": 1200,
+  "fields": [
+    "seed",
+    "epoch",
+    "correct_percent",
+    "first_token_error_percent",
+    "EOS_percent",
+    "other_percent",
+    "query_error_percent",
+    "arithmetic_percent",
+    "standard_retrieval_percent",
+    "low_pair_retrieval_percent",
+    "training_loss"
+  ],
+  "script_outputs": [
+    "training_curves.png",
+    "training_curves.pdf",
+    "curves.csv",
+    "results.md"
+  ]
+}

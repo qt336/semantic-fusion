@@ -1,0 +1,27 @@
+[
+  {
+    "dataset": "/home/user/toy_hybrid_20260912/datasets/seed_101.npz",
+    "training_examples": 405000,
+    "status": "passed"
+  },
+  {
+    "dataset": "/home/user/toy_hybrid_20260912/datasets/seed_102.npz",
+    "training_examples": 405000,
+    "status": "passed"
+  },
+  {
+    "dataset": "/home/user/toy_hybrid_20260912/datasets/seed_103.npz",
+    "training_examples": 405000,
+    "status": "passed"
+  },
+  {
+    "dataset": "/home/user/toy_hybrid_20260912/datasets/seed_104.npz",
+    "training_examples": 405000,
+    "status": "passed"
+  },
+  {
+    "dataset": "/home/user/toy_hybrid_20260912/datasets/seed_105.npz",
+    "training_examples": 405000,
+    "status": "passed"
+  }
+]

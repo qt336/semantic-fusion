@@ -1,0 +1,153 @@
+{
+  "families": {
+    "adamw": {
+      "ordinary_fresh": 58.94700402819738,
+      "operator": 4.843750000000001,
+      "operator_reads_A": 1.71875,
+      "operator_masked": 57.560763888888886,
+      "B_matched_controls": 96.07530381944444,
+      "ordinary_heldout": 41.66015625
+    },
+    "adamw_large": {
+      "ordinary_fresh": 77.43580060422961,
+      "operator": 5.677083333333333,
+      "operator_reads_A": 10.234375,
+      "operator_masked": 70.81597222222221,
+      "B_matched_controls": 99.92784288194444,
+      "ordinary_heldout": 46.178385416666664
+    },
+    "ridge": {
+      "ordinary_fresh": 36.826535750251765,
+      "operator": 27.730034722222225,
+      "operator_reads_A": 29.014756944444443,
+      "operator_masked": 67.74739583333334,
+      "B_matched_controls": 97.16145833333333,
+      "ordinary_heldout": 21.119791666666668
+    },
+    "lbfgs": {
+      "ordinary_fresh": 59.70229103726083,
+      "operator": 1.5234375,
+      "operator_reads_A": 2.6822916666666665,
+      "operator_masked": 54.69618055555556,
+      "B_matched_controls": 93.60243055555556,
+      "ordinary_heldout": 38.41796874999999
+    }
+  },
+  "factorial": {
+    "adamw": {
+      "semantic": 4.84375,
+      "replace_A": 96.16644965277777,
+      "replace_B": 14.301757812499998,
+      "replace_both": 54.469401041666664,
+      "interaction_pp": 51.15505642361111
+    },
+    "adamw_large": {
+      "semantic": 5.677083333333334,
+      "replace_A": 99.91970486111111,
+      "replace_B": 27.152235243055557,
+      "replace_both": 72.65407986111111,
+      "interaction_pp": 48.74077690972222
+    },
+    "ridge": {
+      "semantic": 27.730034722222225,
+      "replace_A": 97.16145833333333,
+      "replace_B": 55.32823350694444,
+      "replace_both": 35.252278645833336,
+      "interaction_pp": 89.50737847222223
+    },
+    "lbfgs": {
+      "semantic": 1.5234375,
+      "replace_A": 93.68543836805556,
+      "replace_B": 14.975043402777777,
+      "replace_both": 55.17686631944445,
+      "interaction_pp": 51.96017795138889
+    }
+  },
+  "optimizer_convergence": [
+    {
+      "seed": 101,
+      "lambda": 1e-06,
+      "converged": true,
+      "gradient_inf": 9.682968355298858e-07
+    },
+    {
+      "seed": 101,
+      "lambda": 0.0001,
+      "converged": true,
+      "gradient_inf": 9.836543341180139e-07
+    },
+    {
+      "seed": 101,
+      "lambda": 0.01,
+      "converged": true,
+      "gradient_inf": 9.996127195450316e-07
+    },
+    {
+      "seed": 102,
+      "lambda": 1e-06,
+      "converged": true,
+      "gradient_inf": 9.134036216911492e-07
+    },
+    {
+      "seed": 102,
+      "lambda": 0.0001,
+      "converged": true,
+      "gradient_inf": 9.9734056503708e-07
+    },
+    {
+      "seed": 102,
+      "lambda": 0.01,
+      "converged": true,
+      "gradient_inf": 9.710804719610257e-07
+    },
+    {
+      "seed": 103,
+      "lambda": 1e-06,
+      "converged": true,
+      "gradient_inf": 9.378771427491153e-07
+    },
+    {
+      "seed": 103,
+      "lambda": 0.0001,
+      "converged": true,
+      "gradient_inf": 9.300238504626675e-07
+    },
+    {
+      "seed": 103,
+      "lambda": 0.01,
+      "converged": true,
+      "gradient_inf": 8.7503171345953e-07
+    }
+  ],
+  "negative_control": [
+    {
+      "seed": 101,
+      "ordinary_fresh": 0.22658610271903326
+    },
+    {
+      "seed": 102,
+      "ordinary_fresh": 0.23602719033232628
+    },
+    {
+      "seed": 103,
+      "ordinary_fresh": 0.3021148036253776
+    }
+  ],
+  "softmax_config_range": [
+    {
+      "seed": 101,
+      "min_operator": 0.0,
+      "max_operator": 0.0
+    },
+    {
+      "seed": 102,
+      "min_operator": 0.0,
+      "max_operator": 1.1979166666666665
+    },
+    {
+      "seed": 103,
+      "min_operator": 5.885416666666667,
+      "max_operator": 17.005208333333336
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "task": "initial arithmetic + retrieval mixed task, plain Transformer",
+  "seeds": [
+    106,
+    107,
+    108,
+    109,
+    110
+  ],
+  "epochs": 1200,
+  "batch_size": 8190,
+  "microbatch": 2048,
+  "eval_every": 25,
+  "checkpoint_every": 25,
+  "allowed_physical_gpus": [
+    4,
+    5
+  ],
+  "parameters": 3331920,
+  "steps_per_epoch": 50,
+  "total_optimizer_steps": 60000,
+  "training_examples_per_epoch": 405000,
+  "retrieval_excluded_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "additional_random_output_or_cooccurrence_examples": 0,
+  "reference_source": "/home/user/toy_transformer_controls_20261018/reference_20260912",
+  "reference_source_sha256": {
+    "data.py": "51d73bd9f673ec7efa61e83f89dbb2d32e3d7b816cf7b9cab14c3f13f7c56bc0",
+    "model.py": "42ce4b1390b3ba282bcf0d651193d9c336a02777e8ed759faa863cc4b85fe91d",
+    "train.py": "6433662933f30600950051c9b18de37cbd92e9569470f1f48a0cd956159bcf29"
+  },
+  "september_seed101_small_all_arrays_identical": 68,
+  "dataset_checks": {
+    "106": {
+      "passed": true,
+      "training_examples": 405000,
+      "arithmetic_examples": 270000,
+      "retrieval_examples": 135000,
+      "evaluation_counts": {
+        "arithmetic_0": 4096,
+        "arithmetic_1": 4096,
+        "arithmetic_2": 4096,
+        "standard": 2000,
+        "semantic_0": 2560,
+        "semantic_1": 2560,
+        "semantic_2": 2560,
+        "control_a1b": 2560,
+        "control_a2b": 2560
+      },
+      "sha256": "61adf33d9554d3666ee752f782afe7b8a3f4a95f5914d643e4b39f436d67818a"
+    },
+    "107": {
+      "passed": true,
+      "training_examples": 405000,
+      "arithmetic_examples": 270000,
+      "retrieval_examples": 135000,
+      "evaluation_counts": {
+        "arithmetic_0": 4096,
+        "arithmetic_1": 4096,
+        "arithmetic_2": 4096,
+        "standard": 2000,
+        "semantic_0": 2560,
+        "semantic_1": 2560,
+        "semantic_2": 2560,
+        "control_a1b": 2560,
+        "control_a2b": 2560
+      },
+      "sha256": "04e134e3a7558bd39417b8a993138e28fca9e7cda9dc2ab43926d97d8d8fef46"
+    },
+    "108": {
+      "passed": true,
+      "training_examples": 405000,
+      "arithmetic_examples": 270000,
+      "retrieval_examples": 135000,
+      "evaluation_counts": {
+        "arithmetic_0": 4096,
+        "arithmetic_1": 4096,
+        "arithmetic_2": 4096,
+        "standard": 2000,
+        "semantic_0": 2560,
+        "semantic_1": 2560,
+        "semantic_2": 2560,
+        "control_a1b": 2560,
+        "control_a2b": 2560
+      },
+      "sha256": "9e585beab758c2551c0b98d04ce9b18a3bcedc9dee48e0241018d094a654c67b"
+    },
+    "109": {
+      "passed": true,
+      "training_examples": 405000,
+      "arithmetic_examples": 270000,
+      "retrieval_examples": 135000,
+      "evaluation_counts": {
+        "arithmetic_0": 4096,
+        "arithmetic_1": 4096,
+        "arithmetic_2": 4096,
+        "standard": 2000,
+        "semantic_0": 2560,
+        "semantic_1": 2560,
+        "semantic_2": 2560,
+        "control_a1b": 2560,
+        "control_a2b": 2560
+      },
+      "sha256": "6edbcdcf74fd2da33dbad5865b2a7d6e97087ac4db94fd2d6b678322337035c8"
+    },
+    "110": {
+      "passed": true,
+      "training_examples": 405000,
+      "arithmetic_examples": 270000,
+      "retrieval_examples": 135000,
+      "evaluation_counts": {
+        "arithmetic_0": 4096,
+        "arithmetic_1": 4096,
+        "arithmetic_2": 4096,
+        "standard": 2000,
+        "semantic_0": 2560,
+        "semantic_1": 2560,
+        "semantic_2": 2560,
+        "control_a1b": 2560,
+        "control_a2b": 2560
+      },
+      "sha256": "6ae7ee5b75dc71d73f5f27073c230151774b51b829da0dd43376736e1729a5ff"
+    }
+  },
+  "torch_version": "2.5.1+cu124",
+  "implementation_note": "Reconstructed implementation from September; original author code was unavailable.",
+  "evaluation_note": "Report fixed epoch1200; keep every recorded epoch and evaluation, no selection by test accuracy."
+}

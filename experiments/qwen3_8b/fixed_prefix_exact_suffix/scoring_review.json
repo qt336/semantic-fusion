@@ -1,0 +1,397 @@
+{
+  "en:independent:random_265|before": {
+    "answer": "",
+    "reason": "Discusses ale and restates the question; no predecessor answer.",
+    "answer_raw_sha256": "782d771c4c3042f360b7af14674a60e0b3adeae224f0a096c894d37dcdad81b9"
+  },
+  "en:independent:random_325|before": {
+    "answer": "",
+    "reason": "Defines nc and asks for context; no answer.",
+    "answer_raw_sha256": "8d316316785c05b3942b380b69391d2773f1e2ff823d27d5d739440c3b4d6f2c"
+  },
+  "en:independent:random_449|before": {
+    "answer": "ever",
+    "reason": "Quoted direct answer, case ignored.",
+    "answer_raw_sha256": "4bf2834d85e1bbef98aec98c92884d0d281deb894f02a299c0e3736dbd41df5e"
+  },
+  "en:strong:semantic_001|exact_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_009|exact_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_013|exact_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_017|exact_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_105|before": {
+    "answer": "common",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "42fc5501685e61a6ba6bba5ed4d0f87733d099ee07f6f1b5415f36084fbfe4c7"
+  },
+  "en:strong:semantic_109|before": {
+    "answer": "common",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "f257d4d1e53e1cff137548083fe02780778c8789995043398d6d24cebd53bf5a"
+  },
+  "en:strong:semantic_225|before": {
+    "answer": "drive",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "8886ff583cf327d5a63b0f90b560d8480a429cee664b0f543bd7d10ca28c3723"
+  },
+  "en:strong:semantic_241|before": {
+    "answer": "real",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "133a8c12d13d8c5e06316c5eccc009463578d310dbd772bec4baf3045c29a372"
+  },
+  "en:strong:semantic_241|exact_left": {
+    "answer": "real",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_245|before": {
+    "answer": "",
+    "reason": "Defines a real-estate belt; no predecessor answer.",
+    "answer_raw_sha256": "6c1b7e9c005aa0e20ad9d7a2f9b8fa931e14d26ef93148e2587cb865ffdccb8b"
+  },
+  "en:strong:semantic_257|before": {
+    "answer": "real",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "133a8c12d13d8c5e06316c5eccc009463578d310dbd772bec4baf3045c29a372"
+  },
+  "en:strong:semantic_289|exact_left": {
+    "answer": "dog",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "8bf407e045453fa1344ccb15ae504a0d6d6a389bff71f9fb1fa3b496171f1085"
+  },
+  "en:strong:semantic_313|exact_left": {
+    "answer": "prime",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "zh:random_39|exact_left": {
+    "answer": "脸",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "eb4f85b4a54a51d21cb73323997285386bf54b453da03fd5f2e647aad92ff21a"
+  },
+  "zh:semantic_19|before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "a9baa98cdaa70a04429e3e3be4ec90025a7c13e17053b93d1cbd5a118806c880"
+  },
+  "zh:semantic_19|exact_left": {
+    "answer": "完",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "22556cca0fa9c6287ae0ad14b5eae11cbe4f530af4e35388cbe5be85663362f4"
+  },
+  "zh:semantic_440|before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "73805e3f43c6e935df4db8f041ecc6d6ccdbe6c3b958b69c58041b09955b5868"
+  },
+  "zh:semantic_440|exact_left": {
+    "answer": "完",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "302e308d67c9f7ba1bc3c011499686f0b0ffd78a1b59cde49da17c8e857911d7"
+  },
+  "zh:semantic_459|exact_left": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "17fb8f62c96721c1ec1a0eb253943d1d6f4a59d4a01e059cf40608e6845ff7d0"
+  },
+  "zh:semantic_72|exact_left": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "885cbb62eb63375088029c3ad01731bd1c49ff51d37050c778f3741e96101ad5"
+  },
+  "en:independent:random_146|exact_left": {
+    "answer": "probably",
+    "reason": "Quoted direct answer, case ignored.",
+    "answer_raw_sha256": "3cfbd28e649151d781c6f9484d26d3447b32676864f4784134ad1d7bc5784cbe"
+  },
+  "en:independent:random_206|before": {
+    "answer": "",
+    "reason": "Defines bard without proposing a predecessor.",
+    "answer_raw_sha256": "14403bcac52dfc97d3644f15e70bb9933e4f4ee6241c8af3a30f7d81bb2000db"
+  },
+  "en:independent:random_246|exact_left": {
+    "answer": "ee",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "5f304fb2f29490e297980597798edef0ca671069a79d4cba35998f0c69a93ada"
+  },
+  "en:independent:random_270|before": {
+    "answer": "lots",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "f980341466d56806791dbd243e2953b5af9df16dc4cece5ba34a255c14b8172f"
+  },
+  "en:independent:random_390|before": {
+    "answer": "esp",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "992daa0ad7a4c6711c1e1285270637bd8ee7af8db07d6a60a181795103248e4b"
+  },
+  "en:independent:random_466|exact_left": {
+    "answer": "water",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "dc04b0f19050b3411354b89d79d2e1b0dba884b8d0b2abe544fa9fa59d4880c5"
+  },
+  "en:strong:semantic_002|exact_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_006|exact_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_010|exact_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_014|exact_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_018|exact_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_106|before": {
+    "answer": "common",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "0d91bf67bf474dd32f7f527f02ef05685b354684e92480bfdb76cb0a9f70906b"
+  },
+  "en:strong:semantic_110|before": {
+    "answer": "common",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "3d77f3cd140e6034c0eed758a8b8a6a42c30cae011d3d3e7079c95db38fa242c"
+  },
+  "en:strong:semantic_242|exact_left": {
+    "answer": "real",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_254|exact_left": {
+    "answer": "real",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_258|exact_left": {
+    "answer": "real",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_470|exact_left": {
+    "answer": "age",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "d85d127512bfbe0d5f7250972a04cba16fd8259e142a70d4c9863bcff70e7a81"
+  },
+  "zh:semantic_205|before": {
+    "answer": "哄",
+    "reason": "Quoted direct single-character answer.",
+    "answer_raw_sha256": "520a56b932ec8abb3d66789f953bd35bf11011eb95c1e3f08aea28a8caa0b237"
+  },
+  "zh:semantic_205|exact_left": {
+    "answer": "哄",
+    "reason": "Quoted direct single-character answer.",
+    "answer_raw_sha256": "520a56b932ec8abb3d66789f953bd35bf11011eb95c1e3f08aea28a8caa0b237"
+  },
+  "zh:semantic_383|before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "4c73e527cea0a82337e64728376b88efe0bb6cbbc9a6396fbb79085668280d2b"
+  },
+  "zh:semantic_383|exact_left": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "4364893904674976a2b1bd0cdfe9ccd79e877084a9a5af8df30aee6d8ea5cd42"
+  },
+  "zh:semantic_463|before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "0b9d40fafc640b2d8618206a572a5c24ea0eced0e135a5b57cd037443d2bc471"
+  },
+  "zh:semantic_463|exact_left": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "424e1f0ce84af7979ea31283190f1820818a1c63206df37c52733741e3a2dc82"
+  },
+  "zh:semantic_81|exact_left": {
+    "answer": "好",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "17003c83dbbd12605513c65a933988b636574b150f28278c42ed1eb09fbebcbe"
+  },
+  "en:independent:random_195|before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "13bee3875676dba108b491722c251706fa502f111110669716c5b2881992678d"
+  },
+  "en:independent:random_239|before": {
+    "answer": "",
+    "reason": "Discusses PB meanings without proposing a predecessor.",
+    "answer_raw_sha256": "e47889f5e6fef86b8cd3cc47ca3a00c39a0ffdccf479212ff460f71e2000345c"
+  },
+  "en:strong:semantic_003|exact_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_011|exact_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_251|exact_left": {
+    "answer": "real",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_291|exact_left": {
+    "answer": "dog",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "6068466953cde3ad5ff1d7b581ee3e3b987295f2ec8096ccdf7a8ca4fd351729"
+  },
+  "en:strong:semantic_319|exact_left": {
+    "answer": "prime",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "zh:semantic_220|exact_left": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "5d793082a20861a0e295624cc03962421ba51b10e19eb190bd9b9fdb1e1d779f"
+  },
+  "zh:semantic_337|before": {
+    "answer": "的",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "61100ba89831de756e138ca3f6ab617e271b9fe0441a30e38bd51334dcd21a3d"
+  },
+  "zh:semantic_366|exact_left": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "9931bf326bba116175fd2d2390bb96bedd7c9f72e4f3e1dfad99ec5fc5a2499b"
+  },
+  "zh:semantic_45|before": {
+    "answer": "哄",
+    "reason": "Quoted direct single-character answer.",
+    "answer_raw_sha256": "520a56b932ec8abb3d66789f953bd35bf11011eb95c1e3f08aea28a8caa0b237"
+  },
+  "zh:semantic_45|exact_left": {
+    "answer": "哄",
+    "reason": "Quoted direct single-character answer.",
+    "answer_raw_sha256": "520a56b932ec8abb3d66789f953bd35bf11011eb95c1e3f08aea28a8caa0b237"
+  },
+  "zh:semantic_479|before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "d7e6f2910d8322bbc627ef35862854b49667e4f1be4c6371d77cc063a849d0be"
+  },
+  "zh:semantic_479|exact_left": {
+    "answer": "错",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "c118dc5bb6559a2c46214f2c5f0a006ef3b5fecb54932de7540401d448a81605"
+  },
+  "zh:semantic_486|exact_left": {
+    "answer": "完",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "3e548bba77aba218c003da753df0155c021f8b9f5a28e9ddbcab6f60bfea5866"
+  },
+  "zh:semantic_90|before": {
+    "answer": "",
+    "reason": "Only repeats the question or complete displayed sequence; no answer.",
+    "answer_raw_sha256": "e3eb923e01aa370bdadaf0e8a126f73efb3c719c582ed0dafb873f36b8f58944"
+  },
+  "en:independent:random_096|exact_left": {
+    "answer": "three",
+    "reason": "Quoted direct answer, case ignored.",
+    "answer_raw_sha256": "097a4dfb7f430ff3e44aa2399549a038c1f29465540d1e18701e8b5cd3fd2ccb"
+  },
+  "en:independent:random_116|exact_left": {
+    "answer": "hus",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "b8fdfeceab759a02e52ced9155912465d52133905acb7212dc7477d29d0f3293"
+  },
+  "en:independent:random_124|before": {
+    "answer": "first",
+    "reason": "Direct two-word answer; first constituent is first.",
+    "answer_raw_sha256": "d4d7b17c5d9cd8f5fac4b9fc6ad928adc0a8d9726a375cab402593b110950e17"
+  },
+  "en:independent:random_484|exact_left": {
+    "answer": "integration",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "6f93df15d46a7e2baa0b871f9538e8ea859d8f44b65a3ae1c90cc7a13fb4f9ea"
+  },
+  "en:independent:random_488|exact_left": {
+    "answer": "quest",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "0816ccfce1db233f5120a4df1a57de4e1cee6535710bdb589636de67eae46b7a"
+  },
+  "en:strong:semantic_012|exact_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_016|exact_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_020|exact_left": {
+    "answer": "ice",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_108|before": {
+    "answer": "common",
+    "reason": "The first explicit proposed predecessor follows is; ignore input repetitions and explanatory lead-ins.",
+    "answer_raw_sha256": "222803515d478fa439f19964a72e4cea34a9491801b9bae7eecda5729fdd2915"
+  },
+  "en:strong:semantic_144|before": {
+    "answer": "first",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "31e7bb3ab4edb2b2b5813c0290b30e30eeafe4617d8fd6c100d16a71644f95de"
+  },
+  "en:strong:semantic_252|before": {
+    "answer": "real",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_256|exact_left": {
+    "answer": "real",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_260|exact_left": {
+    "answer": "real",
+    "reason": "Directly proposes AB; score the first constituent A.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "zh:semantic_258|exact_left": {
+    "answer": "断",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "ebbb8e0df9914f68ee56569d88f342a4a5d65fea5692d8cc038e0771f029358c"
+  },
+  "zh:semantic_378|exact_left": {
+    "answer": "完",
+    "reason": "After repeating the question, explicitly proposes the character after 答案是; it is present before any truncation.",
+    "answer_raw_sha256": "582ed46d632febd9bcfc844a4cc5227c467d877cbd6121112b72681bb47f7fe5"
+  },
+  "zh:semantic_59|exact_left": {
+    "answer": "错",
+    "reason": "The first explicit answer is the quoted character after 是; earlier characters describe the query or repeat the input.",
+    "answer_raw_sha256": "27ed3145aa5d14d00b5692d4c77b53b75cf4bf7c2ae2fab3da4ecf9bb2387c8d"
+  }
+}

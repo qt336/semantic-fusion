@@ -1,0 +1,270 @@
+{
+  "rows": [
+    {
+      "seed": 101,
+      "reader": "adam_base_zero_budget2000",
+      "family": "adamw",
+      "condition": "baseline",
+      "group": "matched_A8_0_1",
+      "n": 20480,
+      "correct": 3810,
+      "accuracy": 0.18603515625,
+      "reads_A": 0.004150390625
+    },
+    {
+      "seed": 101,
+      "reader": "adam_base_zero_budget2000",
+      "family": "adamw",
+      "condition": "baseline",
+      "group": "matched_A8_0_2",
+      "n": 20480,
+      "correct": 3925,
+      "accuracy": 0.191650390625,
+      "reads_A": 0.004296875
+    },
+    {
+      "seed": 101,
+      "reader": "adam_base_zero_budget2000",
+      "family": "adamw",
+      "condition": "baseline",
+      "group": "matched_A8_2_1",
+      "n": 20480,
+      "correct": 1468,
+      "accuracy": 0.0716796875,
+      "reads_A": 0.00029296875
+    },
+    {
+      "seed": 101,
+      "reader": "adam_base_zero_budget2000",
+      "family": "adamw",
+      "condition": "masked_layer0",
+      "group": "matched_A8_0_1",
+      "n": 20480,
+      "correct": 7100,
+      "accuracy": 0.3466796875,
+      "reads_A": 0.086376953125
+    },
+    {
+      "seed": 101,
+      "reader": "adam_base_zero_budget2000",
+      "family": "adamw",
+      "condition": "masked_layer0",
+      "group": "matched_A8_0_2",
+      "n": 20480,
+      "correct": 7131,
+      "accuracy": 0.348193359375,
+      "reads_A": 0.091015625
+    },
+    {
+      "seed": 101,
+      "reader": "adam_base_zero_budget2000",
+      "family": "adamw",
+      "condition": "masked_layer0",
+      "group": "matched_A8_2_1",
+      "n": 20480,
+      "correct": 6750,
+      "accuracy": 0.32958984375,
+      "reads_A": 0.00029296875
+    },
+    {
+      "seed": 101,
+      "reader": "large_budget2000",
+      "family": "adamw_large",
+      "condition": "baseline",
+      "group": "matched_A8_0_1",
+      "n": 20480,
+      "correct": 6428,
+      "accuracy": 0.3138671875,
+      "reads_A": 0.009033203125
+    },
+    {
+      "seed": 101,
+      "reader": "large_budget2000",
+      "family": "adamw_large",
+      "condition": "baseline",
+      "group": "matched_A8_0_2",
+      "n": 20480,
+      "correct": 6525,
+      "accuracy": 0.318603515625,
+      "reads_A": 0.01025390625
+    },
+    {
+      "seed": 101,
+      "reader": "large_budget2000",
+      "family": "adamw_large",
+      "condition": "baseline",
+      "group": "matched_A8_2_1",
+      "n": 20480,
+      "correct": 4688,
+      "accuracy": 0.22890625,
+      "reads_A": 0.0
+    },
+    {
+      "seed": 101,
+      "reader": "large_budget2000",
+      "family": "adamw_large",
+      "condition": "masked_layer0",
+      "group": "matched_A8_0_1",
+      "n": 20480,
+      "correct": 8902,
+      "accuracy": 0.43466796875,
+      "reads_A": 0.0591796875
+    },
+    {
+      "seed": 101,
+      "reader": "large_budget2000",
+      "family": "adamw_large",
+      "condition": "masked_layer0",
+      "group": "matched_A8_0_2",
+      "n": 20480,
+      "correct": 8865,
+      "accuracy": 0.432861328125,
+      "reads_A": 0.060888671875
+    },
+    {
+      "seed": 101,
+      "reader": "large_budget2000",
+      "family": "adamw_large",
+      "condition": "masked_layer0",
+      "group": "matched_A8_2_1",
+      "n": 20480,
+      "correct": 8567,
+      "accuracy": 0.418310546875,
+      "reads_A": 0.0
+    },
+    {
+      "seed": 101,
+      "reader": "ridge_1e-08",
+      "family": "ridge",
+      "condition": "baseline",
+      "group": "matched_A8_0_1",
+      "n": 20480,
+      "correct": 15433,
+      "accuracy": 0.753564453125,
+      "reads_A": 0.0888671875
+    },
+    {
+      "seed": 101,
+      "reader": "ridge_1e-08",
+      "family": "ridge",
+      "condition": "baseline",
+      "group": "matched_A8_0_2",
+      "n": 20480,
+      "correct": 15383,
+      "accuracy": 0.751123046875,
+      "reads_A": 0.09345703125
+    },
+    {
+      "seed": 101,
+      "reader": "ridge_1e-08",
+      "family": "ridge",
+      "condition": "baseline",
+      "group": "matched_A8_2_1",
+      "n": 20480,
+      "correct": 15372,
+      "accuracy": 0.7505859375,
+      "reads_A": 0.008154296875
+    },
+    {
+      "seed": 101,
+      "reader": "ridge_1e-08",
+      "family": "ridge",
+      "condition": "masked_layer0",
+      "group": "matched_A8_0_1",
+      "n": 20480,
+      "correct": 20254,
+      "accuracy": 0.98896484375,
+      "reads_A": 0.0
+    },
+    {
+      "seed": 101,
+      "reader": "ridge_1e-08",
+      "family": "ridge",
+      "condition": "masked_layer0",
+      "group": "matched_A8_0_2",
+      "n": 20480,
+      "correct": 20262,
+      "accuracy": 0.98935546875,
+      "reads_A": 0.0
+    },
+    {
+      "seed": 101,
+      "reader": "ridge_1e-08",
+      "family": "ridge",
+      "condition": "masked_layer0",
+      "group": "matched_A8_2_1",
+      "n": 20480,
+      "correct": 20189,
+      "accuracy": 0.985791015625,
+      "reads_A": 0.0
+    },
+    {
+      "seed": 101,
+      "reader": "lbfgs_1e-06",
+      "family": "lbfgs",
+      "condition": "baseline",
+      "group": "matched_A8_0_1",
+      "n": 20480,
+      "correct": 4317,
+      "accuracy": 0.210791015625,
+      "reads_A": 0.018212890625
+    },
+    {
+      "seed": 101,
+      "reader": "lbfgs_1e-06",
+      "family": "lbfgs",
+      "condition": "baseline",
+      "group": "matched_A8_0_2",
+      "n": 20480,
+      "correct": 4366,
+      "accuracy": 0.21318359375,
+      "reads_A": 0.019580078125
+    },
+    {
+      "seed": 101,
+      "reader": "lbfgs_1e-06",
+      "family": "lbfgs",
+      "condition": "baseline",
+      "group": "matched_A8_2_1",
+      "n": 20480,
+      "correct": 1590,
+      "accuracy": 0.07763671875,
+      "reads_A": 0.00107421875
+    },
+    {
+      "seed": 101,
+      "reader": "lbfgs_1e-06",
+      "family": "lbfgs",
+      "condition": "masked_layer0",
+      "group": "matched_A8_0_1",
+      "n": 20480,
+      "correct": 7716,
+      "accuracy": 0.3767578125,
+      "reads_A": 0.11103515625
+    },
+    {
+      "seed": 101,
+      "reader": "lbfgs_1e-06",
+      "family": "lbfgs",
+      "condition": "masked_layer0",
+      "group": "matched_A8_0_2",
+      "n": 20480,
+      "correct": 7683,
+      "accuracy": 0.375146484375,
+      "reads_A": 0.116650390625
+    },
+    {
+      "seed": 101,
+      "reader": "lbfgs_1e-06",
+      "family": "lbfgs",
+      "condition": "masked_layer0",
+      "group": "matched_A8_2_1",
+      "n": 20480,
+      "correct": 7320,
+      "accuracy": 0.357421875,
+      "reads_A": 4.8828125e-05
+    }
+  ],
+  "held_out_from_probe_training_and_validation": true,
+  "A_context_query_position_unchanged": true
+}

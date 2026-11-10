@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "seed": 101,
+  "small": false,
+  "base_training_examples": 405000,
+  "stable_arithmetic_examples": 270000,
+  "retrieval_training_examples": 135000,
+  "random_operator_examples": 180000,
+  "operator_slot_exposures_per_epoch": {
+    "0_1": 90000,
+    "0_2": 90000,
+    "2_1": 90000,
+    "9_10_random_condition": 180000
+  },
+  "retrieval_audit": {
+    "unique_examples": 135000,
+    "excluded_memory_pair_counts": {
+      "0_1": 0,
+      "0_2": 0,
+      "2_1": 0,
+      "9_10": 0,
+      "15_20": 0
+    },
+    "excluded_query_answer_counts": {
+      "0_1": 0,
+      "0_2": 0,
+      "2_1": 0,
+      "9_10": 0,
+      "15_20": 0
+    },
+    "constituent_counts": {
+      "0": {
+        "memory": 1796,
+        "query": 378,
+        "answer": 412
+      },
+      "1": {
+        "memory": 1799,
+        "query": 381,
+        "answer": 427
+      },
+      "2": {
+        "memory": 1867,
+        "query": 412,
+        "answer": 410
+      },
+      "9": {
+        "memory": 1899,
+        "query": 416,
+        "answer": 441
+      },
+      "10": {
+        "memory": 1807,
+        "query": 373,
+        "answer": 412
+      },
+      "15": {
+        "memory": 1915,
+        "query": 440,
+        "answer": 424
+      },
+      "20": {
+        "memory": 1911,
+        "query": 422,
+        "answer": 398
+      }
+    }
+  },
+  "evaluation_counts": {
+    "arithmetic_0_1": 4096,
+    "arithmetic_0_2": 4096,
+    "arithmetic_2_1": 4096,
+    "standard": 2000,
+    "operator_0_1": 2560,
+    "operator_0_2": 2560,
+    "operator_2_1": 2560,
+    "ordinary_9_10": 2560,
+    "ordinary_15_20": 2560,
+    "control_x1y": 2560,
+    "control_x2y": 2560,
+    "noise_arithmetic_9_10": 4096
+  },
+  "pair_evaluation_memory_length_counts": {
+    "3": 256,
+    "4": 768,
+    "5": 768,
+    "6": 768
+  },
+  "pair_evaluation_unique": true,
+  "shared_contexts_across_pair_evaluations": true,
+  "noise_result_policy": "uniform 0..330, redraw at each epoch/occurrence; stored training zeros are placeholders",
+  "noise_result_y_position": 4,
+  "noise_result_x_position": 5,
+  "sha256": "7f7a60765700d87b48b2f3824cace51270accb7ef5c4365afa37885745e11ef1",
+  "reconstructed_from_paper": true
+}

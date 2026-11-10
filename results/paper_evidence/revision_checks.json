@@ -1,0 +1,205 @@
+{
+  "clean": {
+    "pages": 25,
+    "main_text_pages": 10,
+    "references_resolved": true,
+    "no_overfull_boxes": true,
+    "local_identifiers_absent": true
+  },
+  "marked": {
+    "pages": 25,
+    "main_text_pages": 10,
+    "references_resolved": true,
+    "no_overfull_boxes": true,
+    "local_identifiers_absent": true
+  },
+  "latest_edit": "Section5.1 and AppendixH: added fixed-epoch1200 results for Transformer seeds106\u2013110, with arithmetic99.88%, standard retrieval98.08%, operator retrieval34.68%, and first-token errors52.73%; original prose, tables and Figure4 external legend preserved, additions blue. Main-text page limit deferred at user request.",
+  "qwen": {
+    "archived_package_verification": "passed (29,000 outputs)",
+    "reported_semantic_generations": 2000,
+    "A_to_B_no_comma": {
+      "zh": 297,
+      "en": 315
+    },
+    "reference": "https://arxiv.org/abs/2505.09388",
+    "source_sha256": {
+      "early16_attention/scored_outputs.jsonl": "40a4c3db4233d93e5828be38f5405d865349e67a1813a8f6a315f52f235bd909",
+      "comma_attention/scored_outputs.jsonl": "acd729bd7e8f97d1f955b0ba6570f7419890a3ef4dd8f0032accba447954fad0"
+    },
+    "pairs_per_language": 500,
+    "reported_input_formats": {
+      "en": "space-separated words",
+      "zh": "contiguous characters"
+    },
+    "comma_conditions_reported": false
+  },
+  "layout_content_unchanged": false,
+  "hybrid_spike": {
+    "paper_clean": {
+      "pages": 25,
+      "new_explanation_and_figure_page": 20,
+      "additional_seed_appendix_page": 25,
+      "first_four_pages_text_unchanged": true,
+      "main_text_pages": 10,
+      "only_authorized_prose_changes_before_hybrid_appendix": true,
+      "original_wording_present": false,
+      "no_overfull_boxes": true,
+      "references_resolved": true,
+      "local_identifiers_absent": true,
+      "pdf_author_empty": true,
+      "sha256": "ea072d8e2bd562f60a743a98c232f650cbc57a4d6b0cea3b6ad0239263f7ff72"
+    },
+    "paper_marked": {
+      "pages": 25,
+      "new_explanation_and_figure_page": 20,
+      "additional_seed_appendix_page": 25,
+      "first_four_pages_text_unchanged": true,
+      "main_text_pages": 10,
+      "only_authorized_prose_changes_before_hybrid_appendix": true,
+      "original_wording_present": true,
+      "no_overfull_boxes": true,
+      "references_resolved": true,
+      "local_identifiers_absent": true,
+      "pdf_author_empty": true,
+      "sha256": "19dab87fa5d4c5e5c8b4533e4327a1d8206db88003c3e043c146c98e7afaa529"
+    },
+    "passed": true,
+    "appendix": "D.2 Training and Reported Evaluations",
+    "figure": 4,
+    "red_blue_checks": {
+      "additional_seeds_main": {
+        "color": "#0041be",
+        "page": 6
+      },
+      "old": {
+        "color": "#be0000",
+        "page": 18
+      },
+      "new": {
+        "color": "#0041be",
+        "page": 20
+      },
+      "caption": {
+        "color": "#0041be",
+        "page": 20
+      },
+      "additional_seeds_table": {
+        "color": "#0041be",
+        "page": 25
+      }
+    },
+    "hybrid_result_tables_unchanged": true,
+    "generator_reproduces_current_source": true,
+    "figure_provenance": "Fresh rerun matched to retained historical values at reported precision.",
+    "additional_seeds": {
+      "seeds": [
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "fixed_epoch": 1200,
+      "means_percent": {
+        "arithmetic": {
+          "correct": 99.87630208333333,
+          "first": 0.0,
+          "eos": 0.0016276041666666667,
+          "other": 0.1220703125
+        },
+        "standard": {
+          "correct": 98.08,
+          "first": 0.0,
+          "eos": 0.0,
+          "other": 1.92
+        },
+        "semantic": {
+          "correct": 34.6796875,
+          "first": 52.72916666666667,
+          "eos": 1.2916666666666667,
+          "other": 11.299479166666668
+        },
+        "semantic_0": {
+          "correct": 11.5234375,
+          "first": 75.25,
+          "eos": 1.3671875,
+          "other": 11.859375
+        },
+        "semantic_1": {
+          "correct": 60.35937500000001,
+          "first": 34.265625,
+          "eos": 1.1796875,
+          "other": 4.1953125
+        },
+        "semantic_2": {
+          "correct": 32.15625,
+          "first": 48.671875,
+          "eos": 1.328125,
+          "other": 17.84375
+        }
+      },
+      "all_runs_have_retrieval_gap": true,
+      "first_constituent_is_largest_error_category_in_every_run": true,
+      "saved_prediction_conditions_verified": 75,
+      "source_files": {
+        "106": {
+          "path": "/home/user/toy_transformer_original_106_110_20261108/runs/transformer_seed106/result.json",
+          "sha256": "c61e5404be2319543b2992c77b816ba82aeb6376730dc89aa9b1d8785cc1c0fd"
+        },
+        "107": {
+          "path": "/home/user/toy_transformer_original_106_110_20261108/runs/transformer_seed107/result.json",
+          "sha256": "cf6d1f976fb220978e0c5014904dd6471f44c86f4f6ba9f89732d0695e5a159a"
+        },
+        "108": {
+          "path": "/home/user/toy_transformer_original_106_110_20261108/runs/transformer_seed108/result.json",
+          "sha256": "573391c1e6b9914a097fa5b5f71e70d9815ea561a36f24d92bf16c4fa49516ee"
+        },
+        "109": {
+          "path": "/home/user/toy_transformer_original_106_110_20261108/runs/transformer_seed109/result.json",
+          "sha256": "2b3b3b908481b32c1058afda917089d9b3b147bd5fab3b3bddb0f5b533589cdf"
+        },
+        "110": {
+          "path": "/home/user/toy_transformer_original_106_110_20261108/runs/transformer_seed110/result.json",
+          "sha256": "7663c5493e4d5a61e0b45171fe8de6afc6c9e6684b2f36acde98e9444a19ffff"
+        }
+      },
+      "verification_sha256": "024d6a6fc454a9ac282a016430db857e0e18d6e21ca29b8f395af9cf31b2cc77"
+    },
+    "recovery_analysis": {
+      "recovered_episodes": 50,
+      "right_censored_episodes": 1,
+      "checks": {
+        "standard_above_semantic_at_every_first_recovery": true,
+        "semantic_above_original_transformer_reference_at_every_first_recovery": true,
+        "semantic_first_constituent_errors_present_at_every_first_recovery": true
+      },
+      "all_stable_epoch_count": 459,
+      "all_stable_epoch_checks": {
+        "standard_above_semantic": true,
+        "semantic_above_original_transformer_reference": true,
+        "first_constituent_errors_present": true
+      },
+      "scope": "First recovered evaluations; not every epoch immediately after a peak."
+    }
+  },
+  "figure4_legend": {
+    "figure": 4,
+    "legend_outside_plot": true,
+    "editions": {
+      "paper_clean": {
+        "pages": 23,
+        "only_changed_page": [
+          19
+        ],
+        "sha256": "ec70f1d88c6aee3120cd0f6322bffeae53aeb4cb66b119eb5dbb283d9c80922d"
+      },
+      "paper_marked": {
+        "pages": 24,
+        "only_changed_page": [
+          20
+        ],
+        "sha256": "212d3f7d8f2862fe669a22d46f975f193201286d11627682efde7fbcc938b4b8"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+\begin{table}[!t]
+\centering
+\small
+\setlength{\tabcolsep}{7pt}
+\renewcommand{\arraystretch}{1.12}
+\caption{Outcomes for the first proposed answer in Chinese. Each row contains 500 completed
+trials. All entries are percentages; the four outcomes sum to 100\%.
+Semantic and Comma use the same triples. Bold marks the highest accuracy
+within each model.}
+\label{tab:strict-results-zh}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Model & Condition & Correct $b$ & Wrong $a$ & Wrong $Q$ & Other \\
+\midrule
+Kimi K3 & Semantic & 76.4 & 23.4 & 0.2 & 0.0 \\
+ & Random & 97.4 & 2.6 & 0.0 & 0.0 \\
+ & Comma & \textbf{100.0} & 0.0 & 0.0 & 0.0 \\
+\midrule
+DeepSeek V4 Pro & Semantic & 31.8 & 67.4 & 0.0 & 0.8 \\
+ & Random & 66.0 & 34.0 & 0.0 & 0.0 \\
+ & Comma & \textbf{94.2} & 5.6 & 0.0 & 0.2 \\
+\midrule
+Hy4 preview & Semantic & 55.6 & 40.8 & 0.4 & 3.2 \\
+ & Random & 91.0 & 8.8 & 0.2 & 0.0 \\
+ & Comma & \textbf{99.8} & 0.0 & 0.0 & 0.2 \\
+\bottomrule
+\end{tabular}
+\end{table}

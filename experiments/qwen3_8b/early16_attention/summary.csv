@@ -1,0 +1,9 @@
+language,group,condition,n,B,A,Q,Other,accuracy_pct,wrong_a_pct,wrong_q_pct,other_pct
+zh,semantic,baseline,500,36,436,27,1,7.2,87.2,5.4,0.2
+zh,semantic,early16,500,349,138,13,0,69.8,27.6,2.6,0.0
+zh,random,baseline,500,264,199,37,0,52.8,39.8,7.4,0.0
+zh,random,early16,500,402,84,14,0,80.4,16.8,2.8,0.0
+en,semantic,baseline,500,125,375,0,0,25.0,75.0,0.0,0.0
+en,semantic,early16,500,431,69,0,0,86.2,13.8,0.0,0.0
+en,random,baseline,500,381,108,11,0,76.2,21.6,2.2,0.0
+en,random,early16,500,395,96,9,0,79.0,19.2,1.8,0.0

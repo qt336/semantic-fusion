@@ -1,0 +1,135 @@
+[
+  {
+    "number": 1,
+    "label": "tab:token-dictionary",
+    "path": "results/paper_tables/table_01_token-dictionary.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "d4e49e3167ec7b2e953741eabd66b64871a5f7904d4663ae97546113693c7013"
+  },
+  {
+    "number": 2,
+    "label": "tab:arithmetic-semantics",
+    "path": "results/paper_tables/table_02_arithmetic-semantics.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "fd3e9b158b7f5f2ae87c07d022a1c4332e84d8aca0b74af2d9ea2f2df8ca5b5b"
+  },
+  {
+    "number": 3,
+    "label": "tab:retrieval-results-seeds",
+    "path": "results/paper_tables/table_03_retrieval-results-seeds.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "a95e3d1a5e80c7bb66366ed2e161d8beecabfb61cb745ebd7da71408fbcdc4ae"
+  },
+  {
+    "number": 4,
+    "label": "tab:x1y-x2y-validation",
+    "path": "results/paper_tables/table_04_x1y-x2y-validation.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "549d05b2dc788f75c95127c0562f7c0b1b728a0c0a3a4b44de67b7bb2d93d32e"
+  },
+  {
+    "number": 5,
+    "label": "tab:seed_results",
+    "path": "results/paper_tables/table_05_seed_results.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "e9206cda7dbb5e8d7ae5e5c6b770ef3b2cf02dfbef0f41e60457d491b7995970"
+  },
+  {
+    "number": 6,
+    "label": "tab:strict-results-en",
+    "path": "results/paper_tables/table_06_strict-results-en.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "49ba903ddc08e872bca08191e1ac487586a24d6f00f52aa83b8ce79f49989125"
+  },
+  {
+    "number": 7,
+    "label": "tab:strict-results-zh",
+    "path": "results/paper_tables/table_07_strict-results-zh.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "68a6eed34592160e0a8bc34f91d63a4c35e1bb9958e22fd36cc342647553769c"
+  },
+  {
+    "number": 8,
+    "label": "tab:transformer-hyperparameters",
+    "path": "results/paper_tables/table_08_transformer-hyperparameters.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "1e74ed4fcb73e4a737b09ccb0ae4f638df11c05957913d30256e4ce68ed3f57d"
+  },
+  {
+    "number": 9,
+    "label": "tab:strict-prompts",
+    "path": "results/paper_tables/table_09_strict-prompts.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "207752c845c88466cd7f8c372c25cc56b0af5f8adf9f119d66b6745dd5987e06"
+  },
+  {
+    "number": 10,
+    "label": "tab:predecessor-error-examples",
+    "path": "results/paper_tables/table_10_predecessor-error-examples.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "255a0524be5b03321c8df0af856469f37c3dc18b82eaa15a4870fa7f6fc9acf4"
+  },
+  {
+    "number": 11,
+    "label": "tab:hybrid-hyperparameters",
+    "path": "results/paper_tables/table_11_hybrid-hyperparameters.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "4163f5d6db439a329a006ca3307e0667c51e26cf617714f9d45480d6a458c791"
+  },
+  {
+    "number": 12,
+    "label": "tab:hybrid-per-seed",
+    "path": "results/paper_tables/table_12_hybrid-per-seed.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "1dd23273a9ecbb6fef26cb63340f0e5e2929ee3f01b9656239ec691d6133f224"
+  },
+  {
+    "number": 13,
+    "label": "tab:hybrid-summary",
+    "path": "results/paper_tables/table_13_hybrid-summary.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "afa174441e17680d15eccf542ee24ede00f265be196730175d2c7e7357825b9e"
+  },
+  {
+    "number": 14,
+    "label": "tab:heldout-accuracy",
+    "path": "results/paper_tables/table_14_heldout-accuracy.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "8e73d33f4b62b56aa70e62515082a706b378bf992865aed9a9a869c4c9a94e2f"
+  },
+  {
+    "number": 15,
+    "label": "tab:probe-main",
+    "path": "results/paper_tables/table_15_probe-main.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "9419e72aac26485f5b90b0ed49be03616a2813773e4b98810c701598d90bbb01"
+  },
+  {
+    "number": 16,
+    "label": "tab:qwen-intervention",
+    "path": "results/paper_tables/table_16_qwen-intervention.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "2b56758c715496328fbc3ec8c7fea0d9d70ee62f2bc5549a38d343158ab31f4b"
+  },
+  {
+    "number": 17,
+    "label": "tab:qwen-prompts",
+    "path": "results/paper_tables/table_17_qwen-prompts.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "7135157693fe218ee7e53fd77806697360b080b80399e884dab8eee79d4888fd"
+  },
+  {
+    "number": 18,
+    "label": "tab:additional-seeds-summary",
+    "path": "results/paper_tables/table_18_additional-seeds-summary.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "576ffd0983e071dafa3f05f633a7d6077a7fc978fef1a95fc5766cc5abc302d0"
+  },
+  {
+    "number": 19,
+    "label": "tab:additional-seeds-pairs",
+    "path": "results/paper_tables/table_19_additional-seeds-pairs.tex",
+    "provenance": "Exact table source from the supplied paper; historical summary values do not imply original raw records are available.",
+    "sha256": "7c08a841f33bd9f2bc6e0489b0b72edf177e24f47b35c375c863ef3374366055"
+  }
+]

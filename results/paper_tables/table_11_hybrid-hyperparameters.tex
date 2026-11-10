@@ -1,0 +1,49 @@
+\begin{table}[p]
+\centering
+\small
+\renewcommand{\arraystretch}{1.06}
+\caption{Model and training hyperparameters of the hybrid toy-model
+implementation. Batch size counts training sequences per optimizer update;
+the last batch of each epoch may be smaller. The evaluation epoch selected
+for each reported run is given in Table~\ref{tab:hybrid-per-seed}.}
+\label{tab:hybrid-hyperparameters}
+\begin{tabular}{@{}p{0.40\linewidth}p{0.56\linewidth}@{}}
+\toprule
+Hyperparameter & Value \\
+\midrule
+\multicolumn{2}{@{}l}{\textbf{Model architecture}} \\
+Block count and order & 4: linear + convolution, softmax, linear + convolution, softmax \\
+Hidden dimension & 256 \\
+Attention heads / head dimension & 8 / 32 \\
+MLP hidden dimension / activation & 1,024 / GELU \\
+Vocabulary / maximum sequence length & 336 / 12 tokens \\
+Normalization & Pre-LayerNorm in each block; final LayerNorm \\
+Positional encoding & Interleaved RoPE on queries and keys; base 10,000 \\
+Convolution type / kernel width & Causal depthwise 1D / 3 \\
+Convolution channels / groups & 768 / 768 in each linear-attention block; separate query, key, and value channels \\
+Convolution stride / dilation / bias & 1 / 1 / enabled; two positions of left zero padding \\
+Linear-attention feature map & $\psi(x)=\operatorname{ELU}(x)+1$ \\
+Attention normalization floor & $10^{-6}$ for the linear-attention denominator \\
+Dropout & 0 \\
+Embedding / output weights & $336\times256$ embedding; untied output projection \\
+Parameter initialization & PyTorch defaults \\
+Total / convolution parameters & 3,338,064 / 6,144 \\
+\midrule
+\multicolumn{2}{@{}l}{\textbf{Training}} \\
+Random seeds & 101, 102, 103, 104, 105 \\
+Training examples per seed & 270,000 arithmetic + 135,000 retrieval \\
+Training budget & 1,200 epochs \\
+Batch size & 8,190 sequences per optimizer update \\
+Optimizer & AdamW \\
+AdamW betas / epsilon & $(0.9,0.999)$ / $10^{-8}$ \\
+Weight decay / gradient clipping & 0.1 / none \\
+Peak learning rate & $1\times10^{-3}$ \\
+Warmup & Linear warmup over 500 optimizer updates \\
+Decay schedule / final learning rate & Cosine decay to 0.1 of peak / $1\times10^{-4}$ \\
+Training objective & Weighted causal next-token cross-entropy, normalized by the sum of target weights \\
+Retrieval loss weights & Memory 0.1; query target 2; answer 10 \\
+Arithmetic loss weights & Operands 0.1; result 10 \\
+Other target weights & Non-PAD targets 1; PAD targets 0 \\
+\bottomrule
+\end{tabular}
+\end{table}

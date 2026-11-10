@@ -1,0 +1,1364 @@
+{
+  "passed": true,
+  "history_sha256": "a791348133371d15ad6d9992813ee69ee99396f9b8b2edbc17434c0f16524445",
+  "purpose": "Descriptive analysis of the rerun only, not a checkpoint-selection rule.",
+  "episode_definition": "After a previous epoch with loss<0.5 and arithmetic>=99%, start when loss>1; group further spikes until the first subsequent epoch with loss<0.5 and arithmetic>=99%.",
+  "interpretation_limit": "The checks concern first recovery evaluations, not every epoch immediately after every local loss peak. The final episode has no observed recovery.",
+  "recovered_episodes": 50,
+  "right_censored_episodes": 1,
+  "original_transformer_semantic_reference_percent": 19.84,
+  "checks": {
+    "standard_above_semantic_at_every_first_recovery": true,
+    "semantic_above_original_transformer_reference_at_every_first_recovery": true,
+    "semantic_first_constituent_errors_present_at_every_first_recovery": true
+  },
+  "recovery_statistics": {
+    "arithmetic_percent": {
+      "min": 99.00716145833334,
+      "max": 99.951171875,
+      "mean": 99.3515625
+    },
+    "standard_percent": {
+      "min": 95.1,
+      "max": 97.39999999999999,
+      "mean": 96.82900000000001
+    },
+    "semantic_percent": {
+      "min": 55.703125,
+      "max": 80.8984375,
+      "mean": 68.40104166666667
+    },
+    "semantic_first_percent": {
+      "min": 14.036458333333332,
+      "max": 35.5078125,
+      "mean": 22.778125
+    }
+  },
+  "episodes": [
+    {
+      "previous_stable": {
+        "epoch": 82,
+        "loss": 0.1914665272831917,
+        "arithmetic_percent": 100.0,
+        "standard_percent": 96.75,
+        "semantic_percent": 74.71354166666667,
+        "semantic_first_percent": 14.049479166666668
+      },
+      "first_loss_above_one": {
+        "epoch": 83,
+        "loss": 1.1759835934638978,
+        "arithmetic_percent": 0.28483072916666663,
+        "standard_percent": 0.1,
+        "semantic_percent": 61.09375,
+        "semantic_first_percent": 0.0
+      },
+      "first_recovery": {
+        "epoch": 89,
+        "loss": 0.34297949731349947,
+        "arithmetic_percent": 99.951171875,
+        "standard_percent": 95.1,
+        "semantic_percent": 80.8984375,
+        "semantic_first_percent": 16.458333333333332
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 141,
+        "loss": 0.19612205177545547,
+        "arithmetic_percent": 100.0,
+        "standard_percent": 96.39999999999999,
+        "semantic_percent": 82.72135416666667,
+        "semantic_first_percent": 12.239583333333332
+      },
+      "first_loss_above_one": {
+        "epoch": 142,
+        "loss": 3.433311946392059,
+        "arithmetic_percent": 0.048828125,
+        "standard_percent": 1.05,
+        "semantic_percent": 0.0,
+        "semantic_first_percent": 0.0
+      },
+      "first_recovery": {
+        "epoch": 342,
+        "loss": 0.37161495327949523,
+        "arithmetic_percent": 99.05598958333334,
+        "standard_percent": 96.25,
+        "semantic_percent": 71.41927083333334,
+        "semantic_first_percent": 14.036458333333332
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 364,
+        "loss": 0.34300256073474883,
+        "arithmetic_percent": 99.365234375,
+        "standard_percent": 95.89999999999999,
+        "semantic_percent": 69.11458333333333,
+        "semantic_first_percent": 14.388020833333334
+      },
+      "first_loss_above_one": {
+        "epoch": 365,
+        "loss": 1.831317093372345,
+        "arithmetic_percent": 24.479166666666664,
+        "standard_percent": 24.45,
+        "semantic_percent": 45.794270833333336,
+        "semantic_first_percent": 20.651041666666668
+      },
+      "first_recovery": {
+        "epoch": 388,
+        "loss": 0.3587342804670334,
+        "arithmetic_percent": 99.32454427083334,
+        "standard_percent": 96.5,
+        "semantic_percent": 71.875,
+        "semantic_first_percent": 16.953125
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 388,
+        "loss": 0.3587342804670334,
+        "arithmetic_percent": 99.32454427083334,
+        "standard_percent": 96.5,
+        "semantic_percent": 71.875,
+        "semantic_first_percent": 16.953125
+      },
+      "first_loss_above_one": {
+        "epoch": 389,
+        "loss": 1.9480927568674087,
+        "arithmetic_percent": 4.9560546875,
+        "standard_percent": 81.65,
+        "semantic_percent": 5.7421875,
+        "semantic_first_percent": 17.291666666666668
+      },
+      "first_recovery": {
+        "epoch": 410,
+        "loss": 0.3883351343870163,
+        "arithmetic_percent": 99.03971354166666,
+        "standard_percent": 96.55,
+        "semantic_percent": 66.66666666666666,
+        "semantic_first_percent": 22.3046875
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 411,
+        "loss": 0.3291872662305832,
+        "arithmetic_percent": 99.44661458333334,
+        "standard_percent": 96.5,
+        "semantic_percent": 66.04166666666667,
+        "semantic_first_percent": 23.567708333333336
+      },
+      "first_loss_above_one": {
+        "epoch": 412,
+        "loss": 1.2616764533519744,
+        "arithmetic_percent": 21.3134765625,
+        "standard_percent": 85.1,
+        "semantic_percent": 46.484375,
+        "semantic_first_percent": 21.822916666666668
+      },
+      "first_recovery": {
+        "epoch": 419,
+        "loss": 0.3967029684782028,
+        "arithmetic_percent": 99.12923177083334,
+        "standard_percent": 96.45,
+        "semantic_percent": 64.296875,
+        "semantic_first_percent": 27.265625
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 429,
+        "loss": 0.3122814440727234,
+        "arithmetic_percent": 99.55240885416666,
+        "standard_percent": 96.7,
+        "semantic_percent": 65.40364583333333,
+        "semantic_first_percent": 25.716145833333332
+      },
+      "first_loss_above_one": {
+        "epoch": 430,
+        "loss": 1.1723817211389542,
+        "arithmetic_percent": 32.91015625,
+        "standard_percent": 95.6,
+        "semantic_percent": 52.161458333333336,
+        "semantic_first_percent": 34.8046875
+      },
+      "first_recovery": {
+        "epoch": 439,
+        "loss": 0.3505691808462143,
+        "arithmetic_percent": 99.462890625,
+        "standard_percent": 96.89999999999999,
+        "semantic_percent": 61.9140625,
+        "semantic_first_percent": 27.369791666666664
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 440,
+        "loss": 0.31721807420253756,
+        "arithmetic_percent": 99.42220052083334,
+        "standard_percent": 96.75,
+        "semantic_percent": 69.01041666666666,
+        "semantic_first_percent": 20.169270833333332
+      },
+      "first_loss_above_one": {
+        "epoch": 441,
+        "loss": 1.0317172133922576,
+        "arithmetic_percent": 15.576171875,
+        "standard_percent": 92.25,
+        "semantic_percent": 42.0703125,
+        "semantic_first_percent": 36.575520833333336
+      },
+      "first_recovery": {
+        "epoch": 446,
+        "loss": 0.3716380751132965,
+        "arithmetic_percent": 99.22688802083334,
+        "standard_percent": 96.45,
+        "semantic_percent": 65.57291666666667,
+        "semantic_first_percent": 25.351562500000004
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 446,
+        "loss": 0.3716380751132965,
+        "arithmetic_percent": 99.22688802083334,
+        "standard_percent": 96.45,
+        "semantic_percent": 65.57291666666667,
+        "semantic_first_percent": 25.351562500000004
+      },
+      "first_loss_above_one": {
+        "epoch": 447,
+        "loss": 1.3718924754858017,
+        "arithmetic_percent": 36.51529947916667,
+        "standard_percent": 95.19999999999999,
+        "semantic_percent": 54.7265625,
+        "semantic_first_percent": 32.473958333333336
+      },
+      "first_recovery": {
+        "epoch": 455,
+        "loss": 0.42263985574245455,
+        "arithmetic_percent": 99.08854166666666,
+        "standard_percent": 96.25,
+        "semantic_percent": 65.75520833333334,
+        "semantic_first_percent": 24.4921875
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 461,
+        "loss": 0.3550956243276596,
+        "arithmetic_percent": 99.42220052083334,
+        "standard_percent": 96.5,
+        "semantic_percent": 63.03385416666667,
+        "semantic_first_percent": 26.497395833333332
+      },
+      "first_loss_above_one": {
+        "epoch": 463,
+        "loss": 1.1699794447422027,
+        "arithmetic_percent": 61.604817708333336,
+        "standard_percent": 96.05,
+        "semantic_percent": 65.65104166666667,
+        "semantic_first_percent": 23.984375
+      },
+      "first_recovery": {
+        "epoch": 468,
+        "loss": 0.35654875993728635,
+        "arithmetic_percent": 99.47916666666666,
+        "standard_percent": 96.6,
+        "semantic_percent": 66.04166666666667,
+        "semantic_first_percent": 24.908854166666668
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 471,
+        "loss": 0.31585504829883576,
+        "arithmetic_percent": 99.47102864583334,
+        "standard_percent": 96.75,
+        "semantic_percent": 59.3359375,
+        "semantic_first_percent": 31.393229166666664
+      },
+      "first_loss_above_one": {
+        "epoch": 472,
+        "loss": 1.6465508031845093,
+        "arithmetic_percent": 35.48990885416667,
+        "standard_percent": 95.85000000000001,
+        "semantic_percent": 71.62760416666667,
+        "semantic_first_percent": 17.65625
+      },
+      "first_recovery": {
+        "epoch": 478,
+        "loss": 0.4833031553030014,
+        "arithmetic_percent": 99.12109375,
+        "standard_percent": 96.35000000000001,
+        "semantic_percent": 63.6328125,
+        "semantic_first_percent": 26.471354166666668
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 480,
+        "loss": 0.3102877593040466,
+        "arithmetic_percent": 99.560546875,
+        "standard_percent": 96.35000000000001,
+        "semantic_percent": 59.8046875,
+        "semantic_first_percent": 31.9140625
+      },
+      "first_loss_above_one": {
+        "epoch": 481,
+        "loss": 1.2152942258119583,
+        "arithmetic_percent": 57.877604166666664,
+        "standard_percent": 96.05,
+        "semantic_percent": 70.52083333333333,
+        "semantic_first_percent": 23.763020833333336
+      },
+      "first_recovery": {
+        "epoch": 485,
+        "loss": 0.37594476401805876,
+        "arithmetic_percent": 99.4140625,
+        "standard_percent": 96.65,
+        "semantic_percent": 65.61197916666667,
+        "semantic_first_percent": 27.604166666666668
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 497,
+        "loss": 0.2830364573001862,
+        "arithmetic_percent": 99.70703125,
+        "standard_percent": 96.15,
+        "semantic_percent": 70.5078125,
+        "semantic_first_percent": 22.213541666666668
+      },
+      "first_loss_above_one": {
+        "epoch": 498,
+        "loss": 1.7573221355676651,
+        "arithmetic_percent": 45.62174479166667,
+        "standard_percent": 94.0,
+        "semantic_percent": 51.61458333333333,
+        "semantic_first_percent": 32.604166666666664
+      },
+      "first_recovery": {
+        "epoch": 509,
+        "loss": 0.3286221563816071,
+        "arithmetic_percent": 99.55240885416666,
+        "standard_percent": 96.7,
+        "semantic_percent": 57.95572916666667,
+        "semantic_first_percent": 35.5078125
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 512,
+        "loss": 0.2823759025335312,
+        "arithmetic_percent": 99.6337890625,
+        "standard_percent": 96.7,
+        "semantic_percent": 57.291666666666664,
+        "semantic_first_percent": 35.4296875
+      },
+      "first_loss_above_one": {
+        "epoch": 513,
+        "loss": 1.0164977711439134,
+        "arithmetic_percent": 7.316080729166667,
+        "standard_percent": 84.95,
+        "semantic_percent": 8.111979166666666,
+        "semantic_first_percent": 30.729166666666668
+      },
+      "first_recovery": {
+        "epoch": 524,
+        "loss": 0.35986378371715544,
+        "arithmetic_percent": 99.28385416666666,
+        "standard_percent": 96.55,
+        "semantic_percent": 65.625,
+        "semantic_first_percent": 25.299479166666668
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 524,
+        "loss": 0.35986378371715544,
+        "arithmetic_percent": 99.28385416666666,
+        "standard_percent": 96.55,
+        "semantic_percent": 65.625,
+        "semantic_first_percent": 25.299479166666668
+      },
+      "first_loss_above_one": {
+        "epoch": 525,
+        "loss": 1.6094762855768203,
+        "arithmetic_percent": 37.80924479166667,
+        "standard_percent": 94.75,
+        "semantic_percent": 51.158854166666664,
+        "semantic_first_percent": 32.1875
+      },
+      "first_recovery": {
+        "epoch": 532,
+        "loss": 0.3570385754108429,
+        "arithmetic_percent": 99.560546875,
+        "standard_percent": 96.65,
+        "semantic_percent": 65.1953125,
+        "semantic_first_percent": 28.111979166666668
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 535,
+        "loss": 0.3247535955905914,
+        "arithmetic_percent": 99.38151041666666,
+        "standard_percent": 96.25,
+        "semantic_percent": 60.169270833333336,
+        "semantic_first_percent": 31.966145833333332
+      },
+      "first_loss_above_one": {
+        "epoch": 536,
+        "loss": 1.0124998515844346,
+        "arithmetic_percent": 40.05533854166667,
+        "standard_percent": 95.7,
+        "semantic_percent": 52.356770833333336,
+        "semantic_first_percent": 33.33333333333333
+      },
+      "first_recovery": {
+        "epoch": 540,
+        "loss": 0.3922285056114197,
+        "arithmetic_percent": 99.4384765625,
+        "standard_percent": 96.45,
+        "semantic_percent": 59.388020833333336,
+        "semantic_first_percent": 32.083333333333336
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 542,
+        "loss": 0.301572180390358,
+        "arithmetic_percent": 99.64192708333334,
+        "standard_percent": 96.55,
+        "semantic_percent": 60.677083333333336,
+        "semantic_first_percent": 31.184895833333332
+      },
+      "first_loss_above_one": {
+        "epoch": 544,
+        "loss": 1.1053500878810882,
+        "arithmetic_percent": 79.25618489583334,
+        "standard_percent": 96.7,
+        "semantic_percent": 60.27343750000001,
+        "semantic_first_percent": 29.817708333333332
+      },
+      "first_recovery": {
+        "epoch": 550,
+        "loss": 0.3354205685853958,
+        "arithmetic_percent": 99.60123697916666,
+        "standard_percent": 96.35000000000001,
+        "semantic_percent": 58.190104166666664,
+        "semantic_first_percent": 33.1640625
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 556,
+        "loss": 0.2697014355659485,
+        "arithmetic_percent": 99.71516927083334,
+        "standard_percent": 96.35000000000001,
+        "semantic_percent": 63.098958333333336,
+        "semantic_first_percent": 29.1796875
+      },
+      "first_loss_above_one": {
+        "epoch": 557,
+        "loss": 1.6126884746551513,
+        "arithmetic_percent": 4.581705729166666,
+        "standard_percent": 85.6,
+        "semantic_percent": 57.12239583333333,
+        "semantic_first_percent": 5.794270833333334
+      },
+      "first_recovery": {
+        "epoch": 569,
+        "loss": 0.44510348737239835,
+        "arithmetic_percent": 99.00716145833334,
+        "standard_percent": 96.39999999999999,
+        "semantic_percent": 65.45572916666667,
+        "semantic_first_percent": 28.138020833333332
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 571,
+        "loss": 0.30146448910236356,
+        "arithmetic_percent": 99.65006510416666,
+        "standard_percent": 96.8,
+        "semantic_percent": 66.43229166666667,
+        "semantic_first_percent": 27.786458333333336
+      },
+      "first_loss_above_one": {
+        "epoch": 572,
+        "loss": 1.1508901739120483,
+        "arithmetic_percent": 51.090494791666664,
+        "standard_percent": 96.05,
+        "semantic_percent": 42.890625,
+        "semantic_first_percent": 44.375
+      },
+      "first_recovery": {
+        "epoch": 576,
+        "loss": 0.4117850881814957,
+        "arithmetic_percent": 99.55240885416666,
+        "standard_percent": 96.8,
+        "semantic_percent": 66.02864583333333,
+        "semantic_first_percent": 26.861979166666668
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 579,
+        "loss": 0.28407851040363313,
+        "arithmetic_percent": 99.3896484375,
+        "standard_percent": 96.85000000000001,
+        "semantic_percent": 66.08072916666666,
+        "semantic_first_percent": 27.825520833333332
+      },
+      "first_loss_above_one": {
+        "epoch": 580,
+        "loss": 1.2222887992858886,
+        "arithmetic_percent": 71.8994140625,
+        "standard_percent": 96.65,
+        "semantic_percent": 69.12760416666667,
+        "semantic_first_percent": 23.346354166666668
+      },
+      "first_recovery": {
+        "epoch": 585,
+        "loss": 0.31430603206157687,
+        "arithmetic_percent": 99.67447916666666,
+        "standard_percent": 96.8,
+        "semantic_percent": 63.2421875,
+        "semantic_first_percent": 30.260416666666668
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 593,
+        "loss": 0.25945624470710754,
+        "arithmetic_percent": 99.70703125,
+        "standard_percent": 96.75,
+        "semantic_percent": 65.59895833333333,
+        "semantic_first_percent": 27.890625000000004
+      },
+      "first_loss_above_one": {
+        "epoch": 594,
+        "loss": 1.7101185005903243,
+        "arithmetic_percent": 19.482421875,
+        "standard_percent": 94.5,
+        "semantic_percent": 43.958333333333336,
+        "semantic_first_percent": 24.114583333333332
+      },
+      "first_recovery": {
+        "epoch": 607,
+        "loss": 0.4385576421022415,
+        "arithmetic_percent": 99.28385416666666,
+        "standard_percent": 96.95,
+        "semantic_percent": 64.453125,
+        "semantic_first_percent": 27.135416666666668
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 607,
+        "loss": 0.4385576421022415,
+        "arithmetic_percent": 99.28385416666666,
+        "standard_percent": 96.95,
+        "semantic_percent": 64.453125,
+        "semantic_first_percent": 27.135416666666668
+      },
+      "first_loss_above_one": {
+        "epoch": 609,
+        "loss": 1.0247334933280945,
+        "arithmetic_percent": 65.71451822916666,
+        "standard_percent": 96.85000000000001,
+        "semantic_percent": 49.322916666666664,
+        "semantic_first_percent": 38.515625
+      },
+      "first_recovery": {
+        "epoch": 611,
+        "loss": 0.317597559094429,
+        "arithmetic_percent": 99.5849609375,
+        "standard_percent": 96.7,
+        "semantic_percent": 63.255208333333336,
+        "semantic_first_percent": 29.661458333333336
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 611,
+        "loss": 0.317597559094429,
+        "arithmetic_percent": 99.5849609375,
+        "standard_percent": 96.7,
+        "semantic_percent": 63.255208333333336,
+        "semantic_first_percent": 29.661458333333336
+      },
+      "first_loss_above_one": {
+        "epoch": 612,
+        "loss": 1.0652040946483612,
+        "arithmetic_percent": 8.797200520833332,
+        "standard_percent": 92.05,
+        "semantic_percent": 16.09375,
+        "semantic_first_percent": 9.1796875
+      },
+      "first_recovery": {
+        "epoch": 618,
+        "loss": 0.3232280778884888,
+        "arithmetic_percent": 99.66634114583334,
+        "standard_percent": 97.2,
+        "semantic_percent": 73.203125,
+        "semantic_first_percent": 18.489583333333336
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 621,
+        "loss": 0.2776855456829071,
+        "arithmetic_percent": 99.6826171875,
+        "standard_percent": 96.85000000000001,
+        "semantic_percent": 73.19010416666667,
+        "semantic_first_percent": 20.299479166666668
+      },
+      "first_loss_above_one": {
+        "epoch": 622,
+        "loss": 1.7306098228693008,
+        "arithmetic_percent": 28.287760416666668,
+        "standard_percent": 96.25,
+        "semantic_percent": 52.39583333333333,
+        "semantic_first_percent": 38.619791666666664
+      },
+      "first_recovery": {
+        "epoch": 631,
+        "loss": 0.3831573176383972,
+        "arithmetic_percent": 99.51171875,
+        "standard_percent": 96.65,
+        "semantic_percent": 72.8125,
+        "semantic_first_percent": 18.997395833333332
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 632,
+        "loss": 0.3098687469959259,
+        "arithmetic_percent": 99.70703125,
+        "standard_percent": 96.65,
+        "semantic_percent": 71.88802083333333,
+        "semantic_first_percent": 20.15625
+      },
+      "first_loss_above_one": {
+        "epoch": 634,
+        "loss": 1.1267239135503768,
+        "arithmetic_percent": 48.56770833333333,
+        "standard_percent": 94.55,
+        "semantic_percent": 68.89322916666667,
+        "semantic_first_percent": 26.0546875
+      },
+      "first_recovery": {
+        "epoch": 637,
+        "loss": 0.3171728557348251,
+        "arithmetic_percent": 99.77213541666666,
+        "standard_percent": 96.95,
+        "semantic_percent": 77.31770833333333,
+        "semantic_first_percent": 14.544270833333334
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 644,
+        "loss": 0.26450531005859373,
+        "arithmetic_percent": 99.76399739583334,
+        "standard_percent": 96.85000000000001,
+        "semantic_percent": 73.95833333333334,
+        "semantic_first_percent": 18.697916666666668
+      },
+      "first_loss_above_one": {
+        "epoch": 646,
+        "loss": 2.270555701255798,
+        "arithmetic_percent": 12.272135416666668,
+        "standard_percent": 96.1,
+        "semantic_percent": 72.09635416666667,
+        "semantic_first_percent": 19.348958333333332
+      },
+      "first_recovery": {
+        "epoch": 661,
+        "loss": 0.3411863899230957,
+        "arithmetic_percent": 99.13736979166666,
+        "standard_percent": 96.89999999999999,
+        "semantic_percent": 78.02083333333333,
+        "semantic_first_percent": 14.1015625
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 661,
+        "loss": 0.3411863899230957,
+        "arithmetic_percent": 99.13736979166666,
+        "standard_percent": 96.89999999999999,
+        "semantic_percent": 78.02083333333333,
+        "semantic_first_percent": 14.1015625
+      },
+      "first_loss_above_one": {
+        "epoch": 662,
+        "loss": 1.0521890532970428,
+        "arithmetic_percent": 75.7080078125,
+        "standard_percent": 96.5,
+        "semantic_percent": 70.9765625,
+        "semantic_first_percent": 22.890625
+      },
+      "first_recovery": {
+        "epoch": 665,
+        "loss": 0.37825522780418397,
+        "arithmetic_percent": 99.28385416666666,
+        "standard_percent": 96.85000000000001,
+        "semantic_percent": 75.703125,
+        "semantic_first_percent": 14.153645833333334
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 668,
+        "loss": 0.29030289232730866,
+        "arithmetic_percent": 99.66634114583334,
+        "standard_percent": 96.7,
+        "semantic_percent": 77.35677083333333,
+        "semantic_first_percent": 15.611979166666668
+      },
+      "first_loss_above_one": {
+        "epoch": 669,
+        "loss": 1.522558667063713,
+        "arithmetic_percent": 10.685221354166668,
+        "standard_percent": 92.85,
+        "semantic_percent": 44.557291666666664,
+        "semantic_first_percent": 40.989583333333336
+      },
+      "first_recovery": {
+        "epoch": 676,
+        "loss": 0.36053245663642886,
+        "arithmetic_percent": 99.39778645833334,
+        "standard_percent": 96.95,
+        "semantic_percent": 75.7421875,
+        "semantic_first_percent": 15.989583333333332
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 676,
+        "loss": 0.36053245663642886,
+        "arithmetic_percent": 99.39778645833334,
+        "standard_percent": 96.95,
+        "semantic_percent": 75.7421875,
+        "semantic_first_percent": 15.989583333333332
+      },
+      "first_loss_above_one": {
+        "epoch": 677,
+        "loss": 1.0643717366456986,
+        "arithmetic_percent": 89.46940104166666,
+        "standard_percent": 96.75,
+        "semantic_percent": 56.39322916666667,
+        "semantic_first_percent": 36.614583333333336
+      },
+      "first_recovery": {
+        "epoch": 678,
+        "loss": 0.39215178072452544,
+        "arithmetic_percent": 99.169921875,
+        "standard_percent": 97.0,
+        "semantic_percent": 75.41666666666667,
+        "semantic_first_percent": 18.815104166666664
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 681,
+        "loss": 0.2899253302812576,
+        "arithmetic_percent": 99.8046875,
+        "standard_percent": 96.75,
+        "semantic_percent": 76.31510416666667,
+        "semantic_first_percent": 17.8515625
+      },
+      "first_loss_above_one": {
+        "epoch": 683,
+        "loss": 2.010294415950775,
+        "arithmetic_percent": 41.38997395833333,
+        "standard_percent": 97.0,
+        "semantic_percent": 70.3515625,
+        "semantic_first_percent": 22.018229166666668
+      },
+      "first_recovery": {
+        "epoch": 695,
+        "loss": 0.3343235665559769,
+        "arithmetic_percent": 99.17805989583334,
+        "standard_percent": 97.1,
+        "semantic_percent": 71.328125,
+        "semantic_first_percent": 22.708333333333332
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 711,
+        "loss": 0.28211179077625276,
+        "arithmetic_percent": 99.86979166666666,
+        "standard_percent": 96.6,
+        "semantic_percent": 66.51041666666667,
+        "semantic_first_percent": 23.59375
+      },
+      "first_loss_above_one": {
+        "epoch": 712,
+        "loss": 1.808489009141922,
+        "arithmetic_percent": 35.498046875,
+        "standard_percent": 96.7,
+        "semantic_percent": 49.2578125,
+        "semantic_first_percent": 38.984375
+      },
+      "first_recovery": {
+        "epoch": 715,
+        "loss": 0.38389416217803957,
+        "arithmetic_percent": 99.462890625,
+        "standard_percent": 96.85000000000001,
+        "semantic_percent": 64.19270833333334,
+        "semantic_first_percent": 18.2421875
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 724,
+        "loss": 0.274623287320137,
+        "arithmetic_percent": 99.82096354166666,
+        "standard_percent": 96.89999999999999,
+        "semantic_percent": 65.2734375,
+        "semantic_first_percent": 20.052083333333336
+      },
+      "first_loss_above_one": {
+        "epoch": 726,
+        "loss": 1.9305711221694946,
+        "arithmetic_percent": 30.9814453125,
+        "standard_percent": 97.0,
+        "semantic_percent": 69.98697916666666,
+        "semantic_first_percent": 24.049479166666668
+      },
+      "first_recovery": {
+        "epoch": 730,
+        "loss": 0.3690292167663574,
+        "arithmetic_percent": 99.55240885416666,
+        "standard_percent": 96.89999999999999,
+        "semantic_percent": 74.19270833333333,
+        "semantic_first_percent": 16.796875
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 735,
+        "loss": 0.26882657706737517,
+        "arithmetic_percent": 99.853515625,
+        "standard_percent": 97.45,
+        "semantic_percent": 71.11979166666667,
+        "semantic_first_percent": 17.278645833333332
+      },
+      "first_loss_above_one": {
+        "epoch": 736,
+        "loss": 1.9307794731855392,
+        "arithmetic_percent": 7.967122395833333,
+        "standard_percent": 91.10000000000001,
+        "semantic_percent": 30.117187499999996,
+        "semantic_first_percent": 22.916666666666664
+      },
+      "first_recovery": {
+        "epoch": 747,
+        "loss": 0.3132822209596634,
+        "arithmetic_percent": 99.755859375,
+        "standard_percent": 96.95,
+        "semantic_percent": 62.60416666666667,
+        "semantic_first_percent": 25.130208333333332
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 754,
+        "loss": 0.27066732943058014,
+        "arithmetic_percent": 99.853515625,
+        "standard_percent": 96.89999999999999,
+        "semantic_percent": 67.09635416666667,
+        "semantic_first_percent": 20.442708333333336
+      },
+      "first_loss_above_one": {
+        "epoch": 755,
+        "loss": 2.1475654351711273,
+        "arithmetic_percent": 4.264322916666666,
+        "standard_percent": 95.19999999999999,
+        "semantic_percent": 43.68489583333333,
+        "semantic_first_percent": 39.947916666666664
+      },
+      "first_recovery": {
+        "epoch": 771,
+        "loss": 0.3557699930667877,
+        "arithmetic_percent": 99.11295572916666,
+        "standard_percent": 96.95,
+        "semantic_percent": 61.80989583333333,
+        "semantic_first_percent": 28.190104166666668
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 782,
+        "loss": 0.2781882148981094,
+        "arithmetic_percent": 99.69075520833334,
+        "standard_percent": 96.95,
+        "semantic_percent": 60.1953125,
+        "semantic_first_percent": 30.690104166666664
+      },
+      "first_loss_above_one": {
+        "epoch": 783,
+        "loss": 1.6072327429056168,
+        "arithmetic_percent": 16.520182291666664,
+        "standard_percent": 95.89999999999999,
+        "semantic_percent": 32.8515625,
+        "semantic_first_percent": 36.00260416666667
+      },
+      "first_recovery": {
+        "epoch": 788,
+        "loss": 0.4079461044073105,
+        "arithmetic_percent": 99.45475260416666,
+        "standard_percent": 96.6,
+        "semantic_percent": 63.90625,
+        "semantic_first_percent": 23.7109375
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 797,
+        "loss": 0.26393306732177735,
+        "arithmetic_percent": 99.79654947916666,
+        "standard_percent": 96.89999999999999,
+        "semantic_percent": 68.9453125,
+        "semantic_first_percent": 22.161458333333332
+      },
+      "first_loss_above_one": {
+        "epoch": 798,
+        "loss": 2.6026920992136002,
+        "arithmetic_percent": 12.784830729166666,
+        "standard_percent": 95.45,
+        "semantic_percent": 31.5625,
+        "semantic_first_percent": 23.216145833333332
+      },
+      "first_recovery": {
+        "epoch": 834,
+        "loss": 0.2987023687362671,
+        "arithmetic_percent": 99.35709635416666,
+        "standard_percent": 97.2,
+        "semantic_percent": 72.13541666666666,
+        "semantic_first_percent": 18.7109375
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 834,
+        "loss": 0.2987023687362671,
+        "arithmetic_percent": 99.35709635416666,
+        "standard_percent": 97.2,
+        "semantic_percent": 72.13541666666666,
+        "semantic_first_percent": 18.7109375
+      },
+      "first_loss_above_one": {
+        "epoch": 836,
+        "loss": 1.435946296453476,
+        "arithmetic_percent": 86.51529947916666,
+        "standard_percent": 97.25,
+        "semantic_percent": 72.109375,
+        "semantic_first_percent": 20.494791666666668
+      },
+      "first_recovery": {
+        "epoch": 838,
+        "loss": 0.44315493702888487,
+        "arithmetic_percent": 99.169921875,
+        "standard_percent": 97.05,
+        "semantic_percent": 69.9609375,
+        "semantic_first_percent": 24.856770833333332
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 843,
+        "loss": 0.28728583455085754,
+        "arithmetic_percent": 99.40592447916666,
+        "standard_percent": 97.35000000000001,
+        "semantic_percent": 71.77083333333333,
+        "semantic_first_percent": 21.7578125
+      },
+      "first_loss_above_one": {
+        "epoch": 844,
+        "loss": 2.014045534133911,
+        "arithmetic_percent": 5.916341145833334,
+        "standard_percent": 96.2,
+        "semantic_percent": 58.68489583333333,
+        "semantic_first_percent": 30.169270833333332
+      },
+      "first_recovery": {
+        "epoch": 851,
+        "loss": 0.36801174879074094,
+        "arithmetic_percent": 99.06412760416666,
+        "standard_percent": 97.0,
+        "semantic_percent": 78.046875,
+        "semantic_first_percent": 15.494791666666666
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 856,
+        "loss": 0.2927242487668991,
+        "arithmetic_percent": 99.658203125,
+        "standard_percent": 97.05,
+        "semantic_percent": 76.30208333333334,
+        "semantic_first_percent": 17.747395833333332
+      },
+      "first_loss_above_one": {
+        "epoch": 857,
+        "loss": 1.6411182886362077,
+        "arithmetic_percent": 56.062825520833336,
+        "standard_percent": 96.8,
+        "semantic_percent": 60.1953125,
+        "semantic_first_percent": 30.221354166666664
+      },
+      "first_recovery": {
+        "epoch": 860,
+        "loss": 0.32648963093757627,
+        "arithmetic_percent": 99.64192708333334,
+        "standard_percent": 97.0,
+        "semantic_percent": 74.1015625,
+        "semantic_first_percent": 18.346354166666668
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 868,
+        "loss": 0.2742415535449982,
+        "arithmetic_percent": 99.86165364583334,
+        "standard_percent": 97.25,
+        "semantic_percent": 74.28385416666666,
+        "semantic_first_percent": 18.684895833333336
+      },
+      "first_loss_above_one": {
+        "epoch": 869,
+        "loss": 1.7380651611089706,
+        "arithmetic_percent": 0.390625,
+        "standard_percent": 42.85,
+        "semantic_percent": 1.7838541666666665,
+        "semantic_first_percent": 0.026041666666666668
+      },
+      "first_recovery": {
+        "epoch": 887,
+        "loss": 0.34085076212883,
+        "arithmetic_percent": 99.42220052083334,
+        "standard_percent": 97.39999999999999,
+        "semantic_percent": 71.4453125,
+        "semantic_first_percent": 19.153645833333332
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 899,
+        "loss": 0.28348359107971194,
+        "arithmetic_percent": 99.81282552083334,
+        "standard_percent": 97.2,
+        "semantic_percent": 73.52864583333333,
+        "semantic_first_percent": 17.903645833333336
+      },
+      "first_loss_above_one": {
+        "epoch": 900,
+        "loss": 1.5709918069839477,
+        "arithmetic_percent": 6.258138020833333,
+        "standard_percent": 95.95,
+        "semantic_percent": 46.145833333333336,
+        "semantic_first_percent": 4.7265625
+      },
+      "first_recovery": {
+        "epoch": 905,
+        "loss": 0.37356564581394197,
+        "arithmetic_percent": 99.4873046875,
+        "standard_percent": 97.15,
+        "semantic_percent": 79.609375,
+        "semantic_first_percent": 14.8046875
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 906,
+        "loss": 0.31700925052165985,
+        "arithmetic_percent": 99.560546875,
+        "standard_percent": 97.35000000000001,
+        "semantic_percent": 81.08072916666667,
+        "semantic_first_percent": 13.033854166666666
+      },
+      "first_loss_above_one": {
+        "epoch": 908,
+        "loss": 1.1741753846406937,
+        "arithmetic_percent": 91.6015625,
+        "standard_percent": 97.2,
+        "semantic_percent": 72.16145833333333,
+        "semantic_first_percent": 18.971354166666668
+      },
+      "first_recovery": {
+        "epoch": 909,
+        "loss": 0.407562615275383,
+        "arithmetic_percent": 99.6337890625,
+        "standard_percent": 97.15,
+        "semantic_percent": 79.296875,
+        "semantic_first_percent": 14.765624999999998
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 927,
+        "loss": 0.2601785182952881,
+        "arithmetic_percent": 99.91861979166666,
+        "standard_percent": 97.3,
+        "semantic_percent": 81.1328125,
+        "semantic_first_percent": 13.828125
+      },
+      "first_loss_above_one": {
+        "epoch": 928,
+        "loss": 2.11985405921936,
+        "arithmetic_percent": 1.3020833333333335,
+        "standard_percent": 92.85,
+        "semantic_percent": 57.981770833333336,
+        "semantic_first_percent": 20.598958333333332
+      },
+      "first_recovery": {
+        "epoch": 941,
+        "loss": 0.3305759590864181,
+        "arithmetic_percent": 99.03157552083334,
+        "standard_percent": 97.39999999999999,
+        "semantic_percent": 66.953125,
+        "semantic_first_percent": 21.380208333333332
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 950,
+        "loss": 0.27441118478775023,
+        "arithmetic_percent": 99.79654947916666,
+        "standard_percent": 97.3,
+        "semantic_percent": 69.55729166666667,
+        "semantic_first_percent": 21.458333333333332
+      },
+      "first_loss_above_one": {
+        "epoch": 951,
+        "loss": 1.1132429707050324,
+        "arithmetic_percent": 7.755533854166667,
+        "standard_percent": 89.25,
+        "semantic_percent": 43.90625,
+        "semantic_first_percent": 8.450520833333334
+      },
+      "first_recovery": {
+        "epoch": 955,
+        "loss": 0.33317152976989745,
+        "arithmetic_percent": 99.43033854166666,
+        "standard_percent": 97.2,
+        "semantic_percent": 68.80208333333333,
+        "semantic_first_percent": 23.28125
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 967,
+        "loss": 0.26039697766304015,
+        "arithmetic_percent": 99.91048177083334,
+        "standard_percent": 96.95,
+        "semantic_percent": 65.96354166666667,
+        "semantic_first_percent": 26.601562499999996
+      },
+      "first_loss_above_one": {
+        "epoch": 968,
+        "loss": 1.8906748986244202,
+        "arithmetic_percent": 0.3987630208333333,
+        "standard_percent": 37.2,
+        "semantic_percent": 8.90625,
+        "semantic_first_percent": 7.968749999999999
+      },
+      "first_recovery": {
+        "epoch": 980,
+        "loss": 0.33770076870918275,
+        "arithmetic_percent": 99.0234375,
+        "standard_percent": 96.95,
+        "semantic_percent": 66.00260416666667,
+        "semantic_first_percent": 25.716145833333332
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 986,
+        "loss": 0.27990227162837983,
+        "arithmetic_percent": 99.71516927083334,
+        "standard_percent": 97.35000000000001,
+        "semantic_percent": 71.328125,
+        "semantic_first_percent": 21.927083333333332
+      },
+      "first_loss_above_one": {
+        "epoch": 988,
+        "loss": 1.1720884191989898,
+        "arithmetic_percent": 77.1484375,
+        "standard_percent": 97.2,
+        "semantic_percent": 62.01822916666667,
+        "semantic_first_percent": 27.916666666666668
+      },
+      "first_recovery": {
+        "epoch": 989,
+        "loss": 0.48848184108734133,
+        "arithmetic_percent": 99.2431640625,
+        "standard_percent": 97.05,
+        "semantic_percent": 68.07291666666667,
+        "semantic_first_percent": 22.721354166666664
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 1006,
+        "loss": 0.2571165817975998,
+        "arithmetic_percent": 99.90234375,
+        "standard_percent": 97.25,
+        "semantic_percent": 70.91145833333333,
+        "semantic_first_percent": 24.401041666666668
+      },
+      "first_loss_above_one": {
+        "epoch": 1007,
+        "loss": 2.0587752145528793,
+        "arithmetic_percent": 4.231770833333334,
+        "standard_percent": 94.95,
+        "semantic_percent": 55.0390625,
+        "semantic_first_percent": 19.088541666666668
+      },
+      "first_recovery": {
+        "epoch": 1017,
+        "loss": 0.3255731135606766,
+        "arithmetic_percent": 99.0478515625,
+        "standard_percent": 97.3,
+        "semantic_percent": 55.703125,
+        "semantic_first_percent": 29.596354166666668
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 1038,
+        "loss": 0.25423277139663697,
+        "arithmetic_percent": 99.89420572916666,
+        "standard_percent": 97.25,
+        "semantic_percent": 55.481770833333336,
+        "semantic_first_percent": 30.559895833333332
+      },
+      "first_loss_above_one": {
+        "epoch": 1039,
+        "loss": 1.668801838159561,
+        "arithmetic_percent": 1.2939453125,
+        "standard_percent": 91.3,
+        "semantic_percent": 47.408854166666664,
+        "semantic_first_percent": 17.877604166666668
+      },
+      "first_recovery": {
+        "epoch": 1052,
+        "loss": 0.30681816875934603,
+        "arithmetic_percent": 99.03971354166666,
+        "standard_percent": 97.3,
+        "semantic_percent": 68.3984375,
+        "semantic_first_percent": 21.341145833333332
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 1054,
+        "loss": 0.28667218327522276,
+        "arithmetic_percent": 99.05598958333334,
+        "standard_percent": 97.35000000000001,
+        "semantic_percent": 67.95572916666667,
+        "semantic_first_percent": 22.1484375
+      },
+      "first_loss_above_one": {
+        "epoch": 1056,
+        "loss": 1.732524552345276,
+        "arithmetic_percent": 54.630533854166664,
+        "standard_percent": 96.75,
+        "semantic_percent": 65.390625,
+        "semantic_first_percent": 22.721354166666664
+      },
+      "first_recovery": {
+        "epoch": 1058,
+        "loss": 0.41026067078113554,
+        "arithmetic_percent": 99.462890625,
+        "standard_percent": 97.35000000000001,
+        "semantic_percent": 65.76822916666667,
+        "semantic_first_percent": 27.604166666666668
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 1088,
+        "loss": 0.25028963953256606,
+        "arithmetic_percent": 99.90234375,
+        "standard_percent": 97.25,
+        "semantic_percent": 65.7421875,
+        "semantic_first_percent": 25.260416666666668
+      },
+      "first_loss_above_one": {
+        "epoch": 1089,
+        "loss": 1.648027511239052,
+        "arithmetic_percent": 2.303059895833333,
+        "standard_percent": 94.3,
+        "semantic_percent": 22.864583333333332,
+        "semantic_first_percent": 17.643229166666664
+      },
+      "first_recovery": {
+        "epoch": 1099,
+        "loss": 0.30068307757377627,
+        "arithmetic_percent": 99.12109375,
+        "standard_percent": 97.35000000000001,
+        "semantic_percent": 66.27604166666666,
+        "semantic_first_percent": 22.356770833333332
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 1145,
+        "loss": 0.2441285103559494,
+        "arithmetic_percent": 99.951171875,
+        "standard_percent": 97.39999999999999,
+        "semantic_percent": 61.145833333333336,
+        "semantic_first_percent": 26.770833333333332
+      },
+      "first_loss_above_one": {
+        "epoch": 1146,
+        "loss": 2.6136821484565735,
+        "arithmetic_percent": 2.213541666666667,
+        "standard_percent": 95.35,
+        "semantic_percent": 68.29427083333334,
+        "semantic_first_percent": 13.945312500000002
+      },
+      "first_recovery": {
+        "epoch": 1157,
+        "loss": 0.3475475788116455,
+        "arithmetic_percent": 99.11295572916666,
+        "standard_percent": 97.35000000000001,
+        "semantic_percent": 70.75520833333333,
+        "semantic_first_percent": 19.466145833333336
+      }
+    },
+    {
+      "previous_stable": {
+        "epoch": 1198,
+        "loss": 0.24299217760562897,
+        "arithmetic_percent": 99.951171875,
+        "standard_percent": 97.05,
+        "semantic_percent": 65.71614583333333,
+        "semantic_first_percent": 20.8984375
+      },
+      "first_loss_above_one": {
+        "epoch": 1199,
+        "loss": 2.5496191066503524,
+        "arithmetic_percent": 0.7893880208333334,
+        "standard_percent": 95.65,
+        "semantic_percent": 49.947916666666664,
+        "semantic_first_percent": 35.911458333333336
+      },
+      "right_censored_at_epoch": 1200
+    }
+  ],
+  "all_stable_epoch_count": 459,
+  "all_stable_epoch_checks": {
+    "standard_above_semantic": true,
+    "semantic_above_original_transformer_reference": true,
+    "first_constituent_errors_present": true
+  }
+}

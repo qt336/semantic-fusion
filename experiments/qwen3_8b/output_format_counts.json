@@ -1,0 +1,122 @@
+[
+  {
+    "language": "zh",
+    "group": "all",
+    "condition": "baseline",
+    "n": 1000,
+    "single_character_or_word": 1000,
+    "AB_only": 0,
+    "ABC_echo_then_answer": 0,
+    "other": 0
+  },
+  {
+    "language": "zh",
+    "group": "all",
+    "condition": "early16",
+    "n": 1000,
+    "single_character_or_word": 1000,
+    "AB_only": 0,
+    "ABC_echo_then_answer": 0,
+    "other": 0
+  },
+  {
+    "language": "zh",
+    "group": "semantic",
+    "condition": "baseline",
+    "n": 500,
+    "single_character_or_word": 500,
+    "AB_only": 0,
+    "ABC_echo_then_answer": 0,
+    "other": 0
+  },
+  {
+    "language": "zh",
+    "group": "semantic",
+    "condition": "early16",
+    "n": 500,
+    "single_character_or_word": 500,
+    "AB_only": 0,
+    "ABC_echo_then_answer": 0,
+    "other": 0
+  },
+  {
+    "language": "zh",
+    "group": "random",
+    "condition": "baseline",
+    "n": 500,
+    "single_character_or_word": 500,
+    "AB_only": 0,
+    "ABC_echo_then_answer": 0,
+    "other": 0
+  },
+  {
+    "language": "zh",
+    "group": "random",
+    "condition": "early16",
+    "n": 500,
+    "single_character_or_word": 500,
+    "AB_only": 0,
+    "ABC_echo_then_answer": 0,
+    "other": 0
+  },
+  {
+    "language": "en",
+    "group": "all",
+    "condition": "baseline",
+    "n": 1000,
+    "single_character_or_word": 942,
+    "AB_only": 57,
+    "ABC_echo_then_answer": 1,
+    "other": 0
+  },
+  {
+    "language": "en",
+    "group": "all",
+    "condition": "early16",
+    "n": 1000,
+    "single_character_or_word": 999,
+    "AB_only": 1,
+    "ABC_echo_then_answer": 0,
+    "other": 0
+  },
+  {
+    "language": "en",
+    "group": "semantic",
+    "condition": "baseline",
+    "n": 500,
+    "single_character_or_word": 442,
+    "AB_only": 57,
+    "ABC_echo_then_answer": 1,
+    "other": 0
+  },
+  {
+    "language": "en",
+    "group": "semantic",
+    "condition": "early16",
+    "n": 500,
+    "single_character_or_word": 500,
+    "AB_only": 0,
+    "ABC_echo_then_answer": 0,
+    "other": 0
+  },
+  {
+    "language": "en",
+    "group": "random",
+    "condition": "baseline",
+    "n": 500,
+    "single_character_or_word": 500,
+    "AB_only": 0,
+    "ABC_echo_then_answer": 0,
+    "other": 0
+  },
+  {
+    "language": "en",
+    "group": "random",
+    "condition": "early16",
+    "n": 500,
+    "single_character_or_word": 499,
+    "AB_only": 1,
+    "ABC_echo_then_answer": 0,
+    "other": 0
+  }
+]

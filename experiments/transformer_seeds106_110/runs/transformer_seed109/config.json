@@ -1,0 +1,39 @@
+{
+  "root": "/home/user/toy_transformer_original_106_110_20261108",
+  "architecture": "transformer",
+  "seed": 109,
+  "device": "cuda",
+  "epochs": 1200,
+  "batch_size": 8190,
+  "microbatch": 2048,
+  "eval_every": 25,
+  "checkpoint_every": 25,
+  "cpu_threads": 4,
+  "small": false,
+  "parameters": 3331920,
+  "data": "/home/user/toy_transformer_original_106_110_20261108/datasets/seed_109.npz",
+  "data_metadata": {
+    "seed": 109,
+    "small": false,
+    "training_examples": 405000,
+    "evaluation_counts": {
+      "arithmetic_0": 4096,
+      "arithmetic_1": 4096,
+      "arithmetic_2": 4096,
+      "standard": 2000,
+      "semantic_0": 2560,
+      "semantic_1": 2560,
+      "semantic_2": 2560,
+      "control_a1b": 2560,
+      "control_a2b": 2560
+    },
+    "sha256": "6edbcdcf74fd2da33dbad5865b2a7d6e97087ac4db94fd2d6b678322337035c8",
+    "reconstructed_from_paper": true,
+    "original_data_available": false
+  },
+  "torch_version": "2.5.1+cu124",
+  "numpy_version": "1.26.4",
+  "precision": "float32 with TF32 allowed",
+  "cuda_visible_devices": "GPU-68662948-0277-2a94-4bf4-3a4bb0c73bf3",
+  "device_name": "NVIDIA GeForce RTX 4080"
+}

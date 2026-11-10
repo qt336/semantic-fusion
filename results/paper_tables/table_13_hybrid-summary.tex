@@ -1,0 +1,32 @@
+\begin{table}[!htbp]
+\centering
+\small
+\setlength{\tabcolsep}{7pt}
+\renewcommand{\arraystretch}{1.12}
+\caption{Original Transformer reference and aggregate hybrid results. The
+hybrid summary uses the five evaluations in Table~\ref{tab:hybrid-per-seed},
+including the earlier seed-104 snapshot. Transformer means come from
+Tables~\ref{tab:retrieval-results-seeds} and~\ref{tab:x1y-x2y-validation}.
+Hybrid means are reproduced from the result summary. All values are percentages.}
+\label{tab:hybrid-summary}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Metric & Transformer & Hybrid \\
+\midrule
+Arithmetic accuracy & 99.73 & 99.99 \\
+Standard retrieval accuracy & 99.00 & 97.70 \\
+Semantic retrieval accuracy & 19.84 & 79.65 \\
+Semantic first-constituent error & 46.74 & 10.67 \\
+\midrule
+\texttt{q01} accuracy & 14.55 & 77.1 \\
+\texttt{q01} first-constituent error & 38.66 & 13.1 \\
+\texttt{q02} accuracy & 33.98 & 79.7 \\
+\texttt{q02} first-constituent error & 36.35 & 8.1 \\
+\texttt{q21} accuracy & 10.98 & 82.2 \\
+\texttt{q21} first-constituent error & 65.20 & 10.8 \\
+\midrule
+\(x\,1\,y\) accuracy & 92.81 & 99.68 \\
+\(x\,2\,y\) accuracy & 93.82 & 96.91 \\
+\bottomrule
+\end{tabular}
+\end{table}

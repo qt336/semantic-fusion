@@ -1,0 +1,13 @@
+language,group,condition,n,single_character_or_word,AB_only,ABC_echo_then_answer,other
+zh,all,baseline,1000,1000,0,0,0
+zh,all,early16,1000,1000,0,0,0
+zh,semantic,baseline,500,500,0,0,0
+zh,semantic,early16,500,500,0,0,0
+zh,random,baseline,500,500,0,0,0
+zh,random,early16,500,500,0,0,0
+en,all,baseline,1000,942,57,1,0
+en,all,early16,1000,999,1,0,0
+en,semantic,baseline,500,442,57,1,0
+en,semantic,early16,500,500,0,0,0
+en,random,baseline,500,500,0,0,0
+en,random,early16,500,499,1,0,0

@@ -1,0 +1,102 @@
+[
+  {
+    "language": "zh",
+    "group": "comma",
+    "condition": "baseline",
+    "n": 500,
+    "B": 397,
+    "A": 85,
+    "Q": 18,
+    "Other": 0
+  },
+  {
+    "language": "zh",
+    "group": "comma",
+    "condition": "layer0",
+    "n": 500,
+    "B": 396,
+    "A": 83,
+    "Q": 21,
+    "Other": 0
+  },
+  {
+    "language": "zh",
+    "group": "comma",
+    "condition": "early4",
+    "n": 500,
+    "B": 388,
+    "A": 98,
+    "Q": 14,
+    "Other": 0
+  },
+  {
+    "language": "zh",
+    "group": "comma",
+    "condition": "early8",
+    "n": 500,
+    "B": 382,
+    "A": 97,
+    "Q": 21,
+    "Other": 0
+  },
+  {
+    "language": "zh",
+    "group": "comma",
+    "condition": "middle4",
+    "n": 500,
+    "B": 390,
+    "A": 93,
+    "Q": 17,
+    "Other": 0
+  },
+  {
+    "language": "en",
+    "group": "comma",
+    "condition": "baseline",
+    "n": 500,
+    "B": 275,
+    "A": 64,
+    "Q": 7,
+    "Other": 154
+  },
+  {
+    "language": "en",
+    "group": "comma",
+    "condition": "layer0",
+    "n": 500,
+    "B": 280,
+    "A": 63,
+    "Q": 7,
+    "Other": 150
+  },
+  {
+    "language": "en",
+    "group": "comma",
+    "condition": "early4",
+    "n": 500,
+    "B": 287,
+    "A": 64,
+    "Q": 8,
+    "Other": 141
+  },
+  {
+    "language": "en",
+    "group": "comma",
+    "condition": "early8",
+    "n": 500,
+    "B": 261,
+    "A": 59,
+    "Q": 4,
+    "Other": 176
+  },
+  {
+    "language": "en",
+    "group": "comma",
+    "condition": "middle4",
+    "n": 500,
+    "B": 277,
+    "A": 64,
+    "Q": 8,
+    "Other": 151
+  }
+]

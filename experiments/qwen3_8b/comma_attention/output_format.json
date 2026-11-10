@@ -1,0 +1,34 @@
+[
+  {
+    "language": "zh",
+    "condition": "baseline",
+    "n": 500,
+    "direct_single": 497,
+    "answer_explanation": 3,
+    "ABC_echo_then_answer": 0
+  },
+  {
+    "language": "zh",
+    "condition": "early16",
+    "n": 500,
+    "direct_single": 494,
+    "answer_explanation": 6,
+    "ABC_echo_then_answer": 0
+  },
+  {
+    "language": "en",
+    "condition": "baseline",
+    "n": 500,
+    "direct_single": 500,
+    "answer_explanation": 0,
+    "ABC_echo_then_answer": 0
+  },
+  {
+    "language": "en",
+    "condition": "early16",
+    "n": 500,
+    "direct_single": 500,
+    "answer_explanation": 0,
+    "ABC_echo_then_answer": 0
+  }
+]

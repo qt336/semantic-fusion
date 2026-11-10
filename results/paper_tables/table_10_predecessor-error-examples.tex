@@ -1,0 +1,22 @@
+\begin{table}[!htbp]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}
+\caption{Examples of incorrect answers from DeepSeek V4 Pro, classified as
+Other. Gold $b$ is the expected predecessor; Raw output shows the complete
+model response. The final column illustrates a familiar expression formed
+by the incorrect answer and the query word $Q$.}
+\label{tab:predecessor-error-examples}
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Condition & Input sequence & Gold $b$ & Raw output & Output + $Q$ \\
+\midrule
+Semantic & post office wheel & office & Ferris & Ferris wheel \\
+Semantic & science fiction rain & fiction & acid & acid rain \\
+Comma & ice, cream, belt & cream & seat & seat belt \\
+Comma & science, fiction, root & fiction & square & square root \\
+Random & due pot pad & pot & launch & launch pad \\
+\bottomrule
+\end{tabular}
+\end{table}

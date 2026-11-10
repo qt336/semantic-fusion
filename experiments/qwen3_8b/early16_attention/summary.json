@@ -1,0 +1,82 @@
+[
+  {
+    "language": "zh",
+    "group": "semantic",
+    "condition": "baseline",
+    "n": 500,
+    "B": 36,
+    "A": 436,
+    "Q": 27,
+    "Other": 1
+  },
+  {
+    "language": "zh",
+    "group": "semantic",
+    "condition": "early16",
+    "n": 500,
+    "B": 349,
+    "A": 138,
+    "Q": 13,
+    "Other": 0
+  },
+  {
+    "language": "zh",
+    "group": "random",
+    "condition": "baseline",
+    "n": 500,
+    "B": 264,
+    "A": 199,
+    "Q": 37,
+    "Other": 0
+  },
+  {
+    "language": "zh",
+    "group": "random",
+    "condition": "early16",
+    "n": 500,
+    "B": 402,
+    "A": 84,
+    "Q": 14,
+    "Other": 0
+  },
+  {
+    "language": "en",
+    "group": "semantic",
+    "condition": "baseline",
+    "n": 500,
+    "B": 125,
+    "A": 375,
+    "Q": 0,
+    "Other": 0
+  },
+  {
+    "language": "en",
+    "group": "semantic",
+    "condition": "early16",
+    "n": 500,
+    "B": 431,
+    "A": 69,
+    "Q": 0,
+    "Other": 0
+  },
+  {
+    "language": "en",
+    "group": "random",
+    "condition": "baseline",
+    "n": 500,
+    "B": 381,
+    "A": 108,
+    "Q": 11,
+    "Other": 0
+  },
+  {
+    "language": "en",
+    "group": "random",
+    "condition": "early16",
+    "n": 500,
+    "B": 395,
+    "A": 96,
+    "Q": 9,
+    "Other": 0
+  }
+]

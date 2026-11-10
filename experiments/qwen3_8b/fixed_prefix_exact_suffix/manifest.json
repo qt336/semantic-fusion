@@ -1,0 +1,18 @@
+{
+  "samples": 2000,
+  "generations": 4000,
+  "per_cell": 500,
+  "variants": [
+    "before",
+    "exact_left"
+  ],
+  "model": "Qwen/Qwen3-8B",
+  "reasoning": false,
+  "dtype": "bfloat16",
+  "attention_intervention": false,
+  "design": "Additional exact-suffix control: previous explicit_position prompt with only the leading pre-ABC instruction removed. Both conditions regenerated in matched batches.",
+  "rationale": "The four factorial suffixes did not reproduce the complete previous question wording. This additional control retains that wording verbatim and reports both experiments.",
+  "input_source_sha256": "6fab6ebad5e7ec0f6e795be244cb732237c470760b86ba58cdabea61efb5e6a7",
+  "input_file": "items.jsonl",
+  "input_sha256": "36a9644d2a5f0f3e0f53b0651e4321268cd1bd5be46348910816cf8f21ac1303"
+}

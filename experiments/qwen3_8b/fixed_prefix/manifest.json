@@ -1,0 +1,39 @@
+{
+  "source_sha256": "adcc24fc7273a7211e10a242ac9180128364059418c5a513b47452c5ea062873",
+  "samples": 2000,
+  "generations": 8000,
+  "per_cell": 500,
+  "variants": [
+    "before",
+    "left",
+    "sequence_before",
+    "sequence_left"
+  ],
+  "model": "Qwen/Qwen3-8B",
+  "reasoning": false,
+  "dtype": "bfloat16",
+  "decoding": "greedy",
+  "max_new_tokens": 32,
+  "attention_intervention": false,
+  "factors": {
+    "relation": [
+      "before",
+      "immediately to the left"
+    ],
+    "sequence_anchor": [
+      "absent",
+      "present after ABC"
+    ]
+  },
+  "fixed_prefix": "Original display at the start of the user message; all token IDs and positions through C identical across all four variants.",
+  "primary_comparisons": "before vs left; sequence_before vs sequence_left; before vs sequence_before; left vs sequence_left. Report every cell.",
+  "hidden_state_audit": "All 2,000 triples; all four complete prompts in a common right-padded forward batch. Compare all 37 returned hidden states at the complete shared prefix through C.",
+  "strict_counts": {
+    "zh/semantic": 500,
+    "zh/random": 500,
+    "en/semantic": 500,
+    "en/random": 493
+  },
+  "input_file": "items.jsonl",
+  "input_sha256": "e819f02c8ed87929be7588d1773f3ffc776a7e912c7db24c5b42d5842e6d44a1"
+}

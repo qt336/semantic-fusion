@@ -1,0 +1,297 @@
+{
+  "en:strong:semantic_001|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_009|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_013|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_017|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_241|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_245|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_249|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_253|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_257|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_301|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_305|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_313|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_317|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_006|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_010|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_014|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_018|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_242|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_246|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_250|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_254|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_258|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_302|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_306|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_310|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_318|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:independent:random_267|early16": {
+    "answer": "pr",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "2af48fa9e153269bf0910a51cc1e0fc4a81dc72136c419699c762b6cd0f0c6d3"
+  },
+  "en:strong:semantic_003|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_007|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_011|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_015|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_019|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_239|baseline": {
+    "answer": "hard",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "1144c6e5491ddc21e1798c750479aaaa0bf745e2bb1263d8b0e6b6d1c23b6f1e"
+  },
+  "en:strong:semantic_243|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_247|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_251|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_255|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_259|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_303|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_311|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_315|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_319|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_443|baseline": {
+    "answer": "hole",
+    "reason": "Repeats the displayed sequence before explicitly answering hole; the repeated sequence is not an answer.",
+    "answer_raw_sha256": "0937f0996dfa3cb6fc55774eb8a7613bbf90710ef90f10914e09045ae8fd3dfa"
+  },
+  "en:strong:semantic_004|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_008|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_012|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_016|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_020|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+  },
+  "en:strong:semantic_244|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_248|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_252|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_256|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_260|baseline": {
+    "answer": "real",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "d7efa2f7a9e1b512fd646d3e89e22e529f2b1e852a2864d654d9a867ca4a4624"
+  },
+  "en:strong:semantic_304|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_312|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_316|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_320|baseline": {
+    "answer": "prime",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "26ac98196b0bf766255ee6df2f8ed1d0b8aa70e6331c1af5f0ddbbba3bc4b67a"
+  },
+  "en:strong:semantic_348|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "c7eceb476b3d6bc306ca16bf99b1d0e04ca37e3299ef89758dda2091c151fb0d"
+  },
+  "en:strong:semantic_356|baseline": {
+    "answer": "ice",
+    "reason": "Directly proposes AB as the answer; its first constituent is A under the fixed scoring rule.",
+    "answer_raw_sha256": "c7eceb476b3d6bc306ca16bf99b1d0e04ca37e3299ef89758dda2091c151fb0d"
+  }
+}

@@ -1,0 +1,9 @@
+language,group,variant,n,B,A,Q,Other,accuracy_pct,wrong_a_pct
+zh,semantic,before,500,27,454,4,15,5.4,90.8
+zh,random,before,500,55,442,3,0,11.0,88.4
+zh,semantic,exact_left,500,92,375,25,8,18.4,75.0
+zh,random,exact_left,500,282,176,41,1,56.4,35.2
+en,semantic,before,500,135,235,7,123,27.0,47.0
+en,random,before,500,143,206,19,132,28.6,41.2
+en,semantic,exact_left,500,75,396,21,8,15.0,79.2
+en,random,exact_left,500,148,232,110,10,29.6,46.4

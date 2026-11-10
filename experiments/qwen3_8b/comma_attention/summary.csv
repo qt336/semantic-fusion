@@ -1,0 +1,5 @@
+language,group,condition,n,B,A,Q,Other,accuracy_pct,wrong_a_pct
+zh,comma,baseline,500,431,40,29,0,86.2,8.0
+zh,comma,early16,500,425,44,31,0,85.0,8.8
+en,comma,baseline,500,468,32,0,0,93.6,6.4
+en,comma,early16,500,499,1,0,0,99.8,0.2

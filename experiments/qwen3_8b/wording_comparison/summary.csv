@@ -1,0 +1,13 @@
+language,group,variant,n,B,A,Q,Other,accuracy_pct,wrong_a_pct,wrong_q_pct,other_pct
+zh,semantic,original,500,27,454,4,15,5.4,90.8,0.8,3.0
+zh,random,original,500,55,442,3,0,11.0,88.4,0.6,0.0
+zh,semantic,explicit_position,500,36,436,27,1,7.2,87.2,5.4,0.2
+zh,random,explicit_position,500,264,199,37,0,52.8,39.8,7.4,0.0
+zh,semantic,second_item,500,451,36,13,0,90.2,7.2,2.6,0.0
+zh,random,second_item,500,496,1,3,0,99.2,0.2,0.6,0.0
+en,semantic,original,500,135,235,7,123,27.0,47.0,1.4,24.6
+en,random,original,500,143,206,19,132,28.6,41.2,3.8,26.4
+en,semantic,explicit_position,500,125,375,0,0,25.0,75.0,0.0,0.0
+en,random,explicit_position,500,381,108,11,0,76.2,21.6,2.2,0.0
+en,semantic,second_item,500,221,122,157,0,44.2,24.4,31.4,0.0
+en,random,second_item,500,440,42,18,0,88.0,8.4,3.6,0.0

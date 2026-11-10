@@ -1,0 +1,55 @@
+\begin{table}[!htbp]
+    \centering
+    \caption{Layer-0 attention-pathway ablation. Entries show baseline $\rightarrow$ masked accuracy; pp denotes percentage points.}
+    \label{tab:seed_results}
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{c c c c c}
+        \toprule
+        \textbf{Seed}
+        & \textbf{\texttt{q01} Accuracy}
+        & \textbf{\texttt{q02} Accuracy}
+        & \textbf{\texttt{q21} Accuracy}
+        & \textbf{Arithmetic Held: Baseline $\rightarrow$ Masked} \\
+        \midrule
+
+        101
+        & 0.20\% $\rightarrow$ \textbf{66.64\%}
+        & 22.70\% $\rightarrow$ \textbf{57.62\%}
+        & 0.70\% $\rightarrow$ \textbf{58.87\%}
+        & 99.63\% $\rightarrow$ \textbf{2.12\%} ($-97.51$ pp) \\
+
+        102
+        & 17.03\% $\rightarrow$ \textbf{63.01\%}
+        & 12.93\% $\rightarrow$ \textbf{60.82\%}
+        & 9.45\% $\rightarrow$ \textbf{63.16\%}
+        & 100.00\% $\rightarrow$ \textbf{14.74\%} ($-85.26$ pp) \\
+
+        103
+        & 5.70\% $\rightarrow$ \textbf{93.12\%}
+        & 44.06\% $\rightarrow$ \textbf{80.82\%}
+        & 3.16\% $\rightarrow$ \textbf{87.89\%}
+        & 99.93\% $\rightarrow$ \textbf{4.13\%} ($-95.80$ pp) \\
+
+        104
+        & 37.70\% $\rightarrow$ \textbf{70.23\%}
+        & 60.94\% $\rightarrow$ \textbf{90.78\%}
+        & 35.82\% $\rightarrow$ \textbf{77.30\%}
+        & 99.68\% $\rightarrow$ \textbf{19.89\%} ($-79.79$ pp) \\
+
+        105
+        & 12.11\% $\rightarrow$ \textbf{89.96\%}
+        & 29.26\% $\rightarrow$ \textbf{91.64\%}
+        & 5.74\% $\rightarrow$ \textbf{95.27\%}
+        & 99.42\% $\rightarrow$ \textbf{13.03\%} ($-86.39$ pp) \\
+
+        \midrule
+        \textbf{Average}
+        & 14.55\% $\rightarrow$ \textbf{76.59\%}
+        & 33.98\% $\rightarrow$ \textbf{76.34\%}
+        & 10.98\% $\rightarrow$ \textbf{76.50\%}
+        & 99.73\% $\rightarrow$ \textbf{10.78\%} ($-88.95$ pp) \\
+
+        \bottomrule
+    \end{tabular}
+    }
+\end{table}

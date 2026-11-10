@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "source_triples": 2000,
+  "unique_generations": 6000,
+  "cells": 12,
+  "per_cell": 500,
+  "all_source_items_preserved": true,
+  "original_prompts_match_source": true,
+  "prior_diagnostic_prompts_matched": 180,
+  "rendered_inputs_and_token_ids_checked": 6000,
+  "raw_outputs_verified_against_output_ids": 6000,
+  "non_simple_or_truncated_reviewed": 96,
+  "pending_review": 0,
+  "truncated_outputs": 6,
+  "no_attention_intervention": true,
+  "all_four_workers_exit_zero": true,
+  "raw_result_sha256": {
+    "worker_0.jsonl": "bb25ddbb44809168edd7517febd3c93b994400cac13db6bc2dfd75f60d811258",
+    "worker_1.jsonl": "419fe373e08e3c120e27a9a4bb741e59a0ce330e517ee071d73b1742a3900603",
+    "worker_2.jsonl": "7343699492fa4fe4704a3cd8a5ffb8c97b69103fb60d9ef67e29f1a2299ae952",
+    "worker_3.jsonl": "3e2f1d1e2f94370eadb9abe576ba0272253576f2fe10eaaa1ded870f39cef71f"
+  }
+}

@@ -1,0 +1,4 @@
+epoch,arithmetic_accuracy_percent,note
+1150,20.72,spike 后的评估
+1175,99.93,汇总采用的评估轮次
+1200,3.6,最后一轮：末尾 spike

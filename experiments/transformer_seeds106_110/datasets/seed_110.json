@@ -1,0 +1,19 @@
+{
+  "seed": 110,
+  "small": false,
+  "training_examples": 405000,
+  "evaluation_counts": {
+    "arithmetic_0": 4096,
+    "arithmetic_1": 4096,
+    "arithmetic_2": 4096,
+    "standard": 2000,
+    "semantic_0": 2560,
+    "semantic_1": 2560,
+    "semantic_2": 2560,
+    "control_a1b": 2560,
+    "control_a2b": 2560
+  },
+  "sha256": "6ae7ee5b75dc71d73f5f27073c230151774b51b829da0dd43376736e1729a5ff",
+  "reconstructed_from_paper": true,
+  "original_data_available": false
+}

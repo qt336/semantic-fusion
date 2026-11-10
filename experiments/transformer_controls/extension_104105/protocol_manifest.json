@@ -1,0 +1,105 @@
+{
+  "created_utc": "2026-11-07T22:37:48.755284+00:00",
+  "condition": "random_operator",
+  "original_seeds": [
+    101,
+    102,
+    103
+  ],
+  "new_seeds": [
+    104,
+    105
+  ],
+  "all_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "epochs": 1200,
+  "from_scratch": true,
+  "architecture": "plain_transformer_4layers_256width_8heads_MLP1024_RoPE",
+  "arithmetic_examples_per_epoch": 270000,
+  "retrieval_examples_per_epoch": 135000,
+  "random_operator_examples_per_epoch": 180000,
+  "total_examples_per_epoch": 585000,
+  "updates_per_epoch": 72,
+  "batch_size": 8190,
+  "microbatch": 2048,
+  "cpu_threads": 4,
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.001,
+    "min_lr": 0.0001,
+    "warmup_updates": 500,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "weight_decay": 0.1
+  },
+  "eval_every": 25,
+  "checkpoint_every": 10,
+  "random_label_policy": "Uniform 0..330; redraw each epoch independently using the unchanged original refresh_noise function; shifted input and target both updated",
+  "retrieval_training_target_pair_count": 0,
+  "test_examples_per_pair": 2560,
+  "test_memory_length_range": [
+    3,
+    6
+  ],
+  "gpu_indices": [
+    1,
+    6
+  ],
+  "allow_GPU_sharing": true,
+  "minimum_free_MiB": 8000,
+  "max_concurrent_runs": 2,
+  "screen_session": "qt1",
+  "screen_window": "randomop_104105",
+  "validation_sha256": "63f9fa6811f7b5a1b23cfbbcf8451a1a480f457bca8d849d2c6be1a5d8bb31b5",
+  "original_source_sha256": {
+    "data.py": "f4ec86883fa8d96b6da55b35f41a20b5652f1e97dbb4c5ff6517a57a260b7d94",
+    "model.py": "4089d1822804f5464dcdfd692a11850fe4456722caabca8ad845db7deee87f8f",
+    "train.py": "16f433a6a8ed7c7c534b264b53f47c6a56c457ee064e6b087a69fbc9039a9627"
+  },
+  "extension_source_sha256": {
+    "prepare.py": "5321671e1928f23ce6448a1e6dd7c967ead630070b782bc6d9a9e83ce25974c9",
+    "report.py": "b875820e4cf02a0779fcf3ae0d5904e2f6613b894f4ea4265ff9cdd5b32c2c57",
+    "launch.py": "8f7332de505e35e442e5a0b25577fdb7bc035b983481bcbb768a14aa2cf4135b",
+    "start.sh": "90986d9d9b29d3cc6f1fcea9e18b46525b71a7b9b171096f4f4e9ead0c2e9231",
+    "finalize.py": "0c92b2ccc0ca0e0c73f83818763bb9868439375c2e25896d6d85924fe86983db"
+  },
+  "historical_file_sha256": {
+    "runs/heldout_pairs_seed101/config.json": "26d9756d083dcc762f209ac36f079017467606ee63683cdc88bff0f1cc5941e4",
+    "runs/heldout_pairs_seed101/result.json": "a0c799d47837b955541fc71b75a2c479478b3a44fdff13e44009666becbf2291",
+    "runs/heldout_pairs_seed101/predictions.npz": "92e08c0542d322e74aad088ca2fd23fd0a15c3ba1522e163c7d33e84b421497a",
+    "runs/heldout_pairs_seed101/latest.pt": "757ad6cd8317361a301be2c088b3cdc5fa22f074ec280364915c4ac94dcd8fd2",
+    "runs/heldout_pairs_seed102/config.json": "bd8eb81c20d9581ad5334383d5741d0cf5eb95eed9577f4af7822348485580e7",
+    "runs/heldout_pairs_seed102/result.json": "c56bfbdeda62ed173783ade0a45a3e0297c972f19ff02419ceb7b004fe8d0f67",
+    "runs/heldout_pairs_seed102/predictions.npz": "605501f9200b0f2b25b3904dfb25d8b3ef4fa9041d23bfeaff477e772d7adb06",
+    "runs/heldout_pairs_seed102/latest.pt": "e6298c28c442ae69e96a7451c904c4dd9dc31154a6912733e81aef32638d19d3",
+    "runs/heldout_pairs_seed103/config.json": "b2e06895a9fd3222f17ba3cd588446476667f3f4b3e30f7db42b9cbf1960b274",
+    "runs/heldout_pairs_seed103/result.json": "1f577935e423f9f3704bf6a374e37d9b79af3dbca41446511e52009d1a0a0f5a",
+    "runs/heldout_pairs_seed103/predictions.npz": "c18c7cf67c6d61b6209fb3a1078c2fea26ded9bc8ea4bfbd3e8feee518040c34",
+    "runs/heldout_pairs_seed103/latest.pt": "d6ab1f5e661d055d826289888695d0bef16ec49a58d9357296f0b7448de2e869",
+    "runs/random_operator_seed101/config.json": "0d96a14992c39f168b204cfa822941802a81357173d85190753f6a6f739dfd0e",
+    "runs/random_operator_seed101/result.json": "402f8b30fbad14bd45c16060beef408b18d8f3df4332dc2298014455393b3eff",
+    "runs/random_operator_seed101/predictions.npz": "cb02087c738c1fc6cc157e3d6b3ef01540a59085a6b7057fd6fb5e0192ba6ac8",
+    "runs/random_operator_seed101/latest.pt": "b2e78e04554c8f346bc10b517657b3bd3ee34b8473df109c458f252e7fb96aef",
+    "runs/random_operator_seed102/config.json": "4f14d4b4ddbbb6caf6de5d3d3a4b704c1acbbd881a94757c13d9dfac7842ee52",
+    "runs/random_operator_seed102/result.json": "5310f47b1e0784473f317268570fd2161a0c29577af80cc2de95bd02ac8eeed2",
+    "runs/random_operator_seed102/predictions.npz": "15a2850440d94b54c45fe03e7bc1b2129397fa213c586e91776afc10ccc2f1c7",
+    "runs/random_operator_seed102/latest.pt": "c0fbce6876f1c3ffba4313f139f46f322d5979708655a2f1c0795c4dbe931326",
+    "runs/random_operator_seed103/config.json": "771d502ade82e9d66c3936a0f0d9747c4193fdf0771517c58b03fb4c1dcf1cce",
+    "runs/random_operator_seed103/result.json": "fbb751831ac7ab83283f54a316b65ee97df4cae6cf61eafaf488f330d14bfeb3",
+    "runs/random_operator_seed103/predictions.npz": "f3e38fee5ab39ee27e53c3ed348a766e716066ba4ef6de79251900e12909ecb5",
+    "runs/random_operator_seed103/latest.pt": "cd32cdb431886aa88f5b513513a0edf4c3373a2c59404c28e42777ad9da191f7"
+  },
+  "new_dataset_sha256": {
+    "104": "6d379a340e479e6d9ba25a52555fb6620df8df9070a31d531cce96505fbf9cff",
+    "105": "0cb7acc1fa06ab39cb27615d6a24655129bc7f8c69010bb36d665ce9569b46ef"
+  },
+  "performance_based_early_stopping": false,
+  "checkpoint_selection": "fixed final epoch1200, all seeds reported"
+}

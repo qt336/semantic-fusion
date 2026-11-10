@@ -1,0 +1,8 @@
+{
+  "epoch": 1200,
+  "step": 60000,
+  "total_steps": 60000,
+  "epoch_fraction": 1.0,
+  "seconds": 13168.358980122022,
+  "updated_unix": 1792360336.0965724
+}
