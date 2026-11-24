@@ -1,5 +1,7 @@
 # 结果索引
 
+[扩展实验结果与逐题数据](results/extended/) 包含各模型中英文条件成绩、后续模型复测、可用性核验与补充 toy model 对照。
+
 ## Loop transformer
 
 两组均为四个独立 block 复用，seed101–105，全数固定在第 1,200 轮评估。均值由逐 seed 的 `result.json` 重新计算；括号内为样本标准差。单位为百分比。

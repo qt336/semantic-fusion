@@ -1,0 +1,181 @@
+sample_id,language,condition,aligned,expected_byte_boundaries,token_byte_boundaries,prompt_tokens
+zh:semantic_474,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_474,zh,comma_semantic,,,,23
+zh:semantic_171,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_171,zh,comma_semantic,,,,23
+zh:semantic_405,zh,semantic,0,3 6 9,2 3 6 8 9,23
+zh:comma_semantic_405,zh,comma_semantic,,,,27
+zh:semantic_87,zh,semantic,0,3 6 9,2 3 6 9,21
+zh:comma_semantic_87,zh,comma_semantic,,,,26
+zh:semantic_02,zh,semantic,0,3 6 9,2 3 6 9,21
+zh:comma_semantic_02,zh,comma_semantic,,,,23
+zh:semantic_111,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_111,zh,comma_semantic,,,,22
+zh:semantic_404,zh,semantic,0,3 6 9,2 3 6 9,21
+zh:comma_semantic_404,zh,comma_semantic,,,,25
+zh:semantic_461,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_461,zh,comma_semantic,,,,23
+zh:semantic_413,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_413,zh,comma_semantic,,,,22
+zh:semantic_155,zh,semantic,0,3 6 9,2 3 6 9,21
+zh:comma_semantic_155,zh,comma_semantic,,,,24
+zh:semantic_50,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_50,zh,comma_semantic,,,,23
+zh:semantic_373,zh,semantic,0,3 6 9,2 3 6 9,21
+zh:comma_semantic_373,zh,comma_semantic,,,,23
+zh:semantic_308,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_308,zh,comma_semantic,,,,23
+zh:semantic_319,zh,semantic,0,3 6 9,2 3 6 9,21
+zh:comma_semantic_319,zh,comma_semantic,,,,24
+zh:semantic_82,zh,semantic,0,3 6 9,3 6 8 9,22
+zh:comma_semantic_82,zh,comma_semantic,,,,25
+zh:semantic_167,zh,semantic,0,3 6 9,2 3 6 9,21
+zh:comma_semantic_167,zh,comma_semantic,,,,25
+zh:semantic_445,zh,semantic,0,3 6 9,3 5 6 9,21
+zh:comma_semantic_445,zh,comma_semantic,,,,25
+zh:semantic_295,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_295,zh,comma_semantic,,,,24
+zh:semantic_289,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_289,zh,comma_semantic,,,,24
+zh:semantic_452,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_452,zh,comma_semantic,,,,23
+zh:semantic_480,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_480,zh,comma_semantic,,,,24
+zh:semantic_356,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_356,zh,comma_semantic,,,,24
+zh:semantic_206,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_206,zh,comma_semantic,,,,23
+zh:semantic_126,zh,semantic,0,3 6 9,3 5 6 9,21
+zh:comma_semantic_126,zh,comma_semantic,,,,25
+zh:semantic_463,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_463,zh,comma_semantic,,,,25
+zh:semantic_429,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_429,zh,comma_semantic,,,,24
+zh:semantic_01,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_01,zh,comma_semantic,,,,23
+zh:semantic_362,zh,semantic,0,3 6 9,2 3 6 9,21
+zh:comma_semantic_362,zh,comma_semantic,,,,25
+zh:semantic_352,zh,semantic,1,3 6 9,3 6 9,20
+zh:comma_semantic_352,zh,comma_semantic,,,,23
+zh:semantic_53,zh,semantic,0,3 6 9,2 3 6 9,21
+zh:comma_semantic_53,zh,comma_semantic,,,,25
+zh:random_118,zh,random,1,3 6 9,3 6 9,20
+zh:random_82,zh,random,0,3 6 9,2 3 6 9,21
+zh:random_157,zh,random,0,3 6 9,3 5 6 8 9,23
+zh:random_388,zh,random,1,3 6 9,3 6 9,20
+zh:random_301,zh,random,0,3 6 9,2 3 6 9,21
+zh:random_227,zh,random,1,3 6 9,3 6 9,20
+zh:random_500,zh,random,1,3 6 9,3 6 9,20
+zh:random_103,zh,random,1,3 6 9,3 6 9,20
+zh:random_443,zh,random,1,3 6 9,3 6 9,20
+zh:random_46,zh,random,0,3 6 9,3 5 6 9,21
+zh:random_419,zh,random,0,3 6 9,2 3 6 9,21
+zh:random_343,zh,random,1,3 6 9,3 6 9,20
+zh:random_64,zh,random,1,3 6 9,3 6 9,20
+zh:random_99,zh,random,0,3 6 9,2 3 6 9,21
+zh:random_255,zh,random,1,3 6 9,3 6 9,20
+zh:random_365,zh,random,0,3 6 9,3 6 8 9,22
+zh:random_208,zh,random,0,3 6 9,2 3 6 9,21
+zh:random_125,zh,random,1,3 6 9,3 6 9,20
+zh:random_126,zh,random,1,3 6 9,3 6 9,20
+zh:random_337,zh,random,1,3 6 9,3 6 9,20
+zh:random_21,zh,random,0,3 6 9,3 6 8 9,22
+zh:random_477,zh,random,1,3 6 9,3 6 9,20
+zh:random_390,zh,random,0,3 6 9,2 3 6 9,21
+zh:random_167,zh,random,1,3 6 9,3 6 9,20
+zh:random_300,zh,random,1,3 6 9,3 6 9,20
+zh:random_346,zh,random,1,3 6 9,3 6 9,20
+zh:random_436,zh,random,0,3 6 9,2 3 6 9,21
+zh:random_241,zh,random,1,3 6 9,3 6 9,20
+zh:random_197,zh,random,1,3 6 9,3 6 9,20
+zh:random_211,zh,random,1,3 6 9,3 6 9,20
+en:strong:semantic_433,en,semantic,1,5 14 20,5 14 20,18
+en:strong:comma_semantic_433,en,comma_semantic,,,,20
+en:strong:semantic_470,en,semantic,1,3 7 12,3 7 12,17
+en:strong:comma_semantic_470,en,comma_semantic,,,,19
+en:strong:semantic_005,en,semantic,1,3 9 14,3 9 14,17
+en:strong:comma_semantic_005,en,comma_semantic,,,,19
+en:strong:semantic_162,en,semantic,1,6 12 17,6 12 17,17
+en:strong:comma_semantic_162,en,comma_semantic,,,,19
+en:strong:semantic_232,en,semantic,1,4 10 15,4 10 15,17
+en:strong:comma_semantic_232,en,comma_semantic,,,,19
+en:strong:semantic_288,en,semantic,1,3 7 12,3 7 12,17
+en:strong:comma_semantic_288,en,comma_semantic,,,,19
+en:strong:semantic_126,en,semantic,1,4 9 13,4 9 13,17
+en:strong:comma_semantic_126,en,comma_semantic,,,,19
+en:strong:semantic_483,en,semantic,1,7 11 16,7 11 16,18
+en:strong:comma_semantic_483,en,comma_semantic,,,,20
+en:strong:semantic_019,en,semantic,1,3 9 14,3 9 14,18
+en:strong:comma_semantic_019,en,comma_semantic,,,,20
+en:strong:semantic_267,en,semantic,1,3 8 13,3 8 13,17
+en:strong:comma_semantic_267,en,comma_semantic,,,,19
+en:strong:semantic_204,en,semantic,1,5 12 18,5 12 18,17
+en:strong:comma_semantic_204,en,comma_semantic,,,,19
+en:strong:semantic_093,en,semantic,1,6 11 17,6 11 17,17
+en:strong:comma_semantic_093,en,comma_semantic,,,,19
+en:strong:semantic_343,en,semantic,1,3 10 15,3 10 15,17
+en:strong:comma_semantic_343,en,comma_semantic,,,,19
+en:strong:semantic_246,en,semantic,1,4 11 16,4 11 16,17
+en:strong:comma_semantic_246,en,comma_semantic,,,,19
+en:strong:semantic_392,en,semantic,1,5 12 18,5 12 18,17
+en:strong:comma_semantic_392,en,comma_semantic,,,,19
+en:strong:semantic_500,en,semantic,1,7 11 18,7 11 18,17
+en:strong:comma_semantic_500,en,comma_semantic,,,,19
+en:strong:semantic_064,en,semantic,1,7 15 20,7 15 20,17
+en:strong:comma_semantic_064,en,comma_semantic,,,,19
+en:strong:semantic_153,en,semantic,1,5 9 14,5 9 14,17
+en:strong:comma_semantic_153,en,comma_semantic,,,,19
+en:strong:semantic_320,en,semantic,1,5 14 20,5 14 20,17
+en:strong:comma_semantic_320,en,comma_semantic,,,,19
+en:strong:semantic_432,en,semantic,1,5 14 19,5 14 19,17
+en:strong:comma_semantic_432,en,comma_semantic,,,,19
+en:strong:semantic_385,en,semantic,1,5 12 17,5 12 17,17
+en:strong:comma_semantic_385,en,comma_semantic,,,,19
+en:strong:semantic_028,en,semantic,1,4 11 17,4 11 17,17
+en:strong:comma_semantic_028,en,comma_semantic,,,,19
+en:strong:semantic_446,en,semantic,1,5 10 15,5 10 15,17
+en:strong:comma_semantic_446,en,comma_semantic,,,,19
+en:strong:semantic_314,en,semantic,1,5 14 19,5 14 19,17
+en:strong:comma_semantic_314,en,comma_semantic,,,,19
+en:strong:semantic_462,en,semantic,1,3 7 12,3 7 12,17
+en:strong:comma_semantic_462,en,comma_semantic,,,,19
+en:strong:semantic_436,en,semantic,1,5 14 19,5 14 19,17
+en:strong:comma_semantic_436,en,comma_semantic,,,,19
+en:strong:semantic_325,en,semantic,1,4 9 14,4 9 14,17
+en:strong:comma_semantic_325,en,comma_semantic,,,,19
+en:strong:semantic_388,en,semantic,1,5 12 17,5 12 17,17
+en:strong:comma_semantic_388,en,comma_semantic,,,,19
+en:strong:semantic_160,en,semantic,1,5 9 14,5 9 14,17
+en:strong:comma_semantic_160,en,comma_semantic,,,,19
+en:strong:semantic_443,en,semantic,1,5 10 14,5 10 14,17
+en:strong:comma_semantic_443,en,comma_semantic,,,,19
+en:independent:random_328,en,random,1,8 13 18,8 13 18,17
+en:independent:random_438,en,random,1,8 13 20,8 13 20,17
+en:independent:random_381,en,random,1,3 7 11,3 7 11,17
+en:independent:random_023,en,random,1,3 8 13,3 8 13,17
+en:independent:random_013,en,random,1,8 15 25,8 15 25,17
+en:independent:random_317,en,random,1,6 13 17,6 13 17,17
+en:independent:random_146,en,random,1,4 13 25,4 13 25,18
+en:independent:random_469,en,random,1,5 14 19,5 14 19,17
+en:independent:random_372,en,random,1,4 8 16,4 8 16,17
+en:independent:random_336,en,random,1,6 13 18,6 13 18,17
+en:independent:random_290,en,random,1,5 8 14,5 8 14,17
+en:independent:random_091,en,random,1,4 11 19,4 11 19,17
+en:independent:random_318,en,random,1,4 8 14,4 8 14,17
+en:independent:random_043,en,random,1,8 15 22,8 15 22,17
+en:independent:random_124,en,random,1,5 9 13,5 9 13,17
+en:independent:random_142,en,random,1,5 11 18,5 11 18,17
+en:independent:random_223,en,random,1,3 9 19,3 9 19,17
+en:independent:random_342,en,random,1,7 15 19,7 15 19,17
+en:independent:random_168,en,random,1,7 16 20,7 16 20,17
+en:independent:random_400,en,random,1,3 9 13,3 9 13,17
+en:independent:random_190,en,random,1,4 10 19,4 10 19,17
+en:independent:random_191,en,random,1,3 8 16,3 8 16,17
+en:independent:random_358,en,random,1,2 8 17,2 8 17,17
+en:independent:random_138,en,random,1,3 12 16,3 12 16,17
+en:independent:random_386,en,random,1,5 15 23,5 15 23,17
+en:independent:random_303,en,random,1,9 13 18,9 13 18,17
+en:independent:random_403,en,random,1,3 10 14,3 10 14,17
+en:independent:random_010,en,random,1,8 13 16,8 13 16,17
+en:independent:random_416,en,random,1,11 15 19,11 15 19,17
+en:independent:random_385,en,random,1,9 18 21,9 18 21,17
