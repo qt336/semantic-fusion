@@ -1,5 +1,7 @@
 # Grok 4.3 前序检索测试
 
+后续已通过 ZenMux 完成 [Grok 4.3 全量测试（3,000 题）](../grok43_none_full_20261125/README.md)。
+
 2026-11-24。连通性检查未取得模型回答，固定 180 题基准未启动。
 
 试发原题：ice age door. What word comes immediately before "door"? Output only one word.

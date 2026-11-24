@@ -187,3 +187,9 @@ qwen37_flash,qwen3.7-flash,en,semantic,500,188,283,11,18,请求关闭,未设
 qwen37_flash,qwen3.7-flash,zh,comma_semantic,500,500,0,0,0,请求关闭,未设
 qwen37_flash,qwen3.7-flash,zh,random,500,473,8,18,1,请求关闭,未设
 qwen37_flash,qwen3.7-flash,zh,semantic,500,397,33,62,8,请求关闭,未设
+grok43_none_full_20261125,x-ai/grok-4.3,zh,semantic,500,52,297,129,22,,,,,
+grok43_none_full_20261125,x-ai/grok-4.3,zh,random,500,174,315,11,0,,,,,
+grok43_none_full_20261125,x-ai/grok-4.3,zh,comma_semantic,500,381,92,27,0,,,,,
+grok43_none_full_20261125,x-ai/grok-4.3,en,semantic,500,31,467,1,1,,,,,
+grok43_none_full_20261125,x-ai/grok-4.3,en,random,500,296,185,16,3,,,,,
+grok43_none_full_20261125,x-ai/grok-4.3,en,comma_semantic,500,351,140,8,1,,,,,
