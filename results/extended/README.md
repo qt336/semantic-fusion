@@ -10,7 +10,7 @@
 
 Opus 5 和 Sonnet 5.5 主表均按各自的关闭设置筛选，各排除 1 条出现思考的回复。Opus 5.5 开启自适应思考，全部 3,000 条均纳入。各模型的等级沿用各自 API 的定义，中转通道的记录只能核实请求及返回字段。
 
-**哪些模型整轮都报告了 0 个推理 token？** 在主表的 3,000 题测试中，Gemini 3.6 Flash、Gemma 4 31B IT、Kimi K3、HY4 preview、GPT-5、GPT-5.1、GPT-5.4、GPT-5.5、GPT-5.6 Luna / Sol / Terra 和 GPT-6.1 Terra 均为 3,000/3,000。Gemini 3.6 Flash 和 GPT-5 请求的都是 `minimal`。Gemini 未返回可见思考内容。GPT-5 的每条响应都带有加密的 reasoning 项，公开正文和摘要为空。
+**哪些模型整轮都报告了 0 个推理 token？** 在主表的 3,000 题测试中，Gemini 3.6 Flash、Gemma 4 31B IT、Kimi K3、HY4 preview、Grok 4.3、GPT-5、GPT-5.1、GPT-5.4、GPT-5.5、GPT-5.6 Luna / Sol / Terra 和 GPT-6.1 Terra 均为 3,000/3,000。Gemini 3.6 Flash 和 GPT-5 请求的都是 `minimal`。Gemini 未返回可见思考内容。GPT-5 的每条响应都带有加密的 reasoning 项，公开正文和摘要为空。
 
 “推理 token 计数”按纳入评分的回复统计。混合结果依次列出**明确报 0 / 明确报正数 / 未报告**的题数。单一结果在括号内给出题数。缺失或空值单列。计数取自接口或历史逐题记录，服务端未计入这些字段的计算无法核验。
 
@@ -32,6 +32,7 @@ Opus 5 和 Sonnet 5.5 主表均按各自的关闭设置筛选，各排除 1 条�
 | [HY4 preview](../llm/) | 请求关闭 | 未设 | **全报 0**（1,500） | 55.6 / 40.8 | 91.0 / 8.8 | 99.8 / 0.0 |
 | [Kimi K3](../llm/) | 请求关闭 | `none` | **全报 0**（1,500） | 76.4 / 23.4 | 97.4 / 2.6 | 100.0 / 0.0 |
 | [MiniMax/MiniMax-M3](minimax_m3_20261020/README.md) | 请求关闭 | 未设 | 484 / 0 / 1,016 | 20.6 / 38.8 | 46.2 / 38.2 | 59.2 / 27.8 |
+| [Grok 4.3](grok43_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 10.4 / 59.4 | 34.8 / 63.0 | 76.2 / 18.4 |
 | [gpt-5](gpt5_minimal_full_20261125/README.md) | 最低推理档 | `minimal` | **全报 0**（1,500） | 68.4 / 18.2 | 95.6 / 2.6 | 99.0 / 0.0 |
 | [gpt-5.1](gpt51_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 76.0 / 16.0 | 97.8 / 2.0 | 100.0 / 0.0 |
 | [gpt-5.4](gpt54_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 96.0 / 3.8 | 99.8 / 0.2 | 100.0 / 0.0 |
@@ -61,6 +62,7 @@ Opus 5 和 Sonnet 5.5 主表均按各自的关闭设置筛选，各排除 1 条�
 | [HY4 preview](../llm/) | 请求关闭 | 未设 | **全报 0**（1,500） | 65.8 / 30.8 | 89.0 / 7.8 | 93.2 / 6.0 |
 | [Kimi K3](../llm/) | 请求关闭 | `none` | **全报 0**（1,500） | 83.8 / 12.6 | 94.4 / 5.0 | 100.0 / 0.0 |
 | [MiniMax/MiniMax-M3](minimax_m3_20261020/README.md) | 请求关闭 | 未设 | 477 / 0 / 1,023 | 37.6 / 58.2 | 62.2 / 24.8 | 55.6 / 32.6 |
+| [Grok 4.3](grok43_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 6.2 / 93.4 | 59.2 / 37.0 | 70.2 / 28.0 |
 | [gpt-5](gpt5_minimal_full_20261125/README.md) | 最低推理档 | `minimal` | **全报 0**（1,500） | 79.4 / 16.0 | 96.0 / 3.2 | 89.6 / 2.0 |
 | [gpt-5.1](gpt51_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 79.4 / 13.0 | 96.8 / 1.6 | 77.8 / 15.8 |
 | [gpt-5.4](gpt54_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 88.8 / 3.6 | 99.6 / 0.2 | 44.8 / 3.0 |
@@ -103,6 +105,7 @@ Opus 5 和 Sonnet 5.5 主表均按各自的关闭设置筛选，各排除 1 条�
 | [GPT-6 Luna 中英文前序检索测试](gpt6luna_zenmux_20261124/README.md) <br><sub>gpt6luna_zenmux_20261124</sub> | 请求关闭，`none` | **全报 0**（180） | [180](gpt6luna_zenmux_20261124/answers.jsonl.gz) |
 | [GPT 转接通道：额外输入与请求隔离核验](gpt_channel_context_audit_20261124/README.md) <br><sub>gpt_channel_context_audit_20261124</sub> | 通道诊断，主请求 `none` | 见诊断记录 | 见报告 |
 | [GPT 关闭推理通道试测](gpt_none_20261124/README.md) <br><sub>gpt_none_20261124</sub> | 主测 `none`；另有 `high` 诊断 | gpt-6-sol **全报 0**（180）<br>gpt-6.1-terra **全报 0**（180） | [360](gpt_none_20261124/answers.jsonl.gz) |
+| [Grok 4.3（ZenMux，全量）](grok43_none_full_20261125/README.md) <br><sub>grok43_none_full_20261125</sub> | 请求关闭，`none` | **全报 0**（3,000） | [3,000](grok43_none_full_20261125/answers.jsonl.gz) |
 | [Grok 4.3 前序检索测试](grok43_none_20261124/README.md) <br><sub>grok43_none_20261124</sub> | 请求 `none`，未获回答 | 见诊断记录 | 见报告 |
 | [HY4 正式版前序检索测试](hy4_20261104/README.md) <br><sub>hy4_20261104</sub> | 请求关闭，未设等级 | 2,998 / 0 / 2 | [3,000](hy4_20261104/answers.jsonl.gz) |
 | [MiniMax M3 前序检索测试](minimax_m3_20261020/README.md) <br><sub>minimax_m3_20261020</sub> | 请求关闭，未设等级 | 961 / 0 / 2,039 | [3,000](minimax_m3_20261020/answers.jsonl.gz) |
