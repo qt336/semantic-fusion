@@ -21,6 +21,8 @@ Gemma 请求 reasoning.enabled=false，有可见思考或正推理计数的回�
 
 ## google/gemini-3.6-flash
 
+在 `reasoning_effort=minimal` 下，3,000/3,000 条回复的 `usage.completion_tokens_details.reasoning_tokens` 明确为 0，未报告的有 0 条，返回可见思考内容的有 0 条。
+
 |语言|条件|已返回/计划|纳入|正确 b|错 a|错 c|其他|推理 token 零/正/缺|
 |---|---|---:|---:|---:|---:|---:|---:|---:|
 |中文|语义|500/500|500|436 (87.2%)|54 (10.8%)|3 (0.6%)|7 (1.4%)|500/0/0|
