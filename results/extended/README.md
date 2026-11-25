@@ -1,5 +1,7 @@
 # 扩展实验结果
 
+[Transformer 深度与宽度实验：逐 seed 成绩、训练曲线和线性探针](toy/transformer_depth_width/)
+
 截至 2026-11-25。每个实验页面保留测试条件、完成状态和原有评分口径。逐题文件保存提示词、目标、可见回答和已归档评分。公开接口返回的模型名和推理计数按实验记录解释。
 
 [所有扩展实验的分条件计数 CSV](conditions.csv) · [论文三模型的原始结果与评分](../llm/) · [Qwen3-8B 遮挡实验](../../experiments/qwen3_8b/) · [论文与 toy model 结果总索引](../../RESULTS.md)

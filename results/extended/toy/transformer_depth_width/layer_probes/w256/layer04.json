@@ -1,0 +1,49 @@
+{
+  "width": 256,
+  "epoch": 1200,
+  "seed": 106,
+  "layer": 4,
+  "selected_probe_epoch": 100,
+  "metrics": {
+    "ordinary_baseline": {
+      "n": 2648,
+      "correct": 2634,
+      "reads_a": 0
+    },
+    "ordinary_masked": {
+      "n": 2648,
+      "correct": 1787,
+      "reads_a": 1
+    },
+    "01_baseline": {
+      "n": 2560,
+      "correct": 6,
+      "reads_a": 1920
+    },
+    "01_masked": {
+      "n": 2560,
+      "correct": 2560,
+      "reads_a": 0
+    },
+    "02_baseline": {
+      "n": 2560,
+      "correct": 1691,
+      "reads_a": 306
+    },
+    "02_masked": {
+      "n": 2560,
+      "correct": 1199,
+      "reads_a": 0
+    },
+    "21_baseline": {
+      "n": 2560,
+      "correct": 427,
+      "reads_a": 12
+    },
+    "21_masked": {
+      "n": 2560,
+      "correct": 2560,
+      "reads_a": 0
+    }
+  }
+}

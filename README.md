@@ -1,5 +1,7 @@
 # Semantic Fusion
 
+[Transformer 深度与宽度实验：逐 seed 成绩、训练曲线和线性探针](results/extended/toy/transformer_depth_width/)
+
 《Semantic Fusion and Subspace Separation in Language Models: A Hypothesis and Its Predictions》的训练代码、评估数据与实验结果，按 2026-11-08 修订稿整理。实验考察语义组合对成分检索的影响，以及注意力干预、循环计算和混合架构如何改变检索表现。
 
 ## 从哪里开始

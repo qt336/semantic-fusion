@@ -1,0 +1,545 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "seed": 106,
+      "condition": "arithmetic_0",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 4096,
+        "first": 0,
+        "eos": 0,
+        "other": 0
+      },
+      "n": 4096
+    },
+    {
+      "seed": 106,
+      "condition": "arithmetic_1",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 4096,
+        "first": 0,
+        "eos": 0,
+        "other": 0
+      },
+      "n": 4096
+    },
+    {
+      "seed": 106,
+      "condition": "arithmetic_2",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 4092,
+        "first": 0,
+        "eos": 0,
+        "other": 4
+      },
+      "n": 4096
+    },
+    {
+      "seed": 106,
+      "condition": "control_a1b",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 2560,
+        "first": 0,
+        "eos": 0,
+        "other": 0
+      },
+      "n": 2560
+    },
+    {
+      "seed": 106,
+      "condition": "control_a2b",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 2560,
+        "first": 0,
+        "eos": 0,
+        "other": 0
+      },
+      "n": 2560
+    },
+    {
+      "seed": 106,
+      "condition": "semantic_0",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 0,
+        "first": 1845,
+        "eos": 0,
+        "other": 715
+      },
+      "n": 2560
+    },
+    {
+      "seed": 106,
+      "condition": "semantic_1",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 552,
+        "first": 1302,
+        "eos": 0,
+        "other": 706
+      },
+      "n": 2560
+    },
+    {
+      "seed": 106,
+      "condition": "semantic_2",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 344,
+        "first": 1329,
+        "eos": 8,
+        "other": 879
+      },
+      "n": 2560
+    },
+    {
+      "seed": 106,
+      "condition": "standard",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 1999,
+        "first": 0,
+        "eos": 0,
+        "other": 1
+      },
+      "n": 2000
+    },
+    {
+      "seed": 106,
+      "condition": "arithmetic_0",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 16,
+        "first": 0,
+        "eos": 13,
+        "other": 4067
+      },
+      "n": 4096
+    },
+    {
+      "seed": 106,
+      "condition": "arithmetic_1",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 63,
+        "first": 0,
+        "eos": 1,
+        "other": 4032
+      },
+      "n": 4096
+    },
+    {
+      "seed": 106,
+      "condition": "arithmetic_2",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 74,
+        "first": 8,
+        "eos": 27,
+        "other": 3987
+      },
+      "n": 4096
+    },
+    {
+      "seed": 106,
+      "condition": "semantic_0",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 2329,
+        "first": 178,
+        "eos": 2,
+        "other": 51
+      },
+      "n": 2560
+    },
+    {
+      "seed": 106,
+      "condition": "semantic_1",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 1243,
+        "first": 1259,
+        "eos": 4,
+        "other": 54
+      },
+      "n": 2560
+    },
+    {
+      "seed": 106,
+      "condition": "semantic_2",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 2459,
+        "first": 43,
+        "eos": 10,
+        "other": 48
+      },
+      "n": 2560
+    },
+    {
+      "seed": 107,
+      "condition": "arithmetic_0",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 4093,
+        "first": 0,
+        "eos": 0,
+        "other": 3
+      },
+      "n": 4096
+    },
+    {
+      "seed": 107,
+      "condition": "arithmetic_1",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 4081,
+        "first": 0,
+        "eos": 0,
+        "other": 15
+      },
+      "n": 4096
+    },
+    {
+      "seed": 107,
+      "condition": "arithmetic_2",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 4084,
+        "first": 0,
+        "eos": 0,
+        "other": 12
+      },
+      "n": 4096
+    },
+    {
+      "seed": 107,
+      "condition": "control_a1b",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 2560,
+        "first": 0,
+        "eos": 0,
+        "other": 0
+      },
+      "n": 2560
+    },
+    {
+      "seed": 107,
+      "condition": "control_a2b",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 2543,
+        "first": 0,
+        "eos": 6,
+        "other": 11
+      },
+      "n": 2560
+    },
+    {
+      "seed": 107,
+      "condition": "semantic_0",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 1116,
+        "first": 828,
+        "eos": 19,
+        "other": 597
+      },
+      "n": 2560
+    },
+    {
+      "seed": 107,
+      "condition": "semantic_1",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 2520,
+        "first": 20,
+        "eos": 0,
+        "other": 20
+      },
+      "n": 2560
+    },
+    {
+      "seed": 107,
+      "condition": "semantic_2",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 1737,
+        "first": 616,
+        "eos": 176,
+        "other": 31
+      },
+      "n": 2560
+    },
+    {
+      "seed": 107,
+      "condition": "standard",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 1997,
+        "first": 0,
+        "eos": 0,
+        "other": 3
+      },
+      "n": 2000
+    },
+    {
+      "seed": 107,
+      "condition": "arithmetic_0",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 625,
+        "first": 5,
+        "eos": 0,
+        "other": 3466
+      },
+      "n": 4096
+    },
+    {
+      "seed": 107,
+      "condition": "arithmetic_1",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 785,
+        "first": 8,
+        "eos": 0,
+        "other": 3303
+      },
+      "n": 4096
+    },
+    {
+      "seed": 107,
+      "condition": "arithmetic_2",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 640,
+        "first": 9,
+        "eos": 0,
+        "other": 3447
+      },
+      "n": 4096
+    },
+    {
+      "seed": 107,
+      "condition": "semantic_0",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 2457,
+        "first": 46,
+        "eos": 1,
+        "other": 56
+      },
+      "n": 2560
+    },
+    {
+      "seed": 107,
+      "condition": "semantic_1",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 2003,
+        "first": 535,
+        "eos": 0,
+        "other": 22
+      },
+      "n": 2560
+    },
+    {
+      "seed": 107,
+      "condition": "semantic_2",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 2537,
+        "first": 18,
+        "eos": 0,
+        "other": 5
+      },
+      "n": 2560
+    },
+    {
+      "seed": 108,
+      "condition": "arithmetic_0",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 4091,
+        "first": 0,
+        "eos": 0,
+        "other": 5
+      },
+      "n": 4096
+    },
+    {
+      "seed": 108,
+      "condition": "arithmetic_1",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 4096,
+        "first": 0,
+        "eos": 0,
+        "other": 0
+      },
+      "n": 4096
+    },
+    {
+      "seed": 108,
+      "condition": "arithmetic_2",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 4090,
+        "first": 0,
+        "eos": 0,
+        "other": 6
+      },
+      "n": 4096
+    },
+    {
+      "seed": 108,
+      "condition": "control_a1b",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 2292,
+        "first": 257,
+        "eos": 0,
+        "other": 11
+      },
+      "n": 2560
+    },
+    {
+      "seed": 108,
+      "condition": "control_a2b",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 2447,
+        "first": 113,
+        "eos": 0,
+        "other": 0
+      },
+      "n": 2560
+    },
+    {
+      "seed": 108,
+      "condition": "semantic_0",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 865,
+        "first": 1614,
+        "eos": 0,
+        "other": 81
+      },
+      "n": 2560
+    },
+    {
+      "seed": 108,
+      "condition": "semantic_1",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 620,
+        "first": 763,
+        "eos": 0,
+        "other": 1177
+      },
+      "n": 2560
+    },
+    {
+      "seed": 108,
+      "condition": "semantic_2",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 1426,
+        "first": 1097,
+        "eos": 0,
+        "other": 37
+      },
+      "n": 2560
+    },
+    {
+      "seed": 108,
+      "condition": "standard",
+      "evaluation": "baseline",
+      "counts": {
+        "correct": 1730,
+        "first": 0,
+        "eos": 0,
+        "other": 270
+      },
+      "n": 2000
+    },
+    {
+      "seed": 108,
+      "condition": "arithmetic_0",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 1695,
+        "first": 10,
+        "eos": 0,
+        "other": 2391
+      },
+      "n": 4096
+    },
+    {
+      "seed": 108,
+      "condition": "arithmetic_1",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 1882,
+        "first": 17,
+        "eos": 0,
+        "other": 2197
+      },
+      "n": 4096
+    },
+    {
+      "seed": 108,
+      "condition": "arithmetic_2",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 2058,
+        "first": 8,
+        "eos": 0,
+        "other": 2030
+      },
+      "n": 4096
+    },
+    {
+      "seed": 108,
+      "condition": "semantic_0",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 1074,
+        "first": 1396,
+        "eos": 0,
+        "other": 90
+      },
+      "n": 2560
+    },
+    {
+      "seed": 108,
+      "condition": "semantic_1",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 740,
+        "first": 1101,
+        "eos": 0,
+        "other": 719
+      },
+      "n": 2560
+    },
+    {
+      "seed": 108,
+      "condition": "semantic_2",
+      "evaluation": "layer0_attention_edge_masked",
+      "counts": {
+        "correct": 1710,
+        "first": 785,
+        "eos": 0,
+        "other": 65
+      },
+      "n": 2560
+    }
+  ]
+}

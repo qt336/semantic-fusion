@@ -1,0 +1,54 @@
+{
+  "width": 1024,
+  "epoch": 150,
+  "step": 7500,
+  "seed": 106,
+  "probe_data_sha256": "ffa05f6c1b3fc708858b991d871f3e5e142ccf2b8cecd8bf9232748bb373921a",
+  "mode": "remove_before",
+  "validation_accuracy": 1.0,
+  "selected_epoch": 625,
+  "budget": 2000,
+  "config": {
+    "name": "base_init1",
+    "lr": 0.01,
+    "wd": 0.01,
+    "init": 1
+  },
+  "metrics": {
+    "ordinary": {
+      "n": 10592,
+      "correct": 10587,
+      "reads_a": 1
+    },
+    "01": {
+      "n": 2560,
+      "correct": 2560,
+      "reads_a": 0
+    },
+    "02": {
+      "n": 2560,
+      "correct": 2560,
+      "reads_a": 0
+    },
+    "21": {
+      "n": 2560,
+      "correct": 2560,
+      "reads_a": 0
+    },
+    "01_masked": {
+      "n": 2560,
+      "correct": 2560,
+      "reads_a": 0
+    },
+    "02_masked": {
+      "n": 2560,
+      "correct": 2560,
+      "reads_a": 0
+    },
+    "21_masked": {
+      "n": 2560,
+      "correct": 2560,
+      "reads_a": 0
+    }
+  }
+}

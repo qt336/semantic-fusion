@@ -1,0 +1,12 @@
+{
+  "width": 1024,
+  "seed": 106,
+  "epoch": 200,
+  "torch": "2.7.1+cu126",
+  "device": "NVIDIA GeForce RTX 4080",
+  "future_token_invariance": true,
+  "prefix_matches_full": true,
+  "native_update_verified": true,
+  "masked_invariant_to_a": true,
+  "all_layers_masked_through_read": true
+}
