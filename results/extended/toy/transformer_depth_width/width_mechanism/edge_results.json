@@ -1,0 +1,252 @@
+{
+  "1024": {
+    "epoch": 250,
+    "conditions": {
+      "baseline": {
+        "correct": 4280,
+        "first": 3270,
+        "n": 7680,
+        "correct_by_pair": [
+          2035,
+          1815,
+          430
+        ]
+      },
+      "ordinary_a": {
+        "correct": 7628,
+        "first": 19,
+        "n": 7680,
+        "correct_by_pair": [
+          2545,
+          2545,
+          2538
+        ]
+      },
+      "block_b_from_a_first": {
+        "correct": 6226,
+        "first": 1423,
+        "n": 7680,
+        "correct_by_pair": [
+          2244,
+          1723,
+          2259
+        ]
+      },
+      "block_displayed_q_from_b": {
+        "correct": 4599,
+        "first": 2811,
+        "n": 7680,
+        "correct_by_pair": [
+          2188,
+          1872,
+          539
+        ]
+      },
+      "block_displayed_q_from_a": {
+        "correct": 4618,
+        "first": 2768,
+        "n": 7680,
+        "correct_by_pair": [
+          2156,
+          1944,
+          518
+        ]
+      },
+      "block_final_query_from_b": {
+        "correct": 35,
+        "first": 6960,
+        "n": 7680,
+        "correct_by_pair": [
+          12,
+          1,
+          22
+        ]
+      },
+      "block_final_query_from_a": {
+        "correct": 6493,
+        "first": 990,
+        "n": 7680,
+        "correct_by_pair": [
+          2487,
+          2543,
+          1463
+        ]
+      },
+      "ordinary_a+block_b_from_a_first": {
+        "correct": 7633,
+        "first": 14,
+        "n": 7680,
+        "correct_by_pair": [
+          2546,
+          2544,
+          2543
+        ]
+      },
+      "ordinary_a+block_displayed_q_from_b": {
+        "correct": 7634,
+        "first": 23,
+        "n": 7680,
+        "correct_by_pair": [
+          2545,
+          2540,
+          2549
+        ]
+      },
+      "ordinary_a+block_displayed_q_from_a": {
+        "correct": 7563,
+        "first": 67,
+        "n": 7680,
+        "correct_by_pair": [
+          2526,
+          2518,
+          2519
+        ]
+      },
+      "ordinary_a+block_final_query_from_b": {
+        "correct": 5,
+        "first": 4729,
+        "n": 7680,
+        "correct_by_pair": [
+          1,
+          3,
+          1
+        ]
+      },
+      "ordinary_a+block_final_query_from_a": {
+        "correct": 7655,
+        "first": 0,
+        "n": 7680,
+        "correct_by_pair": [
+          2551,
+          2552,
+          2552
+        ]
+      }
+    }
+  },
+  "256": {
+    "epoch": 1200,
+    "conditions": {
+      "baseline": {
+        "correct": 896,
+        "first": 4476,
+        "n": 7680,
+        "correct_by_pair": [
+          0,
+          552,
+          344
+        ]
+      },
+      "ordinary_a": {
+        "correct": 7609,
+        "first": 51,
+        "n": 7680,
+        "correct_by_pair": [
+          2551,
+          2510,
+          2548
+        ]
+      },
+      "block_b_from_a_first": {
+        "correct": 6031,
+        "first": 1480,
+        "n": 7680,
+        "correct_by_pair": [
+          2329,
+          1243,
+          2459
+        ]
+      },
+      "block_displayed_q_from_b": {
+        "correct": 624,
+        "first": 3922,
+        "n": 7680,
+        "correct_by_pair": [
+          0,
+          219,
+          405
+        ]
+      },
+      "block_displayed_q_from_a": {
+        "correct": 883,
+        "first": 4332,
+        "n": 7680,
+        "correct_by_pair": [
+          0,
+          538,
+          345
+        ]
+      },
+      "block_final_query_from_b": {
+        "correct": 10,
+        "first": 6673,
+        "n": 7680,
+        "correct_by_pair": [
+          3,
+          6,
+          1
+        ]
+      },
+      "block_final_query_from_a": {
+        "correct": 1958,
+        "first": 332,
+        "n": 7680,
+        "correct_by_pair": [
+          7,
+          1484,
+          467
+        ]
+      },
+      "ordinary_a+block_b_from_a_first": {
+        "correct": 6648,
+        "first": 520,
+        "n": 7680,
+        "correct_by_pair": [
+          2387,
+          1895,
+          2366
+        ]
+      },
+      "ordinary_a+block_displayed_q_from_b": {
+        "correct": 6061,
+        "first": 1549,
+        "n": 7680,
+        "correct_by_pair": [
+          2106,
+          1834,
+          2121
+        ]
+      },
+      "ordinary_a+block_displayed_q_from_a": {
+        "correct": 6752,
+        "first": 820,
+        "n": 7680,
+        "correct_by_pair": [
+          2347,
+          2037,
+          2368
+        ]
+      },
+      "ordinary_a+block_final_query_from_b": {
+        "correct": 41,
+        "first": 3476,
+        "n": 7680,
+        "correct_by_pair": [
+          0,
+          41,
+          0
+        ]
+      },
+      "ordinary_a+block_final_query_from_a": {
+        "correct": 7626,
+        "first": 0,
+        "n": 7680,
+        "correct_by_pair": [
+          2548,
+          2521,
+          2557
+        ]
+      }
+    }
+  }
+}
