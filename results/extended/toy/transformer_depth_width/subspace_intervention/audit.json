@@ -1,0 +1,98 @@
+[
+  {
+    "width": 1024,
+    "layer": 1,
+    "max_cross_basis_dot": 2.479095911195328e-09,
+    "passed": true
+  },
+  {
+    "width": 1024,
+    "layer": 2,
+    "max_cross_basis_dot": 2.859399287659381e-09,
+    "passed": true
+  },
+  {
+    "width": 1024,
+    "layer": 3,
+    "max_cross_basis_dot": 3.3837963143296124e-09,
+    "passed": true
+  },
+  {
+    "width": 1024,
+    "layer": 4,
+    "max_cross_basis_dot": 3.789903502138259e-09,
+    "passed": true
+  },
+  {
+    "width": 1024,
+    "layer": 5,
+    "max_cross_basis_dot": 3.586374782219015e-09,
+    "passed": true
+  },
+  {
+    "width": 1024,
+    "layer": 6,
+    "max_cross_basis_dot": 3.5693799469924126e-09,
+    "passed": true
+  },
+  {
+    "width": 1024,
+    "layer": 7,
+    "max_cross_basis_dot": 3.635414204915255e-09,
+    "passed": true
+  },
+  {
+    "width": 1024,
+    "layer": 8,
+    "max_cross_basis_dot": null,
+    "passed": true
+  },
+  {
+    "width": 256,
+    "layer": 1,
+    "max_cross_basis_dot": 6.144370595650983e-09,
+    "passed": true
+  },
+  {
+    "width": 256,
+    "layer": 2,
+    "max_cross_basis_dot": 6.242643756093624e-09,
+    "passed": true
+  },
+  {
+    "width": 256,
+    "layer": 3,
+    "max_cross_basis_dot": 6.972300958807409e-09,
+    "passed": true
+  },
+  {
+    "width": 256,
+    "layer": 4,
+    "max_cross_basis_dot": 4.99514477003693e-09,
+    "passed": true
+  },
+  {
+    "width": 256,
+    "layer": 5,
+    "max_cross_basis_dot": 7.2955261914108005e-09,
+    "passed": true
+  },
+  {
+    "width": 256,
+    "layer": 6,
+    "max_cross_basis_dot": 6.277816821942395e-09,
+    "passed": true
+  },
+  {
+    "width": 256,
+    "layer": 7,
+    "max_cross_basis_dot": 6.545787448099943e-09,
+    "passed": true
+  },
+  {
+    "width": 256,
+    "layer": 8,
+    "max_cross_basis_dot": null,
+    "passed": true
+  }
+]

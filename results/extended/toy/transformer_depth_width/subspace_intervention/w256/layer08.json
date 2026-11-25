@@ -1,0 +1,217 @@
+{
+  "epoch": 1200,
+  "width": 256,
+  "layer": 8,
+  "rank": 16,
+  "double_orthogonal": true,
+  "arithmetic_gradient_norm": 0.0,
+  "probe_epoch": 99,
+  "probe_test": {
+    "correct": 1252,
+    "n": 2648,
+    "semantic_0": {
+      "correct": 0,
+      "n": 2560
+    },
+    "semantic_1": {
+      "correct": 1361,
+      "n": 2560
+    },
+    "semantic_2": {
+      "correct": 8,
+      "n": 2560
+    }
+  },
+  "conditions": {
+    "b": {
+      "arithmetic_0": {
+        "n": 4096,
+        "correct": 4096,
+        "first": 0,
+        "eos": 0,
+        "mean_removed_norm": 1.112983315018937
+      },
+      "arithmetic_1": {
+        "n": 4096,
+        "correct": 4096,
+        "first": 0,
+        "eos": 0,
+        "mean_removed_norm": 1.141338236775482
+      },
+      "arithmetic_2": {
+        "n": 4096,
+        "correct": 4092,
+        "first": 0,
+        "eos": 0,
+        "mean_removed_norm": 1.1164594072033651
+      },
+      "semantic_0": {
+        "n": 2560,
+        "correct": 0,
+        "first": 1845,
+        "eos": 0,
+        "mean_removed_norm": 1.0596724222181364
+      },
+      "semantic_1": {
+        "n": 2560,
+        "correct": 552,
+        "first": 1303,
+        "eos": 0,
+        "mean_removed_norm": 1.0481582732172683
+      },
+      "semantic_2": {
+        "n": 2560,
+        "correct": 345,
+        "first": 1328,
+        "eos": 8,
+        "mean_removed_norm": 1.0645869061350823
+      },
+      "standard": {
+        "n": 2000,
+        "correct": 1999,
+        "first": 0,
+        "eos": 0,
+        "mean_removed_norm": 1.5073975746631623
+      },
+      "arithmetic": {
+        "n": 12288,
+        "correct": 12284,
+        "first": 0,
+        "eos": 0
+      },
+      "semantic": {
+        "n": 7680,
+        "correct": 897,
+        "first": 4476,
+        "eos": 8
+      }
+    },
+    "b_random0": {
+      "arithmetic_0": {
+        "n": 4096,
+        "correct": 4096,
+        "first": 0,
+        "eos": 0,
+        "mean_removed_norm": 1.112983315018937
+      },
+      "arithmetic_1": {
+        "n": 4096,
+        "correct": 4096,
+        "first": 0,
+        "eos": 0,
+        "mean_removed_norm": 1.141338236775482
+      },
+      "arithmetic_2": {
+        "n": 4096,
+        "correct": 4092,
+        "first": 0,
+        "eos": 0,
+        "mean_removed_norm": 1.1164594072033651
+      },
+      "semantic_0": {
+        "n": 2560,
+        "correct": 0,
+        "first": 1845,
+        "eos": 0,
+        "mean_removed_norm": 1.0596724222181364
+      },
+      "semantic_1": {
+        "n": 2560,
+        "correct": 552,
+        "first": 1303,
+        "eos": 0,
+        "mean_removed_norm": 1.0481582732172683
+      },
+      "semantic_2": {
+        "n": 2560,
+        "correct": 345,
+        "first": 1328,
+        "eos": 8,
+        "mean_removed_norm": 1.0645869061350823
+      },
+      "standard": {
+        "n": 2000,
+        "correct": 1999,
+        "first": 0,
+        "eos": 0,
+        "mean_removed_norm": 1.5073975746631623
+      },
+      "arithmetic": {
+        "n": 12288,
+        "correct": 12284,
+        "first": 0,
+        "eos": 0
+      },
+      "semantic": {
+        "n": 7680,
+        "correct": 897,
+        "first": 4476,
+        "eos": 8
+      }
+    },
+    "b_random1": {
+      "arithmetic_0": {
+        "n": 4096,
+        "correct": 4096,
+        "first": 0,
+        "eos": 0,
+        "mean_removed_norm": 1.112983315018937
+      },
+      "arithmetic_1": {
+        "n": 4096,
+        "correct": 4096,
+        "first": 0,
+        "eos": 0,
+        "mean_removed_norm": 1.141338236775482
+      },
+      "arithmetic_2": {
+        "n": 4096,
+        "correct": 4092,
+        "first": 0,
+        "eos": 0,
+        "mean_removed_norm": 1.1164594072033651
+      },
+      "semantic_0": {
+        "n": 2560,
+        "correct": 0,
+        "first": 1845,
+        "eos": 0,
+        "mean_removed_norm": 1.0596724222181364
+      },
+      "semantic_1": {
+        "n": 2560,
+        "correct": 552,
+        "first": 1303,
+        "eos": 0,
+        "mean_removed_norm": 1.0481582732172683
+      },
+      "semantic_2": {
+        "n": 2560,
+        "correct": 345,
+        "first": 1328,
+        "eos": 8,
+        "mean_removed_norm": 1.0645869061350823
+      },
+      "standard": {
+        "n": 2000,
+        "correct": 1999,
+        "first": 0,
+        "eos": 0,
+        "mean_removed_norm": 1.5073975746631623
+      },
+      "arithmetic": {
+        "n": 12288,
+        "correct": 12284,
+        "first": 0,
+        "eos": 0
+      },
+      "semantic": {
+        "n": 7680,
+        "correct": 897,
+        "first": 4476,
+        "eos": 8
+      }
+    }
+  },
+  "complete": true
+}

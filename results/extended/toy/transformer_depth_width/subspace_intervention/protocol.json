@@ -1,0 +1,29 @@
+{
+  "seed": 106,
+  "ranks": [
+    16
+  ],
+  "arithmetic_training_examples": 768,
+  "random_controls": 2,
+  "torch": "2.5.1+cu124",
+  "models": {
+    "256": {
+      "epoch": 1200,
+      "step": 60000,
+      "layers": 8,
+      "heads": 8,
+      "d_model": 256,
+      "checkpoint_sha256": "24dd46a7914b9f6dacad76451bff1ab4ba9861a05310d4303176b718f6b5e650"
+    },
+    "1024": {
+      "epoch": 250,
+      "step": 12500,
+      "layers": 8,
+      "heads": 8,
+      "d_model": 1024,
+      "checkpoint_sha256": "49439387aabe14b883d2141f226ab3c414a80c6aaaacf7d314fd32208124375e"
+    }
+  },
+  "data_sha256": "61adf33d9554d3666ee752f782afe7b8a3f4a95f5914d643e4b39f436d67818a",
+  "probe_data_sha256": "5a86f3649405fd306f692439d84e89f42da5fd493dfa2672d7ec751005ae54a5"
+}

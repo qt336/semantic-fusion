@@ -23,3 +23,5 @@
 - [4 层和 8 层、256 维的最终对照](depth_comparison.md) · [配对基线与数据集](../../../../experiments/transformer_seeds106_110/)
 - [运算组合错误类型与实例](retrieval_errors.md)
 - [第一层不同读法](first_layer/results.md) · [逐层探针](layer_probes/results.md) · [同 seed、同轮数的深度探针对照](layer_probes/depth_comparison.md)
+
+[成分方向与算术方向的逐层干预](subspace_intervention/)
