@@ -205,3 +205,15 @@ fable52_rightapi_20261125,claude-fable-5-2,zh,comma_semantic,485,484,1,0,0,自�
 fable52_rightapi_20261125,claude-fable-5-2,en,semantic,476,462,13,0,1,自适应（仅明确零计数）,low,476,0,0
 fable52_rightapi_20261125,claude-fable-5-2,en,random,433,429,3,0,1,自适应（仅明确零计数）,low,433,0,0
 fable52_rightapi_20261125,claude-fable-5-2,en,comma_semantic,492,477,0,0,15,自适应（仅明确零计数）,low,492,0,0
+fable51_rightapi_20261125,claude-fable-5-1,zh,semantic,315,296,17,0,2,自适应（仅明确零计数）,low,315,0,0
+fable51_rightapi_20261125,claude-fable-5-1,zh,random,284,282,1,1,0,自适应（仅明确零计数）,low,284,0,0
+fable51_rightapi_20261125,claude-fable-5-1,zh,comma_semantic,342,342,0,0,0,自适应（仅明确零计数）,low,342,0,0
+fable51_rightapi_20261125,claude-fable-5-1,en,semantic,310,302,6,0,2,自适应（仅明确零计数）,low,310,0,0
+fable51_rightapi_20261125,claude-fable-5-1,en,random,294,289,4,0,1,自适应（仅明确零计数）,low,294,0,0
+fable51_rightapi_20261125,claude-fable-5-1,en,comma_semantic,304,285,1,0,18,自适应（仅明确零计数）,low,304,0,0
+haiku55_rightapi_20261125,claude-haiku-5-5,zh,semantic,146,77,50,4,15,自适应（仅明确零计数）,low,146,0,0
+haiku55_rightapi_20261125,claude-haiku-5-5,zh,random,241,205,24,2,10,自适应（仅明确零计数）,low,241,0,0
+haiku55_rightapi_20261125,claude-haiku-5-5,zh,comma_semantic,215,196,9,3,7,自适应（仅明确零计数）,low,215,0,0
+haiku55_rightapi_20261125,claude-haiku-5-5,en,semantic,223,38,94,0,91,自适应（仅明确零计数）,low,223,0,0
+haiku55_rightapi_20261125,claude-haiku-5-5,en,random,166,90,55,2,19,自适应（仅明确零计数）,low,166,0,0
+haiku55_rightapi_20261125,claude-haiku-5-5,en,comma_semantic,107,43,21,1,42,自适应（仅明确零计数）,low,107,0,0
