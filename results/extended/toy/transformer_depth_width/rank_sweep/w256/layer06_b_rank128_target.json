@@ -1,0 +1,121 @@
+{
+  "width": 256,
+  "epoch": 1200,
+  "layer": 6,
+  "kind": "b",
+  "rank": 128,
+  "variant": "target",
+  "metrics": {
+    "arithmetic_0": {
+      "n": 4096,
+      "counts": {
+        "correct": 2873,
+        "first": 0,
+        "eos": 0,
+        "other": 1223
+      }
+    },
+    "arithmetic_1": {
+      "n": 4096,
+      "counts": {
+        "correct": 2859,
+        "first": 0,
+        "eos": 0,
+        "other": 1237
+      }
+    },
+    "arithmetic_2": {
+      "n": 4096,
+      "counts": {
+        "correct": 2606,
+        "first": 6,
+        "eos": 0,
+        "other": 1484
+      }
+    },
+    "semantic_0": {
+      "n": 2560,
+      "counts": {
+        "correct": 0,
+        "first": 1838,
+        "eos": 0,
+        "other": 722
+      }
+    },
+    "semantic_1": {
+      "n": 2560,
+      "counts": {
+        "correct": 586,
+        "first": 1277,
+        "eos": 0,
+        "other": 697
+      }
+    },
+    "semantic_2": {
+      "n": 2560,
+      "counts": {
+        "correct": 367,
+        "first": 1368,
+        "eos": 3,
+        "other": 822
+      }
+    },
+    "standard": {
+      "n": 2000,
+      "counts": {
+        "correct": 1999,
+        "first": 0,
+        "eos": 0,
+        "other": 1
+      }
+    },
+    "arithmetic": {
+      "n": 12288,
+      "counts": {
+        "correct": 8338,
+        "first": 6,
+        "eos": 0,
+        "other": 3944
+      }
+    },
+    "semantic": {
+      "n": 7680,
+      "counts": {
+        "correct": 953,
+        "first": 4483,
+        "eos": 3,
+        "other": 2241
+      }
+    }
+  },
+  "perturbation": {
+    "arithmetic_0": {
+      "mean_norm": 1.231742024421692,
+      "mean_update_norm": 1.586505651473999
+    },
+    "arithmetic_1": {
+      "mean_norm": 1.3074824810028076,
+      "mean_update_norm": 1.6641862392425537
+    },
+    "arithmetic_2": {
+      "mean_norm": 1.3671619892120361,
+      "mean_update_norm": 1.733331561088562
+    },
+    "semantic_0": {
+      "mean_norm": 1.3385738134384155,
+      "mean_update_norm": 1.811726450920105
+    },
+    "semantic_1": {
+      "mean_norm": 1.5084394216537476,
+      "mean_update_norm": 2.0202934741973877
+    },
+    "semantic_2": {
+      "mean_norm": 1.4954445362091064,
+      "mean_update_norm": 1.9636585712432861
+    },
+    "standard": {
+      "mean_norm": 1.7020424604415894,
+      "mean_update_norm": 2.4315896034240723
+    }
+  }
+}

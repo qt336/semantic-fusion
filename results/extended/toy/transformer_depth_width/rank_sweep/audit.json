@@ -1,0 +1,4327 @@
+{
+  "verified_conditions": 540,
+  "expected_conditions": 540,
+  "all_present": true,
+  "checks": [
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 1,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 2,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 3,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 4,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 5,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 6,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 7,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 256,
+      "layer": 8,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 1,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 2,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 3,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 4,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 5,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 6,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "arithmetic",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 7,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 1,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 1,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 4,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 4,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 16,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 16,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 64,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 64,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 128,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 128,
+      "variant": "target",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random0",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 256,
+      "variant": "random1",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "layer": 8,
+      "kind": "b",
+      "rank": 256,
+      "variant": "target",
+      "passed": true
+    }
+  ]
+}

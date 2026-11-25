@@ -1,0 +1,14 @@
+{
+  "width": 256,
+  "epoch": 1200,
+  "conditions": 270,
+  "cached_suffix_verified": true,
+  "rank_grid": [
+    1,
+    4,
+    16,
+    64,
+    128,
+    256
+  ]
+}

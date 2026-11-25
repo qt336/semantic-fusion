@@ -1,0 +1,338 @@
+[
+  {
+    "layer": 1,
+    "rank": 1,
+    "fraction": 0.0009765625,
+    "mean_squared_cosine": 0.00012638352410276662,
+    "b_spectrum_energy": 0.04878818575338113
+  },
+  {
+    "layer": 1,
+    "rank": 4,
+    "fraction": 0.00390625,
+    "mean_squared_cosine": 0.01275917217325018,
+    "b_spectrum_energy": 0.17749101097518638
+  },
+  {
+    "layer": 1,
+    "rank": 16,
+    "fraction": 0.015625,
+    "mean_squared_cosine": 0.1111914972877946,
+    "b_spectrum_energy": 0.5195109638055304
+  },
+  {
+    "layer": 1,
+    "rank": 64,
+    "fraction": 0.0625,
+    "mean_squared_cosine": 0.22999383565990444,
+    "b_spectrum_energy": 0.7776076726394722
+  },
+  {
+    "layer": 1,
+    "rank": 128,
+    "fraction": 0.125,
+    "mean_squared_cosine": 0.22978247986475867,
+    "b_spectrum_energy": 0.8833510847270067
+  },
+  {
+    "layer": 1,
+    "rank": 256,
+    "fraction": 0.25,
+    "mean_squared_cosine": 0.29501778536770173,
+    "b_spectrum_energy": 0.9796181127747643
+  },
+  {
+    "layer": 2,
+    "rank": 1,
+    "fraction": 0.0009765625,
+    "mean_squared_cosine": 0.0006457880062890086,
+    "b_spectrum_energy": 0.08555382683811658
+  },
+  {
+    "layer": 2,
+    "rank": 4,
+    "fraction": 0.00390625,
+    "mean_squared_cosine": 0.03440119038865459,
+    "b_spectrum_energy": 0.2905543488079978
+  },
+  {
+    "layer": 2,
+    "rank": 16,
+    "fraction": 0.015625,
+    "mean_squared_cosine": 0.09010386220184294,
+    "b_spectrum_energy": 0.6820741794960054
+  },
+  {
+    "layer": 2,
+    "rank": 64,
+    "fraction": 0.0625,
+    "mean_squared_cosine": 0.22531242081695757,
+    "b_spectrum_energy": 0.9311578724056134
+  },
+  {
+    "layer": 2,
+    "rank": 128,
+    "fraction": 0.125,
+    "mean_squared_cosine": 0.27609031885397106,
+    "b_spectrum_energy": 0.9787377275245575
+  },
+  {
+    "layer": 2,
+    "rank": 256,
+    "fraction": 0.25,
+    "mean_squared_cosine": 0.35525294454390494,
+    "b_spectrum_energy": 0.9978899611149822
+  },
+  {
+    "layer": 3,
+    "rank": 1,
+    "fraction": 0.0009765625,
+    "mean_squared_cosine": 0.0179965067185317,
+    "b_spectrum_energy": 0.06253188219052712
+  },
+  {
+    "layer": 3,
+    "rank": 4,
+    "fraction": 0.00390625,
+    "mean_squared_cosine": 0.015355743012081412,
+    "b_spectrum_energy": 0.2270831062915613
+  },
+  {
+    "layer": 3,
+    "rank": 16,
+    "fraction": 0.015625,
+    "mean_squared_cosine": 0.09913335503078607,
+    "b_spectrum_energy": 0.5985740287670893
+  },
+  {
+    "layer": 3,
+    "rank": 64,
+    "fraction": 0.0625,
+    "mean_squared_cosine": 0.258613101342975,
+    "b_spectrum_energy": 0.8762659949906604
+  },
+  {
+    "layer": 3,
+    "rank": 128,
+    "fraction": 0.125,
+    "mean_squared_cosine": 0.29476325709053264,
+    "b_spectrum_energy": 0.9490947717607934
+  },
+  {
+    "layer": 3,
+    "rank": 256,
+    "fraction": 0.25,
+    "mean_squared_cosine": 0.35549114788656844,
+    "b_spectrum_energy": 0.9925258081383218
+  },
+  {
+    "layer": 4,
+    "rank": 1,
+    "fraction": 0.0009765625,
+    "mean_squared_cosine": 0.00745234782940742,
+    "b_spectrum_energy": 0.0628688100903284
+  },
+  {
+    "layer": 4,
+    "rank": 4,
+    "fraction": 0.00390625,
+    "mean_squared_cosine": 0.02815032450339956,
+    "b_spectrum_energy": 0.22134539259805502
+  },
+  {
+    "layer": 4,
+    "rank": 16,
+    "fraction": 0.015625,
+    "mean_squared_cosine": 0.10778135535416192,
+    "b_spectrum_energy": 0.5993892967140443
+  },
+  {
+    "layer": 4,
+    "rank": 64,
+    "fraction": 0.0625,
+    "mean_squared_cosine": 0.2476280907132994,
+    "b_spectrum_energy": 0.8752003712586082
+  },
+  {
+    "layer": 4,
+    "rank": 128,
+    "fraction": 0.125,
+    "mean_squared_cosine": 0.29508900276107863,
+    "b_spectrum_energy": 0.9509476689889992
+  },
+  {
+    "layer": 4,
+    "rank": 256,
+    "fraction": 0.25,
+    "mean_squared_cosine": 0.3610533190979499,
+    "b_spectrum_energy": 0.9932627947987326
+  },
+  {
+    "layer": 5,
+    "rank": 1,
+    "fraction": 0.0009765625,
+    "mean_squared_cosine": 0.0006272946494815539,
+    "b_spectrum_energy": 0.05500616238647195
+  },
+  {
+    "layer": 5,
+    "rank": 4,
+    "fraction": 0.00390625,
+    "mean_squared_cosine": 0.04138753593376437,
+    "b_spectrum_energy": 0.20086404476274985
+  },
+  {
+    "layer": 5,
+    "rank": 16,
+    "fraction": 0.015625,
+    "mean_squared_cosine": 0.1282239775160883,
+    "b_spectrum_energy": 0.570252045978255
+  },
+  {
+    "layer": 5,
+    "rank": 64,
+    "fraction": 0.0625,
+    "mean_squared_cosine": 0.26407707612297104,
+    "b_spectrum_energy": 0.8704145847943048
+  },
+  {
+    "layer": 5,
+    "rank": 128,
+    "fraction": 0.125,
+    "mean_squared_cosine": 0.30340051161396175,
+    "b_spectrum_energy": 0.9509350019787725
+  },
+  {
+    "layer": 5,
+    "rank": 256,
+    "fraction": 0.25,
+    "mean_squared_cosine": 0.3675650711640119,
+    "b_spectrum_energy": 0.99350869340336
+  },
+  {
+    "layer": 6,
+    "rank": 1,
+    "fraction": 0.0009765625,
+    "mean_squared_cosine": 4.3571988265427745e-05,
+    "b_spectrum_energy": 0.05941846236116876
+  },
+  {
+    "layer": 6,
+    "rank": 4,
+    "fraction": 0.00390625,
+    "mean_squared_cosine": 0.035590551904048556,
+    "b_spectrum_energy": 0.20932365936185318
+  },
+  {
+    "layer": 6,
+    "rank": 16,
+    "fraction": 0.015625,
+    "mean_squared_cosine": 0.18409397219872037,
+    "b_spectrum_energy": 0.582432560578729
+  },
+  {
+    "layer": 6,
+    "rank": 64,
+    "fraction": 0.0625,
+    "mean_squared_cosine": 0.27518549436417206,
+    "b_spectrum_energy": 0.8478464529714123
+  },
+  {
+    "layer": 6,
+    "rank": 128,
+    "fraction": 0.125,
+    "mean_squared_cosine": 0.2894702795134805,
+    "b_spectrum_energy": 0.933566756698214
+  },
+  {
+    "layer": 6,
+    "rank": 256,
+    "fraction": 0.25,
+    "mean_squared_cosine": 0.34486093167074894,
+    "b_spectrum_energy": 0.9902653069674684
+  },
+  {
+    "layer": 7,
+    "rank": 1,
+    "fraction": 0.0009765625,
+    "mean_squared_cosine": 0.006848680309211767,
+    "b_spectrum_energy": 0.054850943680585205
+  },
+  {
+    "layer": 7,
+    "rank": 4,
+    "fraction": 0.00390625,
+    "mean_squared_cosine": 0.03539491064358792,
+    "b_spectrum_energy": 0.2053478140834051
+  },
+  {
+    "layer": 7,
+    "rank": 16,
+    "fraction": 0.015625,
+    "mean_squared_cosine": 0.195803632177486,
+    "b_spectrum_energy": 0.5790483298092374
+  },
+  {
+    "layer": 7,
+    "rank": 64,
+    "fraction": 0.0625,
+    "mean_squared_cosine": 0.29579200498397373,
+    "b_spectrum_energy": 0.8413520604390762
+  },
+  {
+    "layer": 7,
+    "rank": 128,
+    "fraction": 0.125,
+    "mean_squared_cosine": 0.31979189686110804,
+    "b_spectrum_energy": 0.9301224213947354
+  },
+  {
+    "layer": 7,
+    "rank": 256,
+    "fraction": 0.25,
+    "mean_squared_cosine": 0.3774514153821783,
+    "b_spectrum_energy": 0.9887883931053414
+  },
+  {
+    "layer": 8,
+    "rank": 1,
+    "fraction": 0.0009765625,
+    "mean_squared_cosine": null,
+    "b_spectrum_energy": 0.07040587988334607
+  },
+  {
+    "layer": 8,
+    "rank": 4,
+    "fraction": 0.00390625,
+    "mean_squared_cosine": null,
+    "b_spectrum_energy": 0.24564099017267788
+  },
+  {
+    "layer": 8,
+    "rank": 16,
+    "fraction": 0.015625,
+    "mean_squared_cosine": null,
+    "b_spectrum_energy": 0.6537631787658604
+  },
+  {
+    "layer": 8,
+    "rank": 64,
+    "fraction": 0.0625,
+    "mean_squared_cosine": null,
+    "b_spectrum_energy": 0.9048265687001927
+  },
+  {
+    "layer": 8,
+    "rank": 128,
+    "fraction": 0.125,
+    "mean_squared_cosine": null,
+    "b_spectrum_energy": 0.966827140169553
+  },
+  {
+    "layer": 8,
+    "rank": 256,
+    "fraction": 0.25,
+    "mean_squared_cosine": null,
+    "b_spectrum_energy": 0.9969470912232345
+  }
+]
