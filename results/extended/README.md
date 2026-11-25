@@ -19,6 +19,7 @@ Opus 5 和 Sonnet 5.5 主表均按各自的关闭设置筛选，各排除 1 条�
 | 模型 | 思考模式（请求） | 等级 | 推理 token 计数（本语言） | 语义 | 独立随机 | 语义加逗号 |
 |---|---|---|---|---:|---:|---:|
 | [Claude Fable 5（RightAPI）](fable5_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 明确零 960/1,500 | 89.8 / 8.6 | 95.5 / 2.2 | 99.1 / 0.3 |
+| [Claude Fable 5.2（RightAPI）](fable52_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 明确零 1352/1,500 | 95.8 / 3.0 | 98.7 / 1.3 | 99.8 / 0.2 |
 | [claude-opus-4-8](opus48_rightapi/README.md) | 请求关闭 | 未设 | 199 / 0 / 101 | 70.0 / 26.0 | 93.0 / 7.0 | 100.0 / 0.0 |
 | [claude-opus-5](opus5_20261103/README.md) | 请求关闭（按响应筛选） | `low` | 1,175 / 0 / 325 | 71.8 / 21.4 | 91.8 / 7.0 | 95.2 / 2.8 |
 | [claude-opus-5-5](opus55_20261124/README.md) | 开启（自适应） | `low` | 936 / 266 / 298 | 93.6 / 2.0 | 98.0 / 0.8 | 99.4 / 0.0 |
@@ -50,6 +51,7 @@ Opus 5 和 Sonnet 5.5 主表均按各自的关闭设置筛选，各排除 1 条�
 | 模型 | 思考模式（请求） | 等级 | 推理 token 计数（本语言） | 语义 | 独立随机 | 语义加逗号 |
 |---|---|---|---|---:|---:|---:|
 | [Claude Fable 5（RightAPI）](fable5_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 明确零 313/1,500 | 76.7 / 20.4 | 94.8 / 4.3 | 96.8 / 3.2 |
+| [Claude Fable 5.2（RightAPI）](fable52_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 明确零 1401/1,500 | 97.1 / 2.7 | 99.1 / 0.7 | 97.0 / 0.0 |
 | [claude-opus-4-8](opus48_rightapi/README.md) | 请求关闭 | 未设 | 207 / 0 / 93 | 38.0 / 47.0 | 75.0 / 21.0 | 82.0 / 10.0 |
 | [claude-opus-5](opus5_20261103/README.md) | 请求关闭（按响应筛选） | `low` | 1,185 / 0 / 314 | 69.7 / 26.5 | 86.6 / 11.0 | 79.4 / 13.2 |
 | [claude-opus-5-5](opus55_20261124/README.md) | 开启（自适应） | `low` | 593 / 629 / 278 | 95.0 / 3.4 | 96.4 / 2.6 | 95.8 / 0.6 |
@@ -121,6 +123,7 @@ Opus 5 和 Sonnet 5.5 主表均按各自的关闭设置筛选，各排除 1 条�
 | [Sonnet 5.5 思考开关对照核验](sonnet55_20261124/thinking_control_audit/README.md) <br><sub>sonnet55_20261124/thinking_control_audit</sub> | 请求关闭 `low`、`high`；开启 `high` | 见诊断记录 | 见报告 |
 | [GPT-6.2 Sol / Astra：none 实测](gpt62_diagnostics/README.md) <br><sub>gpt62_diagnostics</sub> | `none` 未获回答；`low` 对照成功 | 见诊断记录 | 见报告 |
 | [Fable 5 初版（RightAPI，全量）](fable5_rightapi_20261125/README.md) <br><sub>fable5_rightapi_20261125</sub> | 自适应，`low` | 纳入 1,273 条明确零计数 | [3,000](fable5_rightapi_20261125/answers.jsonl.gz) |
+| [Fable 5.2（RightAPI，全量）](fable52_rightapi_20261125/README.md) <br><sub>fable52_rightapi_20261125</sub> | 自适应，`low` | 纳入 2,753 条明确零计数 | [3,000](fable52_rightapi_20261125/answers.jsonl.gz) |
 | [Fable 5 关闭思考设置核验](fable5_20261103/README.md) <br><sub>fable5_20261103</sub> | 请求关闭，未设等级，返回思考块 | 见诊断记录 | 见报告 |
 | [GPT-5.6 Sol 官方直连可用性检查](openai_direct_gpt56sol/README.md) <br><sub>openai_direct_gpt56sol</sub> | 请求 `none`，未获回答 | 见诊断记录 | 见报告 |
 | [RightAPI 标称 Opus 4.8](opus48_rightapi/README.md) <br><sub>opus48_rightapi</sub> | 请求关闭，未设等级 | 406 / 0 / 194 | [600](opus48_rightapi/answers.jsonl.gz) |

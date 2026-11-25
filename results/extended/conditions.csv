@@ -199,3 +199,9 @@ fable5_rightapi_20261125,claude-fable-5,zh,comma_semantic,344,341,1,0,2,自适�
 fable5_rightapi_20261125,claude-fable-5,en,semantic,103,79,21,0,3,自适应（仅明确零计数）,low,103,0,0
 fable5_rightapi_20261125,claude-fable-5,en,random,115,109,5,0,1,自适应（仅明确零计数）,low,115,0,0
 fable5_rightapi_20261125,claude-fable-5,en,comma_semantic,95,92,3,0,0,自适应（仅明确零计数）,low,95,0,0
+fable52_rightapi_20261125,claude-fable-5-2,zh,semantic,400,383,12,0,5,自适应（仅明确零计数）,low,400,0,0
+fable52_rightapi_20261125,claude-fable-5-2,zh,random,467,461,6,0,0,自适应（仅明确零计数）,low,467,0,0
+fable52_rightapi_20261125,claude-fable-5-2,zh,comma_semantic,485,484,1,0,0,自适应（仅明确零计数）,low,485,0,0
+fable52_rightapi_20261125,claude-fable-5-2,en,semantic,476,462,13,0,1,自适应（仅明确零计数）,low,476,0,0
+fable52_rightapi_20261125,claude-fable-5-2,en,random,433,429,3,0,1,自适应（仅明确零计数）,low,433,0,0
+fable52_rightapi_20261125,claude-fable-5-2,en,comma_semantic,492,477,0,0,15,自适应（仅明确零计数）,low,492,0,0
