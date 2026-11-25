@@ -193,3 +193,9 @@ grok43_none_full_20261125,x-ai/grok-4.3,zh,comma_semantic,500,381,92,27,0,请求
 grok43_none_full_20261125,x-ai/grok-4.3,en,semantic,500,31,467,1,1,请求关闭,none,500,0,0
 grok43_none_full_20261125,x-ai/grok-4.3,en,random,500,296,185,16,3,请求关闭,none,500,0,0
 grok43_none_full_20261125,x-ai/grok-4.3,en,comma_semantic,500,351,140,8,1,请求关闭,none,500,0,0
+fable5_rightapi_20261125,claude-fable-5,zh,semantic,304,273,26,0,5,自适应（仅明确零计数）,low,304,0,0
+fable5_rightapi_20261125,claude-fable-5,zh,random,312,298,7,0,7,自适应（仅明确零计数）,low,312,0,0
+fable5_rightapi_20261125,claude-fable-5,zh,comma_semantic,344,341,1,0,2,自适应（仅明确零计数）,low,344,0,0
+fable5_rightapi_20261125,claude-fable-5,en,semantic,103,79,21,0,3,自适应（仅明确零计数）,low,103,0,0
+fable5_rightapi_20261125,claude-fable-5,en,random,115,109,5,0,1,自适应（仅明确零计数）,low,115,0,0
+fable5_rightapi_20261125,claude-fable-5,en,comma_semantic,95,92,3,0,0,自适应（仅明确零计数）,low,95,0,0
