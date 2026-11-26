@@ -40,3 +40,4 @@ opus5_20261103/high_pilot,claude-opus-5,120,91,28,1,0,0,0,0
 qwen37_flash,qwen3.7-flash,3000,0,3000,0,0,0,0,0
 qwen38_max_20261020,qwen3.8-max-0902,3000,0,3000,0,0,0,0,0
 sonnet55_20261124,claude-sonnet-5-5,3000,2396,603,1,0,0,0,0
+gpt6luna_none_full_20261126,openai/gpt-6-luna,3000,3000,0,0,0,0,0,0

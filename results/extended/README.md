@@ -49,6 +49,7 @@
 | [gpt-5.6-luna](gpt56luna_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 76.4 / 20.0 | 99.0 / 1.0 | 99.8 / 0.2 |
 | [gpt-5.6-sol](gpt56sol_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 98.2 / 1.6 | 99.6 / 0.0 | 100.0 / 0.0 |
 | [gpt-5.6-terra](gpt56terra_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 80.0 / 18.6 | 99.4 / 0.6 | 100.0 / 0.0 |
+| [gpt-6-luna](gpt6luna_none_full_20261126/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 93.0 / 5.0 | 99.4 / 0.6 | 99.6 / 0.2 |
 | [gpt-6.1-terra](gpt61terra_zenmux_20261124/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 99.6 / 0.2 | 99.8 / 0.0 | 99.8 / 0.0 |
 | [qwen3.7-flash](qwen37_flash/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
 | [qwen3.8-max-0902](qwen38_max_20261020/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
@@ -83,6 +84,7 @@
 | [gpt-5.6-luna](gpt56luna_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 43.4 / 26.0 | 81.2 / 10.2 | 9.6 / 9.4 |
 | [gpt-5.6-sol](gpt56sol_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 99.2 / 0.2 | 99.6 / 0.2 | 99.8 / 0.0 |
 | [gpt-5.6-terra](gpt56terra_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 64.2 / 28.0 | 98.0 / 1.0 | 69.6 / 5.2 |
+| [gpt-6-luna](gpt6luna_none_full_20261126/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 69.8 / 18.4 | 88.6 / 7.0 | 37.6 / 8.4 |
 | [gpt-6.1-terra](gpt61terra_zenmux_20261124/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 100.0 / 0.0 | 99.6 / 0.4 | 100.0 / 0.0 |
 | [qwen3.7-flash](qwen37_flash/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
 | [qwen3.8-max-0902](qwen38_max_20261020/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
@@ -117,6 +119,7 @@
 | [GPT-5 中英文前序检索测试](gpt5_minimal_full_20261125/README.md) <br><sub>gpt5_minimal_full_20261125</sub> | 历史口径，`minimal` | 3,000 / 3,000 | [3,000 条](gpt5_minimal_full_20261125/answers.jsonl.gz) |
 | [GPT-5 中英文前序检索测试](gpt5_zenmux_20261125/README.md) <br><sub>gpt5_zenmux_20261125</sub> | 历史口径，`minimal` | 180 / 180 | [180 条](gpt5_zenmux_20261125/answers.jsonl.gz) |
 | [GPT-6.1 Terra 中英文前序检索测试](gpt61terra_zenmux_20261124/README.md) <br><sub>gpt61terra_zenmux_20261124</sub> | 请求关闭，`none` | 3,000 / 3,000 | [3,000 条](gpt61terra_zenmux_20261124/answers.jsonl.gz) |
+| [GPT-6 Luna（全量）](gpt6luna_none_full_20261126/README.md) <br><sub>gpt6luna_none_full_20261126</sub> | 请求关闭，`none` | 3,000 / 3,000 | [3,000 条](gpt6luna_none_full_20261126/answers.jsonl.gz) |
 | [GPT-6 Luna 中英文前序检索测试](gpt6luna_zenmux_20261124/README.md) <br><sub>gpt6luna_zenmux_20261124</sub> | 请求关闭，`none` | 180 / 180 | [180 条](gpt6luna_zenmux_20261124/answers.jsonl.gz) |
 | [GPT 转接通道：额外输入与请求隔离核验](gpt_channel_context_audit_20261124/README.md) <br><sub>gpt_channel_context_audit_20261124</sub> | 通道诊断，主请求 `none` | 通道或参数诊断 | — |
 | [GPT 关闭推理通道试测](gpt_none_20261124/README.md) <br><sub>gpt_none_20261124</sub> | 主测 `none`；另有 `high` 诊断 | 360 / 360 | [360 条](gpt_none_20261124/answers.jsonl.gz) |

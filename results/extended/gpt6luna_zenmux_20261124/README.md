@@ -1,5 +1,7 @@
 # GPT-6 Luna 中英文前序检索测试
 
+这 180 题已包含在[全量 3,000 题结果](../gpt6luna_none_full_20261126/README.md)中。
+
 本轮已逐条核对，全部 180 条回答均明确报告 0 个思考 token，且无思考块。
 
 [下载逐题结果（JSONL.gz）](answers.jsonl.gz)
