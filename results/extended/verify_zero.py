@@ -12,9 +12,12 @@ PAPER_MODELS = {'kimi': 'Kimi K3', 'hy4': 'HY4 preview', 'deepseek': 'DeepSeek V
 
 # Bound the publication exceptions to these exact historical archives.
 GPT5_HISTORICAL_RUNS = {'gpt5_minimal_full_20261125', 'gpt5_zenmux_20261125'}
-MISSING_COUNT_ARCHIVES = {('../llm/', 'DeepSeek V4 Pro'), ('deepseek_v41_flash_20261020', 'deepseek-v4.1-flash-1017')}
+MISSING_COUNT_ARCHIVES = {('../llm/', 'DeepSeek V4 Pro'), ('deepseek_v41_flash_20261020', 'deepseek-v4.1-flash-1017'),
+                         ('qwen37_flash', 'qwen3.7-flash'), ('qwen38_max_20261020', 'qwen3.8-max-0902')}
 THINKING_CONTROL_RUNS = {'deepseek_v41flash_thinking_20261124', 'deepseek_v4pro_thinking_20261124'}
 HISTORICAL_ARCHIVES = {
+    'results/extended/qwen37_flash/answers.jsonl.gz': 'e1d8d43cab490624e8022ae8bcc88fc214b1c012e94519f3e4dec4615b4b9194',
+    'results/extended/qwen38_max_20261020/answers.jsonl.gz': '2134c6979902d8d09a0b7b174e44ad18552ce33fb1b4b271f1136300dadb7068',
     'results/extended/deepseek_v41flash_thinking_20261124/answers.jsonl.gz': 'be52fac604dae5110fad9fd5a9d10292e7e0172602a18706b5c70416a2f88343',
     'results/extended/deepseek_v4pro_thinking_20261124/answers.jsonl.gz': '7029463d5263b283cd29d33178d86a38816711972668703e7bd1e53360cb653b',
     'results/extended/deepseek_v41_flash_20261020/answers.jsonl.gz': '407edf412f928465c8457d86ed50457d0234c50b3a37d0ef85ee6a39e188171a',
@@ -58,7 +61,8 @@ def verify():
                     counts[run, model, row['language'], row['group']][row['score_on']] += 1
                     continue
                 if missing_count:
-                    assert row['model'] == row['model_returned'] == model, path
+                    assert row['model_returned'] == model, path
+                    assert row['model'] == ('qwen' if run == 'qwen37_flash' else model), path
                     n = row['reasoning_token_count']
                 elif run in GPT5_HISTORICAL_RUNS:
                     assert row['model'] == 'openai/gpt-5' and row['reasoning_item'] is True, path

@@ -13,7 +13,7 @@
 
 默认规则仅纳入明确报告 0 个思考 token 且无思考块或可见推理的回答；空的或加密的 reasoning 项也排除。
 
-**三项历史口径例外。** GPT‑5 请求 `minimal`，回执均报告 0 个思考 token，同时含加密的 `reasoning` 项。按原实验口径纳入全部回答。DeepSeek V4 Pro 与 DeepSeek V4.1 Flash 1017 的原测试均请求关闭思考。两次运行各有 3,000 条回执，均未报告思考 token 数，沿用原评分，每组 500 条。表中已标出例外。回执只能说明接口报告了什么。
+**五项历史口径例外。** GPT‑5 请求 `minimal`，回执均报告 0 个思考 token，同时含加密的 `reasoning` 项。按原实验口径纳入全部回答。DeepSeek V4 Pro、DeepSeek V4.1 Flash 1017、Qwen3.7 Flash 和 Qwen3.8 Max-0902 的原测试均请求关闭思考。四次运行各有 3,000 条回执，均未报告思考 token 数，沿用原评分，每组 500 条。表中已标出例外。回执只能说明接口报告了什么。
 
 **开启思考的对照组。** DeepSeek V4 Pro 与 DeepSeek V4.1 Flash 1017 另有两组 `high` 实验，分别收到 128/180 和 180/180 条回答，每条均报告正数思考 token。下表单列这两组的成绩。
 
@@ -51,8 +51,8 @@
 | [gpt-5.6-terra](gpt56terra_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 80.0 / 18.6 | 99.4 / 0.6 | 100.0 / 0.0 |
 | [gpt-6-luna](gpt6luna_none_full_20261126/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 93.0 / 5.0 | 99.4 / 0.6 | 99.6 / 0.2 |
 | [gpt-6.1-terra](gpt61terra_zenmux_20261124/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 99.6 / 0.2 | 99.8 / 0.0 | 99.8 / 0.0 |
-| [qwen3.7-flash](qwen37_flash/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
-| [qwen3.8-max-0902](qwen38_max_20261020/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
+| [qwen3.7-flash](qwen37_flash/README.md) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 79.4 / 6.6 | 94.6 / 1.6 | 100.0 / 0.0 |
+| [qwen3.8-max-0902](qwen38_max_20261020/README.md) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 89.2 / 7.4 | 96.8 / 2.6 | 99.0 / 0.8 |
 
 ### 英文
 
@@ -86,8 +86,8 @@
 | [gpt-5.6-terra](gpt56terra_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 64.2 / 28.0 | 98.0 / 1.0 | 69.6 / 5.2 |
 | [gpt-6-luna](gpt6luna_none_full_20261126/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 69.8 / 18.4 | 88.6 / 7.0 | 37.6 / 8.4 |
 | [gpt-6.1-terra](gpt61terra_zenmux_20261124/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 100.0 / 0.0 | 99.6 / 0.4 | 100.0 / 0.0 |
-| [qwen3.7-flash](qwen37_flash/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
-| [qwen3.8-max-0902](qwen38_max_20261020/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
+| [qwen3.7-flash](qwen37_flash/README.md) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 37.6 / 56.6 | 81.4 / 6.2 | 58.2 / 33.4 |
+| [qwen3.8-max-0902](qwen38_max_20261020/README.md) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 47.4 / 52.2 | 93.6 / 5.6 | 96.6 / 3.0 |
 
 排除原因见 `eligibility.csv`。每条回执只记一次，依次检查计数缺失（missing）、计数为正（positive）、报零但含思考块或推理内容（block）、块状态无法确认（unverified）和其他协议或评分条件（other）。keep 为总纳入数，其中历史口径例外及开启思考对照组的纳入数另列在 historical_exception 列。missing 和 block 仅统计因这些原因排除的回执。各条件原有回执数见 `conditions.csv` 的 received 列。后续新增 API 结果也须遵守同一规则，并通过 `python results/extended/verify_zero.py` 核对。
 
@@ -131,7 +131,7 @@
 | [Opus 5.5 low 前序检索测试](opus55_20261124/README.md) <br><sub>opus55_20261124</sub> | 自适应，`low` | 1,529 / 3,000 | [1,529 条](opus55_20261124/answers.jsonl.gz) |
 | [Opus 5 前序检索测试](opus5_20261103/high_pilot/README.md) <br><sub>opus5_20261103/high_pilot</sub> | 请求关闭（按响应筛选），`high` | 91 / 120 | [91 条](opus5_20261103/high_pilot/answers.jsonl.gz) |
 | [Opus 5 前序检索测试](opus5_20261103/README.md) <br><sub>opus5_20261103</sub> | 请求关闭（按响应筛选），`low` | 2,360 / 3,000 | [2,360 条](opus5_20261103/answers.jsonl.gz) |
-| [Qwen3.8 Max-0902 前序检索测试](qwen38_max_20261020/README.md) <br><sub>qwen38_max_20261020</sub> | 请求关闭，未设等级 | 0 / 3,000 | [0 条](qwen38_max_20261020/answers.jsonl.gz) |
+| [Qwen3.8 Max-0902 前序检索测试](qwen38_max_20261020/README.md) <br><sub>qwen38_max_20261020</sub> | 请求关闭（历史口径），未设等级 | 3,000 / 3,000 | [3,000 条](qwen38_max_20261020/answers.jsonl.gz) |
 | [Qwen4-Max-Preview 前序检索测试](qwen4_max_preview_20261112/README.md) <br><sub>qwen4_max_preview_20261112</sub> | 请求关闭，未获回答 | 通道或参数诊断 | — |
 | [Sonnet 5.5 请求关闭思考的前序检索测试](sonnet55_20261124/README.md) <br><sub>sonnet55_20261124</sub> | 请求关闭答题前思考（按响应筛选），`high` | 2,396 / 3,000 | [2,396 条](sonnet55_20261124/answers.jsonl.gz) |
 | [Sonnet 5.5 思考开关对照核验](sonnet55_20261124/thinking_control_audit/README.md) <br><sub>sonnet55_20261124/thinking_control_audit</sub> | 请求关闭 `low`、`high`；开启 `high` | 通道或参数诊断 | — |
@@ -143,7 +143,7 @@
 | [Fable 5 关闭思考设置核验](fable5_20261103/README.md) <br><sub>fable5_20261103</sub> | 请求关闭，未设等级，返回思考块 | 通道或参数诊断 | — |
 | [GPT-5.6 Sol 官方直连可用性检查](openai_direct_gpt56sol/README.md) <br><sub>openai_direct_gpt56sol</sub> | 请求 `none`，未获回答 | 通道或参数诊断 | — |
 | [RightAPI 标称 Opus 4.8](opus48_rightapi/README.md) <br><sub>opus48_rightapi</sub> | 请求关闭，未设等级 | 406 / 600 | [406 条](opus48_rightapi/answers.jsonl.gz) |
-| [Qwen3.7 Flash](qwen37_flash/README.md) <br><sub>qwen37_flash</sub> | 请求关闭，未设等级 | 0 / 3,000 | [0 条](qwen37_flash/answers.jsonl.gz) |
+| [Qwen3.7 Flash](qwen37_flash/README.md) <br><sub>qwen37_flash</sub> | 请求关闭（历史口径），未设等级 | 3,000 / 3,000 | [3,000 条](qwen37_flash/answers.jsonl.gz) |
 
 ## 补充 toy model 对照
 
