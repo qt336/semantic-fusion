@@ -6,7 +6,7 @@
 
 ## 从哪里开始
 
-- [扩展实验结果与逐题下载](results/extended/) 中的[中英文成绩表](results/extended/#中英文结果速查)默认仅计入明确报零且无思考块的回答。GPT‑5 minimal、DeepSeek V4 Pro 和 DeepSeek V4.1 Flash 1017 原测试按历史口径单列。该目录也收录分词核验及 toy model 补充结果。
+- [扩展实验结果与逐题下载](results/extended/) 中的[中英文成绩表](results/extended/#中英文结果速查)默认仅计入明确报零且无思考块的回答。GPT‑5 minimal、DeepSeek V4 Pro 和 DeepSeek V4.1 Flash 1017 原测试按历史口径单列。另列 DeepSeek 两组开启思考的 `high` 对照成绩。该目录也收录分词核验及 toy model 补充结果。
 
 - [复现实验](REPRODUCING.md) 包含环境配置、训练命令、评分和离线验证步骤。
 - [实验结果](RESULTS.md) 汇总各组结果，按论文表号链接到对应文件。

@@ -13,7 +13,10 @@ PAPER_MODELS = {'kimi': 'Kimi K3', 'hy4': 'HY4 preview', 'deepseek': 'DeepSeek V
 # Bound the publication exceptions to these exact historical archives.
 GPT5_HISTORICAL_RUNS = {'gpt5_minimal_full_20261125', 'gpt5_zenmux_20261125'}
 MISSING_COUNT_ARCHIVES = {('../llm/', 'DeepSeek V4 Pro'), ('deepseek_v41_flash_20261020', 'deepseek-v4.1-flash-1017')}
+THINKING_CONTROL_RUNS = {'deepseek_v41flash_thinking_20261124', 'deepseek_v4pro_thinking_20261124'}
 HISTORICAL_ARCHIVES = {
+    'results/extended/deepseek_v41flash_thinking_20261124/answers.jsonl.gz': 'be52fac604dae5110fad9fd5a9d10292e7e0172602a18706b5c70416a2f88343',
+    'results/extended/deepseek_v4pro_thinking_20261124/answers.jsonl.gz': '7029463d5263b283cd29d33178d86a38816711972668703e7bd1e53360cb653b',
     'results/extended/deepseek_v41_flash_20261020/answers.jsonl.gz': '407edf412f928465c8457d86ed50457d0234c50b3a37d0ef85ee6a39e188171a',
     'results/extended/gpt5_minimal_full_20261125/answers.jsonl.gz': '3215e41d21340618efbebde10f6fd040a125bf34dc4b84d8e084248e86e87884',
     'results/extended/gpt5_zenmux_20261125/answers.jsonl.gz': '2579e7b45642da7643a4e5f70621a23cc10acb236b40cb4a669a5a8ae283edb9',
@@ -22,7 +25,7 @@ HISTORICAL_ARCHIVES = {
 
 
 def historical(run, model):
-    return (run in GPT5_HISTORICAL_RUNS and model == 'openai/gpt-5') or (run, model) in MISSING_COUNT_ARCHIVES
+    return (run in GPT5_HISTORICAL_RUNS and model == 'openai/gpt-5') or (run, model) in MISSING_COUNT_ARCHIVES or run in THINKING_CONTROL_RUNS
 
 
 def read_csv(name):
@@ -47,6 +50,13 @@ def verify():
             for row in map(json.loads, stream):
                 model = next(iter(models[run])) if len(models[run]) == 1 else row['model']
                 missing_count = (run, model) in MISSING_COUNT_ARCHIVES
+                if run in THINKING_CONTROL_RUNS:
+                    identity = run, model, row['sample_id']
+                    assert identity not in seen, identity
+                    seen.add(identity)
+                    assert type(row['reasoning_tokens']) is int and row['reasoning_tokens'] > 0, path
+                    counts[run, model, row['language'], row['group']][row['score_on']] += 1
+                    continue
                 if missing_count:
                     assert row['model'] == row['model_returned'] == model, path
                     n = row['reasoning_token_count']
@@ -97,8 +107,9 @@ def verify():
         assert [c[k] for k in ('B','A','Q','Other')] == [int(row[k]) for k in ('correct_b','wrong_a','wrong_c','other')], key
         assert c.total() == int(row['scored']), key
         missing = c.total() if key[:2] in MISSING_COUNT_ARCHIVES else 0
-        assert int(row['推理token未报告的题数']) == missing and int(row['推理token为正的题数']) == 0
-        assert int(row['推理token为零的题数']) == c.total() - missing
+        positive = c.total() if key[0] in THINKING_CONTROL_RUNS else 0
+        assert int(row['推理token未报告的题数']) == missing and int(row['推理token为正的题数']) == positive
+        assert int(row['推理token为零的题数']) == c.total() - missing - positive
         assert int(row['historical_exception']) == (c.total() if historical(*key[:2]) else 0)
         kept[key[:2]] += c.total()
         received[key[:2]] += int(row['received'])
