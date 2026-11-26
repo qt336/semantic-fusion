@@ -34,7 +34,7 @@
 | [DeepSeek V4 Pro](../llm/) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 31.8 / 67.4 | 66.0 / 34.0 | 94.2 / 5.6 |
 | [DeepSeek V4 Pro（128/180）](deepseek_v4pro_thinking_20261124/README.md) | 开启思考对照 | `high` | 68 / 68 | 100.0 / 0.0 | 100.0 / 0.0 | 100.0 / 0.0 |
 | [DeepSeek V4.1 Flash 1017（180 题）](deepseek_v41flash_thinking_20261124/README.md) | 开启思考对照 | `high` | 90 / 90 | 93.3 / 0.0 | 100.0 / 0.0 | 100.0 / 0.0 |
-| [deepseek-v4.1-flash-1017](deepseek_v41_flash_20261020/README.md) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 58.4 / 38.2 | 81.2 / 18.6 | 100.0 / 0.0 |
+| [DeepSeek V4.1 Flash 1017（ZenMux）](deepseek41flash_zenmux_20261126/README.md) | 请求关闭（按响应筛选） | 未设 | 1,500 / 1,500 | 60.0 / 36.6 | 82.0 / 17.8 | 100.0 / 0.0 |
 | [gemini-3.6-flash](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 最低推理档 | `minimal` | 1,500 / 1,500 | 87.2 / 10.8 | 97.4 / 0.2 | 100.0 / 0.0 |
 | [gemma-4-31b-it](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 请求关闭（按响应筛选） | 未设 | 1,500 / 1,500 | 79.4 / 18.4 | 98.8 / 1.0 | 100.0 / 0.0 |
 | [hy4（暂定评分）](hy4_20261104/README.md) | 请求关闭 | 未设 | 1,498 / 1,500 | 54.5 / 44.7 | 90.4 / 9.6 | 99.8 / 0.2 |
@@ -69,7 +69,7 @@
 | [DeepSeek V4 Pro](../llm/) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 33.6 / 32.8 | 75.0 / 11.4 | 55.2 / 12.0 |
 | [DeepSeek V4 Pro（128/180）](deepseek_v4pro_thinking_20261124/README.md) | 开启思考对照 | `high` | 60 / 60 | 100.0 / 0.0 | 100.0 / 0.0 | 87.5 / 0.0 |
 | [DeepSeek V4.1 Flash 1017（180 题）](deepseek_v41flash_thinking_20261124/README.md) | 开启思考对照 | `high` | 90 / 90 | 100.0 / 0.0 | 100.0 / 0.0 | 100.0 / 0.0 |
-| [deepseek-v4.1-flash-1017](deepseek_v41_flash_20261020/README.md) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 25.6 / 74.2 | 80.8 / 17.8 | 75.4 / 19.0 |
+| [DeepSeek V4.1 Flash 1017（ZenMux）](deepseek41flash_zenmux_20261126/README.md) | 请求关闭（按响应筛选） | 未设 | 1,500 / 1,500 | 24.6 / 74.6 | 82.0 / 16.6 | 74.8 / 21.4 |
 | [gemini-3.6-flash](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 最低推理档 | `minimal` | 1,500 / 1,500 | 54.4 / 6.6 | 82.4 / 3.4 | 64.2 / 13.6 |
 | [gemma-4-31b-it](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 请求关闭（按响应筛选） | 未设 | 1,500 / 1,500 | 56.2 / 18.2 | 83.4 / 6.4 | 72.6 / 3.2 |
 | [hy4（暂定评分）](hy4_20261104/README.md) | 请求关闭 | 未设 | 1,500 / 1,500 | 36.6 / 63.0 | 94.6 / 4.8 | 100.0 / 0.0 |
@@ -97,7 +97,8 @@
 
 | 实验 | 请求设置 | 纳入 / 已有回执 | 逐题下载 |
 |---|---|---:|---|
-| [DeepSeek V4.1 Flash 前序检索测试](deepseek_v41_flash_20261020/README.md) <br><sub>deepseek_v41_flash_20261020</sub> | 请求关闭（历史口径），未设等级 | 3,000 / 3,000 | [3,000 条](deepseek_v41_flash_20261020/answers.jsonl.gz) |
+| [DeepSeek V4.1 Flash 1017 · ZenMux 重测](deepseek41flash_zenmux_20261126/README.md) <br><sub>deepseek41flash_zenmux_20261126</sub> | 请求关闭，未设等级 | 3,000 / 3,000 | [3,000 条](deepseek41flash_zenmux_20261126/answers.jsonl.gz) |
+| [DeepSeek V4.1 Flash · 百炼历史结果](deepseek_v41_flash_20261020/README.md) <br><sub>deepseek_v41_flash_20261020</sub> | 请求关闭（历史口径），未设等级 | 3,000 / 3,000 | [3,000 条](deepseek_v41_flash_20261020/answers.jsonl.gz) |
 | [DeepSeek V4.1 Flash 1017 开启思考的前序检索测试](deepseek_v41flash_thinking_20261124/README.md) <br><sub>deepseek_v41flash_thinking_20261124</sub> | 开启思考对照，`high` | 180 / 180 | [180 条](deepseek_v41flash_thinking_20261124/answers.jsonl.gz) |
 | [DeepSeek V4 Pro 开启思考的前序检索测试](deepseek_v4pro_thinking_20261124/README.md) <br><sub>deepseek_v4pro_thinking_20261124</sub> | 开启思考对照，`high` | 128 / 128 | [128 条](deepseek_v4pro_thinking_20261124/answers.jsonl.gz) |
 | [Gemma 4 31B IT 与 Gemini 3.6 Flash 的前序检索](gemma4_gemini36_zenmux_20261124/fixed180/README.md) <br><sub>gemma4_gemini36_zenmux_20261124/fixed180</sub> | Gemma 请求关闭，未设等级；Gemini `minimal` | 360 / 360 | [360 条](gemma4_gemini36_zenmux_20261124/fixed180/answers.jsonl.gz) |
