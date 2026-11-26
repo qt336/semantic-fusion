@@ -2,7 +2,7 @@
 
 [Transformer 深度与宽度实验：逐 seed 成绩、训练曲线和线性探针](toy/transformer_depth_width/)
 
-截至 2026-11-25。每个实验页面保留测试条件、完成状态和原有评分口径。逐题文件保存提示词、目标、可见回答和已归档评分。公开接口返回的模型名和推理计数按实验记录解释。
+截至 2026-11-26。每个实验页面保留测试条件、完成状态和原有评分口径。逐题文件保存提示词、目标、可见回答和已归档评分。公开接口返回的模型名和推理计数按实验记录解释。
 
 [所有扩展实验的分条件计数 CSV](conditions.csv) · [论文三模型的原始结果与评分](../llm/) · [Qwen3-8B 遮挡实验](../../experiments/qwen3_8b/) · [论文与 toy model 结果总索引](../../RESULTS.md)
 
@@ -13,7 +13,7 @@
 
 每格为百分比，依次是 **答对第二成分 / 误答首成分**。各条件分母及完整错误分布见运行页面。每行列出客户端请求的思考模式和等级。「未设」表示没有单独指定等级。`minimal` 表示仍允许推理的最低档，即使接口报告 0 个推理 token，也按该档登记。
 
-Opus 5 和 Sonnet 5.5 主表均按各自的关闭设置筛选，各排除 1 条出现思考的回复。Opus 5.5 开启自适应思考，全部 3,000 条均纳入。各模型的等级沿用各自 API 的定义，中转通道的记录只能核实请求及返回字段。
+Opus 5 和 Sonnet 5.5 主表均按各自的关闭设置筛选，各排除 1 条出现思考的回复。RightAPI 的 Opus 5.5 请求使用自适应思考（`low`）。按与 ZenMux 相同的回执标准，主表仅统计明确报告 0 个思考 token 且无思考块的 1,529/3,000 条；895 条计数为正，576 条未报告。六组分别以通过筛选的条数为分母，详见[逐组结果](opus55_20261124/README.md)。各模型的等级沿用各自 API 的定义，中转通道的记录只能核实请求及返回字段。
 
 **哪些模型整轮都报告了 0 个推理 token？** 在主表的 3,000 题测试中，Gemini 3.6 Flash、Gemma 4 31B IT、Kimi K3、HY4 preview、Grok 4.3、GPT-5、GPT-5.1、GPT-5.4、GPT-5.5、GPT-5.6 Luna / Sol / Terra 和 GPT-6.1 Terra 均为 3,000/3,000。Gemini 3.6 Flash 和 GPT-5 请求的都是 `minimal`。Gemini 未返回可见思考内容。GPT-5 的每条响应都带有加密的 reasoning 项，公开正文和摘要为空。
 
@@ -29,7 +29,7 @@ Opus 5 和 Sonnet 5.5 主表均按各自的关闭设置筛选，各排除 1 条�
 | [Claude Haiku 5.5（RightAPI）](haiku55_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 明确零 602/1,500 | 52.7 / 34.2 | 85.1 / 10.0 | 91.2 / 4.2 |
 | [claude-opus-4-8](opus48_rightapi/README.md) | 请求关闭 | 未设 | 199 / 0 / 101 | 70.0 / 26.0 | 93.0 / 7.0 | 100.0 / 0.0 |
 | [claude-opus-5](opus5_20261103/README.md) | 请求关闭（按响应筛选） | `low` | 1,175 / 0 / 325 | 71.8 / 21.4 | 91.8 / 7.0 | 95.2 / 2.8 |
-| [claude-opus-5-5](opus55_20261124/README.md) | 开启（自适应） | `low` | 936 / 266 / 298 | 93.6 / 2.0 | 98.0 / 0.8 | 99.4 / 0.0 |
+| [claude-opus-5-5](opus55_20261124/README.md) | 自适应（仅计回执明确为零且无思考块） | `low` | 全报 0（936） | 95.0 / 3.8 | 98.5 / 1.2 | 99.4 / 0.0 |
 | [claude-sonnet-5-5](sonnet55_20261124/README.md) | 请求关闭答题前思考（按响应筛选） | `high` | 1,197 / 0 / 303 | 79.2 / 14.8 | 98.2 / 1.6 | 99.4 / 0.2 |
 | [DeepSeek V4 Pro](../llm/) | 请求关闭 | 未设 | 全未报告（1,500） | 31.8 / 67.4 | 66.0 / 34.0 | 94.2 / 5.6 |
 | [DeepSeek V4 Pro（128/180）](deepseek_v4pro_thinking_20261124/README.md) | 开启 | `high` | 全报正数（68） | 100.0 / 0.0 | 100.0 / 0.0 | 100.0 / 0.0 |
@@ -63,7 +63,7 @@ Opus 5 和 Sonnet 5.5 主表均按各自的关闭设置筛选，各排除 1 条�
 | [Claude Haiku 5.5（RightAPI）](haiku55_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 明确零 496/1,500 | 17.0 / 42.2 | 54.2 / 33.1 | 40.2 / 19.6 |
 | [claude-opus-4-8](opus48_rightapi/README.md) | 请求关闭 | 未设 | 207 / 0 / 93 | 38.0 / 47.0 | 75.0 / 21.0 | 82.0 / 10.0 |
 | [claude-opus-5](opus5_20261103/README.md) | 请求关闭（按响应筛选） | `low` | 1,185 / 0 / 314 | 69.7 / 26.5 | 86.6 / 11.0 | 79.4 / 13.2 |
-| [claude-opus-5-5](opus55_20261124/README.md) | 开启（自适应） | `low` | 593 / 629 / 278 | 95.0 / 3.4 | 96.4 / 2.6 | 95.8 / 0.6 |
+| [claude-opus-5-5](opus55_20261124/README.md) | 自适应（仅计回执明确为零且无思考块） | `low` | 全报 0（593） | 91.0 / 7.5 | 91.9 / 6.2 | 100.0 / 0.0 |
 | [claude-sonnet-5-5](sonnet55_20261124/README.md) | 请求关闭答题前思考（按响应筛选） | `high` | 1,199 / 0 / 300 | 94.2 / 3.6 | 96.0 / 2.6 | 94.6 / 0.8 |
 | [DeepSeek V4 Pro](../llm/) | 请求关闭 | 未设 | 全未报告（1,500） | 33.6 / 32.8 | 75.0 / 11.4 | 55.2 / 12.0 |
 | [DeepSeek V4 Pro（128/180）](deepseek_v4pro_thinking_20261124/README.md) | 开启 | `high` | 全报正数（60） | 100.0 / 0.0 | 100.0 / 0.0 | 87.5 / 0.0 |
@@ -123,7 +123,7 @@ Opus 5 和 Sonnet 5.5 主表均按各自的关闭设置筛选，各排除 1 条�
 | [HY4 正式版前序检索测试](hy4_20261104/README.md) <br><sub>hy4_20261104</sub> | 请求关闭，未设等级 | 2,998 / 0 / 2 | [3,000](hy4_20261104/answers.jsonl.gz) |
 | [MiniMax M3 前序检索测试](minimax_m3_20261020/README.md) <br><sub>minimax_m3_20261020</sub> | 请求关闭，未设等级 | 961 / 0 / 2,039 | [3,000](minimax_m3_20261020/answers.jsonl.gz) |
 | [可访问的无思考模型核验](no_thinking_model_audit_20261124/README.md) <br><sub>no_thinking_model_audit_20261124</sub> | 多种关闭设置，见各模型记录 | 见诊断记录 | 见报告 |
-| [Opus 5.5 low 前序检索测试](opus55_20261124/README.md) <br><sub>opus55_20261124</sub> | 开启（自适应），`low` | 1,529 / 895 / 576 | [3,000](opus55_20261124/answers.jsonl.gz) |
+| [Opus 5.5 low 前序检索测试](opus55_20261124/README.md) <br><sub>opus55_20261124</sub> | 自适应，`low`；主表纳入 1,529 条 | 全部回执：1,529 / 895 / 576 | [3,000](opus55_20261124/answers.jsonl.gz) |
 | [Opus 5 前序检索测试](opus5_20261103/high_pilot/README.md) <br><sub>opus5_20261103/high_pilot</sub> | 请求关闭（按响应筛选），`high` | 91 / 0 / 28 | [120](opus5_20261103/high_pilot/answers.jsonl.gz) |
 | [Opus 5 前序检索测试](opus5_20261103/README.md) <br><sub>opus5_20261103</sub> | 请求关闭（按响应筛选），`low` | 2,360 / 0 / 639 | [3,000](opus5_20261103/answers.jsonl.gz) |
 | [Qwen3.8 Max-0902 前序检索测试](qwen38_max_20261020/README.md) <br><sub>qwen38_max_20261020</sub> | 请求关闭，未设等级 | 全未报告（3,000） | [3,000](qwen38_max_20261020/answers.jsonl.gz) |
