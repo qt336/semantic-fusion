@@ -13,7 +13,7 @@
 
 默认规则仅纳入明确报告 0 个思考 token 且无思考块或可见推理的回答；空的或加密的 reasoning 项也排除。
 
-**两项历史口径例外。** GPT‑5 请求 `minimal`，回执均报告 0 个思考 token，同时含加密的 `reasoning` 项。按原实验口径纳入全部回答。DeepSeek V4 Pro 原测试请求关闭思考，3,000 条回执均未报告思考 token 数。沿用原评分，每组 500 条。 表中已标出例外。回执只能说明接口报告了什么。
+**三项历史口径例外。** GPT‑5 请求 `minimal`，回执均报告 0 个思考 token，同时含加密的 `reasoning` 项。按原实验口径纳入全部回答。DeepSeek V4 Pro 与 DeepSeek V4.1 Flash 1017 的原测试均请求关闭思考。两次运行各有 3,000 条回执，均未报告思考 token 数，沿用原评分，每组 500 条。表中已标出例外。回执只能说明接口报告了什么。
 
 每格依次给出**正确率 / 错答首成分率**（%），以各条件实际纳入数为分母。语义及其加逗号版本独立筛选；两组留下的题目可能不同。没有合格回答时显示“—”。[分条件计数](conditions.csv) · [各轮纳入及排除原因](eligibility.csv)
 
@@ -32,7 +32,7 @@
 | [DeepSeek V4 Pro](../llm/) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 31.8 / 67.4 | 66.0 / 34.0 | 94.2 / 5.6 |
 | [DeepSeek V4 Pro（128/180）](deepseek_v4pro_thinking_20261124/README.md) | 开启 | `high` | 0 / 68 | — | — | — |
 | [DeepSeek V4.1 Flash 1017（180 题）](deepseek_v41flash_thinking_20261124/README.md) | 开启 | `high` | 0 / 90 | — | — | — |
-| [deepseek-v4.1-flash-1017](deepseek_v41_flash_20261020/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
+| [deepseek-v4.1-flash-1017](deepseek_v41_flash_20261020/README.md) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 58.4 / 38.2 | 81.2 / 18.6 | 100.0 / 0.0 |
 | [gemini-3.6-flash](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 最低推理档 | `minimal` | 1,500 / 1,500 | 87.2 / 10.8 | 97.4 / 0.2 | 100.0 / 0.0 |
 | [gemma-4-31b-it](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 请求关闭（按响应筛选） | 未设 | 1,500 / 1,500 | 79.4 / 18.4 | 98.8 / 1.0 | 100.0 / 0.0 |
 | [hy4（暂定评分）](hy4_20261104/README.md) | 请求关闭 | 未设 | 1,498 / 1,500 | 54.5 / 44.7 | 90.4 / 9.6 | 99.8 / 0.2 |
@@ -66,7 +66,7 @@
 | [DeepSeek V4 Pro](../llm/) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 33.6 / 32.8 | 75.0 / 11.4 | 55.2 / 12.0 |
 | [DeepSeek V4 Pro（128/180）](deepseek_v4pro_thinking_20261124/README.md) | 开启 | `high` | 0 / 60 | — | — | — |
 | [DeepSeek V4.1 Flash 1017（180 题）](deepseek_v41flash_thinking_20261124/README.md) | 开启 | `high` | 0 / 90 | — | — | — |
-| [deepseek-v4.1-flash-1017](deepseek_v41_flash_20261020/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
+| [deepseek-v4.1-flash-1017](deepseek_v41_flash_20261020/README.md) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 25.6 / 74.2 | 80.8 / 17.8 | 75.4 / 19.0 |
 | [gemini-3.6-flash](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 最低推理档 | `minimal` | 1,500 / 1,500 | 54.4 / 6.6 | 82.4 / 3.4 | 64.2 / 13.6 |
 | [gemma-4-31b-it](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 请求关闭（按响应筛选） | 未设 | 1,500 / 1,500 | 56.2 / 18.2 | 83.4 / 6.4 | 72.6 / 3.2 |
 | [hy4（暂定评分）](hy4_20261104/README.md) | 请求关闭 | 未设 | 1,500 / 1,500 | 36.6 / 63.0 | 94.6 / 4.8 | 100.0 / 0.0 |
@@ -93,7 +93,7 @@
 
 | 实验 | 请求设置 | 纳入 / 已有回执 | 逐题下载 |
 |---|---|---:|---|
-| [DeepSeek V4.1 Flash 前序检索测试](deepseek_v41_flash_20261020/README.md) <br><sub>deepseek_v41_flash_20261020</sub> | 请求关闭，未设等级 | 0 / 3,000 | [0 条](deepseek_v41_flash_20261020/answers.jsonl.gz) |
+| [DeepSeek V4.1 Flash 前序检索测试](deepseek_v41_flash_20261020/README.md) <br><sub>deepseek_v41_flash_20261020</sub> | 请求关闭（历史口径），未设等级 | 3,000 / 3,000 | [3,000 条](deepseek_v41_flash_20261020/answers.jsonl.gz) |
 | [DeepSeek V4.1 Flash 1017 开启思考的前序检索测试](deepseek_v41flash_thinking_20261124/README.md) <br><sub>deepseek_v41flash_thinking_20261124</sub> | 开启，`high` | 0 / 180 | [0 条](deepseek_v41flash_thinking_20261124/answers.jsonl.gz) |
 | [DeepSeek V4 Pro 开启思考的前序检索测试](deepseek_v4pro_thinking_20261124/README.md) <br><sub>deepseek_v4pro_thinking_20261124</sub> | 开启，`high` | 0 / 128 | [0 条](deepseek_v4pro_thinking_20261124/answers.jsonl.gz) |
 | [Gemma 4 31B IT 与 Gemini 3.6 Flash 的前序检索](gemma4_gemini36_zenmux_20261124/fixed180/README.md) <br><sub>gemma4_gemini36_zenmux_20261124/fixed180</sub> | Gemma 请求关闭，未设等级；Gemini `minimal` | 360 / 360 | [360 条](gemma4_gemini36_zenmux_20261124/fixed180/answers.jsonl.gz) |

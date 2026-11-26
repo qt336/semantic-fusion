@@ -12,7 +12,9 @@ PAPER_MODELS = {'kimi': 'Kimi K3', 'hy4': 'HY4 preview', 'deepseek': 'DeepSeek V
 
 # Bound the publication exceptions to these exact historical archives.
 GPT5_HISTORICAL_RUNS = {'gpt5_minimal_full_20261125', 'gpt5_zenmux_20261125'}
+MISSING_COUNT_ARCHIVES = {('../llm/', 'DeepSeek V4 Pro'), ('deepseek_v41_flash_20261020', 'deepseek-v4.1-flash-1017')}
 HISTORICAL_ARCHIVES = {
+    'results/extended/deepseek_v41_flash_20261020/answers.jsonl.gz': '407edf412f928465c8457d86ed50457d0234c50b3a37d0ef85ee6a39e188171a',
     'results/extended/gpt5_minimal_full_20261125/answers.jsonl.gz': '3215e41d21340618efbebde10f6fd040a125bf34dc4b84d8e084248e86e87884',
     'results/extended/gpt5_zenmux_20261125/answers.jsonl.gz': '2579e7b45642da7643a4e5f70621a23cc10acb236b40cb4a669a5a8ae283edb9',
     'results/llm/deepseek.jsonl': 'fb876aa51ad358c116e20354b4ff1e58c28a1c8c01bed2614a08bd3018932903',
@@ -20,7 +22,7 @@ HISTORICAL_ARCHIVES = {
 
 
 def historical(run, model):
-    return (run in GPT5_HISTORICAL_RUNS and model == 'openai/gpt-5') or (run, model) == ('../llm/', 'DeepSeek V4 Pro')
+    return (run in GPT5_HISTORICAL_RUNS and model == 'openai/gpt-5') or (run, model) in MISSING_COUNT_ARCHIVES
 
 
 def read_csv(name):
@@ -43,21 +45,25 @@ def verify():
         assert run in models, path
         with gzip.open(path, 'rt') as stream:
             for row in map(json.loads, stream):
-                if run in GPT5_HISTORICAL_RUNS:
+                model = next(iter(models[run])) if len(models[run]) == 1 else row['model']
+                missing_count = (run, model) in MISSING_COUNT_ARCHIVES
+                if missing_count:
+                    assert row['model'] == row['model_returned'] == model, path
+                    n = row['reasoning_token_count']
+                elif run in GPT5_HISTORICAL_RUNS:
                     assert row['model'] == 'openai/gpt-5' and row['reasoning_item'] is True, path
                     n = row['reasoning_tokens']
                 else:
                     assert row['has_reasoning_block'] is False and not row.get('reasoning_item'), path
                     n = row['reported_reasoning_tokens']
-                assert type(n) is int and n == 0, path
+                assert (n is None if missing_count else type(n) is int and n == 0), path
                 for field in ('reasoning_tokens', 'thinking_tokens', 'reasoning_token_count', 'thinking_token_count'):
                     if field in row:
-                        assert type(row[field]) is int and row[field] == 0, (path, field)
+                        assert type(row[field]) is type(n) and row[field] == n, (path, field)
                 assert row.get('thinking_block_count', 0) == 0, path
                 assert all(block == 'text' for block in row.get('blocks', [])), path
                 assert not row.get('visible_reasoning') and not row.get('visible_reasoning_marker'), path
                 assert row.get('eligible') is not False and row.get('status') in (None, 'completed'), path
-                model = next(iter(models[run])) if len(models[run]) == 1 else row['model']
                 identity = run, model, row['sample_id']
                 assert identity not in seen, identity
                 seen.add(identity)
@@ -90,7 +96,7 @@ def verify():
         c = counts[key]
         assert [c[k] for k in ('B','A','Q','Other')] == [int(row[k]) for k in ('correct_b','wrong_a','wrong_c','other')], key
         assert c.total() == int(row['scored']), key
-        missing = c.total() if key[:2] == ('../llm/', 'DeepSeek V4 Pro') else 0
+        missing = c.total() if key[:2] in MISSING_COUNT_ARCHIVES else 0
         assert int(row['推理token未报告的题数']) == missing and int(row['推理token为正的题数']) == 0
         assert int(row['推理token为零的题数']) == c.total() - missing
         assert int(row['historical_exception']) == (c.total() if historical(*key[:2]) else 0)

@@ -2,7 +2,7 @@ run,model,received,keep,missing,positive,block,unverified,other,historical_excep
 ../llm/,DeepSeek V4 Pro,3000,3000,0,0,0,0,0,3000
 ../llm/,HY4 preview,3000,3000,0,0,0,0,0,0
 ../llm/,Kimi K3,3000,3000,0,0,0,0,0,0
-deepseek_v41_flash_20261020,deepseek-v4.1-flash-1017,3000,0,3000,0,0,0,0,0
+deepseek_v41_flash_20261020,deepseek-v4.1-flash-1017,3000,3000,0,0,0,0,0,3000
 deepseek_v41flash_thinking_20261124,DeepSeek V4.1 Flash 1017 开启思考的前序检索测试,180,0,0,180,0,0,0,0
 deepseek_v4pro_thinking_20261124,DeepSeek V4 Pro 开启思考的前序检索测试,128,0,0,128,0,0,0,0
 fable51_rightapi_20261125,claude-fable-5-1,3000,1849,1142,9,0,0,0,0
