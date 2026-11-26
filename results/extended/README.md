@@ -35,6 +35,7 @@
 | [DeepSeek V4 Pro（128/180）](deepseek_v4pro_thinking_20261124/README.md) | 开启思考对照 | `high` | 68 / 68 | 100.0 / 0.0 | 100.0 / 0.0 | 100.0 / 0.0 |
 | [DeepSeek V4.1 Flash 1017（180 题）](deepseek_v41flash_thinking_20261124/README.md) | 开启思考对照 | `high` | 90 / 90 | 93.3 / 0.0 | 100.0 / 0.0 | 100.0 / 0.0 |
 | [DeepSeek V4.1 Flash 1017（ZenMux）](deepseek41flash_zenmux_20261126/README.md) | 请求关闭（按响应筛选） | 未设 | 1,500 / 1,500 | 60.0 / 36.6 | 82.0 / 17.8 | 100.0 / 0.0 |
+| [Gemini 4 Argon](gemini4_argon_zenmux_20261126/README.md) | 网关请求关闭（筛选回执） | 未设 | 1,456 / 1,500 | 99.6 / 0.0 | 100.0 / 0.0 | 100.0 / 0.0 |
 | [gemini-3.6-flash](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 最低推理档 | `minimal` | 1,500 / 1,500 | 87.2 / 10.8 | 97.4 / 0.2 | 100.0 / 0.0 |
 | [gemma-4-31b-it](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 请求关闭（按响应筛选） | 未设 | 1,500 / 1,500 | 79.4 / 18.4 | 98.8 / 1.0 | 100.0 / 0.0 |
 | [hy4（暂定评分）](hy4_20261104/README.md) | 请求关闭 | 未设 | 1,498 / 1,500 | 54.5 / 44.7 | 90.4 / 9.6 | 99.8 / 0.2 |
@@ -70,6 +71,7 @@
 | [DeepSeek V4 Pro（128/180）](deepseek_v4pro_thinking_20261124/README.md) | 开启思考对照 | `high` | 60 / 60 | 100.0 / 0.0 | 100.0 / 0.0 | 87.5 / 0.0 |
 | [DeepSeek V4.1 Flash 1017（180 题）](deepseek_v41flash_thinking_20261124/README.md) | 开启思考对照 | `high` | 90 / 90 | 100.0 / 0.0 | 100.0 / 0.0 | 100.0 / 0.0 |
 | [DeepSeek V4.1 Flash 1017（ZenMux）](deepseek41flash_zenmux_20261126/README.md) | 请求关闭（按响应筛选） | 未设 | 1,500 / 1,500 | 24.6 / 74.6 | 82.0 / 16.6 | 74.8 / 21.4 |
+| [Gemini 4 Argon](gemini4_argon_zenmux_20261126/README.md) | 网关请求关闭（筛选回执） | 未设 | 1,446 / 1,500 | 99.6 / 0.0 | 99.8 / 0.0 | 98.1 / 0.0 |
 | [gemini-3.6-flash](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 最低推理档 | `minimal` | 1,500 / 1,500 | 54.4 / 6.6 | 82.4 / 3.4 | 64.2 / 13.6 |
 | [gemma-4-31b-it](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 请求关闭（按响应筛选） | 未设 | 1,500 / 1,500 | 56.2 / 18.2 | 83.4 / 6.4 | 72.6 / 3.2 |
 | [hy4（暂定评分）](hy4_20261104/README.md) | 请求关闭 | 未设 | 1,500 / 1,500 | 36.6 / 63.0 | 94.6 / 4.8 | 100.0 / 0.0 |
@@ -120,6 +122,7 @@
 | [GPT-5 中英文前序检索测试](gpt5_minimal_full_20261125/README.md) <br><sub>gpt5_minimal_full_20261125</sub> | 历史口径，`minimal` | 3,000 / 3,000 | [3,000 条](gpt5_minimal_full_20261125/answers.jsonl.gz) |
 | [GPT-5 中英文前序检索测试](gpt5_zenmux_20261125/README.md) <br><sub>gpt5_zenmux_20261125</sub> | 历史口径，`minimal` | 180 / 180 | [180 条](gpt5_zenmux_20261125/answers.jsonl.gz) |
 | [GPT-6.1 Terra 中英文前序检索测试](gpt61terra_zenmux_20261124/README.md) <br><sub>gpt61terra_zenmux_20261124</sub> | 请求关闭，`none` | 3,000 / 3,000 | [3,000 条](gpt61terra_zenmux_20261124/answers.jsonl.gz) |
+| [Gemini 4 Argon（全量）](gemini4_argon_zenmux_20261126/README.md) <br><sub>gemini4_argon_zenmux_20261126</sub> | 网关请求关闭，筛选回执 | 2,902 / 3,000 | [2,902 条](gemini4_argon_zenmux_20261126/answers.jsonl.gz) |
 | [GPT-6 Luna（全量）](gpt6luna_none_full_20261126/README.md) <br><sub>gpt6luna_none_full_20261126</sub> | 请求关闭，`none` | 3,000 / 3,000 | [3,000 条](gpt6luna_none_full_20261126/answers.jsonl.gz) |
 | [GPT-6 Luna 中英文前序检索测试](gpt6luna_zenmux_20261124/README.md) <br><sub>gpt6luna_zenmux_20261124</sub> | 请求关闭，`none` | 180 / 180 | [180 条](gpt6luna_zenmux_20261124/answers.jsonl.gz) |
 | [GPT 转接通道：额外输入与请求隔离核验](gpt_channel_context_audit_20261124/README.md) <br><sub>gpt_channel_context_audit_20261124</sub> | 通道诊断，主请求 `none` | 通道或参数诊断 | — |

@@ -259,3 +259,9 @@ deepseek41flash_zenmux_20261126,deepseek/deepseek-v4.1-flash,zh,comma_semantic,5
 deepseek41flash_zenmux_20261126,deepseek/deepseek-v4.1-flash,en,semantic,500,123,373,0,4,请求关闭（按响应筛选）,未设,500,0,0,500,0
 deepseek41flash_zenmux_20261126,deepseek/deepseek-v4.1-flash,en,random,500,410,83,0,7,请求关闭（按响应筛选）,未设,500,0,0,500,0
 deepseek41flash_zenmux_20261126,deepseek/deepseek-v4.1-flash,en,comma_semantic,500,374,107,0,19,请求关闭（按响应筛选）,未设,500,0,0,500,0
+gemini4_argon_zenmux_20261126,google/gemini-4-argon,zh,semantic,480,478,0,0,2,网关请求关闭（筛选回执）,未设,480,0,0,500,0
+gemini4_argon_zenmux_20261126,google/gemini-4-argon,zh,random,488,488,0,0,0,网关请求关闭（筛选回执）,未设,488,0,0,500,0
+gemini4_argon_zenmux_20261126,google/gemini-4-argon,zh,comma_semantic,488,488,0,0,0,网关请求关闭（筛选回执）,未设,488,0,0,500,0
+gemini4_argon_zenmux_20261126,google/gemini-4-argon,en,semantic,477,475,0,0,2,网关请求关闭（筛选回执）,未设,477,0,0,500,0
+gemini4_argon_zenmux_20261126,google/gemini-4-argon,en,random,485,484,0,0,1,网关请求关闭（筛选回执）,未设,485,0,0,500,0
+gemini4_argon_zenmux_20261126,google/gemini-4-argon,en,comma_semantic,484,475,0,0,9,网关请求关闭（筛选回执）,未设,484,0,0,500,0
