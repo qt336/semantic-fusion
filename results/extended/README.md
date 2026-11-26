@@ -19,17 +19,14 @@
 
 每格依次给出**正确率 / 错答首成分率**（%），以各条件实际纳入数为分母。语义及其加逗号版本独立筛选；两组留下的题目可能不同。没有合格回答时显示“—”。[分条件计数](conditions.csv) · [各轮纳入及排除原因](eligibility.csv)
 
-Fable 的 ZenMux 部分重测和 RightAPI 全量结果分别列出。每行的“纳入 / 已有回执”以该轮已收到的回执计数。主表中的 GPT 全量测试经 ZenMux Responses API 指定 `:openai` 路由；早期 RightAPI 小测单列在运行索引中。
+**Fable 5、5.1 和 5.2 的主结果采用 RightAPI。** 每款均已完成 3,000 道原题，各条件正确率和错答首成分率以通过零思考回执筛选的回答数为分母。ZenMux 部分重测列在[模型测试与对照](#模型测试与对照)，可按通道查阅。主表中的 GPT 全量测试经 ZenMux Responses API 指定 `:openai` 路由；早期 RightAPI 小测单列在运行索引中。
 
 ### 中文
 
 | 模型 | 思考模式（请求） | 等级 | 纳入 / 已有回执（本语言） | 语义 | 独立随机 | 语义加逗号 |
 |---|---|---|---|---:|---:|---:|
-| [Claude Fable 5（ZenMux，部分）](fable5_zenmux_20261126/README.md) | 自适应（筛选明确零计数） | `low` | 326 / 625 | 89.2 / 8.4 | 98.9 / 1.1 | 100.0 / 0.0 |
 | [Claude Fable 5（RightAPI）](fable5_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 960 / 1,500 | 89.8 / 8.6 | 95.5 / 2.2 | 99.1 / 0.3 |
-| [Claude Fable 5.1（ZenMux，部分）](fable51_zenmux_20261126/README.md) | 自适应（筛选明确零计数） | `low` | 595 / 598 | 91.8 / 7.7 | 99.5 / 0.0 | 100.0 / 0.0 |
 | [Claude Fable 5.1（RightAPI）](fable51_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 941 / 1,500 | 94.0 / 5.4 | 99.3 / 0.4 | 100.0 / 0.0 |
-| [Claude Fable 5.2（ZenMux，部分）](fable52_zenmux_20261126/README.md) | 自适应（筛选明确零计数） | `low` | 148 / 628 | 100.0 / 0.0 | 100.0 / 0.0 | 99.2 / 0.0 |
 | [Claude Fable 5.2（RightAPI）](fable52_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 1,352 / 1,500 | 95.8 / 3.0 | 98.7 / 1.3 | 99.8 / 0.2 |
 | [Claude Haiku 5.5（RightAPI）](haiku55_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 602 / 1,500 | 52.7 / 34.2 | 85.1 / 10.0 | 91.2 / 4.2 |
 | [claude-opus-4-8](opus48_rightapi/README.md) | 请求关闭 | 未设 | 199 / 300 | 58.7 / 36.5 | 89.6 / 10.4 | 100.0 / 0.0 |
@@ -64,11 +61,8 @@ Fable 的 ZenMux 部分重测和 RightAPI 全量结果分别列出。每行的�
 
 | 模型 | 思考模式（请求） | 等级 | 纳入 / 已有回执（本语言） | 语义 | 独立随机 | 语义加逗号 |
 |---|---|---|---|---:|---:|---:|
-| [Claude Fable 5（ZenMux，部分）](fable5_zenmux_20261126/README.md) | 自适应（筛选明确零计数） | `low` | 147 / 589 | 100.0 / 0.0 | 98.0 / 2.0 | 100.0 / 0.0 |
 | [Claude Fable 5（RightAPI）](fable5_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 313 / 1,500 | 76.7 / 20.4 | 94.8 / 4.3 | 96.8 / 3.2 |
-| [Claude Fable 5.1（ZenMux，部分）](fable51_zenmux_20261126/README.md) | 自适应（筛选明确零计数） | `low` | 607 / 607 | 100.0 / 0.0 | 99.5 / 0.5 | 100.0 / 0.0 |
 | [Claude Fable 5.1（RightAPI）](fable51_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 908 / 1,500 | 97.4 / 1.9 | 98.3 / 1.4 | 93.8 / 0.3 |
-| [Claude Fable 5.2（ZenMux，部分）](fable52_zenmux_20261126/README.md) | 自适应（筛选明确零计数） | `low` | 431 / 588 | 100.0 / 0.0 | 100.0 / 0.0 | 100.0 / 0.0 |
 | [Claude Fable 5.2（RightAPI）](fable52_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 1,401 / 1,500 | 97.1 / 2.7 | 99.1 / 0.7 | 97.0 / 0.0 |
 | [Claude Haiku 5.5（RightAPI）](haiku55_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 496 / 1,500 | 17.0 / 42.2 | 54.2 / 33.1 | 40.2 / 19.6 |
 | [claude-opus-4-8](opus48_rightapi/README.md) | 请求关闭 | 未设 | 207 / 300 | 37.3 / 47.8 | 66.2 / 28.2 | 75.4 / 13.0 |
