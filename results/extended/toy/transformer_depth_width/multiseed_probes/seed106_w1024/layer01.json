@@ -1,0 +1,23 @@
+{
+  "layer": 1,
+  "test": {
+    "n": 2648,
+    "correct": 2648
+  },
+  "semantic_0": {
+    "n": 2560,
+    "correct": 2560
+  },
+  "semantic_1": {
+    "n": 2560,
+    "correct": 2560
+  },
+  "semantic_2": {
+    "n": 2560,
+    "correct": 2305
+  },
+  "semantic": {
+    "n": 7680,
+    "correct": 7425
+  }
+}

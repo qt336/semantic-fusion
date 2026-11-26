@@ -1,0 +1,7 @@
+{
+  "seed": 106,
+  "width": 256,
+  "epoch": 1200,
+  "source": "previous subspace_intervention/probe_projection_effect baseline; same native-update probe protocol",
+  "qualified": true
+}

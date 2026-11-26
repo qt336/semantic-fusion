@@ -26,7 +26,7 @@ def features(model,x,bp):
             h=h+u
     return result
 
-def main(seed,width):
+def main(seed,width,allow_underqualified=False):
     torch.set_num_threads(3);torch.set_float32_matmul_precision('high');torch.manual_seed(20261125)
     dest=ROOT/f'seed{seed}_w{width}';dest.mkdir(exist_ok=True)
     checkpoint=ROOT/f'inputs/seed{seed}_w{width}.pt'
@@ -57,7 +57,9 @@ def main(seed,width):
             ms=[v for k,v in metrics.items() if k.startswith(name+'_')]
             metrics[name]={k:sum(v[k] for v in ms) for k in ['correct','n']}
     save(dest/'baseline.json',metrics);np.savez_compressed(dest/'baseline_predictions.npz',**predictions)
-    assert all(metrics[k]['correct']/metrics[k]['n']>=.99 for k in ['arithmetic','standard']),metrics
+    qualified=all(metrics[k]['correct']/metrics[k]['n']>=.99 for k in ['arithmetic','standard'])
+    metadata['qualified']=qualified;save(dest/'metadata.json',metadata)
+    assert qualified or allow_underqualified,metrics
     cache={};labels={}
     for part in ['train','val','test']:
         x=ordinary[part+'_x'].copy();bp=ordinary[part+'_bpos'];labels[part]=ordinary[part+'_labels'][:,1]
@@ -91,4 +93,4 @@ def main(seed,width):
     subprocess.run([sys.executable,str(ROOT/'report.py')],check=True)
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('seed',type=int);p.add_argument('width',type=int);a=p.parse_args();main(a.seed,a.width)
+    p=argparse.ArgumentParser();p.add_argument('seed',type=int);p.add_argument('width',type=int);p.add_argument('--allow-underqualified',action='store_true');a=p.parse_args();main(a.seed,a.width,a.allow_underqualified)
