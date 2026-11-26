@@ -19,12 +19,17 @@
 
 每格依次给出**正确率 / 错答首成分率**（%），以各条件实际纳入数为分母。语义及其加逗号版本独立筛选；两组留下的题目可能不同。没有合格回答时显示“—”。[分条件计数](conditions.csv) · [各轮纳入及排除原因](eligibility.csv)
 
+Fable 的 ZenMux 部分重测和 RightAPI 全量结果分别列出。每行的“纳入 / 已有回执”以该轮已收到的回执计数。主表中的 GPT 全量测试经 ZenMux Responses API 指定 `:openai` 路由；早期 RightAPI 小测单列在运行索引中。
+
 ### 中文
 
 | 模型 | 思考模式（请求） | 等级 | 纳入 / 已有回执（本语言） | 语义 | 独立随机 | 语义加逗号 |
 |---|---|---|---|---:|---:|---:|
+| [Claude Fable 5（ZenMux，部分）](fable5_zenmux_20261126/README.md) | 自适应（筛选明确零计数） | `low` | 326 / 625 | 89.2 / 8.4 | 98.9 / 1.1 | 100.0 / 0.0 |
 | [Claude Fable 5（RightAPI）](fable5_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 960 / 1,500 | 89.8 / 8.6 | 95.5 / 2.2 | 99.1 / 0.3 |
+| [Claude Fable 5.1（ZenMux，部分）](fable51_zenmux_20261126/README.md) | 自适应（筛选明确零计数） | `low` | 595 / 598 | 91.8 / 7.7 | 99.5 / 0.0 | 100.0 / 0.0 |
 | [Claude Fable 5.1（RightAPI）](fable51_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 941 / 1,500 | 94.0 / 5.4 | 99.3 / 0.4 | 100.0 / 0.0 |
+| [Claude Fable 5.2（ZenMux，部分）](fable52_zenmux_20261126/README.md) | 自适应（筛选明确零计数） | `low` | 148 / 628 | 100.0 / 0.0 | 100.0 / 0.0 | 99.2 / 0.0 |
 | [Claude Fable 5.2（RightAPI）](fable52_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 1,352 / 1,500 | 95.8 / 3.0 | 98.7 / 1.3 | 99.8 / 0.2 |
 | [Claude Haiku 5.5（RightAPI）](haiku55_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 602 / 1,500 | 52.7 / 34.2 | 85.1 / 10.0 | 91.2 / 4.2 |
 | [claude-opus-4-8](opus48_rightapi/README.md) | 请求关闭 | 未设 | 199 / 300 | 58.7 / 36.5 | 89.6 / 10.4 | 100.0 / 0.0 |
@@ -59,8 +64,11 @@
 
 | 模型 | 思考模式（请求） | 等级 | 纳入 / 已有回执（本语言） | 语义 | 独立随机 | 语义加逗号 |
 |---|---|---|---|---:|---:|---:|
+| [Claude Fable 5（ZenMux，部分）](fable5_zenmux_20261126/README.md) | 自适应（筛选明确零计数） | `low` | 147 / 589 | 100.0 / 0.0 | 98.0 / 2.0 | 100.0 / 0.0 |
 | [Claude Fable 5（RightAPI）](fable5_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 313 / 1,500 | 76.7 / 20.4 | 94.8 / 4.3 | 96.8 / 3.2 |
+| [Claude Fable 5.1（ZenMux，部分）](fable51_zenmux_20261126/README.md) | 自适应（筛选明确零计数） | `low` | 607 / 607 | 100.0 / 0.0 | 99.5 / 0.5 | 100.0 / 0.0 |
 | [Claude Fable 5.1（RightAPI）](fable51_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 908 / 1,500 | 97.4 / 1.9 | 98.3 / 1.4 | 93.8 / 0.3 |
+| [Claude Fable 5.2（ZenMux，部分）](fable52_zenmux_20261126/README.md) | 自适应（筛选明确零计数） | `low` | 431 / 588 | 100.0 / 0.0 | 100.0 / 0.0 | 100.0 / 0.0 |
 | [Claude Fable 5.2（RightAPI）](fable52_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 1,401 / 1,500 | 97.1 / 2.7 | 99.1 / 0.7 | 97.0 / 0.0 |
 | [Claude Haiku 5.5（RightAPI）](haiku55_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 496 / 1,500 | 17.0 / 42.2 | 54.2 / 33.1 | 40.2 / 19.6 |
 | [claude-opus-4-8](opus48_rightapi/README.md) | 请求关闭 | 未设 | 207 / 300 | 37.3 / 47.8 | 66.2 / 28.2 | 75.4 / 13.0 |
@@ -141,9 +149,12 @@
 | [Sonnet 5.5 请求关闭思考的前序检索测试](sonnet55_20261124/README.md) <br><sub>sonnet55_20261124</sub> | 请求关闭答题前思考（按响应筛选），`high` | 2,396 / 3,000 | [2,396 条](sonnet55_20261124/answers.jsonl.gz) |
 | [Sonnet 5.5 思考开关对照核验](sonnet55_20261124/thinking_control_audit/README.md) <br><sub>sonnet55_20261124/thinking_control_audit</sub> | 请求关闭 `low`、`high`；开启 `high` | 通道或参数诊断 | — |
 | [GPT-6.2 Sol / Astra：none 实测](gpt62_diagnostics/README.md) <br><sub>gpt62_diagnostics</sub> | `none` 未获回答；`low` 对照成功 | 通道或参数诊断 | — |
+| [Claude Fable 5（ZenMux，部分）](fable5_zenmux_20261126/README.md) <br><sub>fable5_zenmux_20261126</sub> | 自适应，`low` | 473 / 1,214 | [473 条](fable5_zenmux_20261126/answers.jsonl.gz) |
 | [Fable 5 初版（RightAPI，全量）](fable5_rightapi_20261125/README.md) <br><sub>fable5_rightapi_20261125</sub> | 自适应，`low` | 1,273 / 3,000 | [1,273 条](fable5_rightapi_20261125/answers.jsonl.gz) |
+| [Claude Fable 5.1（ZenMux，部分）](fable51_zenmux_20261126/README.md) <br><sub>fable51_zenmux_20261126</sub> | 自适应，`low` | 1,202 / 1,205 | [1,202 条](fable51_zenmux_20261126/answers.jsonl.gz) |
 | [Fable 5.1（RightAPI，全量）](fable51_rightapi_20261125/README.md) <br><sub>fable51_rightapi_20261125</sub> | 自适应，`low` | 1,849 / 3,000 | [1,849 条](fable51_rightapi_20261125/answers.jsonl.gz) |
 | [Haiku 5.5（RightAPI，全量）](haiku55_rightapi_20261125/README.md) <br><sub>haiku55_rightapi_20261125</sub> | 自适应，`low` | 1,098 / 3,000 | [1,098 条](haiku55_rightapi_20261125/answers.jsonl.gz) |
+| [Claude Fable 5.2（ZenMux，部分）](fable52_zenmux_20261126/README.md) <br><sub>fable52_zenmux_20261126</sub> | 自适应，`low` | 579 / 1,216 | [579 条](fable52_zenmux_20261126/answers.jsonl.gz) |
 | [Fable 5.2（RightAPI，全量）](fable52_rightapi_20261125/README.md) <br><sub>fable52_rightapi_20261125</sub> | 自适应，`low` | 2,753 / 3,000 | [2,753 条](fable52_rightapi_20261125/answers.jsonl.gz) |
 | [Fable 5 关闭思考设置核验](fable5_20261103/README.md) <br><sub>fable5_20261103</sub> | 请求关闭，未设等级，返回思考块 | 通道或参数诊断 | — |
 | [GPT-5.6 Sol 官方直连可用性检查](openai_direct_gpt56sol/README.md) <br><sub>openai_direct_gpt56sol</sub> | 请求 `none`，未获回答 | 通道或参数诊断 | — |
