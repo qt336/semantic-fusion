@@ -28,7 +28,7 @@
 | [Claude Fable 5.2（RightAPI）](fable52_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 1,352 / 1,500 | 95.8 / 3.0 | 98.7 / 1.3 | 99.8 / 0.2 |
 | [Claude Haiku 5.5（RightAPI）](haiku55_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 602 / 1,500 | 52.7 / 34.2 | 85.1 / 10.0 | 91.2 / 4.2 |
 | [claude-opus-4-8](opus48_rightapi/README.md) | 请求关闭 | 未设 | 199 / 300 | 58.7 / 36.5 | 89.6 / 10.4 | 100.0 / 0.0 |
-| [claude-opus-5](opus5_20261103/README.md) | 请求关闭（按响应筛选） | `low` | 1,175 / 1,500 | 82.7 / 15.1 | 95.9 / 3.6 | 100.0 / 0.0 |
+| [Claude Opus 5（ZenMux）](opus5_zenmux_20261126/README.md) | 请求关闭（按响应筛选） | `low` | 1,500 / 1,500 | 23.0 / 64.6 | 73.4 / 26.4 | 100.0 / 0.0 |
 | [claude-opus-5-5](opus55_20261124/README.md) | 自适应（仅计回执明确为零且无思考块） | `low` | 936 / 1,500 | 95.0 / 3.8 | 98.5 / 1.2 | 99.4 / 0.0 |
 | [claude-sonnet-5-5](sonnet55_20261124/README.md) | 请求关闭答题前思考（按响应筛选） | `high` | 1,197 / 1,500 | 83.0 / 11.0 | 98.5 / 1.3 | 99.5 / 0.0 |
 | [DeepSeek V4 Pro](../llm/) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 31.8 / 67.4 | 66.0 / 34.0 | 94.2 / 5.6 |
@@ -63,7 +63,7 @@
 | [Claude Fable 5.2（RightAPI）](fable52_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 1,401 / 1,500 | 97.1 / 2.7 | 99.1 / 0.7 | 97.0 / 0.0 |
 | [Claude Haiku 5.5（RightAPI）](haiku55_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 496 / 1,500 | 17.0 / 42.2 | 54.2 / 33.1 | 40.2 / 19.6 |
 | [claude-opus-4-8](opus48_rightapi/README.md) | 请求关闭 | 未设 | 207 / 300 | 37.3 / 47.8 | 66.2 / 28.2 | 75.4 / 13.0 |
-| [claude-opus-5](opus5_20261103/README.md) | 请求关闭（按响应筛选） | `low` | 1,185 / 1,500 | 83.5 / 12.6 | 96.1 / 3.1 | 89.5 / 1.5 |
+| [Claude Opus 5（ZenMux）](opus5_zenmux_20261126/README.md) | 请求关闭（按响应筛选） | `low` | 1,489 / 1,500 | 32.7 / 59.5 | 81.7 / 15.7 | 97.2 / 1.8 |
 | [claude-opus-5-5](opus55_20261124/README.md) | 自适应（仅计回执明确为零且无思考块） | `low` | 593 / 1,500 | 91.0 / 7.5 | 91.9 / 6.2 | 100.0 / 0.0 |
 | [claude-sonnet-5-5](sonnet55_20261124/README.md) | 请求关闭答题前思考（按响应筛选） | `high` | 1,199 / 1,500 | 95.4 / 2.9 | 96.5 / 2.3 | 93.4 / 0.8 |
 | [DeepSeek V4 Pro](../llm/) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 33.6 / 32.8 | 75.0 / 11.4 | 55.2 / 12.0 |
@@ -130,7 +130,8 @@
 | [可访问的无思考模型核验](no_thinking_model_audit_20261124/README.md) <br><sub>no_thinking_model_audit_20261124</sub> | 多种关闭设置，见各模型记录 | 通道或参数诊断 | — |
 | [Opus 5.5 low 前序检索测试](opus55_20261124/README.md) <br><sub>opus55_20261124</sub> | 自适应，`low` | 1,529 / 3,000 | [1,529 条](opus55_20261124/answers.jsonl.gz) |
 | [Opus 5 前序检索测试](opus5_20261103/high_pilot/README.md) <br><sub>opus5_20261103/high_pilot</sub> | 请求关闭（按响应筛选），`high` | 91 / 120 | [91 条](opus5_20261103/high_pilot/answers.jsonl.gz) |
-| [Opus 5 前序检索测试](opus5_20261103/README.md) <br><sub>opus5_20261103</sub> | 请求关闭（按响应筛选），`low` | 2,360 / 3,000 | [2,360 条](opus5_20261103/answers.jsonl.gz) |
+| [Claude Opus 5 · ZenMux 重测](opus5_zenmux_20261126/README.md) <br><sub>opus5_zenmux_20261126</sub> | 请求关闭，`low` | 2,989 / 3,000 | [2,989 条](opus5_zenmux_20261126/answers.jsonl.gz) |
+| [Opus 5 · RightAPI 历史结果](opus5_20261103/README.md) <br><sub>opus5_20261103</sub> | 请求关闭（按响应筛选），`low` | 2,360 / 3,000 | [2,360 条](opus5_20261103/answers.jsonl.gz) |
 | [Qwen3.8 Max-0902 前序检索测试](qwen38_max_20261020/README.md) <br><sub>qwen38_max_20261020</sub> | 请求关闭（历史口径），未设等级 | 3,000 / 3,000 | [3,000 条](qwen38_max_20261020/answers.jsonl.gz) |
 | [Qwen4-Max-Preview 前序检索测试](qwen4_max_preview_20261112/README.md) <br><sub>qwen4_max_preview_20261112</sub> | 请求关闭，未获回答 | 通道或参数诊断 | — |
 | [Sonnet 5.5 请求关闭思考的前序检索测试](sonnet55_20261124/README.md) <br><sub>sonnet55_20261124</sub> | 请求关闭答题前思考（按响应筛选），`high` | 2,396 / 3,000 | [2,396 条](sonnet55_20261124/answers.jsonl.gz) |
