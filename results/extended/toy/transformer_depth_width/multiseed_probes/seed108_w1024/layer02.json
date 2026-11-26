@@ -1,0 +1,24 @@
+{
+  "layer": 2,
+  "probe_epoch": 74,
+  "test": {
+    "correct": 2601,
+    "n": 2648
+  },
+  "semantic_0": {
+    "correct": 2343,
+    "n": 2560
+  },
+  "semantic_1": {
+    "correct": 2381,
+    "n": 2560
+  },
+  "semantic_2": {
+    "correct": 0,
+    "n": 2560
+  },
+  "semantic": {
+    "correct": 4724,
+    "n": 7680
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "arithmetic_0": {
+    "correct": 4093,
+    "n": 4096
+  },
+  "arithmetic_1": {
+    "correct": 4081,
+    "n": 4096
+  },
+  "arithmetic_2": {
+    "correct": 4084,
+    "n": 4096
+  },
+  "standard": {
+    "correct": 1997,
+    "n": 2000
+  },
+  "semantic_0": {
+    "correct": 1116,
+    "n": 2560
+  },
+  "semantic_1": {
+    "correct": 2520,
+    "n": 2560
+  },
+  "semantic_2": {
+    "correct": 1737,
+    "n": 2560
+  },
+  "arithmetic": {
+    "correct": 12258,
+    "n": 12288
+  },
+  "semantic": {
+    "correct": 5373,
+    "n": 7680
+  }
+}

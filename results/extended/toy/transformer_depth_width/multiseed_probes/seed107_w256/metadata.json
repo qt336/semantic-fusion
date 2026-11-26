@@ -1,0 +1,10 @@
+{
+  "seed": 107,
+  "width": 256,
+  "epoch": 1200,
+  "checkpoint_sha256": "80d052cdecc012ef01ae81e5475a7962bc3aa8fbec3de270544006c7303229b1",
+  "representation": "attention output + normal MLP output at displayed b; block input residual excluded",
+  "ordinary_train": 21184,
+  "ordinary_validation": 2648,
+  "probe_epochs": 100
+}
