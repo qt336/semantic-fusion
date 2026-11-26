@@ -6,7 +6,7 @@
 
 ## 从哪里开始
 
-- [扩展实验结果与逐题下载](results/extended/) 中的[中英文成绩表](results/extended/#中英文结果速查)逐行标明思考模式、等级，以及实际报告零个、正数或未报告推理 token 的题数。该目录也收录分词核验及 toy model 补充结果。
+- [扩展实验结果与逐题下载](results/extended/) 中的[中英文成绩表](results/extended/#中英文结果速查)仅计入回执明确报告 0 个思考 token 且没有思考块的回答；逐组公布纳入数。该目录也收录分词核验及 toy model 补充结果。
 
 - [复现实验](REPRODUCING.md) 包含环境配置、训练命令、评分和离线验证步骤。
 - [实验结果](RESULTS.md) 汇总各组结果，按论文表号链接到对应文件。
@@ -17,7 +17,7 @@
 | Transformer、Hybrid 和注意力干预 | [原补充代码](supplementary/)、[Hybrid 五个种子的历史汇总](experiments/toy_hybrid/results.md)、[Transformer 种子 106–110](experiments/transformer_seeds106_110/)、[Hybrid 种子 104 重训](experiments/hybrid_seed104_rerun/) |
 | 循环 Transformer | [4 层循环 2 次](experiments/loop_transformer_4x2/)、[4 层循环 3 次](experiments/loop_transformer_4x3/) |
 | 留出普通组合与线性探针 | [训练与对照](experiments/transformer_controls/)、[探针和敏感性分析](experiments/linear_probe/) |
-| 三款 API 模型的中英文检索 | [固定输入、调用和评分](supplementary/llm/)、[9,000 条回复与评分](results/llm/) |
+| 三款 API 模型的中英文检索 | [固定输入、调用和评分](supplementary/llm/)、[筛后逐题回复与评分](results/llm/) |
 | Qwen3-8B 干预和控制实验 | [29,000 条生成记录与核验代码](experiments/qwen3_8b/) |
 | 论文表格与逐运行汇总 | [19 张表及索引](results/paper_tables/)、[24 次运行的指标 CSV](results/toy_runs.csv) |
 

@@ -19,7 +19,7 @@ python experiments/linear_probe/robustness/verify.py
 python experiments/linear_probe/robustness/verify_controls.py
 ```
 
-根目录验证程序从保存的预测重新计算各玩具实验计数；重新评分 9,000 条 LLM 回复并核对论文表 6–7；按从论文提取时记录的 SHA-256 核对 19 张表格；核对最终文件校验和。Qwen 的验证脚本还会检查原始输出哈希、人工评分、成对干预和其他控制实验。原有实验验证脚本可能重写该实验的验证报告；如需保持归档字节不变，请在目录副本中运行它们。
+根目录验证程序从保存的预测重新计算各玩具实验计数；重新评分符合零计数条件的 LLM 回复并核对论文表 6–7 中仍整组纳入的行；按从论文提取时记录的 SHA-256 核对 19 张表格；核对最终文件校验和。Qwen 的验证脚本还会检查原始输出哈希、人工评分、成对干预和其他控制实验。原有实验验证脚本可能重写该实验的验证报告；如需保持归档字节不变，请在目录副本中运行它们。
 
 ## Transformer 和 Hybrid
 
@@ -55,7 +55,6 @@ cd supplementary
 python -m llm.validate_data
 python -m unittest discover -s checks -v
 python -m llm.score --responses ../results/llm/kimi.jsonl --output ../outputs/kimi_rescored
-python -m llm.score --responses ../results/llm/deepseek.jsonl --output ../outputs/deepseek_rescored
 python -m llm.score --responses ../results/llm/hy4.jsonl --output ../outputs/hy4_rescored
 ```
 

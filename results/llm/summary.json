@@ -63,49 +63,49 @@
     "model": "deepseek",
     "language": "en",
     "group": "semantic",
-    "n": 500,
-    "B": 168,
-    "A": 164,
-    "Q": 1,
-    "Other": 167
+    "n": 0,
+    "B": 0,
+    "A": 0,
+    "Q": 0,
+    "Other": 0
   },
   {
     "model": "deepseek",
     "language": "en",
     "group": "random",
-    "n": 500,
-    "B": 375,
-    "A": 57,
-    "Q": 7,
-    "Other": 61
+    "n": 0,
+    "B": 0,
+    "A": 0,
+    "Q": 0,
+    "Other": 0
   },
   {
     "model": "deepseek",
     "language": "en",
     "group": "comma_semantic",
-    "n": 500,
-    "B": 276,
-    "A": 60,
-    "Q": 14,
-    "Other": 150
+    "n": 0,
+    "B": 0,
+    "A": 0,
+    "Q": 0,
+    "Other": 0
   },
   {
     "model": "deepseek",
     "language": "zh",
     "group": "semantic",
-    "n": 500,
-    "B": 159,
-    "A": 337,
+    "n": 0,
+    "B": 0,
+    "A": 0,
     "Q": 0,
-    "Other": 4
+    "Other": 0
   },
   {
     "model": "deepseek",
     "language": "zh",
     "group": "random",
-    "n": 500,
-    "B": 330,
-    "A": 170,
+    "n": 0,
+    "B": 0,
+    "A": 0,
     "Q": 0,
     "Other": 0
   },
@@ -113,11 +113,11 @@
     "model": "deepseek",
     "language": "zh",
     "group": "comma_semantic",
-    "n": 500,
-    "B": 471,
-    "A": 28,
+    "n": 0,
+    "B": 0,
+    "A": 0,
     "Q": 0,
-    "Other": 1
+    "Other": 0
   },
   {
     "model": "hy4",

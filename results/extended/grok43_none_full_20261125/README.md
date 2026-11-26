@@ -1,5 +1,7 @@
 # Grok 4.3 中英文前序检索测试
 
+本轮已逐条核对，全部 3,000 条回答均明确报告 0 个思考 token，且无思考块。
+
 通过 ZenMux Responses API 指定 xAI 上游（`x-ai/grok-4.3:x-ai`），显式设置 `reasoning.effort=none`。使用固定 3,000 道原题，每组 500 题。已核对并复用其中 180 条先前的正式回答，另外完成 2,820 题。
 
 [下载全部逐题结果（JSONL.gz）](answers.jsonl.gz) · [查看分条件计数 CSV](../conditions.csv)

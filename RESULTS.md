@@ -25,7 +25,7 @@
 |---|---|
 | 表 1–2、8–9、11、17：任务、协议和提示词 | [全部表格源文件](results/paper_tables/)；[补充代码与输入](supplementary/) |
 | 表 3–5：原 Transformer 五 seed 与 attention 遮挡 | [表 3](results/paper_tables/table_03_retrieval-results-seeds.tex)、[表 4](results/paper_tables/table_04_x1y-x2y-validation.tex)、[表 5](results/paper_tables/table_05_seed_results.tex)；原始运行文件未找到 |
-| 表 6–7、10：三款 API 模型 | [9,000 条回复与汇总](results/llm/)；[代码](supplementary/llm/) |
+| 表 6–7、10：三款 API 模型 | [筛后逐题回复与汇总](results/llm/)；[代码](supplementary/llm/) |
 | 表 12–13：Hybrid | [保留的历史汇总](experiments/toy_hybrid/results.md)；[代码](experiments/toy_hybrid/) |
 | 图 4：Hybrid seed104 曲线 | [后续重训](experiments/hybrid_seed104_rerun/)；[来源核验](results/paper_evidence/hybrid_spike_evidence.json) |
 | 表 14：留出普通组合 | [代码与逐条结果](experiments/transformer_controls/) |
@@ -35,7 +35,7 @@
 
 ## 本次离线核验
 
-- 三款 API 模型：重新评分全部 9,000 条，结果与历史评分和论文表 6–7 一致。
+- 三款 API 模型：新口径纳入 Kimi K3 和 HY4 preview 各 3,000 条。DeepSeek V4 Pro 的 3,000 条未报告思考计数；该组不报告准确率。[原论文版本](https://github.com/qt336/semantic-fusion/tree/c0d52c4dfb496cc78146ec3435a7df70479db4b3/results/llm)
 - 玩具模型：核对 24 个完整运行、270 个预测条件，共 823,680 条逐样本预测。
 - Qwen3-8B：29,000 条生成记录、人工评分、原始输出哈希和成对控制核验通过。
 - Loop 4×2/4×3：参数共享、展开模型的梯度求和等价性、因果性及五个数据集哈希验证通过。

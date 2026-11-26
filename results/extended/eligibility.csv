@@ -1,0 +1,42 @@
+run,model,received,keep,missing,positive,block,unverified,other
+../llm/,DeepSeek V4 Pro,3000,0,3000,0,0,0,0
+../llm/,HY4 preview,3000,3000,0,0,0,0,0
+../llm/,Kimi K3,3000,3000,0,0,0,0,0
+deepseek_v41_flash_20261020,deepseek-v4.1-flash-1017,3000,0,3000,0,0,0,0
+deepseek_v41flash_thinking_20261124,DeepSeek V4.1 Flash 1017 开启思考的前序检索测试,180,0,0,180,0,0,0
+deepseek_v4pro_thinking_20261124,DeepSeek V4 Pro 开启思考的前序检索测试,128,0,0,128,0,0,0
+fable51_rightapi_20261125,claude-fable-5-1,3000,1849,1142,9,0,0,0
+fable52_rightapi_20261125,claude-fable-5-2,3000,2753,5,241,1,0,0
+fable5_rightapi_20261125,claude-fable-5,3000,1273,829,898,0,0,0
+gemma4_gemini36_zenmux_20261124/fixed180,google/gemini-3.6-flash,180,180,0,0,0,0,0
+gemma4_gemini36_zenmux_20261124/fixed180,google/gemma-4-31b-it,180,180,0,0,0,0,0
+gemma4_gemini36_zenmux_20261124/full3000,google/gemini-3.6-flash,3000,3000,0,0,0,0,0
+gemma4_gemini36_zenmux_20261124/full3000,google/gemma-4-31b-it,3000,3000,0,0,0,0,0
+gpt51_none_full_20261125,openai/gpt-5.1,3000,3000,0,0,0,0,0
+gpt51_none_zenmux_20261125,openai/gpt-5.1,180,180,0,0,0,0,0
+gpt54_none_full_20261125,openai/gpt-5.4,3000,3000,0,0,0,0,0
+gpt55_none_full_20261125,openai/gpt-5.5,3000,3000,0,0,0,0,0
+gpt56luna_none_full_20261125,openai/gpt-5.6-luna,3000,3000,0,0,0,0,0
+gpt56luna_zenmux_20261124,openai/gpt-5.6-luna,180,180,0,0,0,0,0
+gpt56sol_hard_pairs_20261124,GPT-5.6 Sol 在其他模型错答首成分的题目上的表现,24,24,0,0,0,0,0
+gpt56sol_none_20261124,gpt-5.6-sol,180,180,0,0,0,0,0
+gpt56sol_none_full_20261125,openai/gpt-5.6-sol,3000,3000,0,0,0,0,0
+gpt56sol_position_control_20261124,gpt-5.6-sol,24,24,0,0,0,0,0
+gpt56terra_none_full_20261125,openai/gpt-5.6-terra,3000,3000,0,0,0,0,0
+gpt5_minimal_full_20261125,openai/gpt-5,3000,0,0,0,3000,0,0
+gpt5_zenmux_20261125,openai/gpt-5,180,0,0,0,180,0,0
+gpt61terra_zenmux_20261124,openai/gpt-6.1-terra,3000,3000,0,0,0,0,0
+gpt6luna_zenmux_20261124,openai/gpt-6-luna,180,180,0,0,0,0,0
+gpt_none_20261124,gpt-6-sol,180,180,0,0,0,0,0
+gpt_none_20261124,gpt-6.1-terra,180,180,0,0,0,0,0
+grok43_none_full_20261125,x-ai/grok-4.3,3000,3000,0,0,0,0,0
+haiku55_rightapi_20261125,claude-haiku-5-5,3000,1098,944,958,0,0,0
+hy4_20261104,hy4,3000,2998,2,0,0,0,0
+minimax_m3_20261020,MiniMax/MiniMax-M3,3000,961,2039,0,0,0,0
+opus48_rightapi,claude-opus-4-8,600,406,194,0,0,0,0
+opus55_20261124,claude-opus-5-5,3000,1529,576,895,0,0,0
+opus5_20261103,claude-opus-5,3000,2360,640,0,0,0,0
+opus5_20261103/high_pilot,claude-opus-5,120,91,28,1,0,0,0
+qwen37_flash,qwen3.7-flash,3000,0,3000,0,0,0,0
+qwen38_max_20261020,qwen3.8-max-0902,3000,0,3000,0,0,0,0
+sonnet55_20261124,claude-sonnet-5-5,3000,2396,603,1,0,0,0

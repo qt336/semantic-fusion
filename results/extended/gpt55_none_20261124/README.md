@@ -1,5 +1,7 @@
 # GPT-5.5：关闭思考连通性检查
 
+本页记录 API 可用性或参数诊断。基准成绩和纳入数见[统一结果表](../README.md)。
+
 检查日期：2026-11-24。使用本机已经配置的 RightAPI GPT 通道。
 
 官方 [GPT-5.5 模型文档](https://developers.openai.com/api/docs/models/gpt-5.5) 明确支持 `reasoning.effort: none`，并列出具体版本 `gpt-5.5-2026-04-23`。

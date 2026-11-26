@@ -1,12 +1,14 @@
 # Gemma 4 31B IT 与 Gemini 3.6 Flash 的前序检索
 
+本轮已逐条核对，全部 6,000 条回答均明确报告 0 个思考 token，且无思考块。
+
 [下载逐题结果（JSONL.gz）](answers.jsonl.gz)
 
 两个模型使用相同的 3000 条固定提示词。每个模型每种语言、每种条件 500 题。语义与加逗号题逐题配对。已完成的相同请求直接复用。单轮、无工具、无历史，输出上限 512 token。按首次提出的答案评分。
 
 原始 user 消息开头的 2,000 条无逗号序列全部通过 Gemma 分词核对。Gemini 的三 token 对齐尚未核实。
 
-Gemma 请求 reasoning.enabled=false，有可见思考或正推理计数的回复单列排除。Gemini 请求 minimal，所有返回均纳入。零、正数与未报告分别统计。
+Gemma 请求 reasoning.enabled=false，有可见思考或正推理计数的回复单列排除。Gemini 请求 minimal，逐题核对后本轮回执均符合零计数筛选。零、正数与未报告分别统计。
 
 ## google/gemma-4-31b-it
 

@@ -2,143 +2,141 @@
 
 [Transformer 深度与宽度实验：逐 seed 成绩、训练曲线和线性探针](toy/transformer_depth_width/)
 
-截至 2026-11-26。每个实验页面保留测试条件、完成状态和原有评分口径。逐题文件保存提示词、目标、可见回答和已归档评分。公开接口返回的模型名和推理计数按实验记录解释。
+截至 2026-11-26。API 成绩沿用原先的首答评分，并对纳入样本使用下述统一标准。逐题文件保存提示词、目标、可见回答和已归档评分。公开接口返回的模型名和推理计数按实验记录解释。
 
-[所有扩展实验的分条件计数 CSV](conditions.csv) · [论文三模型的原始结果与评分](../llm/) · [Qwen3-8B 遮挡实验](../../experiments/qwen3_8b/) · [论文与 toy model 结果总索引](../../RESULTS.md)
+[API 实验筛后的分条件计数 CSV](conditions.csv) · [论文三模型按当前口径复核的结果](../llm/) · [Qwen3-8B 遮挡实验](../../experiments/qwen3_8b/) · [论文与 toy model 结果总索引](../../RESULTS.md)
 
 ## 中英文结果速查
 
 [Fable 5.1 与 Haiku 5.5 进度与结果](fable51_haiku55_rightapi_20261125.md)
 
 
-每格为百分比，依次是 **答对第二成分 / 误答首成分**。各条件分母及完整错误分布见运行页面。每行列出客户端请求的思考模式和等级。「未设」表示没有单独指定等级。`minimal` 表示仍允许推理的最低档，即使接口报告 0 个推理 token，也按该档登记。
+每条计入成绩的回答都必须明确报告整数 0 个思考 token，且回执未返回思考块或可见推理。空的或加密的 reasoning 项也排除。缺失计数、仅请求关闭思考或仅收到短答案，都不足以纳入。这是对接口回执的筛选，无法独立核验服务端未报告的计算。
 
-Opus 5 和 Sonnet 5.5 主表均按各自的关闭设置筛选，各排除 1 条出现思考的回复。RightAPI 的 Opus 5.5 请求使用自适应思考（`low`）。按与 ZenMux 相同的回执标准，主表仅统计明确报告 0 个思考 token 且无思考块的 1,529/3,000 条；895 条计数为正，576 条未报告。六组分别以通过筛选的条数为分母，详见[逐组结果](opus55_20261124/README.md)。各模型的等级沿用各自 API 的定义，中转通道的记录只能核实请求及返回字段。
-
-**哪些模型整轮都报告了 0 个推理 token？** 在主表的 3,000 题测试中，Gemini 3.6 Flash、Gemma 4 31B IT、Kimi K3、HY4 preview、Grok 4.3、GPT-5、GPT-5.1、GPT-5.4、GPT-5.5、GPT-5.6 Luna / Sol / Terra 和 GPT-6.1 Terra 均为 3,000/3,000。Gemini 3.6 Flash 和 GPT-5 请求的都是 `minimal`。Gemini 未返回可见思考内容。GPT-5 的每条响应都带有加密的 reasoning 项，公开正文和摘要为空。
-
-“推理 token 计数”按纳入评分的回复统计。混合结果依次列出**明确报 0 / 明确报正数 / 未报告**的题数。单一结果在括号内给出题数。缺失或空值单列。计数取自接口或历史逐题记录，服务端未计入这些字段的计算无法核验。
+每格依次给出**正确率 / 错答首成分率**（%），以各条件筛后的样本数为分母。语义及其加逗号版本独立筛选；两组留下的题目可能不同。没有合格回答时显示“—”。[分条件计数](conditions.csv) · [各轮纳入及排除原因](eligibility.csv)
 
 ### 中文
 
-| 模型 | 思考模式（请求） | 等级 | 推理 token 计数（本语言） | 语义 | 独立随机 | 语义加逗号 |
+| 模型 | 思考模式（请求） | 等级 | 纳入 / 已有回执（本语言） | 语义 | 独立随机 | 语义加逗号 |
 |---|---|---|---|---:|---:|---:|
-| [Claude Fable 5（RightAPI）](fable5_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 明确零 960/1,500 | 89.8 / 8.6 | 95.5 / 2.2 | 99.1 / 0.3 |
-| [Claude Fable 5.1（RightAPI）](fable51_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 明确零 941/1,500 | 94.0 / 5.4 | 99.3 / 0.4 | 100.0 / 0.0 |
-| [Claude Fable 5.2（RightAPI）](fable52_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 明确零 1352/1,500 | 95.8 / 3.0 | 98.7 / 1.3 | 99.8 / 0.2 |
-| [Claude Haiku 5.5（RightAPI）](haiku55_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 明确零 602/1,500 | 52.7 / 34.2 | 85.1 / 10.0 | 91.2 / 4.2 |
-| [claude-opus-4-8](opus48_rightapi/README.md) | 请求关闭 | 未设 | 199 / 0 / 101 | 70.0 / 26.0 | 93.0 / 7.0 | 100.0 / 0.0 |
-| [claude-opus-5](opus5_20261103/README.md) | 请求关闭（按响应筛选） | `low` | 1,175 / 0 / 325 | 71.8 / 21.4 | 91.8 / 7.0 | 95.2 / 2.8 |
-| [claude-opus-5-5](opus55_20261124/README.md) | 自适应（仅计回执明确为零且无思考块） | `low` | 全报 0（936） | 95.0 / 3.8 | 98.5 / 1.2 | 99.4 / 0.0 |
-| [claude-sonnet-5-5](sonnet55_20261124/README.md) | 请求关闭答题前思考（按响应筛选） | `high` | 1,197 / 0 / 303 | 79.2 / 14.8 | 98.2 / 1.6 | 99.4 / 0.2 |
-| [DeepSeek V4 Pro](../llm/) | 请求关闭 | 未设 | 全未报告（1,500） | 31.8 / 67.4 | 66.0 / 34.0 | 94.2 / 5.6 |
-| [DeepSeek V4 Pro（128/180）](deepseek_v4pro_thinking_20261124/README.md) | 开启 | `high` | 全报正数（68） | 100.0 / 0.0 | 100.0 / 0.0 | 100.0 / 0.0 |
-| [DeepSeek V4.1 Flash 1017（180 题）](deepseek_v41flash_thinking_20261124/README.md) | 开启 | `high` | 全报正数（90） | 93.3 / 0.0 | 100.0 / 0.0 | 100.0 / 0.0 |
-| [deepseek-v4.1-flash-1017](deepseek_v41_flash_20261020/README.md) | 请求关闭 | 未设 | 全未报告（1,500） | 58.4 / 38.2 | 81.2 / 18.6 | 100.0 / 0.0 |
-| [gemini-3.6-flash](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 最低推理档 | `minimal` | **全报 0**（1,500） | 87.2 / 10.8 | 97.4 / 0.2 | 100.0 / 0.0 |
-| [gemma-4-31b-it](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 请求关闭（按响应筛选） | 未设 | **全报 0**（1,500） | 79.4 / 18.4 | 98.8 / 1.0 | 100.0 / 0.0 |
-| [hy4（暂定评分）](hy4_20261104/README.md) | 请求关闭 | 未设 | 1,498 / 0 / 2 | 54.4 / 44.6 | 90.4 / 9.6 | 99.6 / 0.2 |
-| [HY4 preview](../llm/) | 请求关闭 | 未设 | **全报 0**（1,500） | 55.6 / 40.8 | 91.0 / 8.8 | 99.8 / 0.0 |
-| [Kimi K3](../llm/) | 请求关闭 | `none` | **全报 0**（1,500） | 76.4 / 23.4 | 97.4 / 2.6 | 100.0 / 0.0 |
-| [MiniMax/MiniMax-M3](minimax_m3_20261020/README.md) | 请求关闭 | 未设 | 484 / 0 / 1,016 | 20.6 / 38.8 | 46.2 / 38.2 | 59.2 / 27.8 |
-| [Grok 4.3](grok43_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 10.4 / 59.4 | 34.8 / 63.0 | 76.2 / 18.4 |
-| [gpt-5](gpt5_minimal_full_20261125/README.md) | 最低推理档 | `minimal` | **全报 0**（1,500） | 68.4 / 18.2 | 95.6 / 2.6 | 99.0 / 0.0 |
-| [gpt-5.1](gpt51_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 76.0 / 16.0 | 97.8 / 2.0 | 100.0 / 0.0 |
-| [gpt-5.4](gpt54_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 96.0 / 3.8 | 99.8 / 0.2 | 100.0 / 0.0 |
-| [gpt-5.5](gpt55_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 99.4 / 0.4 | 100.0 / 0.0 | 100.0 / 0.0 |
-| [gpt-5.6-luna](gpt56luna_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 76.4 / 20.0 | 99.0 / 1.0 | 99.8 / 0.2 |
-| [gpt-5.6-sol](gpt56sol_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 98.2 / 1.6 | 99.6 / 0.0 | 100.0 / 0.0 |
-| [gpt-5.6-terra](gpt56terra_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 80.0 / 18.6 | 99.4 / 0.6 | 100.0 / 0.0 |
-| [gpt-6.1-terra](gpt61terra_zenmux_20261124/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 99.6 / 0.2 | 99.8 / 0.0 | 99.8 / 0.0 |
-| [qwen3.7-flash](qwen37_flash/README.md) | 请求关闭 | 未设 | 全未报告（1,500） | 79.4 / 6.6 | 94.6 / 1.6 | 100.0 / 0.0 |
-| [qwen3.8-max-0902](qwen38_max_20261020/README.md) | 请求关闭 | 未设 | 全未报告（1,500） | 89.2 / 7.4 | 96.8 / 2.6 | 99.0 / 0.8 |
+| [Claude Fable 5（RightAPI）](fable5_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 960 / 1,500 | 89.8 / 8.6 | 95.5 / 2.2 | 99.1 / 0.3 |
+| [Claude Fable 5.1（RightAPI）](fable51_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 941 / 1,500 | 94.0 / 5.4 | 99.3 / 0.4 | 100.0 / 0.0 |
+| [Claude Fable 5.2（RightAPI）](fable52_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 1,352 / 1,500 | 95.8 / 3.0 | 98.7 / 1.3 | 99.8 / 0.2 |
+| [Claude Haiku 5.5（RightAPI）](haiku55_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 602 / 1,500 | 52.7 / 34.2 | 85.1 / 10.0 | 91.2 / 4.2 |
+| [claude-opus-4-8](opus48_rightapi/README.md) | 请求关闭 | 未设 | 199 / 300 | 58.7 / 36.5 | 89.6 / 10.4 | 100.0 / 0.0 |
+| [claude-opus-5](opus5_20261103/README.md) | 请求关闭（按响应筛选） | `low` | 1,175 / 1,500 | 82.7 / 15.1 | 95.9 / 3.6 | 100.0 / 0.0 |
+| [claude-opus-5-5](opus55_20261124/README.md) | 自适应（仅计回执明确为零且无思考块） | `low` | 936 / 1,500 | 95.0 / 3.8 | 98.5 / 1.2 | 99.4 / 0.0 |
+| [claude-sonnet-5-5](sonnet55_20261124/README.md) | 请求关闭答题前思考（按响应筛选） | `high` | 1,197 / 1,500 | 83.0 / 11.0 | 98.5 / 1.3 | 99.5 / 0.0 |
+| [DeepSeek V4 Pro](../llm/) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
+| [DeepSeek V4 Pro（128/180）](deepseek_v4pro_thinking_20261124/README.md) | 开启 | `high` | 0 / 68 | — | — | — |
+| [DeepSeek V4.1 Flash 1017（180 题）](deepseek_v41flash_thinking_20261124/README.md) | 开启 | `high` | 0 / 90 | — | — | — |
+| [deepseek-v4.1-flash-1017](deepseek_v41_flash_20261020/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
+| [gemini-3.6-flash](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 最低推理档 | `minimal` | 1,500 / 1,500 | 87.2 / 10.8 | 97.4 / 0.2 | 100.0 / 0.0 |
+| [gemma-4-31b-it](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 请求关闭（按响应筛选） | 未设 | 1,500 / 1,500 | 79.4 / 18.4 | 98.8 / 1.0 | 100.0 / 0.0 |
+| [hy4（暂定评分）](hy4_20261104/README.md) | 请求关闭 | 未设 | 1,498 / 1,500 | 54.5 / 44.7 | 90.4 / 9.6 | 99.8 / 0.2 |
+| [HY4 preview](../llm/) | 请求关闭 | 未设 | 1,500 / 1,500 | 55.6 / 40.8 | 91.0 / 8.8 | 99.8 / 0.0 |
+| [Kimi K3](../llm/) | 请求关闭 | `none` | 1,500 / 1,500 | 76.4 / 23.4 | 97.4 / 2.6 | 100.0 / 0.0 |
+| [MiniMax/MiniMax-M3](minimax_m3_20261020/README.md) | 请求关闭 | 未设 | 484 / 1,500 | 18.5 / 26.8 | 39.5 / 35.7 | 59.7 / 27.0 |
+| [Grok 4.3](grok43_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 10.4 / 59.4 | 34.8 / 63.0 | 76.2 / 18.4 |
+| [gpt-5](gpt5_minimal_full_20261125/README.md) | 最低推理档 | `minimal` | 0 / 1,500 | — | — | — |
+| [gpt-5.1](gpt51_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 76.0 / 16.0 | 97.8 / 2.0 | 100.0 / 0.0 |
+| [gpt-5.4](gpt54_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 96.0 / 3.8 | 99.8 / 0.2 | 100.0 / 0.0 |
+| [gpt-5.5](gpt55_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 99.4 / 0.4 | 100.0 / 0.0 | 100.0 / 0.0 |
+| [gpt-5.6-luna](gpt56luna_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 76.4 / 20.0 | 99.0 / 1.0 | 99.8 / 0.2 |
+| [gpt-5.6-sol](gpt56sol_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 98.2 / 1.6 | 99.6 / 0.0 | 100.0 / 0.0 |
+| [gpt-5.6-terra](gpt56terra_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 80.0 / 18.6 | 99.4 / 0.6 | 100.0 / 0.0 |
+| [gpt-6.1-terra](gpt61terra_zenmux_20261124/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 99.6 / 0.2 | 99.8 / 0.0 | 99.8 / 0.0 |
+| [qwen3.7-flash](qwen37_flash/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
+| [qwen3.8-max-0902](qwen38_max_20261020/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
 
 ### 英文
 
-| 模型 | 思考模式（请求） | 等级 | 推理 token 计数（本语言） | 语义 | 独立随机 | 语义加逗号 |
+| 模型 | 思考模式（请求） | 等级 | 纳入 / 已有回执（本语言） | 语义 | 独立随机 | 语义加逗号 |
 |---|---|---|---|---:|---:|---:|
-| [Claude Fable 5（RightAPI）](fable5_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 明确零 313/1,500 | 76.7 / 20.4 | 94.8 / 4.3 | 96.8 / 3.2 |
-| [Claude Fable 5.1（RightAPI）](fable51_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 明确零 908/1,500 | 97.4 / 1.9 | 98.3 / 1.4 | 93.8 / 0.3 |
-| [Claude Fable 5.2（RightAPI）](fable52_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 明确零 1401/1,500 | 97.1 / 2.7 | 99.1 / 0.7 | 97.0 / 0.0 |
-| [Claude Haiku 5.5（RightAPI）](haiku55_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 明确零 496/1,500 | 17.0 / 42.2 | 54.2 / 33.1 | 40.2 / 19.6 |
-| [claude-opus-4-8](opus48_rightapi/README.md) | 请求关闭 | 未设 | 207 / 0 / 93 | 38.0 / 47.0 | 75.0 / 21.0 | 82.0 / 10.0 |
-| [claude-opus-5](opus5_20261103/README.md) | 请求关闭（按响应筛选） | `low` | 1,185 / 0 / 314 | 69.7 / 26.5 | 86.6 / 11.0 | 79.4 / 13.2 |
-| [claude-opus-5-5](opus55_20261124/README.md) | 自适应（仅计回执明确为零且无思考块） | `low` | 全报 0（593） | 91.0 / 7.5 | 91.9 / 6.2 | 100.0 / 0.0 |
-| [claude-sonnet-5-5](sonnet55_20261124/README.md) | 请求关闭答题前思考（按响应筛选） | `high` | 1,199 / 0 / 300 | 94.2 / 3.6 | 96.0 / 2.6 | 94.6 / 0.8 |
-| [DeepSeek V4 Pro](../llm/) | 请求关闭 | 未设 | 全未报告（1,500） | 33.6 / 32.8 | 75.0 / 11.4 | 55.2 / 12.0 |
-| [DeepSeek V4 Pro（128/180）](deepseek_v4pro_thinking_20261124/README.md) | 开启 | `high` | 全报正数（60） | 100.0 / 0.0 | 100.0 / 0.0 | 87.5 / 0.0 |
-| [DeepSeek V4.1 Flash 1017（180 题）](deepseek_v41flash_thinking_20261124/README.md) | 开启 | `high` | 全报正数（90） | 100.0 / 0.0 | 100.0 / 0.0 | 100.0 / 0.0 |
-| [deepseek-v4.1-flash-1017](deepseek_v41_flash_20261020/README.md) | 请求关闭 | 未设 | 全未报告（1,500） | 25.6 / 74.2 | 80.8 / 17.8 | 75.4 / 19.0 |
-| [gemini-3.6-flash](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 最低推理档 | `minimal` | **全报 0**（1,500） | 54.4 / 6.6 | 82.4 / 3.4 | 64.2 / 13.6 |
-| [gemma-4-31b-it](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 请求关闭（按响应筛选） | 未设 | **全报 0**（1,500） | 56.2 / 18.2 | 83.4 / 6.4 | 72.6 / 3.2 |
-| [hy4（暂定评分）](hy4_20261104/README.md) | 请求关闭 | 未设 | **全报 0**（1,500） | 36.6 / 63.0 | 94.6 / 4.8 | 100.0 / 0.0 |
-| [HY4 preview](../llm/) | 请求关闭 | 未设 | **全报 0**（1,500） | 65.8 / 30.8 | 89.0 / 7.8 | 93.2 / 6.0 |
-| [Kimi K3](../llm/) | 请求关闭 | `none` | **全报 0**（1,500） | 83.8 / 12.6 | 94.4 / 5.0 | 100.0 / 0.0 |
-| [MiniMax/MiniMax-M3](minimax_m3_20261020/README.md) | 请求关闭 | 未设 | 477 / 0 / 1,023 | 37.6 / 58.2 | 62.2 / 24.8 | 55.6 / 32.6 |
-| [Grok 4.3](grok43_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 6.2 / 93.4 | 59.2 / 37.0 | 70.2 / 28.0 |
-| [gpt-5](gpt5_minimal_full_20261125/README.md) | 最低推理档 | `minimal` | **全报 0**（1,500） | 79.4 / 16.0 | 96.0 / 3.2 | 89.6 / 2.0 |
-| [gpt-5.1](gpt51_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 79.4 / 13.0 | 96.8 / 1.6 | 77.8 / 15.8 |
-| [gpt-5.4](gpt54_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 88.8 / 3.6 | 99.6 / 0.2 | 44.8 / 3.0 |
-| [gpt-5.5](gpt55_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 99.0 / 1.0 | 99.4 / 0.0 | 88.2 / 4.4 |
-| [gpt-5.6-luna](gpt56luna_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 43.4 / 26.0 | 81.2 / 10.2 | 9.6 / 9.4 |
-| [gpt-5.6-sol](gpt56sol_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 99.2 / 0.2 | 99.6 / 0.2 | 99.8 / 0.0 |
-| [gpt-5.6-terra](gpt56terra_none_full_20261125/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 64.2 / 28.0 | 98.0 / 1.0 | 69.6 / 5.2 |
-| [gpt-6.1-terra](gpt61terra_zenmux_20261124/README.md) | 请求关闭 | `none` | **全报 0**（1,500） | 100.0 / 0.0 | 99.6 / 0.4 | 100.0 / 0.0 |
-| [qwen3.7-flash](qwen37_flash/README.md) | 请求关闭 | 未设 | 全未报告（1,500） | 37.6 / 56.6 | 81.4 / 6.2 | 58.2 / 33.4 |
-| [qwen3.8-max-0902](qwen38_max_20261020/README.md) | 请求关闭 | 未设 | 全未报告（1,500） | 47.4 / 52.2 | 93.6 / 5.6 | 96.6 / 3.0 |
+| [Claude Fable 5（RightAPI）](fable5_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 313 / 1,500 | 76.7 / 20.4 | 94.8 / 4.3 | 96.8 / 3.2 |
+| [Claude Fable 5.1（RightAPI）](fable51_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 908 / 1,500 | 97.4 / 1.9 | 98.3 / 1.4 | 93.8 / 0.3 |
+| [Claude Fable 5.2（RightAPI）](fable52_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 1,401 / 1,500 | 97.1 / 2.7 | 99.1 / 0.7 | 97.0 / 0.0 |
+| [Claude Haiku 5.5（RightAPI）](haiku55_rightapi_20261125/README.md) | 自适应（筛选明确零计数） | `low` | 496 / 1,500 | 17.0 / 42.2 | 54.2 / 33.1 | 40.2 / 19.6 |
+| [claude-opus-4-8](opus48_rightapi/README.md) | 请求关闭 | 未设 | 207 / 300 | 37.3 / 47.8 | 66.2 / 28.2 | 75.4 / 13.0 |
+| [claude-opus-5](opus5_20261103/README.md) | 请求关闭（按响应筛选） | `low` | 1,185 / 1,500 | 83.5 / 12.6 | 96.1 / 3.1 | 89.5 / 1.5 |
+| [claude-opus-5-5](opus55_20261124/README.md) | 自适应（仅计回执明确为零且无思考块） | `low` | 593 / 1,500 | 91.0 / 7.5 | 91.9 / 6.2 | 100.0 / 0.0 |
+| [claude-sonnet-5-5](sonnet55_20261124/README.md) | 请求关闭答题前思考（按响应筛选） | `high` | 1,199 / 1,500 | 95.4 / 2.9 | 96.5 / 2.3 | 93.4 / 0.8 |
+| [DeepSeek V4 Pro](../llm/) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
+| [DeepSeek V4 Pro（128/180）](deepseek_v4pro_thinking_20261124/README.md) | 开启 | `high` | 0 / 60 | — | — | — |
+| [DeepSeek V4.1 Flash 1017（180 题）](deepseek_v41flash_thinking_20261124/README.md) | 开启 | `high` | 0 / 90 | — | — | — |
+| [deepseek-v4.1-flash-1017](deepseek_v41_flash_20261020/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
+| [gemini-3.6-flash](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 最低推理档 | `minimal` | 1,500 / 1,500 | 54.4 / 6.6 | 82.4 / 3.4 | 64.2 / 13.6 |
+| [gemma-4-31b-it](gemma4_gemini36_zenmux_20261124/full3000/README.md) | 请求关闭（按响应筛选） | 未设 | 1,500 / 1,500 | 56.2 / 18.2 | 83.4 / 6.4 | 72.6 / 3.2 |
+| [hy4（暂定评分）](hy4_20261104/README.md) | 请求关闭 | 未设 | 1,500 / 1,500 | 36.6 / 63.0 | 94.6 / 4.8 | 100.0 / 0.0 |
+| [HY4 preview](../llm/) | 请求关闭 | 未设 | 1,500 / 1,500 | 65.8 / 30.8 | 89.0 / 7.8 | 93.2 / 6.0 |
+| [Kimi K3](../llm/) | 请求关闭 | `none` | 1,500 / 1,500 | 83.8 / 12.6 | 94.4 / 5.0 | 100.0 / 0.0 |
+| [MiniMax/MiniMax-M3](minimax_m3_20261020/README.md) | 请求关闭 | 未设 | 477 / 1,500 | 45.8 / 49.4 | 66.0 / 24.4 | 69.0 / 20.6 |
+| [Grok 4.3](grok43_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 6.2 / 93.4 | 59.2 / 37.0 | 70.2 / 28.0 |
+| [gpt-5](gpt5_minimal_full_20261125/README.md) | 最低推理档 | `minimal` | 0 / 1,500 | — | — | — |
+| [gpt-5.1](gpt51_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 79.4 / 13.0 | 96.8 / 1.6 | 77.8 / 15.8 |
+| [gpt-5.4](gpt54_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 88.8 / 3.6 | 99.6 / 0.2 | 44.8 / 3.0 |
+| [gpt-5.5](gpt55_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 99.0 / 1.0 | 99.4 / 0.0 | 88.2 / 4.4 |
+| [gpt-5.6-luna](gpt56luna_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 43.4 / 26.0 | 81.2 / 10.2 | 9.6 / 9.4 |
+| [gpt-5.6-sol](gpt56sol_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 99.2 / 0.2 | 99.6 / 0.2 | 99.8 / 0.0 |
+| [gpt-5.6-terra](gpt56terra_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 64.2 / 28.0 | 98.0 / 1.0 | 69.6 / 5.2 |
+| [gpt-6.1-terra](gpt61terra_zenmux_20261124/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 100.0 / 0.0 | 99.6 / 0.4 | 100.0 / 0.0 |
+| [qwen3.7-flash](qwen37_flash/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
+| [qwen3.8-max-0902](qwen38_max_20261020/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
+
+排除原因见 `eligibility.csv`。每条回执只记一次，依次检查计数缺失（missing）、计数为正（positive）、报零但含思考块或推理内容（block）、块状态无法确认（unverified）和其他协议或评分条件（other）。keep 为纳入数。各条件原有回执数见 `conditions.csv` 的 received 列。后续新增 API 结果也须遵守同一规则，并通过 `python results/extended/verify_zero.py` 核对。
 
 ## 模型测试与对照
 
-独立小测和全量实验可能复用相同回答，跨行相加会重复计数。逐题记录数可包含排除项；正确率分母以相应结果表为准。本表计数合并中英文。两个模型共用一页时分别列出，连通和参数诊断见各自记录。
+逐题下载只含纳入的回答。不同运行可能复用题目，跨运行合计不能视为独立样本数。
 
-| 实验 | 本轮思考设置 | 推理 token 计数（全组） | 保存的逐题记录 |
-|---|---|---|---:|
-| [DeepSeek V4.1 Flash 前序检索测试](deepseek_v41_flash_20261020/README.md) <br><sub>deepseek_v41_flash_20261020</sub> | 请求关闭，未设等级 | 全未报告（3,000） | [3,000](deepseek_v41_flash_20261020/answers.jsonl.gz) |
-| [DeepSeek V4.1 Flash 1017 开启思考的前序检索测试](deepseek_v41flash_thinking_20261124/README.md) <br><sub>deepseek_v41flash_thinking_20261124</sub> | 开启，`high` | 全报正数（180） | [180](deepseek_v41flash_thinking_20261124/answers.jsonl.gz) |
-| [DeepSeek V4 Pro 开启思考的前序检索测试](deepseek_v4pro_thinking_20261124/README.md) <br><sub>deepseek_v4pro_thinking_20261124</sub> | 开启，`high` | 全报正数（128） | [128](deepseek_v4pro_thinking_20261124/answers.jsonl.gz) |
-| [Gemma 4 31B IT 与 Gemini 3.6 Flash 的前序检索](gemma4_gemini36_zenmux_20261124/fixed180/README.md) <br><sub>gemma4_gemini36_zenmux_20261124/fixed180</sub> | Gemma 请求关闭，未设等级；Gemini `minimal` | gemini-3.6-flash **全报 0**（180）<br>gemma-4-31b-it **全报 0**（180） | [360](gemma4_gemini36_zenmux_20261124/fixed180/answers.jsonl.gz) |
-| [Gemma 4 31B IT 与 Gemini 3.6 Flash 的前序检索](gemma4_gemini36_zenmux_20261124/full3000/README.md) <br><sub>gemma4_gemini36_zenmux_20261124/full3000</sub> | Gemma 请求关闭，未设等级；Gemini `minimal` | gemini-3.6-flash **全报 0**（3,000）<br>gemma-4-31b-it **全报 0**（3,000） | [6,000](gemma4_gemini36_zenmux_20261124/full3000/answers.jsonl.gz) |
-| [Gemma 4 31B IT 与 Gemini 3.6 Flash 单题对照](gemma4_gemini36_zenmux_20261124/README.md) <br><sub>gemma4_gemini36_zenmux_20261124</sub> | Gemma 请求关闭，未设等级；Gemini `minimal` | 见诊断记录 | 见报告 |
-| [GLM-5.4 前序检索可用性核验](glm54_20261124/README.md) <br><sub>glm54_20261124</sub> | 请求关闭，未获回答 | 见诊断记录 | 见报告 |
-| [GPT-5.1 中英文前序检索测试](gpt51_none_full_20261125/README.md) <br><sub>gpt51_none_full_20261125</sub> | 请求关闭，`none` | **全报 0**（3,000） | [3,000](gpt51_none_full_20261125/answers.jsonl.gz) |
-| [GPT-5.1 中英文前序检索测试](gpt51_none_zenmux_20261125/README.md) <br><sub>gpt51_none_zenmux_20261125</sub> | 请求关闭，`none` | **全报 0**（180） | [180](gpt51_none_zenmux_20261125/answers.jsonl.gz) |
-| [GPT-5.4 中英文前序检索测试](gpt54_none_full_20261125/README.md) <br><sub>gpt54_none_full_20261125</sub> | 请求关闭，`none` | **全报 0**（3,000） | [3,000](gpt54_none_full_20261125/answers.jsonl.gz) |
-| [GPT-5.5：关闭思考连通性检查](gpt55_none_20261124/README.md) <br><sub>gpt55_none_20261124</sub> | 请求 `none`，未获回答 | 见诊断记录 | 见报告 |
-| [GPT-5.5 中英文前序检索测试](gpt55_none_full_20261125/README.md) <br><sub>gpt55_none_full_20261125</sub> | 请求关闭，`none` | **全报 0**（3,000） | [3,000](gpt55_none_full_20261125/answers.jsonl.gz) |
-| [GPT-5.6 Luna 中英文前序检索测试](gpt56luna_none_full_20261125/README.md) <br><sub>gpt56luna_none_full_20261125</sub> | 请求关闭，`none` | **全报 0**（3,000） | [3,000](gpt56luna_none_full_20261125/answers.jsonl.gz) |
-| [GPT-5.6 Luna 中英文前序检索测试](gpt56luna_zenmux_20261124/README.md) <br><sub>gpt56luna_zenmux_20261124</sub> | 请求关闭，`none` | **全报 0**（180） | [180](gpt56luna_zenmux_20261124/answers.jsonl.gz) |
-| [GPT-5.6 Sol 在其他模型错答首成分的题目上的表现](gpt56sol_hard_pairs_20261124/README.md) <br><sub>gpt56sol_hard_pairs_20261124</sub> | 请求关闭，`none` | **全报 0**（24） | [24](gpt56sol_hard_pairs_20261124/answers.jsonl.gz) |
-| [GPT-5.6 Sol：请求关闭推理的小样本测试](gpt56sol_none_20261124/README.md) <br><sub>gpt56sol_none_20261124</sub> | 主测 `none`；另有档位诊断 | **全报 0**（180） | [180](gpt56sol_none_20261124/answers.jsonl.gz) |
-| [GPT-5.6 Sol 中英文前序检索测试](gpt56sol_none_full_20261125/README.md) <br><sub>gpt56sol_none_full_20261125</sub> | 请求关闭，`none` | **全报 0**（3,000） | [3,000](gpt56sol_none_full_20261125/answers.jsonl.gz) |
-| [GPT-5.6 Sol 位置对照](gpt56sol_position_control_20261124/README.md) <br><sub>gpt56sol_position_control_20261124</sub> | 请求关闭，`none` | **全报 0**（24） | [24](gpt56sol_position_control_20261124/answers.jsonl.gz) |
-| [GPT-5.6 Terra 中英文前序检索测试](gpt56terra_none_full_20261125/README.md) <br><sub>gpt56terra_none_full_20261125</sub> | 请求关闭，`none` | **全报 0**（3,000） | [3,000](gpt56terra_none_full_20261125/answers.jsonl.gz) |
-| [GPT-5 中英文前序检索测试](gpt5_minimal_full_20261125/README.md) <br><sub>gpt5_minimal_full_20261125</sub> | 最低推理档，`minimal` | **全报 0**（3,000） | [3,000](gpt5_minimal_full_20261125/answers.jsonl.gz) |
-| [GPT-5 中英文前序检索测试](gpt5_zenmux_20261125/README.md) <br><sub>gpt5_zenmux_20261125</sub> | 最低推理档，`minimal` | **全报 0**（180） | [180](gpt5_zenmux_20261125/answers.jsonl.gz) |
-| [GPT-6.1 Terra 中英文前序检索测试](gpt61terra_zenmux_20261124/README.md) <br><sub>gpt61terra_zenmux_20261124</sub> | 请求关闭，`none` | **全报 0**（3,000） | [3,000](gpt61terra_zenmux_20261124/answers.jsonl.gz) |
-| [GPT-6 Luna 中英文前序检索测试](gpt6luna_zenmux_20261124/README.md) <br><sub>gpt6luna_zenmux_20261124</sub> | 请求关闭，`none` | **全报 0**（180） | [180](gpt6luna_zenmux_20261124/answers.jsonl.gz) |
-| [GPT 转接通道：额外输入与请求隔离核验](gpt_channel_context_audit_20261124/README.md) <br><sub>gpt_channel_context_audit_20261124</sub> | 通道诊断，主请求 `none` | 见诊断记录 | 见报告 |
-| [GPT 关闭推理通道试测](gpt_none_20261124/README.md) <br><sub>gpt_none_20261124</sub> | 主测 `none`；另有 `high` 诊断 | gpt-6-sol **全报 0**（180）<br>gpt-6.1-terra **全报 0**（180） | [360](gpt_none_20261124/answers.jsonl.gz) |
-| [Grok 4.3（ZenMux，全量）](grok43_none_full_20261125/README.md) <br><sub>grok43_none_full_20261125</sub> | 请求关闭，`none` | **全报 0**（3,000） | [3,000](grok43_none_full_20261125/answers.jsonl.gz) |
-| [Grok 4.3 前序检索测试](grok43_none_20261124/README.md) <br><sub>grok43_none_20261124</sub> | 请求 `none`，未获回答 | 见诊断记录 | 见报告 |
-| [HY4 正式版前序检索测试](hy4_20261104/README.md) <br><sub>hy4_20261104</sub> | 请求关闭，未设等级 | 2,998 / 0 / 2 | [3,000](hy4_20261104/answers.jsonl.gz) |
-| [MiniMax M3 前序检索测试](minimax_m3_20261020/README.md) <br><sub>minimax_m3_20261020</sub> | 请求关闭，未设等级 | 961 / 0 / 2,039 | [3,000](minimax_m3_20261020/answers.jsonl.gz) |
-| [可访问的无思考模型核验](no_thinking_model_audit_20261124/README.md) <br><sub>no_thinking_model_audit_20261124</sub> | 多种关闭设置，见各模型记录 | 见诊断记录 | 见报告 |
-| [Opus 5.5 low 前序检索测试](opus55_20261124/README.md) <br><sub>opus55_20261124</sub> | 自适应，`low`；主表纳入 1,529 条 | 全部回执：1,529 / 895 / 576 | [3,000](opus55_20261124/answers.jsonl.gz) |
-| [Opus 5 前序检索测试](opus5_20261103/high_pilot/README.md) <br><sub>opus5_20261103/high_pilot</sub> | 请求关闭（按响应筛选），`high` | 91 / 0 / 28 | [120](opus5_20261103/high_pilot/answers.jsonl.gz) |
-| [Opus 5 前序检索测试](opus5_20261103/README.md) <br><sub>opus5_20261103</sub> | 请求关闭（按响应筛选），`low` | 2,360 / 0 / 639 | [3,000](opus5_20261103/answers.jsonl.gz) |
-| [Qwen3.8 Max-0902 前序检索测试](qwen38_max_20261020/README.md) <br><sub>qwen38_max_20261020</sub> | 请求关闭，未设等级 | 全未报告（3,000） | [3,000](qwen38_max_20261020/answers.jsonl.gz) |
-| [Qwen4-Max-Preview 前序检索测试](qwen4_max_preview_20261112/README.md) <br><sub>qwen4_max_preview_20261112</sub> | 请求关闭，未获回答 | 见诊断记录 | 见报告 |
-| [Sonnet 5.5 请求关闭思考的前序检索测试](sonnet55_20261124/README.md) <br><sub>sonnet55_20261124</sub> | 请求关闭答题前思考（按响应筛选），`high` | 2,396 / 0 / 603 | [3,000](sonnet55_20261124/answers.jsonl.gz) |
-| [Sonnet 5.5 思考开关对照核验](sonnet55_20261124/thinking_control_audit/README.md) <br><sub>sonnet55_20261124/thinking_control_audit</sub> | 请求关闭 `low`、`high`；开启 `high` | 见诊断记录 | 见报告 |
-| [GPT-6.2 Sol / Astra：none 实测](gpt62_diagnostics/README.md) <br><sub>gpt62_diagnostics</sub> | `none` 未获回答；`low` 对照成功 | 见诊断记录 | 见报告 |
-| [Fable 5 初版（RightAPI，全量）](fable5_rightapi_20261125/README.md) <br><sub>fable5_rightapi_20261125</sub> | 自适应，`low` | 纳入 1,273 条明确零计数 | [3,000](fable5_rightapi_20261125/answers.jsonl.gz) |
-| [Fable 5.1（RightAPI，全量）](fable51_rightapi_20261125/README.md) <br><sub>fable51_rightapi_20261125</sub> | 自适应，`low` | 纳入 1,849 条明确零计数 | [3,000](fable51_rightapi_20261125/answers.jsonl.gz) |
-| [Haiku 5.5（RightAPI，全量）](haiku55_rightapi_20261125/README.md) <br><sub>haiku55_rightapi_20261125</sub> | 自适应，`low` | 纳入 1,098 条明确零计数 | [3,000](haiku55_rightapi_20261125/answers.jsonl.gz) |
-| [Fable 5.2（RightAPI，全量）](fable52_rightapi_20261125/README.md) <br><sub>fable52_rightapi_20261125</sub> | 自适应，`low` | 纳入 2,753 条明确零计数 | [3,000](fable52_rightapi_20261125/answers.jsonl.gz) |
-| [Fable 5 关闭思考设置核验](fable5_20261103/README.md) <br><sub>fable5_20261103</sub> | 请求关闭，未设等级，返回思考块 | 见诊断记录 | 见报告 |
-| [GPT-5.6 Sol 官方直连可用性检查](openai_direct_gpt56sol/README.md) <br><sub>openai_direct_gpt56sol</sub> | 请求 `none`，未获回答 | 见诊断记录 | 见报告 |
-| [RightAPI 标称 Opus 4.8](opus48_rightapi/README.md) <br><sub>opus48_rightapi</sub> | 请求关闭，未设等级 | 406 / 0 / 194 | [600](opus48_rightapi/answers.jsonl.gz) |
-| [Qwen3.7 Flash](qwen37_flash/README.md) <br><sub>qwen37_flash</sub> | 请求关闭，未设等级 | 全未报告（3,000） | [3,000](qwen37_flash/answers.jsonl.gz) |
+| 实验 | 请求设置 | 纳入 / 已有回执 | 逐题下载 |
+|---|---|---:|---|
+| [DeepSeek V4.1 Flash 前序检索测试](deepseek_v41_flash_20261020/README.md) <br><sub>deepseek_v41_flash_20261020</sub> | 请求关闭，未设等级 | 0 / 3,000 | [0 条](deepseek_v41_flash_20261020/answers.jsonl.gz) |
+| [DeepSeek V4.1 Flash 1017 开启思考的前序检索测试](deepseek_v41flash_thinking_20261124/README.md) <br><sub>deepseek_v41flash_thinking_20261124</sub> | 开启，`high` | 0 / 180 | [0 条](deepseek_v41flash_thinking_20261124/answers.jsonl.gz) |
+| [DeepSeek V4 Pro 开启思考的前序检索测试](deepseek_v4pro_thinking_20261124/README.md) <br><sub>deepseek_v4pro_thinking_20261124</sub> | 开启，`high` | 0 / 128 | [0 条](deepseek_v4pro_thinking_20261124/answers.jsonl.gz) |
+| [Gemma 4 31B IT 与 Gemini 3.6 Flash 的前序检索](gemma4_gemini36_zenmux_20261124/fixed180/README.md) <br><sub>gemma4_gemini36_zenmux_20261124/fixed180</sub> | Gemma 请求关闭，未设等级；Gemini `minimal` | 360 / 360 | [360 条](gemma4_gemini36_zenmux_20261124/fixed180/answers.jsonl.gz) |
+| [Gemma 4 31B IT 与 Gemini 3.6 Flash 的前序检索](gemma4_gemini36_zenmux_20261124/full3000/README.md) <br><sub>gemma4_gemini36_zenmux_20261124/full3000</sub> | Gemma 请求关闭，未设等级；Gemini `minimal` | 6,000 / 6,000 | [6,000 条](gemma4_gemini36_zenmux_20261124/full3000/answers.jsonl.gz) |
+| [Gemma 4 31B IT 与 Gemini 3.6 Flash 单题对照](gemma4_gemini36_zenmux_20261124/README.md) <br><sub>gemma4_gemini36_zenmux_20261124</sub> | Gemma 请求关闭，未设等级；Gemini `minimal` | 通道或参数诊断 | — |
+| [GLM-5.4 前序检索可用性核验](glm54_20261124/README.md) <br><sub>glm54_20261124</sub> | 请求关闭，未获回答 | 通道或参数诊断 | — |
+| [GPT-5.1 中英文前序检索测试](gpt51_none_full_20261125/README.md) <br><sub>gpt51_none_full_20261125</sub> | 请求关闭，`none` | 3,000 / 3,000 | [3,000 条](gpt51_none_full_20261125/answers.jsonl.gz) |
+| [GPT-5.1 中英文前序检索测试](gpt51_none_zenmux_20261125/README.md) <br><sub>gpt51_none_zenmux_20261125</sub> | 请求关闭，`none` | 180 / 180 | [180 条](gpt51_none_zenmux_20261125/answers.jsonl.gz) |
+| [GPT-5.4 中英文前序检索测试](gpt54_none_full_20261125/README.md) <br><sub>gpt54_none_full_20261125</sub> | 请求关闭，`none` | 3,000 / 3,000 | [3,000 条](gpt54_none_full_20261125/answers.jsonl.gz) |
+| [GPT-5.5：关闭思考连通性检查](gpt55_none_20261124/README.md) <br><sub>gpt55_none_20261124</sub> | 请求 `none`，未获回答 | 通道或参数诊断 | — |
+| [GPT-5.5 中英文前序检索测试](gpt55_none_full_20261125/README.md) <br><sub>gpt55_none_full_20261125</sub> | 请求关闭，`none` | 3,000 / 3,000 | [3,000 条](gpt55_none_full_20261125/answers.jsonl.gz) |
+| [GPT-5.6 Luna 中英文前序检索测试](gpt56luna_none_full_20261125/README.md) <br><sub>gpt56luna_none_full_20261125</sub> | 请求关闭，`none` | 3,000 / 3,000 | [3,000 条](gpt56luna_none_full_20261125/answers.jsonl.gz) |
+| [GPT-5.6 Luna 中英文前序检索测试](gpt56luna_zenmux_20261124/README.md) <br><sub>gpt56luna_zenmux_20261124</sub> | 请求关闭，`none` | 180 / 180 | [180 条](gpt56luna_zenmux_20261124/answers.jsonl.gz) |
+| [GPT-5.6 Sol 在其他模型错答首成分的题目上的表现](gpt56sol_hard_pairs_20261124/README.md) <br><sub>gpt56sol_hard_pairs_20261124</sub> | 请求关闭，`none` | 24 / 24 | [24 条](gpt56sol_hard_pairs_20261124/answers.jsonl.gz) |
+| [GPT-5.6 Sol：请求关闭推理的小样本测试](gpt56sol_none_20261124/README.md) <br><sub>gpt56sol_none_20261124</sub> | 主测 `none`；另有档位诊断 | 180 / 180 | [180 条](gpt56sol_none_20261124/answers.jsonl.gz) |
+| [GPT-5.6 Sol 中英文前序检索测试](gpt56sol_none_full_20261125/README.md) <br><sub>gpt56sol_none_full_20261125</sub> | 请求关闭，`none` | 3,000 / 3,000 | [3,000 条](gpt56sol_none_full_20261125/answers.jsonl.gz) |
+| [GPT-5.6 Sol 位置对照](gpt56sol_position_control_20261124/README.md) <br><sub>gpt56sol_position_control_20261124</sub> | 请求关闭，`none` | 24 / 24 | [24 条](gpt56sol_position_control_20261124/answers.jsonl.gz) |
+| [GPT-5.6 Terra 中英文前序检索测试](gpt56terra_none_full_20261125/README.md) <br><sub>gpt56terra_none_full_20261125</sub> | 请求关闭，`none` | 3,000 / 3,000 | [3,000 条](gpt56terra_none_full_20261125/answers.jsonl.gz) |
+| [GPT-5 中英文前序检索测试](gpt5_minimal_full_20261125/README.md) <br><sub>gpt5_minimal_full_20261125</sub> | 最低推理档，`minimal` | 0 / 3,000 | [0 条](gpt5_minimal_full_20261125/answers.jsonl.gz) |
+| [GPT-5 中英文前序检索测试](gpt5_zenmux_20261125/README.md) <br><sub>gpt5_zenmux_20261125</sub> | 最低推理档，`minimal` | 0 / 180 | [0 条](gpt5_zenmux_20261125/answers.jsonl.gz) |
+| [GPT-6.1 Terra 中英文前序检索测试](gpt61terra_zenmux_20261124/README.md) <br><sub>gpt61terra_zenmux_20261124</sub> | 请求关闭，`none` | 3,000 / 3,000 | [3,000 条](gpt61terra_zenmux_20261124/answers.jsonl.gz) |
+| [GPT-6 Luna 中英文前序检索测试](gpt6luna_zenmux_20261124/README.md) <br><sub>gpt6luna_zenmux_20261124</sub> | 请求关闭，`none` | 180 / 180 | [180 条](gpt6luna_zenmux_20261124/answers.jsonl.gz) |
+| [GPT 转接通道：额外输入与请求隔离核验](gpt_channel_context_audit_20261124/README.md) <br><sub>gpt_channel_context_audit_20261124</sub> | 通道诊断，主请求 `none` | 通道或参数诊断 | — |
+| [GPT 关闭推理通道试测](gpt_none_20261124/README.md) <br><sub>gpt_none_20261124</sub> | 主测 `none`；另有 `high` 诊断 | 360 / 360 | [360 条](gpt_none_20261124/answers.jsonl.gz) |
+| [Grok 4.3（ZenMux，全量）](grok43_none_full_20261125/README.md) <br><sub>grok43_none_full_20261125</sub> | 请求关闭，`none` | 3,000 / 3,000 | [3,000 条](grok43_none_full_20261125/answers.jsonl.gz) |
+| [Grok 4.3 前序检索测试](grok43_none_20261124/README.md) <br><sub>grok43_none_20261124</sub> | 请求 `none`，未获回答 | 通道或参数诊断 | — |
+| [HY4 正式版前序检索测试](hy4_20261104/README.md) <br><sub>hy4_20261104</sub> | 请求关闭，未设等级 | 2,998 / 3,000 | [2,998 条](hy4_20261104/answers.jsonl.gz) |
+| [MiniMax M3 前序检索测试](minimax_m3_20261020/README.md) <br><sub>minimax_m3_20261020</sub> | 请求关闭，未设等级 | 961 / 3,000 | [961 条](minimax_m3_20261020/answers.jsonl.gz) |
+| [可访问的无思考模型核验](no_thinking_model_audit_20261124/README.md) <br><sub>no_thinking_model_audit_20261124</sub> | 多种关闭设置，见各模型记录 | 通道或参数诊断 | — |
+| [Opus 5.5 low 前序检索测试](opus55_20261124/README.md) <br><sub>opus55_20261124</sub> | 自适应，`low` | 1,529 / 3,000 | [1,529 条](opus55_20261124/answers.jsonl.gz) |
+| [Opus 5 前序检索测试](opus5_20261103/high_pilot/README.md) <br><sub>opus5_20261103/high_pilot</sub> | 请求关闭（按响应筛选），`high` | 91 / 120 | [91 条](opus5_20261103/high_pilot/answers.jsonl.gz) |
+| [Opus 5 前序检索测试](opus5_20261103/README.md) <br><sub>opus5_20261103</sub> | 请求关闭（按响应筛选），`low` | 2,360 / 3,000 | [2,360 条](opus5_20261103/answers.jsonl.gz) |
+| [Qwen3.8 Max-0902 前序检索测试](qwen38_max_20261020/README.md) <br><sub>qwen38_max_20261020</sub> | 请求关闭，未设等级 | 0 / 3,000 | [0 条](qwen38_max_20261020/answers.jsonl.gz) |
+| [Qwen4-Max-Preview 前序检索测试](qwen4_max_preview_20261112/README.md) <br><sub>qwen4_max_preview_20261112</sub> | 请求关闭，未获回答 | 通道或参数诊断 | — |
+| [Sonnet 5.5 请求关闭思考的前序检索测试](sonnet55_20261124/README.md) <br><sub>sonnet55_20261124</sub> | 请求关闭答题前思考（按响应筛选），`high` | 2,396 / 3,000 | [2,396 条](sonnet55_20261124/answers.jsonl.gz) |
+| [Sonnet 5.5 思考开关对照核验](sonnet55_20261124/thinking_control_audit/README.md) <br><sub>sonnet55_20261124/thinking_control_audit</sub> | 请求关闭 `low`、`high`；开启 `high` | 通道或参数诊断 | — |
+| [GPT-6.2 Sol / Astra：none 实测](gpt62_diagnostics/README.md) <br><sub>gpt62_diagnostics</sub> | `none` 未获回答；`low` 对照成功 | 通道或参数诊断 | — |
+| [Fable 5 初版（RightAPI，全量）](fable5_rightapi_20261125/README.md) <br><sub>fable5_rightapi_20261125</sub> | 自适应，`low` | 1,273 / 3,000 | [1,273 条](fable5_rightapi_20261125/answers.jsonl.gz) |
+| [Fable 5.1（RightAPI，全量）](fable51_rightapi_20261125/README.md) <br><sub>fable51_rightapi_20261125</sub> | 自适应，`low` | 1,849 / 3,000 | [1,849 条](fable51_rightapi_20261125/answers.jsonl.gz) |
+| [Haiku 5.5（RightAPI，全量）](haiku55_rightapi_20261125/README.md) <br><sub>haiku55_rightapi_20261125</sub> | 自适应，`low` | 1,098 / 3,000 | [1,098 条](haiku55_rightapi_20261125/answers.jsonl.gz) |
+| [Fable 5.2（RightAPI，全量）](fable52_rightapi_20261125/README.md) <br><sub>fable52_rightapi_20261125</sub> | 自适应，`low` | 2,753 / 3,000 | [2,753 条](fable52_rightapi_20261125/answers.jsonl.gz) |
+| [Fable 5 关闭思考设置核验](fable5_20261103/README.md) <br><sub>fable5_20261103</sub> | 请求关闭，未设等级，返回思考块 | 通道或参数诊断 | — |
+| [GPT-5.6 Sol 官方直连可用性检查](openai_direct_gpt56sol/README.md) <br><sub>openai_direct_gpt56sol</sub> | 请求 `none`，未获回答 | 通道或参数诊断 | — |
+| [RightAPI 标称 Opus 4.8](opus48_rightapi/README.md) <br><sub>opus48_rightapi</sub> | 请求关闭，未设等级 | 406 / 600 | [406 条](opus48_rightapi/answers.jsonl.gz) |
+| [Qwen3.7 Flash](qwen37_flash/README.md) <br><sub>qwen37_flash</sub> | 请求关闭，未设等级 | 0 / 3,000 | [0 条](qwen37_flash/answers.jsonl.gz) |
 
 ## 补充 toy model 对照
 

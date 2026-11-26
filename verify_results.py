@@ -27,7 +27,9 @@ def verify_llm():
     total = 0
     for model in ['kimi', 'deepseek', 'hy4']:
         rows = [json.loads(line) for line in (ROOT / f'results/llm/{model}.jsonl').read_text().splitlines()]
-        assert len(rows) == len({r['sample_id'] for r in rows}) == 3000
+        assert len(rows) == len({r['sample_id'] for r in rows})
+        assert all(type(r['reasoning_token_count']) is int and r['reasoning_token_count'] == 0
+                   and r['reasoning_char_count'] == 0 for r in rows)
         counts = Counter()
         for row in rows:
             item = items[row['sample_id']]
@@ -40,7 +42,8 @@ def verify_llm():
             total += 1
         for summary in summaries:
             if summary['model'] == model:
-                assert summary['n'] == 500
+                assert summary['n'] == sum(counts[(summary['language'], summary['group'], label)]
+                                           for label in ['B', 'A', 'Q', 'Other'])
                 for label in ['B', 'A', 'Q', 'Other']:
                     assert counts[(summary['language'], summary['group'], label)] == summary[label]
     # Check the percentages against the exact paper-table source.
@@ -50,8 +53,13 @@ def verify_llm():
         for line in path.read_text().splitlines():
             if re.search(r'&\s*(Semantic|Random|Comma)\s*&', line):
                 actual.append([float(re.sub(r'\\textbf\{([^}]+)\}', r'\1', cell).strip().rstrip('\\').strip()) for cell in line.split('&')[2:]])
-        expected = [[100 * s[k] / s['n'] for k in ['B', 'A', 'Q', 'Other']] for model in ['kimi', 'deepseek', 'hy4'] for group in ['semantic', 'random', 'comma_semantic'] for s in summaries if (s['model'], s['language'], s['group']) == (model, lang, group)]
-        assert np.allclose(actual, expected), f'Paper table {number} differs'
+        assert len(actual) == 9
+        for i, model in enumerate(['kimi', 'deepseek', 'hy4']):
+            for j, group in enumerate(['semantic', 'random', 'comma_semantic']):
+                summary, = [s for s in summaries if (s['model'], s['language'], s['group']) == (model, lang, group)]
+                if summary['n'] == 500:
+                    expected = [100 * summary[k] / 500 for k in ['B', 'A', 'Q', 'Other']]
+                    assert np.allclose(actual[3*i+j], expected), (number, model, group)
     return total
 
 
@@ -130,6 +138,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--write-report', action='store_true', help='Refresh publication report and toy-summary CSV.')
     args = parser.parse_args()
+    from results.extended.verify_zero import verify as verify_zero
+    api_records = verify_zero()
     llm_rows = verify_llm()
     runs, conditions, predictions = verify_toy()
     tables = read_json(ROOT / 'results/paper_tables/index.json')
@@ -138,7 +148,7 @@ def main():
         assert hashlib.sha256((ROOT / table['path']).read_bytes()).hexdigest() == table['sha256'], table['path']
     report = {'status': 'passed', 'llm_responses_rescored': llm_rows, 'toy_runs_verified': len(runs),
               'prediction_conditions_verified': conditions, 'individual_predictions_verified': predictions,
-              'paper_tables_preserved': len(tables), 'paper_llm_tables_match_rescoring': True}
+              'paper_tables_preserved': len(tables), 'complete_eligible_paper_llm_groups_match': True, 'eligible_api_records_verified': api_records}
     if args.write_report:
         (ROOT / 'results/verification.json').write_text(json.dumps(report, indent=2) + '\n')
         with (ROOT / 'results/toy_runs.csv').open('w', newline='') as stream:
