@@ -11,7 +11,7 @@
 - **Hybrid spike 图：** 完整训练曲线来自后来进行的 seed104 重训；不是找回的历史逐轮日志。历史数值锚点的核对和选择说明保存在 `results/paper_evidence/`。
 - **新增 Transformer 106–110：** 另一次按重建实现完成的训练，固定在第 1,200 轮评估。归档包含代码、输入数据、曲线、未遮挡与遮挡的逐条预测。
 - **留出组合与线性探针：** 探针使用另外三个重建模型的第 1,200 轮 checkpoint；这三个完整 checkpoint 和已拟合探针权重一并保留。探针准确率是探针读出结果。
-- **三款 API 模型：** 从原汇总文档内嵌的 12,000 条 JSONL 记录中提取论文采用的 Kimi、DeepSeek、Hy4 各 3,000 条；未更改 `answer_raw` 和历史评分字段。该文档还包含其他后续模型的实验，未混入论文结果。现行公开结果按回执筛选，Kimi 和 HY4 各纳入 3,000 条，DeepSeek 因缺少计数无纳入样本。[论文原始归档](https://github.com/qt336/semantic-fusion/tree/c0d52c4dfb496cc78146ec3435a7df70479db4b3/results/llm)。固定输入见 `supplementary/llm/data/`。
+- **三款 API 模型：** 从原汇总文档内嵌的 12,000 条 JSONL 记录中提取论文采用的 Kimi、DeepSeek、Hy4 各 3,000 条；未更改 `answer_raw` 和历史评分字段。该文档还包含其他后续模型的实验，未混入论文结果。现行公开结果按回执筛选，Kimi 和 HY4 各纳入 3,000 条，DeepSeek 的 3,000 条均未报告计数，按历史口径纳入。[论文原始归档](https://github.com/qt336/semantic-fusion/tree/c0d52c4dfb496cc78146ec3435a7df70479db4b3/results/llm)。固定输入见 `supplementary/llm/data/`。
 - **Qwen3-8B：** 完整复制现存 29,000 次生成的结果包，包含原始输出、token IDs、人工复核、多个控制实验与验证脚本。论文采用语义组 baseline/early16 的 2,000 次生成。原生成程序所在目录已不在现存项目中，因此这里没有把重新编写的程序称为历史原代码。
 - **Loop transformer：** 4×2、4×3 各五个完整 seed，固定第 1,200 轮报告，含全部现存逐轮历史、最终逐条预测、实现与协议。这两组是论文之外按用户要求同时整理的实验。
 

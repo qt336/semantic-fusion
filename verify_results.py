@@ -28,7 +28,8 @@ def verify_llm():
     for model in ['kimi', 'deepseek', 'hy4']:
         rows = [json.loads(line) for line in (ROOT / f'results/llm/{model}.jsonl').read_text().splitlines()]
         assert len(rows) == len({r['sample_id'] for r in rows})
-        assert all(type(r['reasoning_token_count']) is int and r['reasoning_token_count'] == 0
+        assert all((r['reasoning_token_count'] is None if model == 'deepseek' else
+                    type(r['reasoning_token_count']) is int and r['reasoning_token_count'] == 0)
                    and r['reasoning_char_count'] == 0 for r in rows)
         counts = Counter()
         for row in rows:

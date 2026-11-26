@@ -218,7 +218,8 @@
   },
   "publication_filter": {
     "required": "explicit integer zero reasoning tokens and no reported reasoning content/block",
-    "published_rows": 6000,
-    "historical_unfiltered_snapshot": "https://github.com/qt336/semantic-fusion/tree/c0d52c4dfb496cc78146ec3435a7df70479db4b3/results/llm"
+    "published_rows": 9000,
+    "historical_unfiltered_snapshot": "https://github.com/qt336/semantic-fusion/tree/c0d52c4dfb496cc78146ec3435a7df70479db4b3/results/llm",
+    "historical_exception": "DeepSeek V4 Pro original 3000 responses: reasoning token counts missing, retained using original scoring."
   }
 }

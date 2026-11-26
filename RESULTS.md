@@ -35,7 +35,7 @@
 
 ## 本次离线核验
 
-- 三款 API 模型：新口径纳入 Kimi K3 和 HY4 preview 各 3,000 条。DeepSeek V4 Pro 的 3,000 条未报告思考计数；该组不报告准确率。[原论文版本](https://github.com/qt336/semantic-fusion/tree/c0d52c4dfb496cc78146ec3435a7df70479db4b3/results/llm)
+- 三款 API 模型：新口径纳入 Kimi K3 和 HY4 preview 各 3,000 条。DeepSeek V4 Pro 的 3,000 条未报告思考计数；该组按历史口径纳入评分。[原论文版本](https://github.com/qt336/semantic-fusion/tree/c0d52c4dfb496cc78146ec3435a7df70479db4b3/results/llm)
 - 玩具模型：核对 24 个完整运行、270 个预测条件，共 823,680 条逐样本预测。
 - Qwen3-8B：29,000 条生成记录、人工评分、原始输出哈希和成对控制核验通过。
 - Loop 4×2/4×3：参数共享、展开模型的梯度求和等价性、因果性及五个数据集哈希验证通过。

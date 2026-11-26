@@ -11,9 +11,11 @@
 [Fable 5.1 与 Haiku 5.5 进度与结果](fable51_haiku55_rightapi_20261125.md)
 
 
-每条计入成绩的回答都必须明确报告整数 0 个思考 token，且回执未返回思考块或可见推理。空的或加密的 reasoning 项也排除。缺失计数、仅请求关闭思考或仅收到短答案，都不足以纳入。这是对接口回执的筛选，无法独立核验服务端未报告的计算。
+默认规则仅纳入明确报告 0 个思考 token 且无思考块或可见推理的回答；空的或加密的 reasoning 项也排除。
 
-每格依次给出**正确率 / 错答首成分率**（%），以各条件筛后的样本数为分母。语义及其加逗号版本独立筛选；两组留下的题目可能不同。没有合格回答时显示“—”。[分条件计数](conditions.csv) · [各轮纳入及排除原因](eligibility.csv)
+**两项历史口径例外。** GPT‑5 请求 `minimal`，回执均报告 0 个思考 token，同时含加密的 `reasoning` 项。按原实验口径纳入全部回答。DeepSeek V4 Pro 原测试请求关闭思考，3,000 条回执均未报告思考 token 数。沿用原评分，每组 500 条。 表中已标出例外。回执只能说明接口报告了什么。
+
+每格依次给出**正确率 / 错答首成分率**（%），以各条件实际纳入数为分母。语义及其加逗号版本独立筛选；两组留下的题目可能不同。没有合格回答时显示“—”。[分条件计数](conditions.csv) · [各轮纳入及排除原因](eligibility.csv)
 
 ### 中文
 
@@ -27,7 +29,7 @@
 | [claude-opus-5](opus5_20261103/README.md) | 请求关闭（按响应筛选） | `low` | 1,175 / 1,500 | 82.7 / 15.1 | 95.9 / 3.6 | 100.0 / 0.0 |
 | [claude-opus-5-5](opus55_20261124/README.md) | 自适应（仅计回执明确为零且无思考块） | `low` | 936 / 1,500 | 95.0 / 3.8 | 98.5 / 1.2 | 99.4 / 0.0 |
 | [claude-sonnet-5-5](sonnet55_20261124/README.md) | 请求关闭答题前思考（按响应筛选） | `high` | 1,197 / 1,500 | 83.0 / 11.0 | 98.5 / 1.3 | 99.5 / 0.0 |
-| [DeepSeek V4 Pro](../llm/) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
+| [DeepSeek V4 Pro](../llm/) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 31.8 / 67.4 | 66.0 / 34.0 | 94.2 / 5.6 |
 | [DeepSeek V4 Pro（128/180）](deepseek_v4pro_thinking_20261124/README.md) | 开启 | `high` | 0 / 68 | — | — | — |
 | [DeepSeek V4.1 Flash 1017（180 题）](deepseek_v41flash_thinking_20261124/README.md) | 开启 | `high` | 0 / 90 | — | — | — |
 | [deepseek-v4.1-flash-1017](deepseek_v41_flash_20261020/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
@@ -38,7 +40,7 @@
 | [Kimi K3](../llm/) | 请求关闭 | `none` | 1,500 / 1,500 | 76.4 / 23.4 | 97.4 / 2.6 | 100.0 / 0.0 |
 | [MiniMax/MiniMax-M3](minimax_m3_20261020/README.md) | 请求关闭 | 未设 | 484 / 1,500 | 18.5 / 26.8 | 39.5 / 35.7 | 59.7 / 27.0 |
 | [Grok 4.3](grok43_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 10.4 / 59.4 | 34.8 / 63.0 | 76.2 / 18.4 |
-| [gpt-5](gpt5_minimal_full_20261125/README.md) | 最低推理档 | `minimal` | 0 / 1,500 | — | — | — |
+| [gpt-5](gpt5_minimal_full_20261125/README.md) | 最低推理档（历史口径） | `minimal` | 1,500 / 1,500 | 68.4 / 18.2 | 95.6 / 2.6 | 99.0 / 0.0 |
 | [gpt-5.1](gpt51_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 76.0 / 16.0 | 97.8 / 2.0 | 100.0 / 0.0 |
 | [gpt-5.4](gpt54_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 96.0 / 3.8 | 99.8 / 0.2 | 100.0 / 0.0 |
 | [gpt-5.5](gpt55_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 99.4 / 0.4 | 100.0 / 0.0 | 100.0 / 0.0 |
@@ -61,7 +63,7 @@
 | [claude-opus-5](opus5_20261103/README.md) | 请求关闭（按响应筛选） | `low` | 1,185 / 1,500 | 83.5 / 12.6 | 96.1 / 3.1 | 89.5 / 1.5 |
 | [claude-opus-5-5](opus55_20261124/README.md) | 自适应（仅计回执明确为零且无思考块） | `low` | 593 / 1,500 | 91.0 / 7.5 | 91.9 / 6.2 | 100.0 / 0.0 |
 | [claude-sonnet-5-5](sonnet55_20261124/README.md) | 请求关闭答题前思考（按响应筛选） | `high` | 1,199 / 1,500 | 95.4 / 2.9 | 96.5 / 2.3 | 93.4 / 0.8 |
-| [DeepSeek V4 Pro](../llm/) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
+| [DeepSeek V4 Pro](../llm/) | 请求关闭（历史口径） | 未设 | 1,500 / 1,500 | 33.6 / 32.8 | 75.0 / 11.4 | 55.2 / 12.0 |
 | [DeepSeek V4 Pro（128/180）](deepseek_v4pro_thinking_20261124/README.md) | 开启 | `high` | 0 / 60 | — | — | — |
 | [DeepSeek V4.1 Flash 1017（180 题）](deepseek_v41flash_thinking_20261124/README.md) | 开启 | `high` | 0 / 90 | — | — | — |
 | [deepseek-v4.1-flash-1017](deepseek_v41_flash_20261020/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
@@ -72,7 +74,7 @@
 | [Kimi K3](../llm/) | 请求关闭 | `none` | 1,500 / 1,500 | 83.8 / 12.6 | 94.4 / 5.0 | 100.0 / 0.0 |
 | [MiniMax/MiniMax-M3](minimax_m3_20261020/README.md) | 请求关闭 | 未设 | 477 / 1,500 | 45.8 / 49.4 | 66.0 / 24.4 | 69.0 / 20.6 |
 | [Grok 4.3](grok43_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 6.2 / 93.4 | 59.2 / 37.0 | 70.2 / 28.0 |
-| [gpt-5](gpt5_minimal_full_20261125/README.md) | 最低推理档 | `minimal` | 0 / 1,500 | — | — | — |
+| [gpt-5](gpt5_minimal_full_20261125/README.md) | 最低推理档（历史口径） | `minimal` | 1,500 / 1,500 | 79.4 / 16.0 | 96.0 / 3.2 | 89.6 / 2.0 |
 | [gpt-5.1](gpt51_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 79.4 / 13.0 | 96.8 / 1.6 | 77.8 / 15.8 |
 | [gpt-5.4](gpt54_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 88.8 / 3.6 | 99.6 / 0.2 | 44.8 / 3.0 |
 | [gpt-5.5](gpt55_none_full_20261125/README.md) | 请求关闭 | `none` | 1,500 / 1,500 | 99.0 / 1.0 | 99.4 / 0.0 | 88.2 / 4.4 |
@@ -83,7 +85,7 @@
 | [qwen3.7-flash](qwen37_flash/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
 | [qwen3.8-max-0902](qwen38_max_20261020/README.md) | 请求关闭 | 未设 | 0 / 1,500 | — | — | — |
 
-排除原因见 `eligibility.csv`。每条回执只记一次，依次检查计数缺失（missing）、计数为正（positive）、报零但含思考块或推理内容（block）、块状态无法确认（unverified）和其他协议或评分条件（other）。keep 为纳入数。各条件原有回执数见 `conditions.csv` 的 received 列。后续新增 API 结果也须遵守同一规则，并通过 `python results/extended/verify_zero.py` 核对。
+排除原因见 `eligibility.csv`。每条回执只记一次，依次检查计数缺失（missing）、计数为正（positive）、报零但含思考块或推理内容（block）、块状态无法确认（unverified）和其他协议或评分条件（other）。keep 为总纳入数，其中按历史例外纳入的条数另列在 historical_exception 列。missing 和 block 仅统计因这些原因排除的回执。各条件原有回执数见 `conditions.csv` 的 received 列。后续新增 API 结果也须遵守同一规则，并通过 `python results/extended/verify_zero.py` 核对。
 
 ## 模型测试与对照
 
@@ -110,8 +112,8 @@
 | [GPT-5.6 Sol 中英文前序检索测试](gpt56sol_none_full_20261125/README.md) <br><sub>gpt56sol_none_full_20261125</sub> | 请求关闭，`none` | 3,000 / 3,000 | [3,000 条](gpt56sol_none_full_20261125/answers.jsonl.gz) |
 | [GPT-5.6 Sol 位置对照](gpt56sol_position_control_20261124/README.md) <br><sub>gpt56sol_position_control_20261124</sub> | 请求关闭，`none` | 24 / 24 | [24 条](gpt56sol_position_control_20261124/answers.jsonl.gz) |
 | [GPT-5.6 Terra 中英文前序检索测试](gpt56terra_none_full_20261125/README.md) <br><sub>gpt56terra_none_full_20261125</sub> | 请求关闭，`none` | 3,000 / 3,000 | [3,000 条](gpt56terra_none_full_20261125/answers.jsonl.gz) |
-| [GPT-5 中英文前序检索测试](gpt5_minimal_full_20261125/README.md) <br><sub>gpt5_minimal_full_20261125</sub> | 最低推理档，`minimal` | 0 / 3,000 | [0 条](gpt5_minimal_full_20261125/answers.jsonl.gz) |
-| [GPT-5 中英文前序检索测试](gpt5_zenmux_20261125/README.md) <br><sub>gpt5_zenmux_20261125</sub> | 最低推理档，`minimal` | 0 / 180 | [0 条](gpt5_zenmux_20261125/answers.jsonl.gz) |
+| [GPT-5 中英文前序检索测试](gpt5_minimal_full_20261125/README.md) <br><sub>gpt5_minimal_full_20261125</sub> | 历史口径，`minimal` | 3,000 / 3,000 | [3,000 条](gpt5_minimal_full_20261125/answers.jsonl.gz) |
+| [GPT-5 中英文前序检索测试](gpt5_zenmux_20261125/README.md) <br><sub>gpt5_zenmux_20261125</sub> | 历史口径，`minimal` | 180 / 180 | [180 条](gpt5_zenmux_20261125/answers.jsonl.gz) |
 | [GPT-6.1 Terra 中英文前序检索测试](gpt61terra_zenmux_20261124/README.md) <br><sub>gpt61terra_zenmux_20261124</sub> | 请求关闭，`none` | 3,000 / 3,000 | [3,000 条](gpt61terra_zenmux_20261124/answers.jsonl.gz) |
 | [GPT-6 Luna 中英文前序检索测试](gpt6luna_zenmux_20261124/README.md) <br><sub>gpt6luna_zenmux_20261124</sub> | 请求关闭，`none` | 180 / 180 | [180 条](gpt6luna_zenmux_20261124/answers.jsonl.gz) |
 | [GPT 转接通道：额外输入与请求隔离核验](gpt_channel_context_audit_20261124/README.md) <br><sub>gpt_channel_context_audit_20261124</sub> | 通道诊断，主请求 `none` | 通道或参数诊断 | — |
